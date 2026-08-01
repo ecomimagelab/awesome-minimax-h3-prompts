@@ -18,6 +18,7 @@ MiniMax H3 is a multimodal video generation model that accepts text, images, vid
 - Output: up to 2K, 4–15 seconds
 - Inputs: text, image, video, and audio references
 - Official guide: [MiniMax H3 Video Generation](https://platform.minimax.io/docs/guides/video-generation)
+- Community prompting guide: [fal.ai H3 guide — bilingual notes](docs/FAL_PROMPTING_GUIDE.md)
 
 > [!IMPORTANT]
 > **Copyright and verification notice：** Public availability does not remove an author's rights. Publicly accessible media may be mirrored for research, discovery, and click-to-play viewing; every entry preserves attribution, the original URL, and retrieval metadata. Mirrored third-party material is excluded from this repository's CC BY 4.0 license and can be removed through the rights-holder request form. `H3 confirmed: No` means the source did not show a verifiable H3 result.
@@ -26,18 +27,18 @@ MiniMax H3 is a multimodal video generation model that accepts text, images, vid
 
 | Metric | Count |
 | --- | ---: |
-| Total prompts | **16** |
+| Total prompts | **21** |
 | Official examples | **5** |
-| Community tested | **7** |
+| Community tested | **12** |
 | Community guide templates | **4** |
 | Last curated | **2026-08-01** |
 
 ## Browse by mode
 
-- [Text to Video (11)](#text-to-video)
+- [Text to Video (12)](#text-to-video)
 - [Image to Video (2)](#image-to-video)
 - [First / Last Frame (1)](#first-last-frame)
-- [Reference Generation (2)](#reference-generation)
+- [Reference Generation (6)](#reference-generation)
 
 ## Featured prompts
 
@@ -50,6 +51,10 @@ MiniMax H3 is a multimodal video generation model that accepts text, images, vid
 - [Don't say my name again](#h3-0012) — Community tested
 - [The unanswered letter](#h3-0013) — Community tested
 - [I can see the dust](#h3-0014) — Community tested
+- [Vintage binocular brand film](#h3-0017) — Community tested
+- [Hand-drawn kitchen creature](#h3-0018) — Community tested
+- [Interactive game equipment UI](#h3-0019) — Community tested
+- [Macro coffee-to-desert transition](#h3-0020) — Community tested
 
 ## All prompts
 
@@ -298,7 +303,9 @@ POSITIVE LOCKS Exactly one visible person is in frame for the whole take — nob
 
 #### Video
 
-[▶ Play the original video](media/alex-patrascu-minimax-h3-scenes.mp4)
+https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2
+
+[↗ Play the original video](https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2)
 
 #### Details
 
@@ -355,7 +362,9 @@ POSITIVE LOCKS Exactly two women appear and no servant or third figure enters. B
 
 #### Video
 
-[▶ Play the original video](media/alex-patrascu-minimax-h3-scenes.mp4)
+https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2
+
+[↗ Play the original video](https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2)
 
 #### Details
 
@@ -412,7 +421,9 @@ POSITIVE LOCKS Exactly two people are on the balcony and no one appears in the d
 
 #### Video
 
-[▶ Play the original video](media/alex-patrascu-minimax-h3-scenes.mp4)
+https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2
+
+[↗ Play the original video](https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2)
 
 #### Details
 
@@ -469,7 +480,9 @@ POSITIVE LOCKS Exactly two officers are in the room and no other figures enter. 
 
 #### Video
 
-[▶ Play the original video](media/alex-patrascu-minimax-h3-scenes.mp4)
+https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2
+
+[↗ Play the original video](https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2)
 
 #### Details
 
@@ -483,6 +496,46 @@ POSITIVE LOCKS Exactly two officers are in the room and no other figures enter. 
 - **Retrieved：** 2026-08-01
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** The complete prompt appears in an author reply; the parent post says the displayed scenes were tried with MiniMax H3.
+
+---
+
+<a id="h3-0018"></a>
+
+### H3-0018 · Hand-drawn kitchen creature
+
+**Text to Video** · **Community tested** · ⭐ Featured
+
+#### Description
+
+A text-only hybrid of live-action phone footage and luminous hand-drawn animation.
+
+#### Prompt
+
+```text
+15 seconds, 16:9 landscape. Blend live-action footage of a small kitchen at dusk with hand-drawn luminous animation. The last sunset light lingers at the window. The lived-in kitchen contains an old wooden table, a half-washed mug, a lightly fogged glass bottle, and a hanging dish towel.
+
+Shoot as if someone is filming one-handed on a phone: subtle hand tremor, hesitant close-focus pulls, backlit exposure breathing, and slightly coarse noise in the shadows. It should feel like an astonishing event captured in a rush at home, not a carefully dressed commercial.
+
+Do not show giant eyes, split mouths, fangs, threatening behavior, lunges, sudden black frames, or jump scares. Use only room tone, cloth friction, a soft mug clink, faucet drips, the camera operator’s footsteps and quiet breathing, plus gentle electronic tones and tiny vocalizations from the drawn creatures.
+```
+
+#### Video
+
+https://v3b.fal.media/files/b/0aa44040/GWGO_2snsYSrP3ev7s6QO_out06_3-1-2.mp4
+
+[↗ Play the original video](https://v3b.fal.media/files/b/0aa44040/GWGO_2snsYSrP3ev7s6QO_out06_3-1-2.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 15s` · `resolution: 2K` · `ratio: 16:9`
+- **Tags：** `hand-drawn` `live-action` `phone-camera` `native-audio` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a text-to-video MiniMax H3 example with the result visible.
 
 ---
 
@@ -556,7 +609,9 @@ POSITIVE LOCKS Exactly one sharp figure is in frame; the two background figures 
 
 #### Video
 
-[▶ Play the original video](media/alex-patrascu-minimax-h3-scenes.mp4)
+https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2
+
+[↗ Play the original video](https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2)
 
 #### Details
 
@@ -661,6 +716,174 @@ Reference the Hitchcock camera movement from Video 1, have the character in Imag
 - **Retrieved：** 2026-08-01
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Published in the official MiniMax H3 launch article.
+
+---
+
+<a id="h3-0017"></a>
+
+### H3-0017 · Vintage binocular brand film
+
+**Reference Generation** · **Community tested** · ⭐ Featured
+
+#### Description
+
+A four-reference brand film with a locked binocular mask, focus-driven typography, and whip-scan transitions.
+
+#### Prompt
+
+```text
+Use Images 1–4 as sequential keyframes, seen through a vintage binocular viewfinder searching for the MINIMAX installation. Open out of focus with subtle handheld shake, then push in quickly and rack focus onto Image 1. Between keyframes, use fast binocular-scan transitions with whip movement, motion blur, optical smearing, and brief exposure flicker. Cut at peak blur, then settle and snap back into focus.
+
+Keep the twin circular lens mask absolutely fixed throughout: identical position, scale, feathered black vignette, and edge softness, with no warping or drift. Only the image inside the mask may move.
+
+In Image 2, let the fabric move gently in the wind while the MINIMAX lettering follows the folds and remains legible. In Image 3, the subject should feel like a stylish passerby caught by chance, walking, turning, and swinging their arms naturally. In Image 4, the subject adjusts their glasses or lifts their chin slightly with a cool, effortless fashion-campaign attitude.
+
+Red typography should resolve with the focus: begin slightly blurred and at low opacity, then fade into clarity over 0.3–0.5 seconds. A subtle vertical slide or slight tracking expansion is allowed. Fade it out before the next transition or let motion blur carry it away. No spins, bounces, or large fly-ins/outs.
+
+Visual language: a voyeuristic, Wes Anderson-inspired 35 mm film look with fine grain, soft highlight halation, restrained color, and red typographic accents. Minimal, premium, lightly playful. Do not add people, vehicles, buildings, or logos. Preserve the core composition and the MINIMAX installation exactly.
+```
+
+#### Video
+
+https://v3b.fal.media/files/b/0aa44040/X3-b2BWEyEaZr4luiu83G_out00_3-1-1.mp4
+
+[↗ Play the original video](https://v3b.fal.media/files/b/0aa44040/X3-b2BWEyEaZr4luiu83G_out00_3-1-1.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `brand-film` `multi-image` `typography` `transition` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the result and four reference images visible.
+
+---
+
+<a id="h3-0019"></a>
+
+### H3-0019 · Interactive game equipment UI
+
+**Reference Generation** · **Community tested** · ⭐ Featured
+
+#### Description
+
+A detailed 15-second timecoded UI sequence that transforms a character and loads a cyberpunk world.
+
+#### Prompt
+
+```text
+Use Image 1 for the character and Image 2 for the UI style.
+
+[0–2 seconds] High-angle overhead shot. The character sits on a vivid, highly saturated purple floor, looks up at camera, and matches Image 1. A game menu appears on the right: START NEW GAME, CONTINUE (highlighted), SETTINGS, EXIT GAME. Player profile MINIMAX appears top left. The cursor selects CONTINUE.
+
+[2–4 seconds] Smoothly push in to her right arm. A RIGHT ARM EQUIPMENT panel slides in from the right. PHANTOM GRIP is selected, then the selection moves to CHRONOS CLAW. Her mechanical hand reconfigures: fingers separate, new claw-like joints lock into place, and cyan LEDs flare brighter.
+
+[4–7 seconds] Arc smoothly to her left. An ARMAMENT CUSTOMIZATION grid slides in, showing hand, forearm, elbow, and upper-arm components. The selector cycles rapidly. Her left arm disassembles section by section: the forearm plate releases, new armor slides in, the elbow joint swaps, and the hand reconfigures, with exposed wiring and pistons visible during the change.
+
+[7–8.5 seconds] Pull back to a medium shot. CONFIRM CONFIG flashes; click it. All UI panels collapse inward and vanish. She uncrosses her legs and settles into a relaxed seated pose with one knee raised, lifting the prosthetic hand for a subtle post-configuration movement.
+
+[8.5–10 seconds] A LOADING bar appears along the bottom and races from 0% to 100%. The saturated purple environment darkens as shadows creep inward and warm golden light begins to bleed through.
+
+[10–15 seconds] As she stands, the full world loads around her: a dense cyberpunk slum with flickering neon, rain-wet streets, moving crowds, passing motorcycles, tangled overhead cables, and stacked buildings stretching toward futuristic towers. Settle into a third-person camera behind her. HUD elements fade in: minimap top right, health and ammo bottom left, then a mission marker. She steps into the street.
+```
+
+#### Video
+
+https://v3b.fal.media/files/b/0aa4404f/E8DY7sjVYIu5qaxWapQOn_out16_3-1-5.mp4
+
+[↗ Play the original video](https://v3b.fal.media/files/b/0aa4404f/E8DY7sjVYIu5qaxWapQOn_out16_3-1-5.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `game-ui` `timecoded` `typography` `cyberpunk` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 reference-to-video example with two reference images and the result visible.
+
+---
+
+<a id="h3-0020"></a>
+
+### H3-0020 · Macro coffee-to-desert transition
+
+**Reference Generation** · **Community tested** · ⭐ Featured
+
+#### Description
+
+A continuous macro-to-landscape material match using two image references.
+
+#### Prompt
+
+```text
+@Image 1: Push in rapidly toward the milk foam, cocoa particles, and dark liquid texture on the coffee until particles, bubbles, and ripples fill the frame. Keep the macro photography realistic, with extremely shallow depth of field and fine powder drifting through backlight. Let the surface feel suspended between granular sand and fluid.
+
+At the exact moment when the cocoa particles, foam contours, and coffee swirl closely resemble the dune ridges, wind-carved textures, and airborne sand in @Image 2, transition seamlessly into the desert landscape. Continue pushing forward until the full dunes from @Image 2 are revealed.
+
+No tearing, black frames, hard cuts, obvious VFX, or compositing seams. Keep it photoreal, quiet, and restrained—as though one granular material naturally expands from the microscopic coffee surface into a vast desert. One continuous shot with no visible edit.
+```
+
+#### Video
+
+https://v3b.fal.media/files/b/0aa44040/q4z3z9AbtFRvj4I4VAMtl_out28_3-2-1.mp4
+
+[↗ Play the original video](https://v3b.fal.media/files/b/0aa44040/q4z3z9AbtFRvj4I4VAMtl_out28_3-2-1.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `macro` `seamless-transition` `material-match` `multi-image` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 reference-to-video example with two reference images and the result visible.
+
+---
+
+<a id="h3-0021"></a>
+
+### H3-0021 · Cat-to-dog video replacement
+
+**Reference Generation** · **Community tested**
+
+#### Description
+
+A minimal localized-edit instruction that changes one subject while preserving the source clip.
+
+#### Prompt
+
+```text
+Replace the cat in the video with a dog.
+```
+
+#### Video
+
+https://v3b.fal.media/files/b/0aa44040/9P0NRo9sbMTNz3KjWmpga_out33_3-3-1.mp4
+
+[↗ Play the original video](https://v3b.fal.media/files/b/0aa44040/9P0NRo9sbMTNz3KjWmpga_out33_3-3-1.mp4)
+
+#### Details
+
+- **Parameters：** `duration: source dependent` · `resolution: 2K` · `ratio: adaptive`
+- **Tags：** `video-editing` `subject-replacement` `localized-edit` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a precise MiniMax H3 video-editing example with the source and result visible.
 
 ---
 

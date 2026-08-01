@@ -122,7 +122,11 @@ def render_card(item: dict, lang: str, categories: dict, text: dict[str, str]) -
 
     for media in item.get("media", []):
         if media.get("type") == "video" and media.get("path"):
-            lines.extend(["", f"#### {text['video']}", "", f"[▶ {text['play_video']}]({media['path']})"])
+            playback_url = media.get("playback_url")
+            if playback_url:
+                lines.extend(["", f"#### {text['video']}", "", playback_url, "", f"[↗ {text['play_video']}]({playback_url})"])
+            else:
+                lines.extend(["", f"#### {text['video']}", "", f"[▶ {text['play_video']}]({media['path']})"])
 
     lines.extend(
         [
@@ -173,6 +177,7 @@ def generate(lang: str, prompts: list[dict], categories: dict) -> str:
         "- Output: up to 2K, 4–15 seconds",
         "- Inputs: text, image, video, and audio references",
         "- Official guide: [MiniMax H3 Video Generation](https://platform.minimax.io/docs/guides/video-generation)",
+        "- Community prompting guide: [fal.ai H3 guide — bilingual notes](docs/FAL_PROMPTING_GUIDE.md)",
         "",
         f"> [!IMPORTANT]\n> **{text['notice']}：** {text['notice_text']}",
         "",

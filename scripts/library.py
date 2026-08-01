@@ -91,5 +91,7 @@ def validate_prompt(item: dict[str, Any], allowed_modes: set[str]) -> list[str]:
             errors.append(f"{item_id}: media[{index}].path must be a repository-relative path")
         if not media.get("source_url", "").startswith(("https://", "http://")):
             errors.append(f"{item_id}: media[{index}].source_url must be an HTTP(S) URL")
+        if media.get("playback_url") and not media["playback_url"].startswith(("https://", "http://")):
+            errors.append(f"{item_id}: media[{index}].playback_url must be an HTTP(S) URL")
 
     return errors

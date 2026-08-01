@@ -1,0 +1,17 @@
+{
+  "id": "h3-0020",
+  "title": {"en": "Macro coffee-to-desert transition", "zh": "咖啡微距到沙漠的无缝转场"},
+  "description": {"en": "A continuous macro-to-landscape material match using two image references.", "zh": "使用两张参考图，从咖啡微观材质连续匹配到沙漠景观。"},
+  "mode": "reference-generation",
+  "featured": true,
+  "prompt": {
+    "original_language": "en",
+    "original": "@Image 1: Push in rapidly toward the milk foam, cocoa particles, and dark liquid texture on the coffee until particles, bubbles, and ripples fill the frame. Keep the macro photography realistic, with extremely shallow depth of field and fine powder drifting through backlight. Let the surface feel suspended between granular sand and fluid.\n\nAt the exact moment when the cocoa particles, foam contours, and coffee swirl closely resemble the dune ridges, wind-carved textures, and airborne sand in @Image 2, transition seamlessly into the desert landscape. Continue pushing forward until the full dunes from @Image 2 are revealed.\n\nNo tearing, black frames, hard cuts, obvious VFX, or compositing seams. Keep it photoreal, quiet, and restrained—as though one granular material naturally expands from the microscopic coffee surface into a vast desert. One continuous shot with no visible edit.",
+    "zh": "@图片 1：快速推进咖啡表面的奶泡、可可颗粒和深色液体纹理，直到颗粒、气泡和涟漪充满画面。保持真实微距摄影，极浅景深，细粉在逆光中漂浮；表面质感介于颗粒沙土与流体之间。\n\n当可可颗粒、泡沫轮廓和咖啡旋涡与 @图片 2 的沙丘脊线、风蚀纹理和飞沙高度相似的精确时刻，无缝转入沙漠景观。继续向前推进，直到完整展现图片 2 的沙丘。\n\n不要撕裂、黑帧、硬切、明显特效或合成接缝。保持写实、安静和克制，仿佛同一种颗粒材料从微观咖啡表面自然扩展成辽阔沙漠。单一连续镜头，不出现可见剪辑。"
+  },
+  "parameters": {"duration": "5–15s", "resolution": "2K", "ratio": "not stated"},
+  "tags": ["macro", "seamless-transition", "material-match", "multi-image", "community-tested"],
+  "media": [{"type": "video", "path": "media/fal-macro-coffee-desert-transition.mp4", "playback_url": "https://v3b.fal.media/files/b/0aa44040/q4z3z9AbtFRvj4I4VAMtl_out28_3-2-1.mp4", "source_url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide", "rights_status": "third-party-attributed"}],
+  "source": {"type": "community-tested", "author": "Bennett Heyn / fal", "url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide", "source_location": "page", "published_at": "2026-07-30", "retrieved_at": "2026-08-01"},
+  "verification": {"prompt_visible": true, "h3_confirmed": true, "output_visible": true, "notes": "Published by fal as a MiniMax H3 reference-to-video example with two reference images and the result visible."}
+}

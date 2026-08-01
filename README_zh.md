@@ -18,6 +18,7 @@ MiniMax H3 是可将文本、图片、视频和音频作为统一上下文的视
 - Output: up to 2K, 4–15 seconds
 - Inputs: text, image, video, and audio references
 - Official guide: [MiniMax H3 Video Generation](https://platform.minimax.io/docs/guides/video-generation)
+- Community prompting guide: [fal.ai H3 guide — bilingual notes](docs/FAL_PROMPTING_GUIDE.md)
 
 > [!IMPORTANT]
 > **版权与核验说明：** 内容公开可见不代表作者放弃权利。公开可访问的媒体可能会为研究、发现与点击播放而镜像保存；每条内容均保留作者署名、原始链接和抓取信息。镜像的第三方内容不适用本仓库的 CC BY 4.0，权利人可通过删除申请表要求下架。`H3 已确认：否` 表示来源没有展示可核验的 H3 结果。
@@ -26,18 +27,18 @@ MiniMax H3 是可将文本、图片、视频和音频作为统一上下文的视
 
 | Metric | Count |
 | --- | ---: |
-| Total prompts | **16** |
+| Total prompts | **21** |
 | Official examples | **5** |
-| Community tested | **7** |
+| Community tested | **12** |
 | Community guide templates | **4** |
 | Last curated | **2026-08-01** |
 
 ## 按生成模式浏览
 
-- [文生视频 (11)](#文生视频)
+- [文生视频 (12)](#文生视频)
 - [图生视频 (2)](#图生视频)
 - [首尾帧生视频 (1)](#首尾帧生视频)
-- [多模态参考生成 (2)](#多模态参考生成)
+- [多模态参考生成 (6)](#多模态参考生成)
 
 ## 精选提示词
 
@@ -50,6 +51,10 @@ MiniMax H3 是可将文本、图片、视频和音频作为统一上下文的视
 - [别再叫我的名字](#h3-0012) — 社区实测
 - [不会得到回复的信](#h3-0013) — 社区实测
 - [我看得见尘土](#h3-0014) — 社区实测
+- [复古望远镜品牌短片](#h3-0017) — 社区实测
+- [厨房里的手绘发光生物](#h3-0018) — 社区实测
+- [交互式游戏装备界面](#h3-0019) — 社区实测
+- [咖啡微距到沙漠的无缝转场](#h3-0020) — 社区实测
 
 ## 全部提示词
 
@@ -368,7 +373,9 @@ POSITIVE LOCKS Exactly one visible person is in frame for the whole take — nob
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/alex-patrascu-minimax-h3-scenes.mp4)
+https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2
+
+[↗ 点击播放原视频](https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2)
 
 #### 详细信息
 
@@ -453,7 +460,9 @@ POSITIVE LOCKS Exactly two women appear and no servant or third figure enters. B
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/alex-patrascu-minimax-h3-scenes.mp4)
+https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2
+
+[↗ 点击播放原视频](https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2)
 
 #### 详细信息
 
@@ -538,7 +547,9 @@ POSITIVE LOCKS Exactly two people are on the balcony and no one appears in the d
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/alex-patrascu-minimax-h3-scenes.mp4)
+https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2
+
+[↗ 点击播放原视频](https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2)
 
 #### 详细信息
 
@@ -623,7 +634,9 @@ POSITIVE LOCKS Exactly two officers are in the room and no other figures enter. 
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/alex-patrascu-minimax-h3-scenes.mp4)
+https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2
+
+[↗ 点击播放原视频](https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2)
 
 #### 详细信息
 
@@ -637,6 +650,56 @@ POSITIVE LOCKS Exactly two officers are in the room and no other figures enter. 
 - **收录时间：** 2026-08-01
 - **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
 - **Note：** The complete prompt appears in an author reply; the parent post says the displayed scenes were tried with MiniMax H3.
+
+---
+
+<a id="h3-0018"></a>
+
+### H3-0018 · 厨房里的手绘发光生物
+
+**文生视频** · **社区实测** · ⭐ Featured
+
+#### 内容说明
+
+将真人手机影像与手绘发光动画融合的纯文本生成案例。
+
+#### 原始 Prompt
+
+```text
+15 seconds, 16:9 landscape. Blend live-action footage of a small kitchen at dusk with hand-drawn luminous animation. The last sunset light lingers at the window. The lived-in kitchen contains an old wooden table, a half-washed mug, a lightly fogged glass bottle, and a hanging dish towel.
+
+Shoot as if someone is filming one-handed on a phone: subtle hand tremor, hesitant close-focus pulls, backlit exposure breathing, and slightly coarse noise in the shadows. It should feel like an astonishing event captured in a rush at home, not a carefully dressed commercial.
+
+Do not show giant eyes, split mouths, fangs, threatening behavior, lunges, sudden black frames, or jump scares. Use only room tone, cloth friction, a soft mug clink, faucet drips, the camera operator’s footsteps and quiet breathing, plus gentle electronic tones and tiny vocalizations from the drawn creatures.
+```
+
+#### 中文翻译
+
+```text
+15 秒，16:9 横屏。把黄昏小厨房的真人影像与手绘发光动画融合。最后一缕夕阳停留在窗边；有人生活痕迹的厨房里有旧木桌、洗到一半的杯子、轻微起雾的玻璃瓶和悬挂的抹布。
+
+像有人单手用手机拍摄：轻微手抖、犹豫的近距离拉焦、逆光下的曝光呼吸，以及阴影中略粗糙的噪点。画面应像在家匆忙捕捉到不可思议的事件，而不是精心布置的广告。
+
+不要出现巨眼、裂口、尖牙、威胁行为、猛扑、突然黑帧或惊吓镜头。声音仅包括室内底噪、布料摩擦、杯子轻响、水龙头滴水、拍摄者脚步和轻微呼吸，以及温柔电子音与手绘生物细小的叫声。
+```
+
+#### 案例视频
+
+https://v3b.fal.media/files/b/0aa44040/GWGO_2snsYSrP3ev7s6QO_out06_3-1-2.mp4
+
+[↗ 点击播放原视频](https://v3b.fal.media/files/b/0aa44040/GWGO_2snsYSrP3ev7s6QO_out06_3-1-2.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 15s` · `resolution: 2K` · `ratio: 16:9`
+- **Tags：** `hand-drawn` `live-action` `phone-camera` `native-audio` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a text-to-video MiniMax H3 example with the result visible.
 
 ---
 
@@ -744,7 +807,9 @@ POSITIVE LOCKS Exactly one sharp figure is in frame; the two background figures 
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/alex-patrascu-minimax-h3-scenes.mp4)
+https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2
+
+[↗ 点击播放原视频](https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2)
 
 #### 详细信息
 
@@ -867,6 +932,222 @@ Reference the Hitchcock camera movement from Video 1, have the character in Imag
 - **收录时间：** 2026-08-01
 - **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
 - **Note：** Published in the official MiniMax H3 launch article.
+
+---
+
+<a id="h3-0017"></a>
+
+### H3-0017 · 复古望远镜品牌短片
+
+**多模态参考生成** · **社区实测** · ⭐ Featured
+
+#### 内容说明
+
+使用四张参考图、固定双筒望远镜遮罩、焦点驱动文字和快速扫描转场的品牌短片。
+
+#### 原始 Prompt
+
+```text
+Use Images 1–4 as sequential keyframes, seen through a vintage binocular viewfinder searching for the MINIMAX installation. Open out of focus with subtle handheld shake, then push in quickly and rack focus onto Image 1. Between keyframes, use fast binocular-scan transitions with whip movement, motion blur, optical smearing, and brief exposure flicker. Cut at peak blur, then settle and snap back into focus.
+
+Keep the twin circular lens mask absolutely fixed throughout: identical position, scale, feathered black vignette, and edge softness, with no warping or drift. Only the image inside the mask may move.
+
+In Image 2, let the fabric move gently in the wind while the MINIMAX lettering follows the folds and remains legible. In Image 3, the subject should feel like a stylish passerby caught by chance, walking, turning, and swinging their arms naturally. In Image 4, the subject adjusts their glasses or lifts their chin slightly with a cool, effortless fashion-campaign attitude.
+
+Red typography should resolve with the focus: begin slightly blurred and at low opacity, then fade into clarity over 0.3–0.5 seconds. A subtle vertical slide or slight tracking expansion is allowed. Fade it out before the next transition or let motion blur carry it away. No spins, bounces, or large fly-ins/outs.
+
+Visual language: a voyeuristic, Wes Anderson-inspired 35 mm film look with fine grain, soft highlight halation, restrained color, and red typographic accents. Minimal, premium, lightly playful. Do not add people, vehicles, buildings, or logos. Preserve the core composition and the MINIMAX installation exactly.
+```
+
+#### 中文翻译
+
+```text
+将图片 1–4 作为连续关键帧，通过复古双筒望远镜取景器寻找 MINIMAX 装置。开场失焦并带轻微手持抖动，随后快速推进并拉焦到图片 1。关键帧之间使用快速望远镜扫描转场：甩动、运动模糊、光学拖影与短暂曝光闪烁；在模糊峰值切镜，再稳定下来并迅速恢复清晰。
+
+双圆镜片遮罩全程绝对固定：位置、比例、羽化黑色暗角和边缘柔度完全一致，不变形、不漂移；只有遮罩内部画面可以移动。
+
+图片 2 中布料随风轻动，MINIMAX 字样跟随褶皱但保持可读。图片 3 中人物像偶然被捕捉的时髦路人，自然行走、转身和摆臂。图片 4 中人物调整眼镜或轻抬下巴，呈现冷静、不费力的时尚广告姿态。
+
+红色文字随焦点显现：初始略虚且低透明度，在 0.3–0.5 秒内淡入清晰；可轻微垂直滑动或扩展字距。下次转场前淡出，或由运动模糊带走。不要旋转、弹跳或大幅飞入飞出。
+
+视觉语言：带窥视感、受韦斯·安德森启发的 35mm 胶片质感，细颗粒、柔和高光晕染、克制色彩和红色文字点缀；极简、高级、略带俏皮。不要新增人物、车辆、建筑或标志；严格保留核心构图与 MINIMAX 装置。
+```
+
+#### 案例视频
+
+https://v3b.fal.media/files/b/0aa44040/X3-b2BWEyEaZr4luiu83G_out00_3-1-1.mp4
+
+[↗ 点击播放原视频](https://v3b.fal.media/files/b/0aa44040/X3-b2BWEyEaZr4luiu83G_out00_3-1-1.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `brand-film` `multi-image` `typography` `transition` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the result and four reference images visible.
+
+---
+
+<a id="h3-0019"></a>
+
+### H3-0019 · 交互式游戏装备界面
+
+**多模态参考生成** · **社区实测** · ⭐ Featured
+
+#### 内容说明
+
+一段详细的 15 秒时间轴 UI 序列，完成角色装备改造并加载赛博朋克世界。
+
+#### 原始 Prompt
+
+```text
+Use Image 1 for the character and Image 2 for the UI style.
+
+[0–2 seconds] High-angle overhead shot. The character sits on a vivid, highly saturated purple floor, looks up at camera, and matches Image 1. A game menu appears on the right: START NEW GAME, CONTINUE (highlighted), SETTINGS, EXIT GAME. Player profile MINIMAX appears top left. The cursor selects CONTINUE.
+
+[2–4 seconds] Smoothly push in to her right arm. A RIGHT ARM EQUIPMENT panel slides in from the right. PHANTOM GRIP is selected, then the selection moves to CHRONOS CLAW. Her mechanical hand reconfigures: fingers separate, new claw-like joints lock into place, and cyan LEDs flare brighter.
+
+[4–7 seconds] Arc smoothly to her left. An ARMAMENT CUSTOMIZATION grid slides in, showing hand, forearm, elbow, and upper-arm components. The selector cycles rapidly. Her left arm disassembles section by section: the forearm plate releases, new armor slides in, the elbow joint swaps, and the hand reconfigures, with exposed wiring and pistons visible during the change.
+
+[7–8.5 seconds] Pull back to a medium shot. CONFIRM CONFIG flashes; click it. All UI panels collapse inward and vanish. She uncrosses her legs and settles into a relaxed seated pose with one knee raised, lifting the prosthetic hand for a subtle post-configuration movement.
+
+[8.5–10 seconds] A LOADING bar appears along the bottom and races from 0% to 100%. The saturated purple environment darkens as shadows creep inward and warm golden light begins to bleed through.
+
+[10–15 seconds] As she stands, the full world loads around her: a dense cyberpunk slum with flickering neon, rain-wet streets, moving crowds, passing motorcycles, tangled overhead cables, and stacked buildings stretching toward futuristic towers. Settle into a third-person camera behind her. HUD elements fade in: minimap top right, health and ammo bottom left, then a mission marker. She steps into the street.
+```
+
+#### 中文翻译
+
+```text
+图片 1 用于角色，图片 2 用于 UI 风格。
+
+[0–2 秒] 高角度俯拍。角色坐在鲜艳高饱和紫色地面上，抬头看向摄影机并匹配图片 1。右侧出现菜单：START NEW GAME、CONTINUE（高亮）、SETTINGS、EXIT GAME；左上显示玩家档案 MINIMAX；光标选择 CONTINUE。
+
+[2–4 秒] 平滑推进到她的右臂。RIGHT ARM EQUIPMENT 面板从右侧滑入，先选中 PHANTOM GRIP，再移动到 CHRONOS CLAW。机械手重构：手指分开，新的爪状关节锁定，青色 LED 变亮。
+
+[4–7 秒] 平滑绕到她左侧。ARMAMENT CUSTOMIZATION 网格滑入，展示手、前臂、肘部和上臂组件，选择器快速循环。左臂逐段拆解：前臂装甲释放，新装甲滑入，肘关节替换，手部重构；变化过程中可见线路与活塞。
+
+[7–8.5 秒] 拉回中景。CONFIRM CONFIG 闪烁并被点击；全部 UI 面板向内收拢消失。她解开盘腿，以单膝抬起的放松坐姿稳定下来，抬起义肢做轻微配置后动作。
+
+[8.5–10 秒] 底部出现 LOADING 条，从 0% 快速到 100%。高饱和紫色环境逐渐变暗，阴影向内蔓延，暖金色光开始渗入。
+
+[10–15 秒] 她站起时完整世界在周围加载：密集赛博朋克贫民区、闪烁霓虹、雨湿街道、移动人群、驶过的摩托车、纠缠电缆与层叠建筑，并延伸到未来高塔。摄影机稳定在她身后的第三人称视角。HUD 依次淡入：右上小地图、左下生命与弹药、任务标记。她迈步走入街道。
+```
+
+#### 案例视频
+
+https://v3b.fal.media/files/b/0aa4404f/E8DY7sjVYIu5qaxWapQOn_out16_3-1-5.mp4
+
+[↗ 点击播放原视频](https://v3b.fal.media/files/b/0aa4404f/E8DY7sjVYIu5qaxWapQOn_out16_3-1-5.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `game-ui` `timecoded` `typography` `cyberpunk` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 reference-to-video example with two reference images and the result visible.
+
+---
+
+<a id="h3-0020"></a>
+
+### H3-0020 · 咖啡微距到沙漠的无缝转场
+
+**多模态参考生成** · **社区实测** · ⭐ Featured
+
+#### 内容说明
+
+使用两张参考图，从咖啡微观材质连续匹配到沙漠景观。
+
+#### 原始 Prompt
+
+```text
+@Image 1: Push in rapidly toward the milk foam, cocoa particles, and dark liquid texture on the coffee until particles, bubbles, and ripples fill the frame. Keep the macro photography realistic, with extremely shallow depth of field and fine powder drifting through backlight. Let the surface feel suspended between granular sand and fluid.
+
+At the exact moment when the cocoa particles, foam contours, and coffee swirl closely resemble the dune ridges, wind-carved textures, and airborne sand in @Image 2, transition seamlessly into the desert landscape. Continue pushing forward until the full dunes from @Image 2 are revealed.
+
+No tearing, black frames, hard cuts, obvious VFX, or compositing seams. Keep it photoreal, quiet, and restrained—as though one granular material naturally expands from the microscopic coffee surface into a vast desert. One continuous shot with no visible edit.
+```
+
+#### 中文翻译
+
+```text
+@图片 1：快速推进咖啡表面的奶泡、可可颗粒和深色液体纹理，直到颗粒、气泡和涟漪充满画面。保持真实微距摄影，极浅景深，细粉在逆光中漂浮；表面质感介于颗粒沙土与流体之间。
+
+当可可颗粒、泡沫轮廓和咖啡旋涡与 @图片 2 的沙丘脊线、风蚀纹理和飞沙高度相似的精确时刻，无缝转入沙漠景观。继续向前推进，直到完整展现图片 2 的沙丘。
+
+不要撕裂、黑帧、硬切、明显特效或合成接缝。保持写实、安静和克制，仿佛同一种颗粒材料从微观咖啡表面自然扩展成辽阔沙漠。单一连续镜头，不出现可见剪辑。
+```
+
+#### 案例视频
+
+https://v3b.fal.media/files/b/0aa44040/q4z3z9AbtFRvj4I4VAMtl_out28_3-2-1.mp4
+
+[↗ 点击播放原视频](https://v3b.fal.media/files/b/0aa44040/q4z3z9AbtFRvj4I4VAMtl_out28_3-2-1.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `macro` `seamless-transition` `material-match` `multi-image` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 reference-to-video example with two reference images and the result visible.
+
+---
+
+<a id="h3-0021"></a>
+
+### H3-0021 · 视频中猫替换为狗
+
+**多模态参考生成** · **社区实测**
+
+#### 内容说明
+
+只改变一个主体、其余源视频保持稳定的极简局部编辑指令。
+
+#### 原始 Prompt
+
+```text
+Replace the cat in the video with a dog.
+```
+
+#### 中文翻译
+
+```text
+将视频中的猫替换成狗。
+```
+
+#### 案例视频
+
+https://v3b.fal.media/files/b/0aa44040/9P0NRo9sbMTNz3KjWmpga_out33_3-3-1.mp4
+
+[↗ 点击播放原视频](https://v3b.fal.media/files/b/0aa44040/9P0NRo9sbMTNz3KjWmpga_out33_3-3-1.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: source dependent` · `resolution: 2K` · `ratio: adaptive`
+- **Tags：** `video-editing` `subject-replacement` `localized-edit` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a precise MiniMax H3 video-editing example with the source and result visible.
 
 ---
 

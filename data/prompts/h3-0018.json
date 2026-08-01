@@ -1,0 +1,17 @@
+{
+  "id": "h3-0018",
+  "title": {"en": "Hand-drawn kitchen creature", "zh": "厨房里的手绘发光生物"},
+  "description": {"en": "A text-only hybrid of live-action phone footage and luminous hand-drawn animation.", "zh": "将真人手机影像与手绘发光动画融合的纯文本生成案例。"},
+  "mode": "text-to-video",
+  "featured": true,
+  "prompt": {
+    "original_language": "en",
+    "original": "15 seconds, 16:9 landscape. Blend live-action footage of a small kitchen at dusk with hand-drawn luminous animation. The last sunset light lingers at the window. The lived-in kitchen contains an old wooden table, a half-washed mug, a lightly fogged glass bottle, and a hanging dish towel.\n\nShoot as if someone is filming one-handed on a phone: subtle hand tremor, hesitant close-focus pulls, backlit exposure breathing, and slightly coarse noise in the shadows. It should feel like an astonishing event captured in a rush at home, not a carefully dressed commercial.\n\nDo not show giant eyes, split mouths, fangs, threatening behavior, lunges, sudden black frames, or jump scares. Use only room tone, cloth friction, a soft mug clink, faucet drips, the camera operator’s footsteps and quiet breathing, plus gentle electronic tones and tiny vocalizations from the drawn creatures.",
+    "zh": "15 秒，16:9 横屏。把黄昏小厨房的真人影像与手绘发光动画融合。最后一缕夕阳停留在窗边；有人生活痕迹的厨房里有旧木桌、洗到一半的杯子、轻微起雾的玻璃瓶和悬挂的抹布。\n\n像有人单手用手机拍摄：轻微手抖、犹豫的近距离拉焦、逆光下的曝光呼吸，以及阴影中略粗糙的噪点。画面应像在家匆忙捕捉到不可思议的事件，而不是精心布置的广告。\n\n不要出现巨眼、裂口、尖牙、威胁行为、猛扑、突然黑帧或惊吓镜头。声音仅包括室内底噪、布料摩擦、杯子轻响、水龙头滴水、拍摄者脚步和轻微呼吸，以及温柔电子音与手绘生物细小的叫声。"
+  },
+  "parameters": {"duration": "15s", "resolution": "2K", "ratio": "16:9"},
+  "tags": ["hand-drawn", "live-action", "phone-camera", "native-audio", "community-tested"],
+  "media": [{"type": "video", "path": "media/fal-hand-drawn-kitchen-creature.mp4", "playback_url": "https://v3b.fal.media/files/b/0aa44040/GWGO_2snsYSrP3ev7s6QO_out06_3-1-2.mp4", "source_url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide", "rights_status": "third-party-attributed"}],
+  "source": {"type": "community-tested", "author": "Bennett Heyn / fal", "url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide", "source_location": "page", "published_at": "2026-07-30", "retrieved_at": "2026-08-01"},
+  "verification": {"prompt_visible": true, "h3_confirmed": true, "output_visible": true, "notes": "Published by fal as a text-to-video MiniMax H3 example with the result visible."}
+}

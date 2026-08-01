@@ -1,0 +1,13 @@
+{
+  "id": "h3-0021",
+  "title": {"en": "Cat-to-dog video replacement", "zh": "视频中猫替换为狗"},
+  "description": {"en": "A minimal localized-edit instruction that changes one subject while preserving the source clip.", "zh": "只改变一个主体、其余源视频保持稳定的极简局部编辑指令。"},
+  "mode": "reference-generation",
+  "featured": false,
+  "prompt": {"original_language": "en", "original": "Replace the cat in the video with a dog.", "zh": "将视频中的猫替换成狗。"},
+  "parameters": {"duration": "source dependent", "resolution": "2K", "ratio": "adaptive"},
+  "tags": ["video-editing", "subject-replacement", "localized-edit", "community-tested"],
+  "media": [{"type": "video", "path": "media/fal-cat-to-dog-replacement.mp4", "playback_url": "https://v3b.fal.media/files/b/0aa44040/9P0NRo9sbMTNz3KjWmpga_out33_3-3-1.mp4", "source_url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide", "rights_status": "third-party-attributed"}],
+  "source": {"type": "community-tested", "author": "Bennett Heyn / fal", "url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide", "source_location": "page", "published_at": "2026-07-30", "retrieved_at": "2026-08-01"},
+  "verification": {"prompt_visible": true, "h3_confirmed": true, "output_visible": true, "notes": "Published by fal as a precise MiniMax H3 video-editing example with the source and result visible."}
+}
