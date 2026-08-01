@@ -10,6 +10,8 @@
 
 [简体中文](README_zh.md) · **English**
 
+[▶ **Open the playable video library / 打开可直接播放的视频页面**](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/)
+
 ## About MiniMax H3
 
 MiniMax H3 is a multimodal video generation model that accepts text, images, video, and audio as context. This repository separates official examples, community-tested prompts, and unverified guide templates so readers can judge the evidence behind every entry.

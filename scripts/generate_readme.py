@@ -223,6 +223,8 @@ def generate(lang: str, prompts: list[dict], categories: dict) -> str:
         "",
         f"{text['switch']}",
         "",
+        "[▶ **Open the playable video library / 打开可直接播放的视频页面**](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/)",
+        "",
         f"## {text['about']}",
         "",
         text["about_text"],

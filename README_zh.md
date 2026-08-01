@@ -10,6 +10,8 @@
 
 **简体中文** · [English](README.md)
 
+[▶ **Open the playable video library / 打开可直接播放的视频页面**](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/)
+
 ## 关于 MiniMax H3
 
 MiniMax H3 是可将文本、图片、视频和音频作为统一上下文的视频生成模型。本仓库严格区分官方示例、社区实测 Prompt 和尚未展示 H3 结果的公开教程模板，方便读者判断每条内容的证据强度。
