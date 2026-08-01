@@ -1,0 +1,18 @@
+{
+  "id": "h3-0007",
+  "title": {"en": "Frutiger Aero shopping mall walk", "zh": "Frutiger Aero 商场第一人称漫步"},
+  "description": {"en": "A community H3 first-person environment test with a retro-futuristic visual direction.", "zh": "社区 H3 第一人称环境实测，采用 Frutiger Aero 复古未来主义风格。"},
+  "mode": "text-to-video",
+  "featured": true,
+  "prompt": {
+    "original_language": "en",
+    "original": "a first-person view walk through a busy ultramodern shopping mall with frutiger aero aesthetic at dusk. lots of pretty trees and foliage, beautiful organic architecture, lighting",
+    "en": "A first-person view walk through a busy ultramodern shopping mall with a Frutiger Aero aesthetic at dusk. Lots of pretty trees and foliage, beautiful organic architecture and atmospheric lighting.",
+    "zh": "黄昏时分，以第一人称视角穿行于一座繁忙的超现代购物中心，整体采用 Frutiger Aero 美学。周围有大量漂亮的树木与绿植、优美的有机建筑形态和富有氛围感的灯光。"
+  },
+  "parameters": {"duration": "not stated", "resolution": "2K", "ratio": "not stated"},
+  "tags": ["first-person", "architecture", "frutiger-aero", "community-tested"],
+  "source": {"type": "community-tested", "author": "Neggy5", "url": "https://www.reddit.com/r/StableDiffusion/comments/1vc8o4u/used_my_last_hour_of_my_veniceai_sub_to_test/", "published_at": "2026-08-01", "retrieved_at": "2026-08-01"},
+  "verification": {"prompt_visible": true, "h3_confirmed": true, "output_visible": true, "notes": "The author states the shown clips were generated with MiniMax H3."}
+}
+

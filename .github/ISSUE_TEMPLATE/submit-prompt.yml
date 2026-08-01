@@ -1,0 +1,50 @@
+name: Submit a prompt / 投稿 Prompt
+description: Submit a public MiniMax H3 prompt with a verifiable source.
+title: "[Prompt]: "
+labels: [submission]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Prompt title / 标题
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Exact original prompt / 完整原始 Prompt
+      description: Preserve the author's original wording.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Direct source URL / 直接来源链接
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: Original author / 原作者
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Generation mode / 生成模式
+      options:
+        - Text to Video / 文生视频
+        - Image to Video / 图生视频
+        - First / Last Frame / 首尾帧
+        - Reference Generation / 多模态参考生成
+    validations:
+      required: true
+  - type: checkboxes
+    id: verification
+    attributes:
+      label: Verification / 核验
+      options:
+        - label: The source explicitly says MiniMax H3 / 来源明确说明使用 MiniMax H3
+        - label: A generated result is visible / 来源展示了生成结果
+        - label: I preserved the original prompt and attribution / 我保留了原始 Prompt 和署名
+

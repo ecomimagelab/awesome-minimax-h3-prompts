@@ -1,0 +1,18 @@
+{
+  "id": "h3-0009",
+  "title": {"en": "Premium citrus drink advertisement", "zh": "高端柑橘饮料广告"},
+  "description": {"en": "A public product-ad template designed around liquid physics, label stability, and a controlled orbit.", "zh": "公开产品广告模板，重点控制液体物理、标签稳定性与环绕运镜。"},
+  "mode": "text-to-video",
+  "featured": false,
+  "prompt": {
+    "original_language": "en",
+    "original": "Macro product shot of a chilled citrus drink can standing upright on black stone. A thin stream of water strikes the surface beside it, producing a controlled splash that wraps around the base while condensation beads slide down the aluminum. The camera makes a slow 30-degree clockwise orbit, keeping the logo sharp and facing forward. Crisp studio rim lighting, dark premium commercial style. End with the splash settled and the can centered.",
+    "en": "Macro product shot of a chilled citrus drink can standing upright on black stone. A thin stream of water strikes the surface beside it, producing a controlled splash that wraps around the base while condensation beads slide down the aluminum. The camera makes a slow 30-degree clockwise orbit, keeping the logo sharp and facing forward. Crisp studio rim lighting, dark premium commercial style. End with the splash settled and the can centered.",
+    "zh": "微距产品镜头：一罐冰镇柑橘饮料直立在黑色石材上。一股细水流击中罐体旁的台面，形成受控水花并环绕罐底，冷凝水珠沿铝罐表面滑落。镜头缓慢顺时针环绕 30 度，保持商标清晰且始终朝向镜头。清晰的棚拍轮廓光，深色高端商业风格。以水花平息、饮料罐居中结束。"
+  },
+  "parameters": {"duration": "not stated", "resolution": "not stated", "ratio": "landscape"},
+  "tags": ["product", "advertising", "water-physics", "orbit", "community-guide"],
+  "source": {"type": "community-guide", "author": "VideoToPrompt", "url": "https://www.videotoprompt.app/posts/hailuo-h3-prompt-guide", "published_at": "2026-07-21", "retrieved_at": "2026-08-01"},
+  "verification": {"prompt_visible": true, "h3_confirmed": false, "output_visible": false, "notes": "Published as an H3 prompt template; no generated H3 output is shown beside the prompt."}
+}
+

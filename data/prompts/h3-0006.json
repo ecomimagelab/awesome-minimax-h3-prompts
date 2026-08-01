@@ -1,0 +1,18 @@
+{
+  "id": "h3-0006",
+  "title": {"en": "Chow chow prancing in a park", "zh": "公园里雀跃的松狮犬"},
+  "description": {"en": "A community H3 text-to-video test with a simple two-beat animal action.", "zh": "社区 H3 文生视频实测，使用两段连续的动物动作。"},
+  "mode": "text-to-video",
+  "featured": false,
+  "prompt": {
+    "original_language": "en",
+    "original": "an adorable adult chow chow dog prancing in a park at daytime, the dog then sits down and yawns cutely, looking around.",
+    "en": "An adorable adult chow chow dog prancing in a park at daytime. The dog then sits down and yawns cutely while looking around.",
+    "zh": "白天，一只可爱的成年松狮犬在公园里欢快地跳跃。随后它坐下来，可爱地打了个哈欠，并四处张望。"
+  },
+  "parameters": {"duration": "not stated", "resolution": "2K", "ratio": "not stated"},
+  "tags": ["animal", "park", "action-sequence", "community-tested"],
+  "source": {"type": "community-tested", "author": "Neggy5", "url": "https://www.reddit.com/r/StableDiffusion/comments/1vc8o4u/used_my_last_hour_of_my_veniceai_sub_to_test/", "published_at": "2026-08-01", "retrieved_at": "2026-08-01"},
+  "verification": {"prompt_visible": true, "h3_confirmed": true, "output_visible": true, "notes": "The author states the shown clips were generated with MiniMax H3."}
+}
+

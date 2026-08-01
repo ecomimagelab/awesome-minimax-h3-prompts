@@ -1,0 +1,18 @@
+{
+  "id": "h3-0003",
+  "title": {"en": "A little girl grows up", "zh": "小女孩成长转场"},
+  "description": {"en": "An official first-and-last-frame transition example showing a character growing up.", "zh": "通过首帧和尾帧控制人物从童年到成年的转场。"},
+  "mode": "first-last-frame",
+  "featured": true,
+  "prompt": {
+    "original_language": "en",
+    "original": "A little girl grows up.",
+    "en": "A little girl grows up.",
+    "zh": "一个小女孩逐渐长大。"
+  },
+  "parameters": {"duration": "5s", "resolution": "2K", "ratio": "adaptive"},
+  "tags": ["transition", "aging", "first-frame", "last-frame", "official"],
+  "source": {"type": "official", "author": "MiniMax", "url": "https://platform.minimax.io/docs/guides/video-generation", "published_at": "2026-07-31", "retrieved_at": "2026-08-01"},
+  "verification": {"prompt_visible": true, "h3_confirmed": true, "output_visible": true, "notes": "Published with first- and last-frame inputs in the official API guide."}
+}
+

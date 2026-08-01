@@ -1,0 +1,18 @@
+{
+  "id": "h3-0004",
+  "title": {"en": "Vintage beret fashion walk", "zh": "复古贝雷帽时尚漫步"},
+  "description": {"en": "An official reference-image example for subject consistency and cinematic fashion motion.", "zh": "使用人物参考图保持主体一致性的电影感时尚片段。"},
+  "mode": "reference-generation",
+  "featured": true,
+  "prompt": {
+    "original_language": "en",
+    "original": "On an overcast day, in an ancient cobbled alleyway, the model walks and adjusts a vintage beret with a smile; natural lighting and cinematic colors.",
+    "en": "On an overcast day, in an ancient cobbled alleyway, the model walks and adjusts a vintage beret with a smile; natural lighting and cinematic colors.",
+    "zh": "阴天，在古老的鹅卵石巷道中，模特一边行走，一边微笑着调整复古贝雷帽；自然光线，电影感色彩。"
+  },
+  "parameters": {"duration": "5s", "resolution": "2K", "ratio": "adaptive"},
+  "tags": ["fashion", "character-consistency", "cinematic", "official"],
+  "source": {"type": "official", "author": "MiniMax", "url": "https://platform.minimax.io/docs/guides/video-generation", "published_at": "2026-07-31", "retrieved_at": "2026-08-01"},
+  "verification": {"prompt_visible": true, "h3_confirmed": true, "output_visible": true, "notes": "Published with a reference image in the official API guide."}
+}
+

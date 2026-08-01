@@ -1,0 +1,26 @@
+name: Removal request / 删除请求
+description: Request removal or correction of content you own.
+title: "[Removal]: "
+labels: [removal-request]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Entry ID or URL / 条目 ID 或链接
+    validations:
+      required: true
+  - type: textarea
+    id: relationship
+    attributes:
+      label: Relationship to the content / 与内容的关系
+      description: Do not post private contact details.
+    validations:
+      required: true
+  - type: textarea
+    id: request
+    attributes:
+      label: Requested action / 请求处理方式
+      description: Explain what should be removed or corrected.
+    validations:
+      required: true
+

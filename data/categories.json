@@ -1,0 +1,14 @@
+{
+  "modes": {
+    "text-to-video": {"en": "Text to Video", "zh": "文生视频"},
+    "image-to-video": {"en": "Image to Video", "zh": "图生视频"},
+    "first-last-frame": {"en": "First / Last Frame", "zh": "首尾帧生视频"},
+    "reference-generation": {"en": "Reference Generation", "zh": "多模态参考生成"}
+  },
+  "source_types": {
+    "official": {"en": "Official example", "zh": "官方示例"},
+    "community-tested": {"en": "Community tested", "zh": "社区实测"},
+    "community-guide": {"en": "Community guide", "zh": "公开教程模板"}
+  }
+}
+

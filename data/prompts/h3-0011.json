@@ -1,0 +1,18 @@
+{
+  "id": "h3-0011",
+  "title": {"en": "Anime rooftop swordswoman", "zh": "雨夜屋顶女剑士"},
+  "description": {"en": "A public anime-action template with a chronological movement chain and parallel camera tracking.", "zh": "公开动画动作模板，使用按时间展开的动作链和横向平行跟拍。"},
+  "mode": "text-to-video",
+  "featured": false,
+  "prompt": {
+    "original_language": "en",
+    "original": "Anime-style medium-wide shot of a teenage swordswoman sprinting across rain-soaked rooftops at night. Her feet push off each tile in sequence, loose roof fragments slide behind her, and her coat follows the direction of motion. The camera tracks parallel at full-body distance, then gradually moves ahead as she leaps across a narrow alley. Bold linework, dramatic blue moonlight, rain streaks, controlled motion blur. She lands in a balanced crouch.",
+    "en": "Anime-style medium-wide shot of a teenage swordswoman sprinting across rain-soaked rooftops at night. Her feet push off each tile in sequence, loose roof fragments slide behind her, and her coat follows the direction of motion. The camera tracks parallel at full-body distance, then gradually moves ahead as she leaps across a narrow alley. Bold linework, dramatic blue moonlight, rain streaks, controlled motion blur. She lands in a balanced crouch.",
+    "zh": "动画风格中广角镜头：夜晚，一名少女剑士在被雨水浸透的屋顶上疾跑。她的双脚依次蹬过每块瓦片，松动的瓦片碎片从身后滑落，外套顺着运动方向飘动。镜头以全身距离平行跟拍，当她跃过狭窄巷道时逐渐移到前方。粗犷有力的线条、戏剧性的蓝色月光、雨丝和受控运动模糊。她最终以平衡的蹲姿落地。"
+  },
+  "parameters": {"duration": "not stated", "resolution": "not stated", "ratio": "landscape"},
+  "tags": ["anime", "action", "rain", "tracking-shot", "community-guide"],
+  "source": {"type": "community-guide", "author": "VideoToPrompt", "url": "https://www.videotoprompt.app/posts/hailuo-h3-prompt-guide", "published_at": "2026-07-21", "retrieved_at": "2026-08-01"},
+  "verification": {"prompt_visible": true, "h3_confirmed": false, "output_visible": false, "notes": "Published as an H3 prompt template; no generated H3 output is shown beside the prompt."}
+}
+
