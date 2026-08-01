@@ -12,7 +12,7 @@
   },
   "parameters": {"duration": "15s", "resolution": "2560x1440", "ratio": "16:9"},
   "tags": ["relationship-drama", "blue-hour", "three-segment", "dialogue", "community-tested"],
-  "media": [{"type": "video", "path": "media/alex-patrascu-minimax-h3-scenes.mp4", "playback_url": "https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2", "source_url": "https://x.com/maxescu/status/2082563241062875568", "rights_status": "third-party-attributed"}],
+  "media": [{"type": "video", "path": "media/alex-patrascu-minimax-h3-scenes.mp4", "source_url": "https://x.com/maxescu/status/2082563241062875568", "rights_status": "third-party-attributed"}],
   "source": {"type": "community-tested", "author": "Alex Patrascu (@maxescu)", "url": "https://x.com/maxescu/status/2082563256028139736", "thread_url": "https://x.com/maxescu/status/2082563241062875568", "source_location": "reply", "published_at": "2026-07-29", "retrieved_at": "2026-08-01"},
   "verification": {"prompt_visible": true, "h3_confirmed": true, "output_visible": true, "notes": "The complete prompt appears in an author reply; the parent post says the displayed scenes were tried with MiniMax H3."}
 }

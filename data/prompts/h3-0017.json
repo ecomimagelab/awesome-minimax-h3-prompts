@@ -11,7 +11,7 @@
   },
   "parameters": {"duration": "5–15s", "resolution": "2K", "ratio": "not stated"},
   "tags": ["brand-film", "multi-image", "typography", "transition", "community-tested"],
-  "media": [{"type": "video", "path": "media/fal-vintage-binocular-brand-film.mp4", "playback_url": "https://v3b.fal.media/files/b/0aa44040/X3-b2BWEyEaZr4luiu83G_out00_3-1-1.mp4", "source_url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide", "rights_status": "third-party-attributed"}],
+  "media": [{"type": "video", "path": "media/fal-vintage-binocular-brand-film.mp4", "source_url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide", "rights_status": "third-party-attributed"}],
   "source": {"type": "community-tested", "author": "Bennett Heyn / fal", "url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide", "source_location": "page", "published_at": "2026-07-30", "retrieved_at": "2026-08-01"},
   "verification": {"prompt_visible": true, "h3_confirmed": true, "output_visible": true, "notes": "Published by fal as a MiniMax H3 example with the result and four reference images visible."}
 }

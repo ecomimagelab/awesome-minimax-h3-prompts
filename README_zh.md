@@ -21,29 +21,28 @@ MiniMax H3 是可将文本、图片、视频和音频作为统一上下文的视
 - Community prompting guide: [fal.ai H3 guide — bilingual notes](docs/FAL_PROMPTING_GUIDE.md)
 
 > [!IMPORTANT]
-> **版权与核验说明：** 内容公开可见不代表作者放弃权利。公开可访问的媒体可能会为研究、发现与点击播放而镜像保存；每条内容均保留作者署名、原始链接和抓取信息。镜像的第三方内容不适用本仓库的 CC BY 4.0，权利人可通过删除申请表要求下架。`H3 已确认：否` 表示来源没有展示可核验的 H3 结果。
+> **版权与核验说明：** 没有视频就不收录：每条 Prompt 都必须有可公开下载的结果视频，并镜像保存到 `media/`；不能只保留外部播放链接。内容公开可见不代表作者放弃权利。每条内容均保留作者署名、原始链接和抓取信息。镜像的第三方内容不适用本仓库的 CC BY 4.0，权利人可通过删除申请表要求下架。
 
 ## 收录统计
 
 | Metric | Count |
 | --- | ---: |
-| Total prompts | **21** |
-| Official examples | **5** |
+| Total prompts | **16** |
+| Official examples | **4** |
 | Community tested | **12** |
-| Community guide templates | **4** |
+| Community guide templates | **0** |
 | Last curated | **2026-08-01** |
 
 ## 按生成模式浏览
 
-- [文生视频 (12)](#文生视频)
-- [图生视频 (2)](#图生视频)
+- [文生视频 (8)](#文生视频)
+- [图生视频 (1)](#图生视频)
 - [首尾帧生视频 (1)](#首尾帧生视频)
 - [多模态参考生成 (6)](#多模态参考生成)
 
 ## 精选提示词
 
 - [无人机上的 TikTok 舞者](#h3-0001) — 官方示例
-- [从首帧生成现代舞](#h3-0002) — 官方示例
 - [小女孩成长转场](#h3-0003) — 官方示例
 - [复古贝雷帽时尚漫步](#h3-0004) — 官方示例
 - [希区柯克运镜与参考歌声](#h3-0005) — 官方示例
@@ -58,15 +57,94 @@ MiniMax H3 是可将文本、图片、视频和音频作为统一上下文的视
 
 ## 合集视频与多段提示词
 
+### H3-0006–H3-0007 · 一个原视频中的 2 段提示词
+
+来源将这些案例发布在同一个合集视频中。视频只展示一次，对应的完整提示词依次列在下方。
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/reddit-neggy5-minimax-h3-tests.mp4)
+
+---
+
+<a id="h3-0006"></a>
+
+### H3-0006 · 公园里雀跃的松狮犬
+
+**文生视频** · **社区实测**
+
+#### 内容说明
+
+社区 H3 文生视频实测，使用两段连续的动物动作。
+
+#### 原始 Prompt
+
+```text
+an adorable adult chow chow dog prancing in a park at daytime, the dog then sits down and yawns cutely, looking around.
+```
+
+#### 中文翻译
+
+```text
+白天，一只可爱的成年松狮犬在公园里欢快地跳跃。随后它坐下来，可爱地打了个哈欠，并四处张望。
+```
+
+#### 详细信息
+
+- **生成参数：** `duration: not stated` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `animal` `park` `action-sequence` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Neggy5](https://www.reddit.com/r/StableDiffusion/comments/1vc8o4u/used_my_last_hour_of_my_veniceai_sub_to_test/)
+- **发布时间：** 2026-08-01
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** The author states the shown clips were generated with MiniMax H3.
+
+---
+
+<a id="h3-0007"></a>
+
+### H3-0007 · Frutiger Aero 商场第一人称漫步
+
+**文生视频** · **社区实测** · ⭐ Featured
+
+#### 内容说明
+
+社区 H3 第一人称环境实测，采用 Frutiger Aero 复古未来主义风格。
+
+#### 原始 Prompt
+
+```text
+a first-person view walk through a busy ultramodern shopping mall with frutiger aero aesthetic at dusk. lots of pretty trees and foliage, beautiful organic architecture, lighting
+```
+
+#### 中文翻译
+
+```text
+黄昏时分，以第一人称视角穿行于一座繁忙的超现代购物中心，整体采用 Frutiger Aero 美学。周围有大量漂亮的树木与绿植、优美的有机建筑形态和富有氛围感的灯光。
+```
+
+#### 详细信息
+
+- **生成参数：** `duration: not stated` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `first-person` `architecture` `frutiger-aero` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Neggy5](https://www.reddit.com/r/StableDiffusion/comments/1vc8o4u/used_my_last_hour_of_my_veniceai_sub_to_test/)
+- **发布时间：** 2026-08-01
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** The author states the shown clips were generated with MiniMax H3.
+
+---
+
+
 ### H3-0012–H3-0016 · 一个原视频中的 5 段提示词
 
 来源将这些案例发布在同一个合集视频中。视频只展示一次，对应的完整提示词依次列在下方。
 
 #### 案例视频
 
-https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2
-
-[↗ 点击播放原视频](https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2)
+[▶ 点击播放原视频](media/alex-patrascu-minimax-h3-scenes.mp4)
 
 ---
 
@@ -480,7 +558,7 @@ POSITIVE LOCKS Exactly two officers are in the room and no other figures enter. 
 
 ## 文生视频
 
-*上方合集中的相关提示词:* [H3-0012](#h3-0012) · [H3-0013](#h3-0013) · [H3-0015](#h3-0015) · [H3-0016](#h3-0016)
+*上方合集中的相关提示词:* [H3-0006](#h3-0006) · [H3-0007](#h3-0007) · [H3-0012](#h3-0012) · [H3-0013](#h3-0013) · [H3-0015](#h3-0015) · [H3-0016](#h3-0016)
 
 <a id="h3-0001"></a>
 
@@ -504,6 +582,10 @@ A tiktok dancer is dancing on a drone, doing flips and tricks.
 一名 TikTok 舞者站在无人机上跳舞，完成空翻和各种特技动作。
 ```
 
+#### 案例视频
+
+[▶ 点击播放原视频](media/minimax-official-text-to-video.mp4)
+
 #### 详细信息
 
 - **生成参数：** `duration: 5s` · `resolution: 2K` · `ratio: 16:9`
@@ -514,216 +596,6 @@ A tiktok dancer is dancing on a drone, doing flips and tricks.
 - **收录时间：** 2026-08-01
 - **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
 - **Note：** Published in the official MiniMax H3 API guide.
-
----
-
-<a id="h3-0006"></a>
-
-### H3-0006 · 公园里雀跃的松狮犬
-
-**文生视频** · **社区实测**
-
-#### 内容说明
-
-社区 H3 文生视频实测，使用两段连续的动物动作。
-
-#### 原始 Prompt
-
-```text
-an adorable adult chow chow dog prancing in a park at daytime, the dog then sits down and yawns cutely, looking around.
-```
-
-#### 中文翻译
-
-```text
-白天，一只可爱的成年松狮犬在公园里欢快地跳跃。随后它坐下来，可爱地打了个哈欠，并四处张望。
-```
-
-#### 详细信息
-
-- **生成参数：** `duration: not stated` · `resolution: 2K` · `ratio: not stated`
-- **Tags：** `animal` `park` `action-sequence` `community-tested`
-- **来源类型：** 社区实测
-- **来源：** [Neggy5](https://www.reddit.com/r/StableDiffusion/comments/1vc8o4u/used_my_last_hour_of_my_veniceai_sub_to_test/)
-- **发布时间：** 2026-08-01
-- **收录时间：** 2026-08-01
-- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
-- **Note：** The author states the shown clips were generated with MiniMax H3.
-
----
-
-<a id="h3-0007"></a>
-
-### H3-0007 · Frutiger Aero 商场第一人称漫步
-
-**文生视频** · **社区实测** · ⭐ Featured
-
-#### 内容说明
-
-社区 H3 第一人称环境实测，采用 Frutiger Aero 复古未来主义风格。
-
-#### 原始 Prompt
-
-```text
-a first-person view walk through a busy ultramodern shopping mall with frutiger aero aesthetic at dusk. lots of pretty trees and foliage, beautiful organic architecture, lighting
-```
-
-#### 中文翻译
-
-```text
-黄昏时分，以第一人称视角穿行于一座繁忙的超现代购物中心，整体采用 Frutiger Aero 美学。周围有大量漂亮的树木与绿植、优美的有机建筑形态和富有氛围感的灯光。
-```
-
-#### 详细信息
-
-- **生成参数：** `duration: not stated` · `resolution: 2K` · `ratio: not stated`
-- **Tags：** `first-person` `architecture` `frutiger-aero` `community-tested`
-- **来源类型：** 社区实测
-- **来源：** [Neggy5](https://www.reddit.com/r/StableDiffusion/comments/1vc8o4u/used_my_last_hour_of_my_veniceai_sub_to_test/)
-- **发布时间：** 2026-08-01
-- **收录时间：** 2026-08-01
-- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
-- **Note：** The author states the shown clips were generated with MiniMax H3.
-
----
-
-<a id="h3-0008"></a>
-
-### H3-0008 · 穿越沙漠山脊的旅人
-
-**文生视频** · **公开教程模板**
-
-#### 内容说明
-
-公开的 H3 电影感模板，包含主体运动、环境反馈、运镜路径和结束状态。
-
-#### 原始 Prompt
-
-```text
-Wide cinematic shot of a lone traveler crossing a windswept desert at sunset. He leans forward against the wind while his coat and scarf stream naturally behind him; fine sand curls around his boots with each step. The camera performs a slow lateral tracking move at waist height, maintaining his profile. Warm backlight, long shadows, restrained teal-and-orange grade. One continuous shot ending as he stops on the ridge and sees a distant city.
-```
-
-#### 中文翻译
-
-```text
-电影感广角镜头：日落时分，一名孤独的旅人穿越狂风席卷的沙漠。他迎风前倾，外套和围巾自然地向身后飘动；每走一步，细沙都在靴子周围卷起。镜头保持腰部高度，缓慢横向跟拍并维持人物侧面。温暖逆光、长阴影、克制的青橙色调。全程一个连续镜头，以旅人在山脊停下、看见远方城市结束。
-```
-
-#### 详细信息
-
-- **生成参数：** `duration: not stated` · `resolution: not stated` · `ratio: landscape`
-- **Tags：** `cinematic` `desert` `tracking-shot` `community-guide`
-- **来源类型：** 公开教程模板
-- **来源：** [VideoToPrompt](https://www.videotoprompt.app/posts/hailuo-h3-prompt-guide)
-- **发布时间：** 2026-07-21
-- **收录时间：** 2026-08-01
-- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ⚪ 否 · 结果可见 ⚪ 否
-- **Note：** Published as an H3 prompt template; no generated H3 output is shown beside the prompt.
-
----
-
-<a id="h3-0009"></a>
-
-### H3-0009 · 高端柑橘饮料广告
-
-**文生视频** · **公开教程模板**
-
-#### 内容说明
-
-公开产品广告模板，重点控制液体物理、标签稳定性与环绕运镜。
-
-#### 原始 Prompt
-
-```text
-Macro product shot of a chilled citrus drink can standing upright on black stone. A thin stream of water strikes the surface beside it, producing a controlled splash that wraps around the base while condensation beads slide down the aluminum. The camera makes a slow 30-degree clockwise orbit, keeping the logo sharp and facing forward. Crisp studio rim lighting, dark premium commercial style. End with the splash settled and the can centered.
-```
-
-#### 中文翻译
-
-```text
-微距产品镜头：一罐冰镇柑橘饮料直立在黑色石材上。一股细水流击中罐体旁的台面，形成受控水花并环绕罐底，冷凝水珠沿铝罐表面滑落。镜头缓慢顺时针环绕 30 度，保持商标清晰且始终朝向镜头。清晰的棚拍轮廓光，深色高端商业风格。以水花平息、饮料罐居中结束。
-```
-
-#### 详细信息
-
-- **生成参数：** `duration: not stated` · `resolution: not stated` · `ratio: landscape`
-- **Tags：** `product` `advertising` `water-physics` `orbit` `community-guide`
-- **来源类型：** 公开教程模板
-- **来源：** [VideoToPrompt](https://www.videotoprompt.app/posts/hailuo-h3-prompt-guide)
-- **发布时间：** 2026-07-21
-- **收录时间：** 2026-08-01
-- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ⚪ 否 · 结果可见 ⚪ 否
-- **Note：** Published as an H3 prompt template; no generated H3 output is shown beside the prompt.
-
----
-
-<a id="h3-0010"></a>
-
-### H3-0010 · 手持吸尘器博主测评
-
-**文生视频** · **公开教程模板**
-
-#### 内容说明
-
-公开竖屏 UGC 模板，明确规定双手动作、产品交互与自然表情。
-
-#### 原始 Prompt
-
-```text
-Vertical smartphone video of a woman in a bright apartment demonstrating a compact handheld vacuum. She looks into the lens, raises the product with her right hand, points to its nozzle with her left index finger, then bends slightly and cleans crumbs from the sofa in one smooth pass. Natural blinking and conversational expression. Light handheld camera movement, soft window light, authentic creator-review style, no cuts.
-```
-
-#### 中文翻译
-
-```text
-竖屏手机视频：一名女子在明亮的公寓里演示小型手持吸尘器。她看向镜头，用右手举起产品，用左手食指指向吸嘴；随后稍微弯腰，以一次流畅动作吸走沙发上的碎屑。自然眨眼，呈现交谈时的表情。轻微手持运镜、柔和窗光、真实博主测评风格，不剪切。
-```
-
-#### 详细信息
-
-- **生成参数：** `duration: not stated` · `resolution: not stated` · `ratio: 9:16`
-- **Tags：** `ugc` `product-demo` `vertical-video` `community-guide`
-- **来源类型：** 公开教程模板
-- **来源：** [VideoToPrompt](https://www.videotoprompt.app/posts/hailuo-h3-prompt-guide)
-- **发布时间：** 2026-07-21
-- **收录时间：** 2026-08-01
-- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ⚪ 否 · 结果可见 ⚪ 否
-- **Note：** Published as an H3 prompt template; no generated H3 output is shown beside the prompt.
-
----
-
-<a id="h3-0011"></a>
-
-### H3-0011 · 雨夜屋顶女剑士
-
-**文生视频** · **公开教程模板**
-
-#### 内容说明
-
-公开动画动作模板，使用按时间展开的动作链和横向平行跟拍。
-
-#### 原始 Prompt
-
-```text
-Anime-style medium-wide shot of a teenage swordswoman sprinting across rain-soaked rooftops at night. Her feet push off each tile in sequence, loose roof fragments slide behind her, and her coat follows the direction of motion. The camera tracks parallel at full-body distance, then gradually moves ahead as she leaps across a narrow alley. Bold linework, dramatic blue moonlight, rain streaks, controlled motion blur. She lands in a balanced crouch.
-```
-
-#### 中文翻译
-
-```text
-动画风格中广角镜头：夜晚，一名少女剑士在被雨水浸透的屋顶上疾跑。她的双脚依次蹬过每块瓦片，松动的瓦片碎片从身后滑落，外套顺着运动方向飘动。镜头以全身距离平行跟拍，当她跃过狭窄巷道时逐渐移到前方。粗犷有力的线条、戏剧性的蓝色月光、雨丝和受控运动模糊。她最终以平衡的蹲姿落地。
-```
-
-#### 详细信息
-
-- **生成参数：** `duration: not stated` · `resolution: not stated` · `ratio: landscape`
-- **Tags：** `anime` `action` `rain` `tracking-shot` `community-guide`
-- **来源类型：** 公开教程模板
-- **来源：** [VideoToPrompt](https://www.videotoprompt.app/posts/hailuo-h3-prompt-guide)
-- **发布时间：** 2026-07-21
-- **收录时间：** 2026-08-01
-- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ⚪ 否 · 结果可见 ⚪ 否
-- **Note：** Published as an H3 prompt template; no generated H3 output is shown beside the prompt.
 
 ---
 
@@ -759,9 +631,7 @@ Do not show giant eyes, split mouths, fangs, threatening behavior, lunges, sudde
 
 #### 案例视频
 
-https://v3b.fal.media/files/b/0aa44040/GWGO_2snsYSrP3ev7s6QO_out06_3-1-2.mp4
-
-[↗ 点击播放原视频](https://v3b.fal.media/files/b/0aa44040/GWGO_2snsYSrP3ev7s6QO_out06_3-1-2.mp4)
+[▶ 点击播放原视频](media/fal-hand-drawn-kitchen-creature.mp4)
 
 #### 详细信息
 
@@ -780,41 +650,6 @@ https://v3b.fal.media/files/b/0aa44040/GWGO_2snsYSrP3ev7s6QO_out06_3-1-2.mp4
 ## 图生视频
 
 *上方合集中的相关提示词:* [H3-0014](#h3-0014)
-
-<a id="h3-0002"></a>
-
-### H3-0002 · 从首帧生成现代舞
-
-**图生视频** · **官方示例** · ⭐ Featured
-
-#### 内容说明
-
-使用首帧图片，让画面中的人物开始跳现代舞的官方图生视频示例。
-
-#### 原始 Prompt
-
-```text
-Contemporary dance, the people in the picture are performing contemporary dance.
-```
-
-#### 中文翻译
-
-```text
-现代舞，图片中的人物正在表演现代舞。
-```
-
-#### 详细信息
-
-- **生成参数：** `duration: 5s` · `resolution: 2K` · `ratio: adaptive`
-- **Tags：** `dance` `human-motion` `first-frame` `official`
-- **来源类型：** 官方示例
-- **来源：** [MiniMax](https://platform.minimax.io/docs/guides/video-generation)
-- **发布时间：** 2026-07-31
-- **收录时间：** 2026-08-01
-- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
-- **Note：** Published with a first-frame input in the official API guide.
-
----
 
 ## 首尾帧生视频
 
@@ -839,6 +674,10 @@ A little girl grows up.
 ```text
 一个小女孩逐渐长大。
 ```
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/minimax-official-first-last-frame.mp4)
 
 #### 详细信息
 
@@ -877,6 +716,10 @@ On an overcast day, in an ancient cobbled alleyway, the model walks and adjusts 
 阴天，在古老的鹅卵石巷道中，模特一边行走，一边微笑着调整复古贝雷帽；自然光线，电影感色彩。
 ```
 
+#### 案例视频
+
+[▶ 点击播放原视频](media/minimax-official-reference.mp4)
+
 #### 详细信息
 
 - **生成参数：** `duration: 5s` · `resolution: 2K` · `ratio: adaptive`
@@ -911,6 +754,10 @@ Reference the Hitchcock camera movement from Video 1, have the character in Imag
 ```text
 参考视频 1 中的希区柯克式运镜，让图片 2 中的角色演唱，并使歌声与音频 3 保持一致。
 ```
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/minimax-official-hitchcock-reference.mp4)
 
 #### 详细信息
 
@@ -965,9 +812,7 @@ Visual language: a voyeuristic, Wes Anderson-inspired 35 mm film look with fine 
 
 #### 案例视频
 
-https://v3b.fal.media/files/b/0aa44040/X3-b2BWEyEaZr4luiu83G_out00_3-1-1.mp4
-
-[↗ 点击播放原视频](https://v3b.fal.media/files/b/0aa44040/X3-b2BWEyEaZr4luiu83G_out00_3-1-1.mp4)
+[▶ 点击播放原视频](media/fal-vintage-binocular-brand-film.mp4)
 
 #### 详细信息
 
@@ -1031,9 +876,7 @@ Use Image 1 for the character and Image 2 for the UI style.
 
 #### 案例视频
 
-https://v3b.fal.media/files/b/0aa4404f/E8DY7sjVYIu5qaxWapQOn_out16_3-1-5.mp4
-
-[↗ 点击播放原视频](https://v3b.fal.media/files/b/0aa4404f/E8DY7sjVYIu5qaxWapQOn_out16_3-1-5.mp4)
+[▶ 点击播放原视频](media/fal-interactive-game-equipment-ui.mp4)
 
 #### 详细信息
 
@@ -1081,9 +924,7 @@ No tearing, black frames, hard cuts, obvious VFX, or compositing seams. Keep it 
 
 #### 案例视频
 
-https://v3b.fal.media/files/b/0aa44040/q4z3z9AbtFRvj4I4VAMtl_out28_3-2-1.mp4
-
-[↗ 点击播放原视频](https://v3b.fal.media/files/b/0aa44040/q4z3z9AbtFRvj4I4VAMtl_out28_3-2-1.mp4)
+[▶ 点击播放原视频](media/fal-macro-coffee-desert-transition.mp4)
 
 #### 详细信息
 
@@ -1123,9 +964,7 @@ Replace the cat in the video with a dog.
 
 #### 案例视频
 
-https://v3b.fal.media/files/b/0aa44040/9P0NRo9sbMTNz3KjWmpga_out33_3-3-1.mp4
-
-[↗ 点击播放原视频](https://v3b.fal.media/files/b/0aa44040/9P0NRo9sbMTNz3KjWmpga_out33_3-3-1.mp4)
+[▶ 点击播放原视频](media/fal-cat-to-dog-replacement.mp4)
 
 #### 详细信息
 

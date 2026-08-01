@@ -12,7 +12,7 @@
   },
   "parameters": {"duration": "not stated", "resolution": "2K", "ratio": "not stated"},
   "tags": ["multimodal", "camera-reference", "voice-reference", "official"],
+  "media": [{"type": "video", "path": "media/minimax-official-hitchcock-reference.mp4", "source_url": "https://filecdn.minimax.chat/public/h3-en-v2-video-003-1785473642166.mp4", "rights_status": "third-party-attributed"}],
   "source": {"type": "official", "author": "MiniMax", "url": "https://www.minimax.io/blog/minimax-h3", "published_at": "2026-07-31", "retrieved_at": "2026-08-01"},
   "verification": {"prompt_visible": true, "h3_confirmed": true, "output_visible": true, "notes": "Published in the official MiniMax H3 launch article."}
 }
-

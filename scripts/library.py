@@ -17,6 +17,7 @@ REQUIRED_TOP_LEVEL = {
     "prompt",
     "parameters",
     "tags",
+    "media",
     "source",
     "verification",
 }
@@ -82,16 +83,28 @@ def validate_prompt(item: dict[str, Any], allowed_modes: set[str]) -> list[str]:
     if not isinstance(item.get("tags"), list) or not item.get("tags"):
         errors.append(f"{item_id}: tags must be a non-empty list")
 
-    for index, media in enumerate(item.get("media", [])):
+    media_items = item.get("media", [])
+    if not isinstance(media_items, list) or not media_items:
+        errors.append(f"{item_id}: at least one repository-local video is required")
+        media_items = []
+    elif not any(media.get("type") == "video" for media in media_items):
+        errors.append(f"{item_id}: media must contain a video")
+
+    for index, media in enumerate(media_items):
         if media.get("type") not in {"video", "image", "audio"}:
             errors.append(f"{item_id}: media[{index}].type is unsupported")
         if not media.get("path"):
             errors.append(f"{item_id}: media[{index}].path is required")
         elif media["path"].startswith(("http://", "https://")):
             errors.append(f"{item_id}: media[{index}].path must be a repository-relative path")
+        elif not (ROOT / media["path"]).is_file():
+            errors.append(f"{item_id}: media[{index}].path does not exist: {media['path']}")
         if not media.get("source_url", "").startswith(("https://", "http://")):
             errors.append(f"{item_id}: media[{index}].source_url must be an HTTP(S) URL")
-        if media.get("playback_url") and not media["playback_url"].startswith(("https://", "http://")):
-            errors.append(f"{item_id}: media[{index}].playback_url must be an HTTP(S) URL")
+        if media.get("playback_url"):
+            errors.append(f"{item_id}: media[{index}].playback_url is not allowed; use the repository-local path")
+
+    if isinstance(verification, dict) and verification.get("output_visible") is not True:
+        errors.append(f"{item_id}: verification.output_visible must be true")
 
     return errors

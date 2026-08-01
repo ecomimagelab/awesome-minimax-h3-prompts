@@ -12,7 +12,7 @@
   },
   "parameters": {"duration": "not stated", "resolution": "2K", "ratio": "not stated"},
   "tags": ["first-person", "architecture", "frutiger-aero", "community-tested"],
+  "media": [{"type": "video", "path": "media/reddit-neggy5-minimax-h3-tests.mp4", "source_url": "https://www.reddit.com/r/StableDiffusion/comments/1vc8o4u/used_my_last_hour_of_my_veniceai_sub_to_test/", "rights_status": "third-party-attributed"}],
   "source": {"type": "community-tested", "author": "Neggy5", "url": "https://www.reddit.com/r/StableDiffusion/comments/1vc8o4u/used_my_last_hour_of_my_veniceai_sub_to_test/", "published_at": "2026-08-01", "retrieved_at": "2026-08-01"},
   "verification": {"prompt_visible": true, "h3_confirmed": true, "output_visible": true, "notes": "The author states the shown clips were generated with MiniMax H3."}
 }
-

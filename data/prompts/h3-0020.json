@@ -11,7 +11,7 @@
   },
   "parameters": {"duration": "5–15s", "resolution": "2K", "ratio": "not stated"},
   "tags": ["macro", "seamless-transition", "material-match", "multi-image", "community-tested"],
-  "media": [{"type": "video", "path": "media/fal-macro-coffee-desert-transition.mp4", "playback_url": "https://v3b.fal.media/files/b/0aa44040/q4z3z9AbtFRvj4I4VAMtl_out28_3-2-1.mp4", "source_url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide", "rights_status": "third-party-attributed"}],
+  "media": [{"type": "video", "path": "media/fal-macro-coffee-desert-transition.mp4", "source_url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide", "rights_status": "third-party-attributed"}],
   "source": {"type": "community-tested", "author": "Bennett Heyn / fal", "url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide", "source_location": "page", "published_at": "2026-07-30", "retrieved_at": "2026-08-01"},
   "verification": {"prompt_visible": true, "h3_confirmed": true, "output_visible": true, "notes": "Published by fal as a MiniMax H3 reference-to-video example with two reference images and the result visible."}
 }

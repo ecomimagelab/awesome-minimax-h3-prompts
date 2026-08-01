@@ -12,7 +12,7 @@
   },
   "parameters": {"duration": "5s", "resolution": "2K", "ratio": "adaptive"},
   "tags": ["fashion", "character-consistency", "cinematic", "official"],
+  "media": [{"type": "video", "path": "media/minimax-official-reference.mp4", "source_url": "https://filecdn.minimax.chat/docs/video-generation-v2/reference.mp4", "rights_status": "third-party-attributed"}],
   "source": {"type": "official", "author": "MiniMax", "url": "https://platform.minimax.io/docs/guides/video-generation", "published_at": "2026-07-31", "retrieved_at": "2026-08-01"},
   "verification": {"prompt_visible": true, "h3_confirmed": true, "output_visible": true, "notes": "Published with a reference image in the official API guide."}
 }
-
