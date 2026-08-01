@@ -21,7 +21,7 @@ MiniMax H3 is a multimodal video generation model that accepts text, images, vid
 - Community prompting guide: [fal.ai H3 guide — bilingual notes](docs/FAL_PROMPTING_GUIDE.md)
 
 > [!IMPORTANT]
-> **Copyright and verification notice：** No video, no entry: every prompt must have a downloadable public result video mirrored under `media/`; external playback links alone are not accepted. Public availability does not remove an author's rights. Every entry preserves attribution, the original URL, and retrieval metadata. Mirrored third-party material is excluded from this repository's CC BY 4.0 license and can be removed through the rights-holder request form.
+> **Copyright and verification notice：** No video, no entry: every prompt must have a downloadable public result video mirrored under `media/`; external playback links alone are not accepted. If the source publishes only a video, the prompt may be reconstructed, but it must be labeled as an editorial approximation rather than the creator's original prompt. Public availability does not remove an author's rights. Every entry preserves attribution, the original URL, and retrieval metadata. Mirrored third-party material is excluded from this repository's CC BY 4.0 license and can be removed through the rights-holder request form.
 
 ## Library statistics
 

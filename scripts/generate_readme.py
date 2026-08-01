@@ -12,12 +12,15 @@ LANG_CONFIG = {
         "about": "About MiniMax H3",
         "about_text": "MiniMax H3 is a multimodal video generation model that accepts text, images, video, and audio as context. This repository separates official examples, community-tested prompts, and unverified guide templates so readers can judge the evidence behind every entry.",
         "notice": "Copyright and verification notice",
-        "notice_text": "No video, no entry: every prompt must have a downloadable public result video mirrored under `media/`; external playback links alone are not accepted. Public availability does not remove an author's rights. Every entry preserves attribution, the original URL, and retrieval metadata. Mirrored third-party material is excluded from this repository's CC BY 4.0 license and can be removed through the rights-holder request form.",
+        "notice_text": "No video, no entry: every prompt must have a downloadable public result video mirrored under `media/`; external playback links alone are not accepted. If the source publishes only a video, the prompt may be reconstructed, but it must be labeled as an editorial approximation rather than the creator's original prompt. Public availability does not remove an author's rights. Every entry preserves attribution, the original URL, and retrieval metadata. Mirrored third-party material is excluded from this repository's CC BY 4.0 license and can be removed through the rights-holder request form.",
         "stats": "Library statistics",
         "browse": "Browse by mode",
         "featured": "Featured prompts",
         "all": "All prompts",
         "prompt": "Prompt",
+        "reconstructed_prompt": "Reconstructed prompt (not published by the source)",
+        "reconstruction_notice": "This prompt was reconstructed from the public video. It is an editorial approximation, not the creator's original prompt.",
+        "reconstruction_notes": "Reconstruction notes",
         "translation": "Chinese translation",
         "description": "Description",
         "details": "Details",
@@ -49,12 +52,15 @@ LANG_CONFIG = {
         "about": "关于 MiniMax H3",
         "about_text": "MiniMax H3 是可将文本、图片、视频和音频作为统一上下文的视频生成模型。本仓库严格区分官方示例、社区实测 Prompt 和尚未展示 H3 结果的公开教程模板，方便读者判断每条内容的证据强度。",
         "notice": "版权与核验说明",
-        "notice_text": "没有视频就不收录：每条 Prompt 都必须有可公开下载的结果视频，并镜像保存到 `media/`；不能只保留外部播放链接。内容公开可见不代表作者放弃权利。每条内容均保留作者署名、原始链接和抓取信息。镜像的第三方内容不适用本仓库的 CC BY 4.0，权利人可通过删除申请表要求下架。",
+        "notice_text": "没有视频就不收录：每条 Prompt 都必须有可公开下载的结果视频，并镜像保存到 `media/`；不能只保留外部播放链接。如果来源只发布视频，可以根据视频反推 Prompt，但必须明确标记为编辑重构，不能冒充创作者原始 Prompt。内容公开可见不代表作者放弃权利。每条内容均保留作者署名、原始链接和抓取信息。镜像的第三方内容不适用本仓库的 CC BY 4.0，权利人可通过删除申请表要求下架。",
         "stats": "收录统计",
         "browse": "按生成模式浏览",
         "featured": "精选提示词",
         "all": "全部提示词",
         "prompt": "原始 Prompt",
+        "reconstructed_prompt": "视频反推 Prompt（非来源原文）",
+        "reconstruction_notice": "这段 Prompt 根据公开视频重构，仅为编辑推测，并非创作者发布的原始 Prompt。",
+        "reconstruction_notes": "反推说明",
         "translation": "中文翻译",
         "description": "内容说明",
         "details": "详细信息",
@@ -109,6 +115,7 @@ def render_card(
     prompt = item["prompt"]
     source = item["source"]
     verification = item["verification"]
+    reconstructed = prompt.get("reconstructed_from_video") is True
     mode = categories["modes"][item["mode"]][lang]
     source_type = categories["source_types"][source["type"]][lang]
     params = " · ".join(f"`{key}: {value}`" for key, value in item["parameters"].items())
@@ -125,8 +132,9 @@ def render_card(
         "",
         description,
         "",
-        f"#### {text['prompt']}",
+        f"#### {text['reconstructed_prompt'] if reconstructed else text['prompt']}",
         "",
+        *([f"> [!NOTE]\n> {text['reconstruction_notice']}", ""] if reconstructed else []),
         "```text",
         prompt["original"],
         "```",
@@ -152,6 +160,7 @@ def render_card(
             *([f"- **{text['source_location']}：** `{source['source_location']}`"] if source.get("source_location") else []),
             f"- **{text['published']}：** {source['published_at']}",
             f"- **{text['retrieved']}：** {source['retrieved_at']}",
+            *([f"- **{text['reconstruction_notes']}：** {prompt['reconstruction_notes'][lang]}"] if reconstructed else []),
             f"- **{text['verification']}：** {text['prompt_visible']} {bool_text(verification['prompt_visible'], text)} · {text['h3_confirmed']} {bool_text(verification['h3_confirmed'], text)} · {text['output_visible']} {bool_text(verification['output_visible'], text)}",
             f"- **Note：** {verification['notes']}",
             "",

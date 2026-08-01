@@ -60,6 +60,12 @@ def validate_prompt(item: dict[str, Any], allowed_modes: set[str]) -> list[str]:
     if isinstance(prompt, dict) and prompt.get("original_language") != "en" and not prompt.get("en"):
         errors.append(f"{item_id}: prompt.en is required when the original language is not English")
 
+    reconstructed = isinstance(prompt, dict) and prompt.get("reconstructed_from_video") is True
+    reconstruction_notes = prompt.get("reconstruction_notes", {}) if isinstance(prompt, dict) else {}
+    if reconstructed:
+        if not isinstance(reconstruction_notes, dict) or not reconstruction_notes.get("en") or not reconstruction_notes.get("zh"):
+            errors.append(f"{item_id}: reconstructed prompts require prompt.reconstruction_notes.en and .zh")
+
     source = item.get("source", {})
     source_url = source.get("url", "") if isinstance(source, dict) else ""
     if not source_url.startswith(("https://", "http://")):
@@ -79,6 +85,12 @@ def validate_prompt(item: dict[str, Any], allowed_modes: set[str]) -> list[str]:
     for field in ("prompt_visible", "h3_confirmed", "output_visible", "notes"):
         if not isinstance(verification, dict) or field not in verification:
             errors.append(f"{item_id}: verification.{field} is required")
+
+    if isinstance(verification, dict):
+        if verification.get("prompt_visible") is False and not reconstructed:
+            errors.append(f"{item_id}: a missing source prompt must be explicitly reconstructed from video")
+        if verification.get("prompt_visible") is True and reconstructed:
+            errors.append(f"{item_id}: a reconstructed prompt cannot be marked as visible at the source")
 
     if not isinstance(item.get("tags"), list) or not item.get("tags"):
         errors.append(f"{item_id}: tags must be a non-empty list")
