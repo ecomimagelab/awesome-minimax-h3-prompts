@@ -1,0 +1,50 @@
+{
+  "id": "h3-0025",
+  "title": {
+    "en": "Neon Laundromat Encounter",
+    "zh": "霓虹洗衣店邂逅"
+  },
+  "description": {
+    "en": "A published MiniMax H3 example demonstrating neon laundromat encounter, with its exact source prompt and result video.",
+    "zh": "公开的 MiniMax H3“霓虹洗衣店邂逅”案例，包含原始提示词与对应成片。"
+  },
+  "mode": "text-to-video",
+  "featured": false,
+  "prompt": {
+    "original_language": "en",
+    "original": "15 seconds, 16:9 landscape. Combine a live-action late-night laundromat with hand-drawn luminous animation. The small self-service laundromat has gently flickering fluorescent lights, running washers, plastic baskets, a worn bench, and one sock on the floor. Keep the space quiet and faintly nostalgic.\n\nUse a one-handed phone-camera feel with visible shake, exposure fluctuation under white fluorescent light, environmental reflections in glass, and delayed autofocus at close range. Avoid polished commercial composition; it should feel like an authentic late-night encounter, filmed while following a strange apparition.",
+    "zh": "15 秒，16:9 横屏。将深夜自助洗衣店的真人实拍与手绘发光动画结合。小型自助洗衣店内，荧光灯轻微闪烁，洗衣机正在运转，散落着塑料筐、旧长凳，地上还有一只袜子。空间保持安静，略带怀旧感。\n\n采用单手持手机拍摄的感觉，保留明显抖动、白色荧光灯下的曝光波动、玻璃上的环境反射，以及近距离拍摄时稍显迟缓的自动对焦。避免精致的商业构图；画面应像在跟随一个奇异幻影时偶然拍到的真实深夜邂逅。"
+  },
+  "parameters": {
+    "duration": "5–15s",
+    "resolution": "2K",
+    "ratio": "not stated"
+  },
+  "tags": [
+    "text-to-video",
+    "fal-guide",
+    "community-tested"
+  ],
+  "media": [
+    {
+      "type": "video",
+      "path": "media/fal-neon-laundromat-encounter.mp4",
+      "source_url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+      "rights_status": "third-party-attributed"
+    }
+  ],
+  "source": {
+    "type": "community-tested",
+    "author": "Bennett Heyn / fal",
+    "url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+    "source_location": "page",
+    "published_at": "2026-07-30",
+    "retrieved_at": "2026-08-01"
+  },
+  "verification": {
+    "prompt_visible": true,
+    "h3_confirmed": true,
+    "output_visible": true,
+    "notes": "Published by fal as a MiniMax H3 example with the exact prompt and result video visible."
+  }
+}

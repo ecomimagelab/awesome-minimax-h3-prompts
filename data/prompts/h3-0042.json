@@ -1,0 +1,50 @@
+{
+  "id": "h3-0042",
+  "title": {
+    "en": "Character Swap with Performance Reference",
+    "zh": "角色替换与表演参考"
+  },
+  "description": {
+    "en": "A published MiniMax H3 example demonstrating character swap with performance reference, with its exact source prompt and result video.",
+    "zh": "公开的 MiniMax H3“角色替换与表演参考”案例，包含原始提示词与对应成片。"
+  },
+  "mode": "reference-generation",
+  "featured": false,
+  "prompt": {
+    "original_language": "en",
+    "original": "Match the character motion, expressions, and performance timing in Image 1 closely to Input Video 1.\n\nAt the sink on the right side of frame, the man hands a washed plate to the woman on the left. He turns, then suddenly flicks dish-soap foam at her with his right hand. Startled, she immediately retaliates. They laugh, dodge, and playfully throw foam back and forth.",
+    "zh": "让图片 1 中角色的动作、表情和表演节奏紧密匹配输入视频 1。\n\n画面右侧水槽旁，男子把洗好的盘子递给左侧女子。他转身后突然用右手把洗洁精泡沫弹向她。她被吓到后立即反击。两人一边大笑、一边躲闪，玩闹着互相抛洒泡沫。"
+  },
+  "parameters": {
+    "duration": "5–15s",
+    "resolution": "2K",
+    "ratio": "not stated"
+  },
+  "tags": [
+    "reference-generation",
+    "fal-guide",
+    "community-tested"
+  ],
+  "media": [
+    {
+      "type": "video",
+      "path": "media/fal-character-swap-with-performance-reference.mp4",
+      "source_url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+      "rights_status": "third-party-attributed"
+    }
+  ],
+  "source": {
+    "type": "community-tested",
+    "author": "Bennett Heyn / fal",
+    "url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+    "source_location": "page",
+    "published_at": "2026-07-30",
+    "retrieved_at": "2026-08-01"
+  },
+  "verification": {
+    "prompt_visible": true,
+    "h3_confirmed": true,
+    "output_visible": true,
+    "notes": "Published by fal as a MiniMax H3 example with the exact prompt and result video visible."
+  }
+}

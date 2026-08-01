@@ -1,0 +1,50 @@
+{
+  "id": "h3-0041",
+  "title": {
+    "en": "Live-Action Voxel Transformation",
+    "zh": "真人场景体素化变换"
+  },
+  "description": {
+    "en": "A published MiniMax H3 example demonstrating live-action voxel transformation, with its exact source prompt and result video.",
+    "zh": "公开的 MiniMax H3“真人场景体素化变换”案例，包含原始提示词与对应成片。"
+  },
+  "mode": "reference-generation",
+  "featured": false,
+  "prompt": {
+    "original_language": "en",
+    "original": "Preserve the buildings, pedestrians, and overall environment in Video 1 as photoreal live action. Transform only the trees and cars into 3D pixel-art or voxel-block objects in the style of Minecraft, using Image 1 as the visual reference. Keep their motion physically correct, and preserve the real environment’s shadows and transmitted light. Use Video 2 as the overall target.",
+    "zh": "保留视频 1 中的建筑、行人和整体环境为照片级真人实拍。仅将树木和汽车转换为《我的世界》风格的 3D 像素艺术或体素方块物体，并使用图片 1 作为视觉参考。保持它们的运动符合物理规律，同时保留真实环境中的阴影和透射光。视频 2 作为整体目标参考。"
+  },
+  "parameters": {
+    "duration": "5–15s",
+    "resolution": "2K",
+    "ratio": "not stated"
+  },
+  "tags": [
+    "reference-generation",
+    "fal-guide",
+    "community-tested"
+  ],
+  "media": [
+    {
+      "type": "video",
+      "path": "media/fal-live-action-voxel-transformation.mp4",
+      "source_url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+      "rights_status": "third-party-attributed"
+    }
+  ],
+  "source": {
+    "type": "community-tested",
+    "author": "Bennett Heyn / fal",
+    "url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+    "source_location": "page",
+    "published_at": "2026-07-30",
+    "retrieved_at": "2026-08-01"
+  },
+  "verification": {
+    "prompt_visible": true,
+    "h3_confirmed": true,
+    "output_visible": true,
+    "notes": "Published by fal as a MiniMax H3 example with the exact prompt and result video visible."
+  }
+}

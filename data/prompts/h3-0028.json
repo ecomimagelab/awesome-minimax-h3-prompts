@@ -1,0 +1,50 @@
+{
+  "id": "h3-0028",
+  "title": {
+    "en": "Animated Gallery Poster",
+    "zh": "动态画廊海报"
+  },
+  "description": {
+    "en": "A published MiniMax H3 example demonstrating animated gallery poster, with its exact source prompt and result video.",
+    "zh": "公开的 MiniMax H3“动态画廊海报”案例，包含原始提示词与对应成片。"
+  },
+  "mode": "first-last-frame",
+  "featured": false,
+  "prompt": {
+    "original_language": "en",
+    "original": "Animate the source artwork as a motion poster while preserving its white gallery border, inner frame, red/white/black palette, 3D collectible-figure look, and original layout. Add a light, playful type-on sound whenever text appears.",
+    "zh": "将源艺术作品制作成动态海报，同时保留白色画廊边框、内框、红白黑配色、3D 收藏级人偶质感和原始版式。每当文字出现时，加入轻快俏皮的打字音效。"
+  },
+  "parameters": {
+    "duration": "5–15s",
+    "resolution": "2K",
+    "ratio": "not stated"
+  },
+  "tags": [
+    "first-last-frame",
+    "fal-guide",
+    "community-tested"
+  ],
+  "media": [
+    {
+      "type": "video",
+      "path": "media/fal-animated-gallery-poster.mp4",
+      "source_url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+      "rights_status": "third-party-attributed"
+    }
+  ],
+  "source": {
+    "type": "community-tested",
+    "author": "Bennett Heyn / fal",
+    "url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+    "source_location": "page",
+    "published_at": "2026-07-30",
+    "retrieved_at": "2026-08-01"
+  },
+  "verification": {
+    "prompt_visible": true,
+    "h3_confirmed": true,
+    "output_visible": true,
+    "notes": "Published by fal as a MiniMax H3 example with the exact prompt and result video visible."
+  }
+}

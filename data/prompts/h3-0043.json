@@ -1,0 +1,50 @@
+{
+  "id": "h3-0043",
+  "title": {
+    "en": "Street Dance Motion Transfer",
+    "zh": "街舞动作迁移"
+  },
+  "description": {
+    "en": "A published MiniMax H3 example demonstrating street dance motion transfer, with its exact source prompt and result video.",
+    "zh": "公开的 MiniMax H3“街舞动作迁移”案例，包含原始提示词与对应成片。"
+  },
+  "mode": "reference-generation",
+  "featured": false,
+  "prompt": {
+    "original_language": "en",
+    "original": "Use Video 1 as the motion reference for a street-dance performance. Use Images 1 and 2 as the character references.",
+    "zh": "使用视频 1 作为街舞表演的动作参考。使用图片 1 和图片 2 作为角色参考。"
+  },
+  "parameters": {
+    "duration": "5–15s",
+    "resolution": "2K",
+    "ratio": "not stated"
+  },
+  "tags": [
+    "reference-generation",
+    "fal-guide",
+    "community-tested"
+  ],
+  "media": [
+    {
+      "type": "video",
+      "path": "media/fal-street-dance-motion-transfer.mp4",
+      "source_url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+      "rights_status": "third-party-attributed"
+    }
+  ],
+  "source": {
+    "type": "community-tested",
+    "author": "Bennett Heyn / fal",
+    "url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+    "source_location": "page",
+    "published_at": "2026-07-30",
+    "retrieved_at": "2026-08-01"
+  },
+  "verification": {
+    "prompt_visible": true,
+    "h3_confirmed": true,
+    "output_visible": true,
+    "notes": "Published by fal as a MiniMax H3 example with the exact prompt and result video visible."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "h3-0044",
+  "title": {
+    "en": "Capybara Motion Recreation",
+    "zh": "水豚动作复现"
+  },
+  "description": {
+    "en": "A published MiniMax H3 example demonstrating capybara motion recreation, with its exact source prompt and result video.",
+    "zh": "公开的 MiniMax H3“水豚动作复现”案例，包含原始提示词与对应成片。"
+  },
+  "mode": "reference-generation",
+  "featured": false,
+  "prompt": {
+    "original_language": "en",
+    "original": "Motion reference for a DIY reaction clip\n\nMatch the action in Video 1 from a locked-off wide camera. Replace the three suited men with three highly photoreal capybaras. Preserve the original movement path exactly: all three drop quickly to the floor; the left capybara jumps to center; the center capybara rolls to the far left; the new center capybara rolls to the far right; the right capybara jumps to center; finally, the center capybara jumps onto the other two, forming a pyramid. Keep the camera fixed and integrate fur, lighting, and shadows realistically into the scene.",
+    "zh": "DIY 反应短片的动作参考\n\n使用固定广角机位匹配视频 1 中的动作。将三名穿西装的男子替换为三只高度照片级真实的水豚。精确保留原始运动路径：三只水豚同时快速趴到地面；左侧水豚跳到中央；中央水豚滚到最左侧；新的中央水豚滚到最右侧；右侧水豚跳到中央；最后中央水豚跳到另外两只上方，叠成金字塔。保持摄影机固定，并让毛发、光照和阴影真实融入场景。"
+  },
+  "parameters": {
+    "duration": "5–15s",
+    "resolution": "2K",
+    "ratio": "not stated"
+  },
+  "tags": [
+    "reference-generation",
+    "fal-guide",
+    "community-tested"
+  ],
+  "media": [
+    {
+      "type": "video",
+      "path": "media/fal-capybara-motion-recreation.mp4",
+      "source_url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+      "rights_status": "third-party-attributed"
+    }
+  ],
+  "source": {
+    "type": "community-tested",
+    "author": "Bennett Heyn / fal",
+    "url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+    "source_location": "page",
+    "published_at": "2026-07-30",
+    "retrieved_at": "2026-08-01"
+  },
+  "verification": {
+    "prompt_visible": true,
+    "h3_confirmed": true,
+    "output_visible": true,
+    "notes": "Published by fal as a MiniMax H3 example with the exact prompt and result video visible."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "h3-0023",
+  "title": {
+    "en": "Desert Fashion Campaign",
+    "zh": "沙漠时尚广告片"
+  },
+  "description": {
+    "en": "A published MiniMax H3 example demonstrating desert fashion campaign, with its exact source prompt and result video.",
+    "zh": "公开的 MiniMax H3“沙漠时尚广告片”案例，包含原始提示词与对应成片。"
+  },
+  "mode": "reference-generation",
+  "featured": false,
+  "prompt": {
+    "original_language": "en",
+    "original": "Create a premium 16:9 landscape fashion film. Use Image 1 for the overall mood, location, and film texture; Image 2 for the talent; Image 3 for the bag; and Image 4 for the closing brand mark. This is a fashion campaign for the clothing and bag. The tone is elevated, cool, and restrained, but the edit should still feel lively and fashion-forward—not like a conventional narrative film or an e-commerce ad.\n\nKeep the story simple: beside a vintage car on a desert highway, a woman walks to the rear of the car, opens the trunk, takes out a black bag, shares a quiet beat with the man standing nearby, then leaves carrying the bag. Integrate the clothing and bag naturally into the performance so they feel like part of the characters’ identity.",
+    "zh": "制作一支高级的 16:9 横屏时尚短片。图片 1 用于整体情绪、地点和胶片质感；图片 2 用于人物；图片 3 用于包袋；图片 4 用于片尾品牌标识。这是一支服装与包袋的时尚广告。基调高级、冷静、克制，但剪辑仍应活跃且具时尚前瞻性——不要拍成传统叙事电影或电商广告。\n\n故事保持简单：在沙漠公路的一辆老爷车旁，一位女子走到车尾，打开后备厢，取出一个黑色包袋，与站在旁边的男子安静对视片刻，随后提包离开。让服装和包袋自然融入表演，使其成为角色身份的一部分。"
+  },
+  "parameters": {
+    "duration": "5–15s",
+    "resolution": "2K",
+    "ratio": "not stated"
+  },
+  "tags": [
+    "reference-generation",
+    "fal-guide",
+    "community-tested"
+  ],
+  "media": [
+    {
+      "type": "video",
+      "path": "media/fal-desert-fashion-campaign.mp4",
+      "source_url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+      "rights_status": "third-party-attributed"
+    }
+  ],
+  "source": {
+    "type": "community-tested",
+    "author": "Bennett Heyn / fal",
+    "url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+    "source_location": "page",
+    "published_at": "2026-07-30",
+    "retrieved_at": "2026-08-01"
+  },
+  "verification": {
+    "prompt_visible": true,
+    "h3_confirmed": true,
+    "output_visible": true,
+    "notes": "Published by fal as a MiniMax H3 example with the exact prompt and result video visible."
+  }
+}

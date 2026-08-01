@@ -1,0 +1,50 @@
+{
+  "id": "h3-0034",
+  "title": {
+    "en": "Rotating Product Page Reveal",
+    "zh": "旋转产品页面揭幕"
+  },
+  "description": {
+    "en": "A published MiniMax H3 example demonstrating rotating product page reveal, with its exact source prompt and result video.",
+    "zh": "公开的 MiniMax H3“旋转产品页面揭幕”案例，包含原始提示词与对应成片。"
+  },
+  "mode": "first-last-frame",
+  "featured": false,
+  "prompt": {
+    "original_language": "en",
+    "original": "Reveal the layout from top to bottom. Upper and center typography slides down; lower typography slides up. Once the central product appears, let it rotate subtly.",
+    "zh": "从上到下揭示页面布局。上方和中部文字向下滑入，下方文字向上滑入。中央产品出现后，让它轻微旋转。"
+  },
+  "parameters": {
+    "duration": "5–15s",
+    "resolution": "2K",
+    "ratio": "not stated"
+  },
+  "tags": [
+    "first-last-frame",
+    "fal-guide",
+    "community-tested"
+  ],
+  "media": [
+    {
+      "type": "video",
+      "path": "media/fal-rotating-product-page-reveal.mp4",
+      "source_url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+      "rights_status": "third-party-attributed"
+    }
+  ],
+  "source": {
+    "type": "community-tested",
+    "author": "Bennett Heyn / fal",
+    "url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+    "source_location": "page",
+    "published_at": "2026-07-30",
+    "retrieved_at": "2026-08-01"
+  },
+  "verification": {
+    "prompt_visible": true,
+    "h3_confirmed": true,
+    "output_visible": true,
+    "notes": "Published by fal as a MiniMax H3 example with the exact prompt and result video visible."
+  }
+}

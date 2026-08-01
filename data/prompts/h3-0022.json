@@ -1,0 +1,50 @@
+{
+  "id": "h3-0022",
+  "title": {
+    "en": "Epic Space Opera Teaser",
+    "zh": "史诗太空歌剧预告片"
+  },
+  "description": {
+    "en": "A published MiniMax H3 example demonstrating epic space opera teaser, with its exact source prompt and result video.",
+    "zh": "公开的 MiniMax H3“史诗太空歌剧预告片”案例，包含原始提示词与对应成片。"
+  },
+  "mode": "first-last-frame",
+  "featured": false,
+  "prompt": {
+    "original_language": "en",
+    "original": "Epic theatrical space-opera teaser\n\nKeep the pace fast and the scale enormous without letting the edit drag. Use sharp hard cuts, a shaking command deck, white-hot flashes, split-second black frames, and a violent jump-to-warp impact. Title cards should use wide-tracked cinematic typography—not pure white—with restrained material texture, subtle illumination, and a faint edge glow. Animate the titles by emerging from deep-space shadow, catching a sweep of starlight, opening their letter spacing, leaving a slight afterimage, and flashing briefly against black.",
+    "zh": "史诗级院线太空歌剧预告片\n\n保持快速节奏和宏大尺度，不要让剪辑拖沓。使用凌厉的硬切、剧烈震动的指挥舱、炽白闪光、转瞬即逝的黑场，以及猛烈跃迁至曲速的冲击。标题卡使用宽字距的电影字体——不要用纯白色——配合克制的材质纹理、轻微照明和淡淡的边缘辉光。标题动画从深空阴影中浮现，掠过一束星光，逐渐拉开字距，留下轻微残影，并在黑场上短暂闪现。"
+  },
+  "parameters": {
+    "duration": "5–15s",
+    "resolution": "2K",
+    "ratio": "not stated"
+  },
+  "tags": [
+    "first-last-frame",
+    "fal-guide",
+    "community-tested"
+  ],
+  "media": [
+    {
+      "type": "video",
+      "path": "media/fal-epic-space-opera-teaser.mp4",
+      "source_url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+      "rights_status": "third-party-attributed"
+    }
+  ],
+  "source": {
+    "type": "community-tested",
+    "author": "Bennett Heyn / fal",
+    "url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+    "source_location": "page",
+    "published_at": "2026-07-30",
+    "retrieved_at": "2026-08-01"
+  },
+  "verification": {
+    "prompt_visible": true,
+    "h3_confirmed": true,
+    "output_visible": true,
+    "notes": "Published by fal as a MiniMax H3 example with the exact prompt and result video visible."
+  }
+}

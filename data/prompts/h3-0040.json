@@ -1,0 +1,50 @@
+{
+  "id": "h3-0040",
+  "title": {
+    "en": "Multi-Asset Cinematic Remix",
+    "zh": "多素材电影感重混"
+  },
+  "description": {
+    "en": "A published MiniMax H3 example demonstrating multi-asset cinematic remix, with its exact source prompt and result video.",
+    "zh": "公开的 MiniMax H3“多素材电影感重混”案例，包含原始提示词与对应成片。"
+  },
+  "mode": "reference-generation",
+  "featured": false,
+  "prompt": {
+    "original_language": "en",
+    "original": "Use Images 1–6 as assets. Match Reference Video 1 closely for shot rhythm, transition language, and music.",
+    "zh": "使用图片 1–6 作为素材。紧密匹配参考视频 1 的镜头节奏、转场语言和音乐。"
+  },
+  "parameters": {
+    "duration": "5–15s",
+    "resolution": "2K",
+    "ratio": "not stated"
+  },
+  "tags": [
+    "reference-generation",
+    "fal-guide",
+    "community-tested"
+  ],
+  "media": [
+    {
+      "type": "video",
+      "path": "media/fal-multi-asset-cinematic-remix.mp4",
+      "source_url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+      "rights_status": "third-party-attributed"
+    }
+  ],
+  "source": {
+    "type": "community-tested",
+    "author": "Bennett Heyn / fal",
+    "url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+    "source_location": "page",
+    "published_at": "2026-07-30",
+    "retrieved_at": "2026-08-01"
+  },
+  "verification": {
+    "prompt_visible": true,
+    "h3_confirmed": true,
+    "output_visible": true,
+    "notes": "Published by fal as a MiniMax H3 example with the exact prompt and result video visible."
+  }
+}

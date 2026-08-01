@@ -1,0 +1,50 @@
+{
+  "id": "h3-0030",
+  "title": {
+    "en": "Futuristic Eyewear Campaign",
+    "zh": "未来感眼镜广告"
+  },
+  "description": {
+    "en": "A published MiniMax H3 example demonstrating futuristic eyewear campaign, with its exact source prompt and result video.",
+    "zh": "公开的 MiniMax H3“未来感眼镜广告”案例，包含原始提示词与对应成片。"
+  },
+  "mode": "reference-generation",
+  "featured": false,
+  "prompt": {
+    "original_language": "en",
+    "original": "Create a premium 9:16 fashion-eyewear commercial. Match the reference video’s shot rhythm, edit speed, white-cyclorama look, and severe fashion attitude. Use a seamless minimal white studio with clean, bold, avant-garde art direction worthy of a global luxury campaign.\n\nUse Image 1 for the key visual: two full-body female models, one Black and one white, preserving their elevated wardrobe, body language, studio lighting, runway presence, and cool attitude. Use Image 2 for facial details. Both models wear futuristic luxury eyewear based on Image 3: wraparound curved lenses, a sharp cat-eye/goggle hybrid silhouette, mirrored reflections, streamlined temples, and the finish of a premium fashion accessory.",
+    "zh": "制作一支高级 9:16 时尚眼镜广告。匹配参考视频的镜头节奏、剪辑速度、白色无缝背景效果和凌厉时尚态度。使用极简无缝白棚，并配以干净、大胆、前卫、足以匹配全球奢侈品牌广告的艺术指导。\n\n图片 1 作为主视觉：两位全身女性模特，一位黑人、一位白人，保留她们的高级服装、肢体语言、影棚灯光、T 台气场和冷峻态度。图片 2 用于面部细节。两位模特都佩戴基于图片 3 的未来奢华眼镜：环绕式弧形镜片、锐利的猫眼与护目镜混合轮廓、镜面反射、流线型镜腿，以及高级时尚配饰的精致表面。"
+  },
+  "parameters": {
+    "duration": "5–15s",
+    "resolution": "2K",
+    "ratio": "not stated"
+  },
+  "tags": [
+    "reference-generation",
+    "fal-guide",
+    "community-tested"
+  ],
+  "media": [
+    {
+      "type": "video",
+      "path": "media/fal-futuristic-eyewear-campaign.mp4",
+      "source_url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+      "rights_status": "third-party-attributed"
+    }
+  ],
+  "source": {
+    "type": "community-tested",
+    "author": "Bennett Heyn / fal",
+    "url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+    "source_location": "page",
+    "published_at": "2026-07-30",
+    "retrieved_at": "2026-08-01"
+  },
+  "verification": {
+    "prompt_visible": true,
+    "h3_confirmed": true,
+    "output_visible": true,
+    "notes": "Published by fal as a MiniMax H3 example with the exact prompt and result video visible."
+  }
+}

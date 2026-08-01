@@ -1,0 +1,50 @@
+{
+  "id": "h3-0055",
+  "title": {
+    "en": "Hand-Drawn Romance VFX",
+    "zh": "手绘浪漫特效"
+  },
+  "description": {
+    "en": "A published MiniMax H3 example demonstrating hand-drawn romance vfx, with its exact source prompt and result video.",
+    "zh": "公开的 MiniMax H3“手绘浪漫特效”案例，包含原始提示词与对应成片。"
+  },
+  "mode": "reference-generation",
+  "featured": false,
+  "prompt": {
+    "original_language": "en",
+    "original": "Creative interpretation + animated graphic effects\n\nAdd orange-yellow hand-drawn marks like Image 1 around the two people in Video 1. As they move closer, the marks multiply and build from tiny sparks into bright radiance. When they kiss, introduce pink brushstrokes.",
+    "zh": "创意诠释＋动态手绘特效\n\n在视频 1 中两人周围加入类似图片 1 的橙黄色手绘标记。随着两人靠近，标记不断增多，从微小火花逐渐积累为明亮光芒。两人接吻时，加入粉色笔触。"
+  },
+  "parameters": {
+    "duration": "5–15s",
+    "resolution": "2K",
+    "ratio": "not stated"
+  },
+  "tags": [
+    "reference-generation",
+    "fal-guide",
+    "community-tested"
+  ],
+  "media": [
+    {
+      "type": "video",
+      "path": "media/fal-hand-drawn-romance-vfx.mp4",
+      "source_url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+      "rights_status": "third-party-attributed"
+    }
+  ],
+  "source": {
+    "type": "community-tested",
+    "author": "Bennett Heyn / fal",
+    "url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+    "source_location": "page",
+    "published_at": "2026-07-30",
+    "retrieved_at": "2026-08-01"
+  },
+  "verification": {
+    "prompt_visible": true,
+    "h3_confirmed": true,
+    "output_visible": true,
+    "notes": "Published by fal as a MiniMax H3 example with the exact prompt and result video visible."
+  }
+}

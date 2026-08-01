@@ -1,0 +1,50 @@
+{
+  "id": "h3-0035",
+  "title": {
+    "en": "Claymation Lava Canyon Leap",
+    "zh": "黏土动画熔岩峡谷飞跃"
+  },
+  "description": {
+    "en": "A published MiniMax H3 example demonstrating claymation lava canyon leap, with its exact source prompt and result video.",
+    "zh": "公开的 MiniMax H3“黏土动画熔岩峡谷飞跃”案例，包含原始提示词与对应成片。"
+  },
+  "mode": "first-last-frame",
+  "featured": false,
+  "prompt": {
+    "original_language": "en",
+    "original": "Claymation. A fox sprints to the edge of a cliff and launches without hesitation, making a dramatic heroic leap in slow motion over an immense lava canyon. Midair, the camera races beneath the fox’s belly in a bold dynamic move, revealing the terrifying depth of the chasm and the fully extended motion of its clay body.",
+    "zh": "黏土动画。一只狐狸冲向悬崖边缘，毫不犹豫地起跳，以戏剧化的英雄式慢动作飞越巨大的熔岩峡谷。腾空时，摄影机以大胆的动态运动从狐狸腹部下方高速掠过，展现深不见底的峡谷和黏土身体完全舒展的动作。"
+  },
+  "parameters": {
+    "duration": "5–15s",
+    "resolution": "2K",
+    "ratio": "not stated"
+  },
+  "tags": [
+    "first-last-frame",
+    "fal-guide",
+    "community-tested"
+  ],
+  "media": [
+    {
+      "type": "video",
+      "path": "media/fal-claymation-lava-canyon-leap.mp4",
+      "source_url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+      "rights_status": "third-party-attributed"
+    }
+  ],
+  "source": {
+    "type": "community-tested",
+    "author": "Bennett Heyn / fal",
+    "url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+    "source_location": "page",
+    "published_at": "2026-07-30",
+    "retrieved_at": "2026-08-01"
+  },
+  "verification": {
+    "prompt_visible": true,
+    "h3_confirmed": true,
+    "output_visible": true,
+    "notes": "Published by fal as a MiniMax H3 example with the exact prompt and result video visible."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "h3-0031",
+  "title": {
+    "en": "Ergonomic Chair Product Film",
+    "zh": "人体工学椅产品短片"
+  },
+  "description": {
+    "en": "A published MiniMax H3 example demonstrating ergonomic chair product film, with its exact source prompt and result video.",
+    "zh": "公开的 MiniMax H3“人体工学椅产品短片”案例，包含原始提示词与对应成片。"
+  },
+  "mode": "reference-generation",
+  "featured": false,
+  "prompt": {
+    "original_language": "en",
+    "original": "Product Feature Visualization\n\nPresent a black Herman Miller ergonomic chair in a premium office with a full 360-degree product reveal. Cut to macro views of the breathable mesh back with airflow visualization, an engineering animation of the lumbar support and ergonomic curve, and demonstrations of multidirectional armrest and seat-height adjustment. Show designers, developers, and creative professionals working comfortably over long sessions. Include a 3D skeletal-support visualization that communicates all-day comfort, plus refined interior styling. End with the line: “WHERE INSPIRATION MEETS COMFORT.” Keep the direction minimal, cool-toned, professional, futuristic, and slow-paced. Use Image 1 for feature details and Image 2 for the product.",
+    "zh": "产品功能可视化\n\n在高级办公空间中展示一把黑色 Herman Miller 人体工学椅，并完成 360 度产品展示。切至透气网布椅背的微距镜头并可视化气流；展示腰部支撑和人体工学曲线的工程动画；演示多方向扶手和座椅高度调节。呈现设计师、开发者和创意专业人士长时间舒适工作的状态。加入 3D 骨骼支撑可视化，传达全天候舒适性，并搭配精致的室内设计。片尾显示：“WHERE INSPIRATION MEETS COMFORT.” 整体方向极简、冷色、专业、未来感且节奏舒缓。图片 1 用于功能细节，图片 2 用于产品。"
+  },
+  "parameters": {
+    "duration": "5–15s",
+    "resolution": "2K",
+    "ratio": "not stated"
+  },
+  "tags": [
+    "reference-generation",
+    "fal-guide",
+    "community-tested"
+  ],
+  "media": [
+    {
+      "type": "video",
+      "path": "media/fal-ergonomic-chair-product-film.mp4",
+      "source_url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+      "rights_status": "third-party-attributed"
+    }
+  ],
+  "source": {
+    "type": "community-tested",
+    "author": "Bennett Heyn / fal",
+    "url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+    "source_location": "page",
+    "published_at": "2026-07-30",
+    "retrieved_at": "2026-08-01"
+  },
+  "verification": {
+    "prompt_visible": true,
+    "h3_confirmed": true,
+    "output_visible": true,
+    "notes": "Published by fal as a MiniMax H3 example with the exact prompt and result video visible."
+  }
+}

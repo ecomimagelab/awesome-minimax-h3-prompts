@@ -1,0 +1,50 @@
+{
+  "id": "h3-0047",
+  "title": {
+    "en": "Subject & Wardrobe Replacement",
+    "zh": "主体与服装精准替换"
+  },
+  "description": {
+    "en": "A published MiniMax H3 example demonstrating subject & wardrobe replacement, with its exact source prompt and result video.",
+    "zh": "公开的 MiniMax H3“主体与服装精准替换”案例，包含原始提示词与对应成片。"
+  },
+  "mode": "reference-generation",
+  "featured": false,
+  "prompt": {
+    "original_language": "en",
+    "original": "Precise Subject and Wardrobe Replacement\n\nReplace the child at the back of Video 1 with the golden retriever from Image 1. Replace the khaki jacket worn by the child on the far left with the denim jacket from Image 2.",
+    "zh": "精准主体与服装替换\n\n将视频 1 后方的儿童替换为图片 1 中的金毛犬。将最左侧儿童穿的卡其色夹克替换为图片 2 中的牛仔夹克。"
+  },
+  "parameters": {
+    "duration": "5–15s",
+    "resolution": "2K",
+    "ratio": "not stated"
+  },
+  "tags": [
+    "reference-generation",
+    "fal-guide",
+    "community-tested"
+  ],
+  "media": [
+    {
+      "type": "video",
+      "path": "media/fal-subject-wardrobe-replacement.mp4",
+      "source_url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+      "rights_status": "third-party-attributed"
+    }
+  ],
+  "source": {
+    "type": "community-tested",
+    "author": "Bennett Heyn / fal",
+    "url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+    "source_location": "page",
+    "published_at": "2026-07-30",
+    "retrieved_at": "2026-08-01"
+  },
+  "verification": {
+    "prompt_visible": true,
+    "h3_confirmed": true,
+    "output_visible": true,
+    "notes": "Published by fal as a MiniMax H3 example with the exact prompt and result video visible."
+  }
+}

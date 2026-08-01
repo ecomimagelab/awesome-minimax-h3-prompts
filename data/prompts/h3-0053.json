@@ -1,0 +1,50 @@
+{
+  "id": "h3-0053",
+  "title": {
+    "en": "Product, Sign & Dialogue Replacement",
+    "zh": "产品、招牌与对白替换"
+  },
+  "description": {
+    "en": "A published MiniMax H3 example demonstrating product, sign & dialogue replacement, with its exact source prompt and result video.",
+    "zh": "公开的 MiniMax H3“产品、招牌与对白替换”案例，包含原始提示词与对应成片。"
+  },
+  "mode": "reference-generation",
+  "featured": false,
+  "prompt": {
+    "original_language": "en",
+    "original": "In the reference video, replace the canned drink shown at the beginning with Coca-Cola. Change the illuminated “FamilyMart” convenience-store sign in the background to “HUHUI.” At the end, replace every snack in the plastic bag with cans of Coca-Cola, and change the final line from “I bought a few snacks” to “I bought a whole bunch of Coke.”",
+    "zh": "在参考视频中，将开头出现的罐装饮料替换为可口可乐。把背景中发光的“FamilyMart”便利店招牌改为“HUHUI”。结尾时，将塑料袋中的所有零食替换为罐装可口可乐，并把最后一句“我买了几样零食”改为“我买了一大堆可乐”。"
+  },
+  "parameters": {
+    "duration": "5–15s",
+    "resolution": "2K",
+    "ratio": "not stated"
+  },
+  "tags": [
+    "reference-generation",
+    "fal-guide",
+    "community-tested"
+  ],
+  "media": [
+    {
+      "type": "video",
+      "path": "media/fal-product-sign-dialogue-replacement.mp4",
+      "source_url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+      "rights_status": "third-party-attributed"
+    }
+  ],
+  "source": {
+    "type": "community-tested",
+    "author": "Bennett Heyn / fal",
+    "url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+    "source_location": "page",
+    "published_at": "2026-07-30",
+    "retrieved_at": "2026-08-01"
+  },
+  "verification": {
+    "prompt_visible": true,
+    "h3_confirmed": true,
+    "output_visible": true,
+    "notes": "Published by fal as a MiniMax H3 example with the exact prompt and result video visible."
+  }
+}

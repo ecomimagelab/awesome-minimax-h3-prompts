@@ -27,18 +27,18 @@ MiniMax H3 is a multimodal video generation model that accepts text, images, vid
 
 | Metric | Count |
 | --- | ---: |
-| Total prompts | **16** |
+| Total prompts | **50** |
 | Official examples | **4** |
-| Community tested | **12** |
+| Community tested | **46** |
 | Community guide templates | **0** |
 | Last curated | **2026-08-01** |
 
 ## Browse by mode
 
-- [Text to Video (8)](#text-to-video)
+- [Text to Video (9)](#text-to-video)
 - [Image to Video (1)](#image-to-video)
-- [First / Last Frame (1)](#first-last-frame)
-- [Reference Generation (6)](#reference-generation)
+- [First / Last Frame (9)](#first-last-frame)
+- [Reference Generation (31)](#reference-generation)
 
 ## Featured prompts
 
@@ -401,6 +401,77 @@ POSITIVE LOCKS Exactly two officers are in the room and no other figures enter. 
 ---
 
 
+### H3-0027–H3-0048 · 2 prompts in one source video
+
+The source presents these examples in a single compilation video. The video is shown once, followed by the complete prompt blocks below.
+
+#### Video
+
+[▶ Play the original video](media/fal-green-screen-to-fairytale-composite.mp4)
+
+---
+
+<a id="h3-0027"></a>
+
+### H3-0027 · Green-Screen to Fairytale Composite
+
+**Reference Generation** · **Community tested**
+
+#### Description
+
+A published MiniMax H3 example demonstrating green-screen to fairytale composite, with its exact source prompt and result video.
+
+#### Prompt
+
+```text
+Remove the green screen background of Video 1 and turn it into a fairy tale-like background similar to Video 2. The background elements need to completely match the actions of the characters in Video 1. Modify the lighting of the characters in Video 1 so that it completely matches the background.
+```
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0048"></a>
+
+### H3-0048 · Green-Screen Environment Replacement
+
+**Reference Generation** · **Community tested**
+
+#### Description
+
+A published MiniMax H3 example demonstrating green-screen environment replacement, with its exact source prompt and result video.
+
+#### Prompt
+
+```text
+Remove the green-screen background from Video 1 and replace it with a fairy-tale environment similar to Video 2. Make every background element respond correctly to the subject’s movement, and relight the subject so they blend naturally into the new scene.
+```
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+
 
 ## All prompts
 
@@ -479,6 +550,42 @@ Do not show giant eyes, split mouths, fangs, threatening behavior, lunges, sudde
 
 ---
 
+<a id="h3-0025"></a>
+
+### H3-0025 · Neon Laundromat Encounter
+
+**Text to Video** · **Community tested**
+
+#### Description
+
+A published MiniMax H3 example demonstrating neon laundromat encounter, with its exact source prompt and result video.
+
+#### Prompt
+
+```text
+15 seconds, 16:9 landscape. Combine a live-action late-night laundromat with hand-drawn luminous animation. The small self-service laundromat has gently flickering fluorescent lights, running washers, plastic baskets, a worn bench, and one sock on the floor. Keep the space quiet and faintly nostalgic.
+
+Use a one-handed phone-camera feel with visible shake, exposure fluctuation under white fluorescent light, environmental reflections in glass, and delayed autofocus at close range. Avoid polished commercial composition; it should feel like an authentic late-night encounter, filmed while following a strange apparition.
+```
+
+#### Video
+
+[▶ Play the original video](media/fal-neon-laundromat-encounter.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `text-to-video` `fal-guide` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
 ## Image to Video
 
 *Related prompts in the compilation above:* [H3-0014](#h3-0014)
@@ -518,7 +625,289 @@ A little girl grows up.
 
 ---
 
+<a id="h3-0022"></a>
+
+### H3-0022 · Epic Space Opera Teaser
+
+**First / Last Frame** · **Community tested**
+
+#### Description
+
+A published MiniMax H3 example demonstrating epic space opera teaser, with its exact source prompt and result video.
+
+#### Prompt
+
+```text
+Epic theatrical space-opera teaser
+
+Keep the pace fast and the scale enormous without letting the edit drag. Use sharp hard cuts, a shaking command deck, white-hot flashes, split-second black frames, and a violent jump-to-warp impact. Title cards should use wide-tracked cinematic typography—not pure white—with restrained material texture, subtle illumination, and a faint edge glow. Animate the titles by emerging from deep-space shadow, catching a sweep of starlight, opening their letter spacing, leaving a slight afterimage, and flashing briefly against black.
+```
+
+#### Video
+
+[▶ Play the original video](media/fal-epic-space-opera-teaser.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `first-last-frame` `fal-guide` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0028"></a>
+
+### H3-0028 · Animated Gallery Poster
+
+**First / Last Frame** · **Community tested**
+
+#### Description
+
+A published MiniMax H3 example demonstrating animated gallery poster, with its exact source prompt and result video.
+
+#### Prompt
+
+```text
+Animate the source artwork as a motion poster while preserving its white gallery border, inner frame, red/white/black palette, 3D collectible-figure look, and original layout. Add a light, playful type-on sound whenever text appears.
+```
+
+#### Video
+
+[▶ Play the original video](media/fal-animated-gallery-poster.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `first-last-frame` `fal-guide` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0033"></a>
+
+### H3-0033 · Automotive Website UI Animation
+
+**First / Last Frame** · **Community tested**
+
+#### Description
+
+A published MiniMax H3 example demonstrating automotive website ui animation, with its exact source prompt and result video.
+
+#### Prompt
+
+```text
+Animate the website UI: the top headline slides down into place, the copy panel below slides up, and the car’s lights shift from dark to red.
+```
+
+#### Video
+
+[▶ Play the original video](media/fal-automotive-website-ui-animation.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `first-last-frame` `fal-guide` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0034"></a>
+
+### H3-0034 · Rotating Product Page Reveal
+
+**First / Last Frame** · **Community tested**
+
+#### Description
+
+A published MiniMax H3 example demonstrating rotating product page reveal, with its exact source prompt and result video.
+
+#### Prompt
+
+```text
+Reveal the layout from top to bottom. Upper and center typography slides down; lower typography slides up. Once the central product appears, let it rotate subtly.
+```
+
+#### Video
+
+[▶ Play the original video](media/fal-rotating-product-page-reveal.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `first-last-frame` `fal-guide` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0035"></a>
+
+### H3-0035 · Claymation Lava Canyon Leap
+
+**First / Last Frame** · **Community tested**
+
+#### Description
+
+A published MiniMax H3 example demonstrating claymation lava canyon leap, with its exact source prompt and result video.
+
+#### Prompt
+
+```text
+Claymation. A fox sprints to the edge of a cliff and launches without hesitation, making a dramatic heroic leap in slow motion over an immense lava canyon. Midair, the camera races beneath the fox’s belly in a bold dynamic move, revealing the terrifying depth of the chasm and the fully extended motion of its clay body.
+```
+
+#### Video
+
+[▶ Play the original video](media/fal-claymation-lava-canyon-leap.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `first-last-frame` `fal-guide` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0038"></a>
+
+### H3-0038 · First-Person Tactical Gameplay
+
+**First / Last Frame** · **Community tested**
+
+#### Description
+
+A published MiniMax H3 example demonstrating first-person tactical gameplay, with its exact source prompt and result video.
+
+#### Prompt
+
+```text
+Camera: first-person, eye level, handheld gameplay. Simulate a player operating a modern-warfare FPS, holding an assault rifle and advancing slowly around the perimeter of a military base. Move forward along a road beside cover, sweep the reticle across the passage ahead, pause to fire several rounds at a distant target, then continue pushing forward like authentic player-controlled footage.
+
+Lighting: cool natural light across a modern military base, mixed with smoke and firelight. Keep the image photoreal and crisp, with AAA-quality weapons, materials, dust, and battlefield haze.
+
+Camera movement: subtle player-driven sway while moving; begin with a slow advance, make small checks left and right, add light recoil when firing, then continue forward steadily.
+```
+
+#### Video
+
+[▶ Play the original video](media/fal-first-person-tactical-gameplay.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `first-last-frame` `fal-guide` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0039"></a>
+
+### H3-0039 · Interactive Otome Game Transition
+
+**First / Last Frame** · **Community tested**
+
+#### Description
+
+A published MiniMax H3 example demonstrating interactive otome game transition, with its exact source prompt and result video.
+
+#### Prompt
+
+```text
+Interactive Otome Game
+
+Use the first image as the exact opening frame and the second as the exact ending frame. Create a transition within a premium Chinese otome visual-novel interface, capturing an intimate backstage moment before and after a performance. Move naturally from “Choose to watch his performance” to “Han Xu reacts with intrigued interest after hearing the heroine.” Reveal UI copy, choices, and dialogue boxes with refined otome-game motion design. Keep transitions fluid and the romantic tension suggestive but restrained.
+```
+
+#### Video
+
+[▶ Play the original video](media/fal-interactive-otome-game-transition.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `first-last-frame` `fal-guide` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0054"></a>
+
+### H3-0054 · Precision Costume Swap
+
+**First / Last Frame** · **Community tested**
+
+#### Description
+
+A published MiniMax H3 example demonstrating precision costume swap, with its exact source prompt and result video.
+
+#### Prompt
+
+```text
+Two magicians stand onstage facing the audience and perform a “swap” illusion. They wave their wands simultaneously and smoke rises. When it clears, their suit colors have exchanged: the magician on the left now wears white, and the one on the right now wears black. Their glove colors do not change. They bow; the red curtain closes behind them and gradually shifts from deep red to dark blue.
+```
+
+#### Video
+
+[▶ Play the original video](media/fal-precision-costume-swap.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `first-last-frame` `fal-guide` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
 ## Reference Generation
+
+*Related prompts in the compilation above:* [H3-0027](#h3-0027) · [H3-0048](#h3-0048)
 
 <a id="h3-0004"></a>
 
@@ -743,6 +1132,814 @@ Replace the cat in the video with a dog.
 - **Retrieved：** 2026-08-01
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Published by fal as a precise MiniMax H3 video-editing example with the source and result visible.
+
+---
+
+<a id="h3-0023"></a>
+
+### H3-0023 · Desert Fashion Campaign
+
+**Reference Generation** · **Community tested**
+
+#### Description
+
+A published MiniMax H3 example demonstrating desert fashion campaign, with its exact source prompt and result video.
+
+#### Prompt
+
+```text
+Create a premium 16:9 landscape fashion film. Use Image 1 for the overall mood, location, and film texture; Image 2 for the talent; Image 3 for the bag; and Image 4 for the closing brand mark. This is a fashion campaign for the clothing and bag. The tone is elevated, cool, and restrained, but the edit should still feel lively and fashion-forward—not like a conventional narrative film or an e-commerce ad.
+
+Keep the story simple: beside a vintage car on a desert highway, a woman walks to the rear of the car, opens the trunk, takes out a black bag, shares a quiet beat with the man standing nearby, then leaves carrying the bag. Integrate the clothing and bag naturally into the performance so they feel like part of the characters’ identity.
+```
+
+#### Video
+
+[▶ Play the original video](media/fal-desert-fashion-campaign.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0024"></a>
+
+### H3-0024 · Cyber-Grunge Fashion Film
+
+**Reference Generation** · **Community tested**
+
+#### Description
+
+A published MiniMax H3 example demonstrating cyber-grunge fashion film, with its exact source prompt and result video.
+
+#### Prompt
+
+```text
+Use Image 1 as the reference for texture and mood, and Image 2 for the subject’s appearance. Generate a 15-second, 16:9 fashion short. Preserve the subject’s identity: long platinum-blonde hair, narrow black vintage sunglasses, a glossy black patent-leather trench coat, a cool, self-assured expression, and orange firelight reflected across the coat.
+
+Style: fast-cut fashion film on analog stock, set against a nighttime blaze with black smoke and orange-red flames. Layer in VHS glitches, CCTV signal interruptions, 1990s film grain, scanlines, chromatic aberration, light leaks, flash-to-white transitions, and subtle frame jitter.
+```
+
+#### Video
+
+[▶ Play the original video](media/fal-cyber-grunge-fashion-film.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0026"></a>
+
+### H3-0026 · Cyber-Grunge Rap Music Video
+
+**Reference Generation** · **Community tested**
+
+#### Description
+
+A published MiniMax H3 example demonstrating cyber-grunge rap music video, with its exact source prompt and result video.
+
+#### Prompt
+
+```text
+Style: dark-pop / cyber-grunge / rap music video with photoreal high-fashion polish and the texture of a scanned film magazine—high contrast without looking cheap. Reference late-1990s to early-2000s indie magazines, photocopies, film scans, underground-music posters, and zine collage. Add coarse grain, subtle gate weave, halftone dots, rough print edges, and slight scan misregistration. Keep the edit fast and use hard cuts only—no fades or soft transitions. Match the typographic treatment and surface texture of the reference images.
+```
+
+#### Video
+
+[▶ Play the original video](media/fal-cyber-grunge-rap-music-video.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0029"></a>
+
+### H3-0029 · Vertical Family Confrontation
+
+**Reference Generation** · **Community tested**
+
+#### Description
+
+A published MiniMax H3 example demonstrating vertical family confrontation, with its exact source prompt and result video.
+
+#### Prompt
+
+```text
+A 9:16 vertical family-confrontation scene with grounded live-action performances, set in a Chinese family home or small restaurant. Use warm interior light, red decorations and calligraphy in the background, shallow depth of field, intense emotion, and tight pacing.
+
+Performance: natural short-form drama, never theatrical. Qin Haoxuan argues back with anger, hurt, and urgency. The older woman questions him in a sharp, forceful, relentless tone. Build the confrontation steadily.
+
+Shoot mainly in medium-close shots with frequent shot/reverse-shot cutting. Keep the setting lived-in and realistic. No sci-fi, period costume, or animation styling. Do not show subtitles, added text, platform watermarks, or stickers.
+```
+
+#### Video
+
+[▶ Play the original video](media/fal-vertical-family-confrontation.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0030"></a>
+
+### H3-0030 · Futuristic Eyewear Campaign
+
+**Reference Generation** · **Community tested**
+
+#### Description
+
+A published MiniMax H3 example demonstrating futuristic eyewear campaign, with its exact source prompt and result video.
+
+#### Prompt
+
+```text
+Create a premium 9:16 fashion-eyewear commercial. Match the reference video’s shot rhythm, edit speed, white-cyclorama look, and severe fashion attitude. Use a seamless minimal white studio with clean, bold, avant-garde art direction worthy of a global luxury campaign.
+
+Use Image 1 for the key visual: two full-body female models, one Black and one white, preserving their elevated wardrobe, body language, studio lighting, runway presence, and cool attitude. Use Image 2 for facial details. Both models wear futuristic luxury eyewear based on Image 3: wraparound curved lenses, a sharp cat-eye/goggle hybrid silhouette, mirrored reflections, streamlined temples, and the finish of a premium fashion accessory.
+```
+
+#### Video
+
+[▶ Play the original video](media/fal-futuristic-eyewear-campaign.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0031"></a>
+
+### H3-0031 · Ergonomic Chair Product Film
+
+**Reference Generation** · **Community tested**
+
+#### Description
+
+A published MiniMax H3 example demonstrating ergonomic chair product film, with its exact source prompt and result video.
+
+#### Prompt
+
+```text
+Product Feature Visualization
+
+Present a black Herman Miller ergonomic chair in a premium office with a full 360-degree product reveal. Cut to macro views of the breathable mesh back with airflow visualization, an engineering animation of the lumbar support and ergonomic curve, and demonstrations of multidirectional armrest and seat-height adjustment. Show designers, developers, and creative professionals working comfortably over long sessions. Include a 3D skeletal-support visualization that communicates all-day comfort, plus refined interior styling. End with the line: “WHERE INSPIRATION MEETS COMFORT.” Keep the direction minimal, cool-toned, professional, futuristic, and slow-paced. Use Image 1 for feature details and Image 2 for the product.
+```
+
+#### Video
+
+[▶ Play the original video](media/fal-ergonomic-chair-product-film.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0032"></a>
+
+### H3-0032 · Nike-Style Product Landing Page
+
+**Reference Generation** · **Community tested**
+
+#### Description
+
+A published MiniMax H3 example demonstrating nike-style product landing page, with its exact source prompt and result video.
+
+#### Prompt
+
+```text
+Create a dynamic product-landing-page UI/UX demo inspired by Nike’s digital language, built around the product in Image 1. Use oversized, bold, italicized sans-serif typography and backgrounds that combine speed-driven light streaks with dark carbon fiber or breathable performance-mesh textures. Show a smooth, fast, powerful scroll through the page, plus high-impact hover interactions with scale-ups and color inversion.
+```
+
+#### Video
+
+[▶ Play the original video](media/fal-nike-style-product-landing-page.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0036"></a>
+
+### H3-0036 · Fantasy Wuxia Character Film
+
+**Reference Generation** · **Community tested**
+
+#### Description
+
+A published MiniMax H3 example demonstrating fantasy wuxia character film, with its exact source prompt and result video.
+
+#### Prompt
+
+```text
+Use Image 2 as the locked character reference. Preserve the half-up long black hair, openwork silver crown, indigo ribbon, layered pale hanfu, translucent blue outer robe, deep-blue sash, silver floral fastener, and long tassels. Use Image 1 for storyboard order and pacing.
+
+Render in high-quality 4K, 16:9 Chinese-inspired 3D with cinematic xianxia production value: intense, solemn, and shaped by destiny. Follow the storyboard beat by beat, with natural camera movement and seamless transitions—never a slideshow. Show the face only in close-up or extreme close-up. In wide shots, use back view, rear three-quarter view, or empty environment shots; never show a distant frontal face.
+```
+
+#### Video
+
+[▶ Play the original video](media/fal-fantasy-wuxia-character-film.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0037"></a>
+
+### H3-0037 · Otome Male Lead Character Promo
+
+**Reference Generation** · **Community tested**
+
+#### Description
+
+A published MiniMax H3 example demonstrating otome male lead character promo, with its exact source prompt and result video.
+
+#### Prompt
+
+```text
+Create a character promo for a male lead in an otome game. Use Image 2 as a strict identity reference. Preserve the same face, hairstyle, body proportions, costume design, material detail, and polished otome-CG aesthetic throughout.
+```
+
+#### Video
+
+[▶ Play the original video](media/fal-otome-male-lead-character-promo.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0040"></a>
+
+### H3-0040 · Multi-Asset Cinematic Remix
+
+**Reference Generation** · **Community tested**
+
+#### Description
+
+A published MiniMax H3 example demonstrating multi-asset cinematic remix, with its exact source prompt and result video.
+
+#### Prompt
+
+```text
+Use Images 1–6 as assets. Match Reference Video 1 closely for shot rhythm, transition language, and music.
+```
+
+#### Video
+
+[▶ Play the original video](media/fal-multi-asset-cinematic-remix.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0041"></a>
+
+### H3-0041 · Live-Action Voxel Transformation
+
+**Reference Generation** · **Community tested**
+
+#### Description
+
+A published MiniMax H3 example demonstrating live-action voxel transformation, with its exact source prompt and result video.
+
+#### Prompt
+
+```text
+Preserve the buildings, pedestrians, and overall environment in Video 1 as photoreal live action. Transform only the trees and cars into 3D pixel-art or voxel-block objects in the style of Minecraft, using Image 1 as the visual reference. Keep their motion physically correct, and preserve the real environment’s shadows and transmitted light. Use Video 2 as the overall target.
+```
+
+#### Video
+
+[▶ Play the original video](media/fal-live-action-voxel-transformation.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0042"></a>
+
+### H3-0042 · Character Swap with Performance Reference
+
+**Reference Generation** · **Community tested**
+
+#### Description
+
+A published MiniMax H3 example demonstrating character swap with performance reference, with its exact source prompt and result video.
+
+#### Prompt
+
+```text
+Match the character motion, expressions, and performance timing in Image 1 closely to Input Video 1.
+
+At the sink on the right side of frame, the man hands a washed plate to the woman on the left. He turns, then suddenly flicks dish-soap foam at her with his right hand. Startled, she immediately retaliates. They laugh, dodge, and playfully throw foam back and forth.
+```
+
+#### Video
+
+[▶ Play the original video](media/fal-character-swap-with-performance-reference.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0043"></a>
+
+### H3-0043 · Street Dance Motion Transfer
+
+**Reference Generation** · **Community tested**
+
+#### Description
+
+A published MiniMax H3 example demonstrating street dance motion transfer, with its exact source prompt and result video.
+
+#### Prompt
+
+```text
+Use Video 1 as the motion reference for a street-dance performance. Use Images 1 and 2 as the character references.
+```
+
+#### Video
+
+[▶ Play the original video](media/fal-street-dance-motion-transfer.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0044"></a>
+
+### H3-0044 · Capybara Motion Recreation
+
+**Reference Generation** · **Community tested**
+
+#### Description
+
+A published MiniMax H3 example demonstrating capybara motion recreation, with its exact source prompt and result video.
+
+#### Prompt
+
+```text
+Motion reference for a DIY reaction clip
+
+Match the action in Video 1 from a locked-off wide camera. Replace the three suited men with three highly photoreal capybaras. Preserve the original movement path exactly: all three drop quickly to the floor; the left capybara jumps to center; the center capybara rolls to the far left; the new center capybara rolls to the far right; the right capybara jumps to center; finally, the center capybara jumps onto the other two, forming a pyramid. Keep the camera fixed and integrate fur, lighting, and shadows realistically into the scene.
+```
+
+#### Video
+
+[▶ Play the original video](media/fal-capybara-motion-recreation.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0045"></a>
+
+### H3-0045 · Voice Clone Dialogue Transfer
+
+**Reference Generation** · **Community tested**
+
+#### Description
+
+A published MiniMax H3 example demonstrating voice clone dialogue transfer, with its exact source prompt and result video.
+
+#### Prompt
+
+```text
+The character says: “Follow the wind, live free. Leave worries behind, enjoy the moment.” Match the voice in Audio 1.
+```
+
+#### Video
+
+[▶ Play the original video](media/fal-voice-clone-dialogue-transfer.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0046"></a>
+
+### H3-0046 · Add a Character in Sync with the Others
+
+**Reference Generation** · **Community tested**
+
+#### Description
+
+A published MiniMax H3 example demonstrating add a character in sync with the others, with its exact source prompt and result video.
+
+#### Prompt
+
+```text
+Add one person on the left side of frame wearing the same team uniform and moving in sync with the others.
+```
+
+#### Video
+
+[▶ Play the original video](media/fal-add-a-character-in-sync-with-the-others.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0047"></a>
+
+### H3-0047 · Subject & Wardrobe Replacement
+
+**Reference Generation** · **Community tested**
+
+#### Description
+
+A published MiniMax H3 example demonstrating subject & wardrobe replacement, with its exact source prompt and result video.
+
+#### Prompt
+
+```text
+Precise Subject and Wardrobe Replacement
+
+Replace the child at the back of Video 1 with the golden retriever from Image 1. Replace the khaki jacket worn by the child on the far left with the denim jacket from Image 2.
+```
+
+#### Video
+
+[▶ Play the original video](media/fal-subject-wardrobe-replacement.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0049"></a>
+
+### H3-0049 · Day-to-Night Relighting
+
+**Reference Generation** · **Community tested**
+
+#### Description
+
+A published MiniMax H3 example demonstrating day-to-night relighting, with its exact source prompt and result video.
+
+#### Prompt
+
+```text
+Relighting
+
+Change the lighting in the reference video from daytime to night.
+```
+
+#### Video
+
+[▶ Play the original video](media/fal-day-to-night-relighting.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0050"></a>
+
+### H3-0050 · Window View Replacement
+
+**Reference Generation** · **Community tested**
+
+#### Description
+
+A published MiniMax H3 example demonstrating window view replacement, with its exact source prompt and result video.
+
+#### Prompt
+
+```text
+Live-action environment replacement
+
+Replace the view outside the window in Video 1 with Image 1.
+```
+
+#### Video
+
+[▶ Play the original video](media/fal-window-view-replacement.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0051"></a>
+
+### H3-0051 · Dialogue & Performance Replacement
+
+**Reference Generation** · **Community tested**
+
+#### Description
+
+A published MiniMax H3 example demonstrating dialogue & performance replacement, with its exact source prompt and result video.
+
+#### Prompt
+
+```text
+In Video 1, replace the woman’s line—“There’s no way we can be together. It’s not that I don’t love you; we simply can’t make it to the end.”—with the line from Audio 1: “Please don’t go. This time, let’s not let each other go.” Adjust the performance subtly to match the new dialogue.
+```
+
+#### Video
+
+[▶ Play the original video](media/fal-dialogue-performance-replacement.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0052"></a>
+
+### H3-0052 · Multi-Element Scene Editing
+
+**Reference Generation** · **Community tested**
+
+#### Description
+
+A published MiniMax H3 example demonstrating multi-element scene editing, with its exact source prompt and result video.
+
+#### Prompt
+
+```text
+In the reference video: replace the newspaper with a green hardcover book; replace the chair with a red sofa; remove the subject’s sunglasses and reveal a clear face; remove the burning-car effect and restore the vehicle to normal; replace the photograph taken from the coat with a small black notebook; and add a tree on the left side of frame.
+```
+
+#### Video
+
+[▶ Play the original video](media/fal-multi-element-scene-editing.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0053"></a>
+
+### H3-0053 · Product, Sign & Dialogue Replacement
+
+**Reference Generation** · **Community tested**
+
+#### Description
+
+A published MiniMax H3 example demonstrating product, sign & dialogue replacement, with its exact source prompt and result video.
+
+#### Prompt
+
+```text
+In the reference video, replace the canned drink shown at the beginning with Coca-Cola. Change the illuminated “FamilyMart” convenience-store sign in the background to “HUHUI.” At the end, replace every snack in the plastic bag with cans of Coca-Cola, and change the final line from “I bought a few snacks” to “I bought a whole bunch of Coke.”
+```
+
+#### Video
+
+[▶ Play the original video](media/fal-product-sign-dialogue-replacement.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0055"></a>
+
+### H3-0055 · Hand-Drawn Romance VFX
+
+**Reference Generation** · **Community tested**
+
+#### Description
+
+A published MiniMax H3 example demonstrating hand-drawn romance vfx, with its exact source prompt and result video.
+
+#### Prompt
+
+```text
+Creative interpretation + animated graphic effects
+
+Add orange-yellow hand-drawn marks like Image 1 around the two people in Video 1. As they move closer, the marks multiply and build from tiny sparks into bright radiance. When they kiss, introduce pink brushstrokes.
+```
+
+#### Video
+
+[▶ Play the original video](media/fal-hand-drawn-romance-vfx.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **Source location：** `page`
+- **Published：** 2026-07-30
+- **Retrieved：** 2026-08-01
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
 
 ---
 

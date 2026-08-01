@@ -1,0 +1,50 @@
+{
+  "id": "h3-0029",
+  "title": {
+    "en": "Vertical Family Confrontation",
+    "zh": "竖屏家庭冲突短剧"
+  },
+  "description": {
+    "en": "A published MiniMax H3 example demonstrating vertical family confrontation, with its exact source prompt and result video.",
+    "zh": "公开的 MiniMax H3“竖屏家庭冲突短剧”案例，包含原始提示词与对应成片。"
+  },
+  "mode": "reference-generation",
+  "featured": false,
+  "prompt": {
+    "original_language": "en",
+    "original": "A 9:16 vertical family-confrontation scene with grounded live-action performances, set in a Chinese family home or small restaurant. Use warm interior light, red decorations and calligraphy in the background, shallow depth of field, intense emotion, and tight pacing.\n\nPerformance: natural short-form drama, never theatrical. Qin Haoxuan argues back with anger, hurt, and urgency. The older woman questions him in a sharp, forceful, relentless tone. Build the confrontation steadily.\n\nShoot mainly in medium-close shots with frequent shot/reverse-shot cutting. Keep the setting lived-in and realistic. No sci-fi, period costume, or animation styling. Do not show subtitles, added text, platform watermarks, or stickers.",
+    "zh": "一段 9:16 竖屏家庭冲突场景，采用真实自然的真人表演，发生在中国家庭住宅或小餐馆中。使用温暖室内光，背景带红色装饰和书法，浅景深、强烈情绪与紧凑节奏。\n\n表演：自然的短剧风格，绝不舞台化。秦昊轩带着愤怒、受伤和急迫进行反驳。年长女性以尖锐、强势、步步紧逼的语气质问他，冲突逐步升级。\n\n主要使用中近景，并频繁进行正反打剪辑。环境要有真实生活气息。不要科幻、古装或动画风格。不要出现字幕、额外文字、平台水印或贴纸。"
+  },
+  "parameters": {
+    "duration": "5–15s",
+    "resolution": "2K",
+    "ratio": "not stated"
+  },
+  "tags": [
+    "reference-generation",
+    "fal-guide",
+    "community-tested"
+  ],
+  "media": [
+    {
+      "type": "video",
+      "path": "media/fal-vertical-family-confrontation.mp4",
+      "source_url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+      "rights_status": "third-party-attributed"
+    }
+  ],
+  "source": {
+    "type": "community-tested",
+    "author": "Bennett Heyn / fal",
+    "url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+    "source_location": "page",
+    "published_at": "2026-07-30",
+    "retrieved_at": "2026-08-01"
+  },
+  "verification": {
+    "prompt_visible": true,
+    "h3_confirmed": true,
+    "output_visible": true,
+    "notes": "Published by fal as a MiniMax H3 example with the exact prompt and result video visible."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "h3-0054",
+  "title": {
+    "en": "Precision Costume Swap",
+    "zh": "精准服装互换"
+  },
+  "description": {
+    "en": "A published MiniMax H3 example demonstrating precision costume swap, with its exact source prompt and result video.",
+    "zh": "公开的 MiniMax H3“精准服装互换”案例，包含原始提示词与对应成片。"
+  },
+  "mode": "first-last-frame",
+  "featured": false,
+  "prompt": {
+    "original_language": "en",
+    "original": "Two magicians stand onstage facing the audience and perform a “swap” illusion. They wave their wands simultaneously and smoke rises. When it clears, their suit colors have exchanged: the magician on the left now wears white, and the one on the right now wears black. Their glove colors do not change. They bow; the red curtain closes behind them and gradually shifts from deep red to dark blue.",
+    "zh": "两名魔术师站在舞台上面向观众，表演“互换”魔术。他们同时挥动魔杖，烟雾升起。烟雾散去后，两人的西装颜色已经互换：左侧魔术师现在穿白色，右侧魔术师现在穿黑色。手套颜色不变。两人鞠躬；身后的红色幕布合拢，并逐渐从深红变为深蓝。"
+  },
+  "parameters": {
+    "duration": "5–15s",
+    "resolution": "2K",
+    "ratio": "not stated"
+  },
+  "tags": [
+    "first-last-frame",
+    "fal-guide",
+    "community-tested"
+  ],
+  "media": [
+    {
+      "type": "video",
+      "path": "media/fal-precision-costume-swap.mp4",
+      "source_url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+      "rights_status": "third-party-attributed"
+    }
+  ],
+  "source": {
+    "type": "community-tested",
+    "author": "Bennett Heyn / fal",
+    "url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+    "source_location": "page",
+    "published_at": "2026-07-30",
+    "retrieved_at": "2026-08-01"
+  },
+  "verification": {
+    "prompt_visible": true,
+    "h3_confirmed": true,
+    "output_visible": true,
+    "notes": "Published by fal as a MiniMax H3 example with the exact prompt and result video visible."
+  }
+}

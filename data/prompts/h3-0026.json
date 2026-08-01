@@ -1,0 +1,50 @@
+{
+  "id": "h3-0026",
+  "title": {
+    "en": "Cyber-Grunge Rap Music Video",
+    "zh": "赛博垃圾摇滚说唱 MV"
+  },
+  "description": {
+    "en": "A published MiniMax H3 example demonstrating cyber-grunge rap music video, with its exact source prompt and result video.",
+    "zh": "公开的 MiniMax H3“赛博垃圾摇滚说唱 MV”案例，包含原始提示词与对应成片。"
+  },
+  "mode": "reference-generation",
+  "featured": false,
+  "prompt": {
+    "original_language": "en",
+    "original": "Style: dark-pop / cyber-grunge / rap music video with photoreal high-fashion polish and the texture of a scanned film magazine—high contrast without looking cheap. Reference late-1990s to early-2000s indie magazines, photocopies, film scans, underground-music posters, and zine collage. Add coarse grain, subtle gate weave, halftone dots, rough print edges, and slight scan misregistration. Keep the edit fast and use hard cuts only—no fades or soft transitions. Match the typographic treatment and surface texture of the reference images.",
+    "zh": "风格：暗黑流行／赛博垃圾摇滚／说唱音乐录像，兼具照片级高定时尚质感和扫描电影杂志的纹理——高对比但不廉价。参考 20 世纪 90 年代末至 21 世纪初的独立杂志、复印件、胶片扫描、地下音乐海报和 zine 拼贴。加入粗颗粒、轻微片门晃动、半色调网点、粗糙印刷边缘和轻微扫描套印偏移。保持快速剪辑，只使用硬切——不要淡入淡出或柔和转场。文字处理和表面质感要与参考图片一致。"
+  },
+  "parameters": {
+    "duration": "5–15s",
+    "resolution": "2K",
+    "ratio": "not stated"
+  },
+  "tags": [
+    "reference-generation",
+    "fal-guide",
+    "community-tested"
+  ],
+  "media": [
+    {
+      "type": "video",
+      "path": "media/fal-cyber-grunge-rap-music-video.mp4",
+      "source_url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+      "rights_status": "third-party-attributed"
+    }
+  ],
+  "source": {
+    "type": "community-tested",
+    "author": "Bennett Heyn / fal",
+    "url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+    "source_location": "page",
+    "published_at": "2026-07-30",
+    "retrieved_at": "2026-08-01"
+  },
+  "verification": {
+    "prompt_visible": true,
+    "h3_confirmed": true,
+    "output_visible": true,
+    "notes": "Published by fal as a MiniMax H3 example with the exact prompt and result video visible."
+  }
+}

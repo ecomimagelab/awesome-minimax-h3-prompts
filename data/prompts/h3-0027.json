@@ -1,0 +1,50 @@
+{
+  "id": "h3-0027",
+  "title": {
+    "en": "Green-Screen to Fairytale Composite",
+    "zh": "绿幕转童话场景合成"
+  },
+  "description": {
+    "en": "A published MiniMax H3 example demonstrating green-screen to fairytale composite, with its exact source prompt and result video.",
+    "zh": "公开的 MiniMax H3“绿幕转童话场景合成”案例，包含原始提示词与对应成片。"
+  },
+  "mode": "reference-generation",
+  "featured": false,
+  "prompt": {
+    "original_language": "en",
+    "original": "Remove the green screen background of Video 1 and turn it into a fairy tale-like background similar to Video 2. The background elements need to completely match the actions of the characters in Video 1. Modify the lighting of the characters in Video 1 so that it completely matches the background.",
+    "zh": "移除视频 1 的绿幕背景，替换为与视频 2 相似的童话式背景。背景元素必须与视频 1 中人物的动作完全匹配。调整视频 1 中人物的光照，使其与新背景完全一致。"
+  },
+  "parameters": {
+    "duration": "5–15s",
+    "resolution": "2K",
+    "ratio": "not stated"
+  },
+  "tags": [
+    "reference-generation",
+    "fal-guide",
+    "community-tested"
+  ],
+  "media": [
+    {
+      "type": "video",
+      "path": "media/fal-green-screen-to-fairytale-composite.mp4",
+      "source_url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+      "rights_status": "third-party-attributed"
+    }
+  ],
+  "source": {
+    "type": "community-tested",
+    "author": "Bennett Heyn / fal",
+    "url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+    "source_location": "page",
+    "published_at": "2026-07-30",
+    "retrieved_at": "2026-08-01"
+  },
+  "verification": {
+    "prompt_visible": true,
+    "h3_confirmed": true,
+    "output_visible": true,
+    "notes": "Published by fal as a MiniMax H3 example with the exact prompt and result video visible."
+  }
+}

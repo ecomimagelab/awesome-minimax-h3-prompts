@@ -27,18 +27,18 @@ MiniMax H3 是可将文本、图片、视频和音频作为统一上下文的视
 
 | Metric | Count |
 | --- | ---: |
-| Total prompts | **16** |
+| Total prompts | **50** |
 | Official examples | **4** |
-| Community tested | **12** |
+| Community tested | **46** |
 | Community guide templates | **0** |
 | Last curated | **2026-08-01** |
 
 ## 按生成模式浏览
 
-- [文生视频 (8)](#文生视频)
+- [文生视频 (9)](#文生视频)
 - [图生视频 (1)](#图生视频)
-- [首尾帧生视频 (1)](#首尾帧生视频)
-- [多模态参考生成 (6)](#多模态参考生成)
+- [首尾帧生视频 (9)](#首尾帧生视频)
+- [多模态参考生成 (31)](#多模态参考生成)
 
 ## 精选提示词
 
@@ -553,6 +553,89 @@ POSITIVE LOCKS Exactly two officers are in the room and no other figures enter. 
 ---
 
 
+### H3-0027–H3-0048 · 一个原视频中的 2 段提示词
+
+来源将这些案例发布在同一个合集视频中。视频只展示一次，对应的完整提示词依次列在下方。
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/fal-green-screen-to-fairytale-composite.mp4)
+
+---
+
+<a id="h3-0027"></a>
+
+### H3-0027 · 绿幕转童话场景合成
+
+**多模态参考生成** · **社区实测**
+
+#### 内容说明
+
+公开的 MiniMax H3“绿幕转童话场景合成”案例，包含原始提示词与对应成片。
+
+#### 原始 Prompt
+
+```text
+Remove the green screen background of Video 1 and turn it into a fairy tale-like background similar to Video 2. The background elements need to completely match the actions of the characters in Video 1. Modify the lighting of the characters in Video 1 so that it completely matches the background.
+```
+
+#### 中文翻译
+
+```text
+移除视频 1 的绿幕背景，替换为与视频 2 相似的童话式背景。背景元素必须与视频 1 中人物的动作完全匹配。调整视频 1 中人物的光照，使其与新背景完全一致。
+```
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0048"></a>
+
+### H3-0048 · 绿幕环境替换
+
+**多模态参考生成** · **社区实测**
+
+#### 内容说明
+
+公开的 MiniMax H3“绿幕环境替换”案例，包含原始提示词与对应成片。
+
+#### 原始 Prompt
+
+```text
+Remove the green-screen background from Video 1 and replace it with a fairy-tale environment similar to Video 2. Make every background element respond correctly to the subject’s movement, and relight the subject so they blend naturally into the new scene.
+```
+
+#### 中文翻译
+
+```text
+移除视频 1 的绿幕背景，替换为与视频 2 相似的童话环境。让所有背景元素正确响应主体的动作，并重新调整主体光照，使其自然融入新场景。
+```
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+
 
 ## 全部提示词
 
@@ -647,6 +730,50 @@ Do not show giant eyes, split mouths, fangs, threatening behavior, lunges, sudde
 
 ---
 
+<a id="h3-0025"></a>
+
+### H3-0025 · 霓虹洗衣店邂逅
+
+**文生视频** · **社区实测**
+
+#### 内容说明
+
+公开的 MiniMax H3“霓虹洗衣店邂逅”案例，包含原始提示词与对应成片。
+
+#### 原始 Prompt
+
+```text
+15 seconds, 16:9 landscape. Combine a live-action late-night laundromat with hand-drawn luminous animation. The small self-service laundromat has gently flickering fluorescent lights, running washers, plastic baskets, a worn bench, and one sock on the floor. Keep the space quiet and faintly nostalgic.
+
+Use a one-handed phone-camera feel with visible shake, exposure fluctuation under white fluorescent light, environmental reflections in glass, and delayed autofocus at close range. Avoid polished commercial composition; it should feel like an authentic late-night encounter, filmed while following a strange apparition.
+```
+
+#### 中文翻译
+
+```text
+15 秒，16:9 横屏。将深夜自助洗衣店的真人实拍与手绘发光动画结合。小型自助洗衣店内，荧光灯轻微闪烁，洗衣机正在运转，散落着塑料筐、旧长凳，地上还有一只袜子。空间保持安静，略带怀旧感。
+
+采用单手持手机拍摄的感觉，保留明显抖动、白色荧光灯下的曝光波动、玻璃上的环境反射，以及近距离拍摄时稍显迟缓的自动对焦。避免精致的商业构图；画面应像在跟随一个奇异幻影时偶然拍到的真实深夜邂逅。
+```
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/fal-neon-laundromat-encounter.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `text-to-video` `fal-guide` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
 ## 图生视频
 
 *上方合集中的相关提示词:* [H3-0014](#h3-0014)
@@ -692,7 +819,345 @@ A little girl grows up.
 
 ---
 
+<a id="h3-0022"></a>
+
+### H3-0022 · 史诗太空歌剧预告片
+
+**首尾帧生视频** · **社区实测**
+
+#### 内容说明
+
+公开的 MiniMax H3“史诗太空歌剧预告片”案例，包含原始提示词与对应成片。
+
+#### 原始 Prompt
+
+```text
+Epic theatrical space-opera teaser
+
+Keep the pace fast and the scale enormous without letting the edit drag. Use sharp hard cuts, a shaking command deck, white-hot flashes, split-second black frames, and a violent jump-to-warp impact. Title cards should use wide-tracked cinematic typography—not pure white—with restrained material texture, subtle illumination, and a faint edge glow. Animate the titles by emerging from deep-space shadow, catching a sweep of starlight, opening their letter spacing, leaving a slight afterimage, and flashing briefly against black.
+```
+
+#### 中文翻译
+
+```text
+史诗级院线太空歌剧预告片
+
+保持快速节奏和宏大尺度，不要让剪辑拖沓。使用凌厉的硬切、剧烈震动的指挥舱、炽白闪光、转瞬即逝的黑场，以及猛烈跃迁至曲速的冲击。标题卡使用宽字距的电影字体——不要用纯白色——配合克制的材质纹理、轻微照明和淡淡的边缘辉光。标题动画从深空阴影中浮现，掠过一束星光，逐渐拉开字距，留下轻微残影，并在黑场上短暂闪现。
+```
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/fal-epic-space-opera-teaser.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `first-last-frame` `fal-guide` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0028"></a>
+
+### H3-0028 · 动态画廊海报
+
+**首尾帧生视频** · **社区实测**
+
+#### 内容说明
+
+公开的 MiniMax H3“动态画廊海报”案例，包含原始提示词与对应成片。
+
+#### 原始 Prompt
+
+```text
+Animate the source artwork as a motion poster while preserving its white gallery border, inner frame, red/white/black palette, 3D collectible-figure look, and original layout. Add a light, playful type-on sound whenever text appears.
+```
+
+#### 中文翻译
+
+```text
+将源艺术作品制作成动态海报，同时保留白色画廊边框、内框、红白黑配色、3D 收藏级人偶质感和原始版式。每当文字出现时，加入轻快俏皮的打字音效。
+```
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/fal-animated-gallery-poster.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `first-last-frame` `fal-guide` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0033"></a>
+
+### H3-0033 · 汽车网站 UI 动效
+
+**首尾帧生视频** · **社区实测**
+
+#### 内容说明
+
+公开的 MiniMax H3“汽车网站 UI 动效”案例，包含原始提示词与对应成片。
+
+#### 原始 Prompt
+
+```text
+Animate the website UI: the top headline slides down into place, the copy panel below slides up, and the car’s lights shift from dark to red.
+```
+
+#### 中文翻译
+
+```text
+为网站 UI 制作动画：顶部标题向下滑入定位，下方文案面板向上滑入，汽车灯光从暗色变为红色。
+```
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/fal-automotive-website-ui-animation.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `first-last-frame` `fal-guide` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0034"></a>
+
+### H3-0034 · 旋转产品页面揭幕
+
+**首尾帧生视频** · **社区实测**
+
+#### 内容说明
+
+公开的 MiniMax H3“旋转产品页面揭幕”案例，包含原始提示词与对应成片。
+
+#### 原始 Prompt
+
+```text
+Reveal the layout from top to bottom. Upper and center typography slides down; lower typography slides up. Once the central product appears, let it rotate subtly.
+```
+
+#### 中文翻译
+
+```text
+从上到下揭示页面布局。上方和中部文字向下滑入，下方文字向上滑入。中央产品出现后，让它轻微旋转。
+```
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/fal-rotating-product-page-reveal.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `first-last-frame` `fal-guide` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0035"></a>
+
+### H3-0035 · 黏土动画熔岩峡谷飞跃
+
+**首尾帧生视频** · **社区实测**
+
+#### 内容说明
+
+公开的 MiniMax H3“黏土动画熔岩峡谷飞跃”案例，包含原始提示词与对应成片。
+
+#### 原始 Prompt
+
+```text
+Claymation. A fox sprints to the edge of a cliff and launches without hesitation, making a dramatic heroic leap in slow motion over an immense lava canyon. Midair, the camera races beneath the fox’s belly in a bold dynamic move, revealing the terrifying depth of the chasm and the fully extended motion of its clay body.
+```
+
+#### 中文翻译
+
+```text
+黏土动画。一只狐狸冲向悬崖边缘，毫不犹豫地起跳，以戏剧化的英雄式慢动作飞越巨大的熔岩峡谷。腾空时，摄影机以大胆的动态运动从狐狸腹部下方高速掠过，展现深不见底的峡谷和黏土身体完全舒展的动作。
+```
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/fal-claymation-lava-canyon-leap.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `first-last-frame` `fal-guide` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0038"></a>
+
+### H3-0038 · 第一人称战术游戏画面
+
+**首尾帧生视频** · **社区实测**
+
+#### 内容说明
+
+公开的 MiniMax H3“第一人称战术游戏画面”案例，包含原始提示词与对应成片。
+
+#### 原始 Prompt
+
+```text
+Camera: first-person, eye level, handheld gameplay. Simulate a player operating a modern-warfare FPS, holding an assault rifle and advancing slowly around the perimeter of a military base. Move forward along a road beside cover, sweep the reticle across the passage ahead, pause to fire several rounds at a distant target, then continue pushing forward like authentic player-controlled footage.
+
+Lighting: cool natural light across a modern military base, mixed with smoke and firelight. Keep the image photoreal and crisp, with AAA-quality weapons, materials, dust, and battlefield haze.
+
+Camera movement: subtle player-driven sway while moving; begin with a slow advance, make small checks left and right, add light recoil when firing, then continue forward steadily.
+```
+
+#### 中文翻译
+
+```text
+摄影机：第一人称、眼平视角、手持式游戏画面。模拟玩家操作现代战争 FPS，手持突击步枪，在军事基地外围缓慢推进。沿掩体旁的道路前进，让准星扫过前方通道，停下向远处目标射击数发，然后像真实玩家操控画面一样继续向前推进。
+
+光照：现代军事基地中的冷色自然光，与烟雾和火光混合。画面保持照片级真实和清晰，武器、材质、尘土与战场薄雾达到 AAA 游戏品质。
+
+摄影机运动：移动时带轻微的玩家操控摇摆；开场缓慢前进，小幅左右查看，射击时加入轻微后坐力，随后稳定继续向前。
+```
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/fal-first-person-tactical-gameplay.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `first-last-frame` `fal-guide` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0039"></a>
+
+### H3-0039 · 互动乙游转场
+
+**首尾帧生视频** · **社区实测**
+
+#### 内容说明
+
+公开的 MiniMax H3“互动乙游转场”案例，包含原始提示词与对应成片。
+
+#### 原始 Prompt
+
+```text
+Interactive Otome Game
+
+Use the first image as the exact opening frame and the second as the exact ending frame. Create a transition within a premium Chinese otome visual-novel interface, capturing an intimate backstage moment before and after a performance. Move naturally from “Choose to watch his performance” to “Han Xu reacts with intrigued interest after hearing the heroine.” Reveal UI copy, choices, and dialogue boxes with refined otome-game motion design. Keep transitions fluid and the romantic tension suggestive but restrained.
+```
+
+#### 中文翻译
+
+```text
+互动乙女游戏
+
+将第一张图片作为精确起始帧，第二张图片作为精确结束帧。在高级中式乙女视觉小说界面中制作转场，呈现演出前后亲密的后台时刻。从“选择观看他的表演”自然过渡到“韩旭听到女主角的话后露出饶有兴趣的反应”。以精致的乙游动效呈现 UI 文案、选项和对话框。转场保持流畅，浪漫张力含蓄而克制。
+```
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/fal-interactive-otome-game-transition.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `first-last-frame` `fal-guide` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0054"></a>
+
+### H3-0054 · 精准服装互换
+
+**首尾帧生视频** · **社区实测**
+
+#### 内容说明
+
+公开的 MiniMax H3“精准服装互换”案例，包含原始提示词与对应成片。
+
+#### 原始 Prompt
+
+```text
+Two magicians stand onstage facing the audience and perform a “swap” illusion. They wave their wands simultaneously and smoke rises. When it clears, their suit colors have exchanged: the magician on the left now wears white, and the one on the right now wears black. Their glove colors do not change. They bow; the red curtain closes behind them and gradually shifts from deep red to dark blue.
+```
+
+#### 中文翻译
+
+```text
+两名魔术师站在舞台上面向观众，表演“互换”魔术。他们同时挥动魔杖，烟雾升起。烟雾散去后，两人的西装颜色已经互换：左侧魔术师现在穿白色，右侧魔术师现在穿黑色。手套颜色不变。两人鞠躬；身后的红色幕布合拢，并逐渐从深红变为深蓝。
+```
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/fal-precision-costume-swap.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `first-last-frame` `fal-guide` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
 ## 多模态参考生成
+
+*上方合集中的相关提示词:* [H3-0027](#h3-0027) · [H3-0048](#h3-0048)
 
 <a id="h3-0004"></a>
 
@@ -977,6 +1442,978 @@ Replace the cat in the video with a dog.
 - **收录时间：** 2026-08-01
 - **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
 - **Note：** Published by fal as a precise MiniMax H3 video-editing example with the source and result visible.
+
+---
+
+<a id="h3-0023"></a>
+
+### H3-0023 · 沙漠时尚广告片
+
+**多模态参考生成** · **社区实测**
+
+#### 内容说明
+
+公开的 MiniMax H3“沙漠时尚广告片”案例，包含原始提示词与对应成片。
+
+#### 原始 Prompt
+
+```text
+Create a premium 16:9 landscape fashion film. Use Image 1 for the overall mood, location, and film texture; Image 2 for the talent; Image 3 for the bag; and Image 4 for the closing brand mark. This is a fashion campaign for the clothing and bag. The tone is elevated, cool, and restrained, but the edit should still feel lively and fashion-forward—not like a conventional narrative film or an e-commerce ad.
+
+Keep the story simple: beside a vintage car on a desert highway, a woman walks to the rear of the car, opens the trunk, takes out a black bag, shares a quiet beat with the man standing nearby, then leaves carrying the bag. Integrate the clothing and bag naturally into the performance so they feel like part of the characters’ identity.
+```
+
+#### 中文翻译
+
+```text
+制作一支高级的 16:9 横屏时尚短片。图片 1 用于整体情绪、地点和胶片质感；图片 2 用于人物；图片 3 用于包袋；图片 4 用于片尾品牌标识。这是一支服装与包袋的时尚广告。基调高级、冷静、克制，但剪辑仍应活跃且具时尚前瞻性——不要拍成传统叙事电影或电商广告。
+
+故事保持简单：在沙漠公路的一辆老爷车旁，一位女子走到车尾，打开后备厢，取出一个黑色包袋，与站在旁边的男子安静对视片刻，随后提包离开。让服装和包袋自然融入表演，使其成为角色身份的一部分。
+```
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/fal-desert-fashion-campaign.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0024"></a>
+
+### H3-0024 · 赛博垃圾摇滚时尚短片
+
+**多模态参考生成** · **社区实测**
+
+#### 内容说明
+
+公开的 MiniMax H3“赛博垃圾摇滚时尚短片”案例，包含原始提示词与对应成片。
+
+#### 原始 Prompt
+
+```text
+Use Image 1 as the reference for texture and mood, and Image 2 for the subject’s appearance. Generate a 15-second, 16:9 fashion short. Preserve the subject’s identity: long platinum-blonde hair, narrow black vintage sunglasses, a glossy black patent-leather trench coat, a cool, self-assured expression, and orange firelight reflected across the coat.
+
+Style: fast-cut fashion film on analog stock, set against a nighttime blaze with black smoke and orange-red flames. Layer in VHS glitches, CCTV signal interruptions, 1990s film grain, scanlines, chromatic aberration, light leaks, flash-to-white transitions, and subtle frame jitter.
+```
+
+#### 中文翻译
+
+```text
+图片 1 作为质感与情绪参考，图片 2 作为人物外观参考。生成一支 15 秒、16:9 的时尚短片。保持人物身份一致：铂金色长发、窄框黑色复古太阳镜、亮面黑色漆皮风衣、冷酷自信的表情，以及映在风衣上的橙色火光。
+
+风格：使用模拟胶片质感的快速剪辑时尚片，背景是夜间大火、黑烟和橙红色火焰。叠加 VHS 故障、监控信号中断、20 世纪 90 年代胶片颗粒、扫描线、色差、漏光、闪白转场和轻微画面抖动。
+```
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/fal-cyber-grunge-fashion-film.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0026"></a>
+
+### H3-0026 · 赛博垃圾摇滚说唱 MV
+
+**多模态参考生成** · **社区实测**
+
+#### 内容说明
+
+公开的 MiniMax H3“赛博垃圾摇滚说唱 MV”案例，包含原始提示词与对应成片。
+
+#### 原始 Prompt
+
+```text
+Style: dark-pop / cyber-grunge / rap music video with photoreal high-fashion polish and the texture of a scanned film magazine—high contrast without looking cheap. Reference late-1990s to early-2000s indie magazines, photocopies, film scans, underground-music posters, and zine collage. Add coarse grain, subtle gate weave, halftone dots, rough print edges, and slight scan misregistration. Keep the edit fast and use hard cuts only—no fades or soft transitions. Match the typographic treatment and surface texture of the reference images.
+```
+
+#### 中文翻译
+
+```text
+风格：暗黑流行／赛博垃圾摇滚／说唱音乐录像，兼具照片级高定时尚质感和扫描电影杂志的纹理——高对比但不廉价。参考 20 世纪 90 年代末至 21 世纪初的独立杂志、复印件、胶片扫描、地下音乐海报和 zine 拼贴。加入粗颗粒、轻微片门晃动、半色调网点、粗糙印刷边缘和轻微扫描套印偏移。保持快速剪辑，只使用硬切——不要淡入淡出或柔和转场。文字处理和表面质感要与参考图片一致。
+```
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/fal-cyber-grunge-rap-music-video.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0029"></a>
+
+### H3-0029 · 竖屏家庭冲突短剧
+
+**多模态参考生成** · **社区实测**
+
+#### 内容说明
+
+公开的 MiniMax H3“竖屏家庭冲突短剧”案例，包含原始提示词与对应成片。
+
+#### 原始 Prompt
+
+```text
+A 9:16 vertical family-confrontation scene with grounded live-action performances, set in a Chinese family home or small restaurant. Use warm interior light, red decorations and calligraphy in the background, shallow depth of field, intense emotion, and tight pacing.
+
+Performance: natural short-form drama, never theatrical. Qin Haoxuan argues back with anger, hurt, and urgency. The older woman questions him in a sharp, forceful, relentless tone. Build the confrontation steadily.
+
+Shoot mainly in medium-close shots with frequent shot/reverse-shot cutting. Keep the setting lived-in and realistic. No sci-fi, period costume, or animation styling. Do not show subtitles, added text, platform watermarks, or stickers.
+```
+
+#### 中文翻译
+
+```text
+一段 9:16 竖屏家庭冲突场景，采用真实自然的真人表演，发生在中国家庭住宅或小餐馆中。使用温暖室内光，背景带红色装饰和书法，浅景深、强烈情绪与紧凑节奏。
+
+表演：自然的短剧风格，绝不舞台化。秦昊轩带着愤怒、受伤和急迫进行反驳。年长女性以尖锐、强势、步步紧逼的语气质问他，冲突逐步升级。
+
+主要使用中近景，并频繁进行正反打剪辑。环境要有真实生活气息。不要科幻、古装或动画风格。不要出现字幕、额外文字、平台水印或贴纸。
+```
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/fal-vertical-family-confrontation.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0030"></a>
+
+### H3-0030 · 未来感眼镜广告
+
+**多模态参考生成** · **社区实测**
+
+#### 内容说明
+
+公开的 MiniMax H3“未来感眼镜广告”案例，包含原始提示词与对应成片。
+
+#### 原始 Prompt
+
+```text
+Create a premium 9:16 fashion-eyewear commercial. Match the reference video’s shot rhythm, edit speed, white-cyclorama look, and severe fashion attitude. Use a seamless minimal white studio with clean, bold, avant-garde art direction worthy of a global luxury campaign.
+
+Use Image 1 for the key visual: two full-body female models, one Black and one white, preserving their elevated wardrobe, body language, studio lighting, runway presence, and cool attitude. Use Image 2 for facial details. Both models wear futuristic luxury eyewear based on Image 3: wraparound curved lenses, a sharp cat-eye/goggle hybrid silhouette, mirrored reflections, streamlined temples, and the finish of a premium fashion accessory.
+```
+
+#### 中文翻译
+
+```text
+制作一支高级 9:16 时尚眼镜广告。匹配参考视频的镜头节奏、剪辑速度、白色无缝背景效果和凌厉时尚态度。使用极简无缝白棚，并配以干净、大胆、前卫、足以匹配全球奢侈品牌广告的艺术指导。
+
+图片 1 作为主视觉：两位全身女性模特，一位黑人、一位白人，保留她们的高级服装、肢体语言、影棚灯光、T 台气场和冷峻态度。图片 2 用于面部细节。两位模特都佩戴基于图片 3 的未来奢华眼镜：环绕式弧形镜片、锐利的猫眼与护目镜混合轮廓、镜面反射、流线型镜腿，以及高级时尚配饰的精致表面。
+```
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/fal-futuristic-eyewear-campaign.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0031"></a>
+
+### H3-0031 · 人体工学椅产品短片
+
+**多模态参考生成** · **社区实测**
+
+#### 内容说明
+
+公开的 MiniMax H3“人体工学椅产品短片”案例，包含原始提示词与对应成片。
+
+#### 原始 Prompt
+
+```text
+Product Feature Visualization
+
+Present a black Herman Miller ergonomic chair in a premium office with a full 360-degree product reveal. Cut to macro views of the breathable mesh back with airflow visualization, an engineering animation of the lumbar support and ergonomic curve, and demonstrations of multidirectional armrest and seat-height adjustment. Show designers, developers, and creative professionals working comfortably over long sessions. Include a 3D skeletal-support visualization that communicates all-day comfort, plus refined interior styling. End with the line: “WHERE INSPIRATION MEETS COMFORT.” Keep the direction minimal, cool-toned, professional, futuristic, and slow-paced. Use Image 1 for feature details and Image 2 for the product.
+```
+
+#### 中文翻译
+
+```text
+产品功能可视化
+
+在高级办公空间中展示一把黑色 Herman Miller 人体工学椅，并完成 360 度产品展示。切至透气网布椅背的微距镜头并可视化气流；展示腰部支撑和人体工学曲线的工程动画；演示多方向扶手和座椅高度调节。呈现设计师、开发者和创意专业人士长时间舒适工作的状态。加入 3D 骨骼支撑可视化，传达全天候舒适性，并搭配精致的室内设计。片尾显示：“WHERE INSPIRATION MEETS COMFORT.” 整体方向极简、冷色、专业、未来感且节奏舒缓。图片 1 用于功能细节，图片 2 用于产品。
+```
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/fal-ergonomic-chair-product-film.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0032"></a>
+
+### H3-0032 · Nike 风格产品落地页
+
+**多模态参考生成** · **社区实测**
+
+#### 内容说明
+
+公开的 MiniMax H3“Nike 风格产品落地页”案例，包含原始提示词与对应成片。
+
+#### 原始 Prompt
+
+```text
+Create a dynamic product-landing-page UI/UX demo inspired by Nike’s digital language, built around the product in Image 1. Use oversized, bold, italicized sans-serif typography and backgrounds that combine speed-driven light streaks with dark carbon fiber or breathable performance-mesh textures. Show a smooth, fast, powerful scroll through the page, plus high-impact hover interactions with scale-ups and color inversion.
+```
+
+#### 中文翻译
+
+```text
+围绕图片 1 中的产品，制作一个受 Nike 数字视觉语言启发的动态产品落地页 UI/UX 演示。使用超大、粗体、斜体无衬线字体，背景结合强调速度的光轨与深色碳纤维或透气运动网布纹理。展示流畅、快速、有力量的页面滚动，并加入高冲击力的悬停交互，如放大和颜色反转。
+```
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/fal-nike-style-product-landing-page.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0036"></a>
+
+### H3-0036 · 仙侠角色短片
+
+**多模态参考生成** · **社区实测**
+
+#### 内容说明
+
+公开的 MiniMax H3“仙侠角色短片”案例，包含原始提示词与对应成片。
+
+#### 原始 Prompt
+
+```text
+Use Image 2 as the locked character reference. Preserve the half-up long black hair, openwork silver crown, indigo ribbon, layered pale hanfu, translucent blue outer robe, deep-blue sash, silver floral fastener, and long tassels. Use Image 1 for storyboard order and pacing.
+
+Render in high-quality 4K, 16:9 Chinese-inspired 3D with cinematic xianxia production value: intense, solemn, and shaped by destiny. Follow the storyboard beat by beat, with natural camera movement and seamless transitions—never a slideshow. Show the face only in close-up or extreme close-up. In wide shots, use back view, rear three-quarter view, or empty environment shots; never show a distant frontal face.
+```
+
+#### 中文翻译
+
+```text
+将图片 2 作为锁定的角色参考。保留半束的黑色长发、镂空银冠、靛蓝发带、层叠浅色汉服、半透明蓝色外袍、深蓝腰带、银色花形扣件和长流苏。图片 1 用于分镜顺序和节奏。
+
+以高质量 4K、16:9 的中式 3D 风格呈现，具备电影级仙侠制作水准：强烈、庄重，并带有宿命感。逐拍遵循分镜，摄影机运动自然、转场无缝——绝不能像幻灯片。仅在近景或特写中展示面部。远景使用背面、后侧三分之四视角或空镜；不要在远处展示正脸。
+```
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/fal-fantasy-wuxia-character-film.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0037"></a>
+
+### H3-0037 · 乙游男主角色宣传片
+
+**多模态参考生成** · **社区实测**
+
+#### 内容说明
+
+公开的 MiniMax H3“乙游男主角色宣传片”案例，包含原始提示词与对应成片。
+
+#### 原始 Prompt
+
+```text
+Create a character promo for a male lead in an otome game. Use Image 2 as a strict identity reference. Preserve the same face, hairstyle, body proportions, costume design, material detail, and polished otome-CG aesthetic throughout.
+```
+
+#### 中文翻译
+
+```text
+为乙女游戏中的男性主角制作角色宣传片。将图片 2 作为严格的身份参考。全程保持相同的面容、发型、身体比例、服装设计、材质细节和精致的乙游 CG 美学。
+```
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/fal-otome-male-lead-character-promo.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0040"></a>
+
+### H3-0040 · 多素材电影感重混
+
+**多模态参考生成** · **社区实测**
+
+#### 内容说明
+
+公开的 MiniMax H3“多素材电影感重混”案例，包含原始提示词与对应成片。
+
+#### 原始 Prompt
+
+```text
+Use Images 1–6 as assets. Match Reference Video 1 closely for shot rhythm, transition language, and music.
+```
+
+#### 中文翻译
+
+```text
+使用图片 1–6 作为素材。紧密匹配参考视频 1 的镜头节奏、转场语言和音乐。
+```
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/fal-multi-asset-cinematic-remix.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0041"></a>
+
+### H3-0041 · 真人场景体素化变换
+
+**多模态参考生成** · **社区实测**
+
+#### 内容说明
+
+公开的 MiniMax H3“真人场景体素化变换”案例，包含原始提示词与对应成片。
+
+#### 原始 Prompt
+
+```text
+Preserve the buildings, pedestrians, and overall environment in Video 1 as photoreal live action. Transform only the trees and cars into 3D pixel-art or voxel-block objects in the style of Minecraft, using Image 1 as the visual reference. Keep their motion physically correct, and preserve the real environment’s shadows and transmitted light. Use Video 2 as the overall target.
+```
+
+#### 中文翻译
+
+```text
+保留视频 1 中的建筑、行人和整体环境为照片级真人实拍。仅将树木和汽车转换为《我的世界》风格的 3D 像素艺术或体素方块物体，并使用图片 1 作为视觉参考。保持它们的运动符合物理规律，同时保留真实环境中的阴影和透射光。视频 2 作为整体目标参考。
+```
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/fal-live-action-voxel-transformation.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0042"></a>
+
+### H3-0042 · 角色替换与表演参考
+
+**多模态参考生成** · **社区实测**
+
+#### 内容说明
+
+公开的 MiniMax H3“角色替换与表演参考”案例，包含原始提示词与对应成片。
+
+#### 原始 Prompt
+
+```text
+Match the character motion, expressions, and performance timing in Image 1 closely to Input Video 1.
+
+At the sink on the right side of frame, the man hands a washed plate to the woman on the left. He turns, then suddenly flicks dish-soap foam at her with his right hand. Startled, she immediately retaliates. They laugh, dodge, and playfully throw foam back and forth.
+```
+
+#### 中文翻译
+
+```text
+让图片 1 中角色的动作、表情和表演节奏紧密匹配输入视频 1。
+
+画面右侧水槽旁，男子把洗好的盘子递给左侧女子。他转身后突然用右手把洗洁精泡沫弹向她。她被吓到后立即反击。两人一边大笑、一边躲闪，玩闹着互相抛洒泡沫。
+```
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/fal-character-swap-with-performance-reference.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0043"></a>
+
+### H3-0043 · 街舞动作迁移
+
+**多模态参考生成** · **社区实测**
+
+#### 内容说明
+
+公开的 MiniMax H3“街舞动作迁移”案例，包含原始提示词与对应成片。
+
+#### 原始 Prompt
+
+```text
+Use Video 1 as the motion reference for a street-dance performance. Use Images 1 and 2 as the character references.
+```
+
+#### 中文翻译
+
+```text
+使用视频 1 作为街舞表演的动作参考。使用图片 1 和图片 2 作为角色参考。
+```
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/fal-street-dance-motion-transfer.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0044"></a>
+
+### H3-0044 · 水豚动作复现
+
+**多模态参考生成** · **社区实测**
+
+#### 内容说明
+
+公开的 MiniMax H3“水豚动作复现”案例，包含原始提示词与对应成片。
+
+#### 原始 Prompt
+
+```text
+Motion reference for a DIY reaction clip
+
+Match the action in Video 1 from a locked-off wide camera. Replace the three suited men with three highly photoreal capybaras. Preserve the original movement path exactly: all three drop quickly to the floor; the left capybara jumps to center; the center capybara rolls to the far left; the new center capybara rolls to the far right; the right capybara jumps to center; finally, the center capybara jumps onto the other two, forming a pyramid. Keep the camera fixed and integrate fur, lighting, and shadows realistically into the scene.
+```
+
+#### 中文翻译
+
+```text
+DIY 反应短片的动作参考
+
+使用固定广角机位匹配视频 1 中的动作。将三名穿西装的男子替换为三只高度照片级真实的水豚。精确保留原始运动路径：三只水豚同时快速趴到地面；左侧水豚跳到中央；中央水豚滚到最左侧；新的中央水豚滚到最右侧；右侧水豚跳到中央；最后中央水豚跳到另外两只上方，叠成金字塔。保持摄影机固定，并让毛发、光照和阴影真实融入场景。
+```
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/fal-capybara-motion-recreation.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0045"></a>
+
+### H3-0045 · 声音克隆对白迁移
+
+**多模态参考生成** · **社区实测**
+
+#### 内容说明
+
+公开的 MiniMax H3“声音克隆对白迁移”案例，包含原始提示词与对应成片。
+
+#### 原始 Prompt
+
+```text
+The character says: “Follow the wind, live free. Leave worries behind, enjoy the moment.” Match the voice in Audio 1.
+```
+
+#### 中文翻译
+
+```text
+角色说道：“逐风而行，自在而活。抛开烦恼，享受当下。”声音匹配音频 1。
+```
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/fal-voice-clone-dialogue-transfer.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0046"></a>
+
+### H3-0046 · 添加与群体同步的角色
+
+**多模态参考生成** · **社区实测**
+
+#### 内容说明
+
+公开的 MiniMax H3“添加与群体同步的角色”案例，包含原始提示词与对应成片。
+
+#### 原始 Prompt
+
+```text
+Add one person on the left side of frame wearing the same team uniform and moving in sync with the others.
+```
+
+#### 中文翻译
+
+```text
+在画面左侧添加一个人，穿着与其他人相同的队服，并与其他人同步运动。
+```
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/fal-add-a-character-in-sync-with-the-others.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0047"></a>
+
+### H3-0047 · 主体与服装精准替换
+
+**多模态参考生成** · **社区实测**
+
+#### 内容说明
+
+公开的 MiniMax H3“主体与服装精准替换”案例，包含原始提示词与对应成片。
+
+#### 原始 Prompt
+
+```text
+Precise Subject and Wardrobe Replacement
+
+Replace the child at the back of Video 1 with the golden retriever from Image 1. Replace the khaki jacket worn by the child on the far left with the denim jacket from Image 2.
+```
+
+#### 中文翻译
+
+```text
+精准主体与服装替换
+
+将视频 1 后方的儿童替换为图片 1 中的金毛犬。将最左侧儿童穿的卡其色夹克替换为图片 2 中的牛仔夹克。
+```
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/fal-subject-wardrobe-replacement.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0049"></a>
+
+### H3-0049 · 日转夜重打光
+
+**多模态参考生成** · **社区实测**
+
+#### 内容说明
+
+公开的 MiniMax H3“日转夜重打光”案例，包含原始提示词与对应成片。
+
+#### 原始 Prompt
+
+```text
+Relighting
+
+Change the lighting in the reference video from daytime to night.
+```
+
+#### 中文翻译
+
+```text
+重新打光
+
+将参考视频中的光照从白天改为夜晚。
+```
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/fal-day-to-night-relighting.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0050"></a>
+
+### H3-0050 · 窗外景观替换
+
+**多模态参考生成** · **社区实测**
+
+#### 内容说明
+
+公开的 MiniMax H3“窗外景观替换”案例，包含原始提示词与对应成片。
+
+#### 原始 Prompt
+
+```text
+Live-action environment replacement
+
+Replace the view outside the window in Video 1 with Image 1.
+```
+
+#### 中文翻译
+
+```text
+真人实拍环境替换
+
+将视频 1 中窗外的景色替换为图片 1。
+```
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/fal-window-view-replacement.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0051"></a>
+
+### H3-0051 · 对白与表演替换
+
+**多模态参考生成** · **社区实测**
+
+#### 内容说明
+
+公开的 MiniMax H3“对白与表演替换”案例，包含原始提示词与对应成片。
+
+#### 原始 Prompt
+
+```text
+In Video 1, replace the woman’s line—“There’s no way we can be together. It’s not that I don’t love you; we simply can’t make it to the end.”—with the line from Audio 1: “Please don’t go. This time, let’s not let each other go.” Adjust the performance subtly to match the new dialogue.
+```
+
+#### 中文翻译
+
+```text
+在视频 1 中，将女子的台词——“我们不可能在一起。不是我不爱你；只是我们根本走不到最后。”——替换为音频 1 中的台词：“请不要走。这一次，我们不要再放开彼此。”细微调整表演，使其匹配新的对白。
+```
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/fal-dialogue-performance-replacement.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0052"></a>
+
+### H3-0052 · 多元素场景编辑
+
+**多模态参考生成** · **社区实测**
+
+#### 内容说明
+
+公开的 MiniMax H3“多元素场景编辑”案例，包含原始提示词与对应成片。
+
+#### 原始 Prompt
+
+```text
+In the reference video: replace the newspaper with a green hardcover book; replace the chair with a red sofa; remove the subject’s sunglasses and reveal a clear face; remove the burning-car effect and restore the vehicle to normal; replace the photograph taken from the coat with a small black notebook; and add a tree on the left side of frame.
+```
+
+#### 中文翻译
+
+```text
+在参考视频中：将报纸替换为绿色精装书；将椅子替换为红色沙发；移除主体的太阳镜并露出清晰面容；移除汽车燃烧效果并恢复车辆正常状态；将从外套中取出的照片替换为黑色小笔记本；在画面左侧添加一棵树。
+```
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/fal-multi-element-scene-editing.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0053"></a>
+
+### H3-0053 · 产品、招牌与对白替换
+
+**多模态参考生成** · **社区实测**
+
+#### 内容说明
+
+公开的 MiniMax H3“产品、招牌与对白替换”案例，包含原始提示词与对应成片。
+
+#### 原始 Prompt
+
+```text
+In the reference video, replace the canned drink shown at the beginning with Coca-Cola. Change the illuminated “FamilyMart” convenience-store sign in the background to “HUHUI.” At the end, replace every snack in the plastic bag with cans of Coca-Cola, and change the final line from “I bought a few snacks” to “I bought a whole bunch of Coke.”
+```
+
+#### 中文翻译
+
+```text
+在参考视频中，将开头出现的罐装饮料替换为可口可乐。把背景中发光的“FamilyMart”便利店招牌改为“HUHUI”。结尾时，将塑料袋中的所有零食替换为罐装可口可乐，并把最后一句“我买了几样零食”改为“我买了一大堆可乐”。
+```
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/fal-product-sign-dialogue-replacement.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
+
+---
+
+<a id="h3-0055"></a>
+
+### H3-0055 · 手绘浪漫特效
+
+**多模态参考生成** · **社区实测**
+
+#### 内容说明
+
+公开的 MiniMax H3“手绘浪漫特效”案例，包含原始提示词与对应成片。
+
+#### 原始 Prompt
+
+```text
+Creative interpretation + animated graphic effects
+
+Add orange-yellow hand-drawn marks like Image 1 around the two people in Video 1. As they move closer, the marks multiply and build from tiny sparks into bright radiance. When they kiss, introduce pink brushstrokes.
+```
+
+#### 中文翻译
+
+```text
+创意诠释＋动态手绘特效
+
+在视频 1 中两人周围加入类似图片 1 的橙黄色手绘标记。随着两人靠近，标记不断增多，从微小火花逐渐积累为明亮光芒。两人接吻时，加入粉色笔触。
+```
+
+#### 案例视频
+
+[▶ 点击播放原视频](media/fal-hand-drawn-romance-vfx.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 5–15s` · `resolution: 2K` · `ratio: not stated`
+- **Tags：** `reference-generation` `fal-guide` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Bennett Heyn / fal](https://fal.ai/learn/devs/minimax-h3-prompting-guide)
+- **来源位置：** `page`
+- **发布时间：** 2026-07-30
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** Published by fal as a MiniMax H3 example with the exact prompt and result video visible.
 
 ---
 

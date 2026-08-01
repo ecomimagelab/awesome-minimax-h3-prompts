@@ -1,0 +1,50 @@
+{
+  "id": "h3-0052",
+  "title": {
+    "en": "Multi-Element Scene Editing",
+    "zh": "多元素场景编辑"
+  },
+  "description": {
+    "en": "A published MiniMax H3 example demonstrating multi-element scene editing, with its exact source prompt and result video.",
+    "zh": "公开的 MiniMax H3“多元素场景编辑”案例，包含原始提示词与对应成片。"
+  },
+  "mode": "reference-generation",
+  "featured": false,
+  "prompt": {
+    "original_language": "en",
+    "original": "In the reference video: replace the newspaper with a green hardcover book; replace the chair with a red sofa; remove the subject’s sunglasses and reveal a clear face; remove the burning-car effect and restore the vehicle to normal; replace the photograph taken from the coat with a small black notebook; and add a tree on the left side of frame.",
+    "zh": "在参考视频中：将报纸替换为绿色精装书；将椅子替换为红色沙发；移除主体的太阳镜并露出清晰面容；移除汽车燃烧效果并恢复车辆正常状态；将从外套中取出的照片替换为黑色小笔记本；在画面左侧添加一棵树。"
+  },
+  "parameters": {
+    "duration": "5–15s",
+    "resolution": "2K",
+    "ratio": "not stated"
+  },
+  "tags": [
+    "reference-generation",
+    "fal-guide",
+    "community-tested"
+  ],
+  "media": [
+    {
+      "type": "video",
+      "path": "media/fal-multi-element-scene-editing.mp4",
+      "source_url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+      "rights_status": "third-party-attributed"
+    }
+  ],
+  "source": {
+    "type": "community-tested",
+    "author": "Bennett Heyn / fal",
+    "url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+    "source_location": "page",
+    "published_at": "2026-07-30",
+    "retrieved_at": "2026-08-01"
+  },
+  "verification": {
+    "prompt_visible": true,
+    "h3_confirmed": true,
+    "output_visible": true,
+    "notes": "Published by fal as a MiniMax H3 example with the exact prompt and result video visible."
+  }
+}

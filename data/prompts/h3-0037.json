@@ -1,0 +1,50 @@
+{
+  "id": "h3-0037",
+  "title": {
+    "en": "Otome Male Lead Character Promo",
+    "zh": "乙游男主角色宣传片"
+  },
+  "description": {
+    "en": "A published MiniMax H3 example demonstrating otome male lead character promo, with its exact source prompt and result video.",
+    "zh": "公开的 MiniMax H3“乙游男主角色宣传片”案例，包含原始提示词与对应成片。"
+  },
+  "mode": "reference-generation",
+  "featured": false,
+  "prompt": {
+    "original_language": "en",
+    "original": "Create a character promo for a male lead in an otome game. Use Image 2 as a strict identity reference. Preserve the same face, hairstyle, body proportions, costume design, material detail, and polished otome-CG aesthetic throughout.",
+    "zh": "为乙女游戏中的男性主角制作角色宣传片。将图片 2 作为严格的身份参考。全程保持相同的面容、发型、身体比例、服装设计、材质细节和精致的乙游 CG 美学。"
+  },
+  "parameters": {
+    "duration": "5–15s",
+    "resolution": "2K",
+    "ratio": "not stated"
+  },
+  "tags": [
+    "reference-generation",
+    "fal-guide",
+    "community-tested"
+  ],
+  "media": [
+    {
+      "type": "video",
+      "path": "media/fal-otome-male-lead-character-promo.mp4",
+      "source_url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+      "rights_status": "third-party-attributed"
+    }
+  ],
+  "source": {
+    "type": "community-tested",
+    "author": "Bennett Heyn / fal",
+    "url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+    "source_location": "page",
+    "published_at": "2026-07-30",
+    "retrieved_at": "2026-08-01"
+  },
+  "verification": {
+    "prompt_visible": true,
+    "h3_confirmed": true,
+    "output_visible": true,
+    "notes": "Published by fal as a MiniMax H3 example with the exact prompt and result video visible."
+  }
+}

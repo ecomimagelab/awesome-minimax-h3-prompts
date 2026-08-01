@@ -1,0 +1,50 @@
+{
+  "id": "h3-0038",
+  "title": {
+    "en": "First-Person Tactical Gameplay",
+    "zh": "第一人称战术游戏画面"
+  },
+  "description": {
+    "en": "A published MiniMax H3 example demonstrating first-person tactical gameplay, with its exact source prompt and result video.",
+    "zh": "公开的 MiniMax H3“第一人称战术游戏画面”案例，包含原始提示词与对应成片。"
+  },
+  "mode": "first-last-frame",
+  "featured": false,
+  "prompt": {
+    "original_language": "en",
+    "original": "Camera: first-person, eye level, handheld gameplay. Simulate a player operating a modern-warfare FPS, holding an assault rifle and advancing slowly around the perimeter of a military base. Move forward along a road beside cover, sweep the reticle across the passage ahead, pause to fire several rounds at a distant target, then continue pushing forward like authentic player-controlled footage.\n\nLighting: cool natural light across a modern military base, mixed with smoke and firelight. Keep the image photoreal and crisp, with AAA-quality weapons, materials, dust, and battlefield haze.\n\nCamera movement: subtle player-driven sway while moving; begin with a slow advance, make small checks left and right, add light recoil when firing, then continue forward steadily.",
+    "zh": "摄影机：第一人称、眼平视角、手持式游戏画面。模拟玩家操作现代战争 FPS，手持突击步枪，在军事基地外围缓慢推进。沿掩体旁的道路前进，让准星扫过前方通道，停下向远处目标射击数发，然后像真实玩家操控画面一样继续向前推进。\n\n光照：现代军事基地中的冷色自然光，与烟雾和火光混合。画面保持照片级真实和清晰，武器、材质、尘土与战场薄雾达到 AAA 游戏品质。\n\n摄影机运动：移动时带轻微的玩家操控摇摆；开场缓慢前进，小幅左右查看，射击时加入轻微后坐力，随后稳定继续向前。"
+  },
+  "parameters": {
+    "duration": "5–15s",
+    "resolution": "2K",
+    "ratio": "not stated"
+  },
+  "tags": [
+    "first-last-frame",
+    "fal-guide",
+    "community-tested"
+  ],
+  "media": [
+    {
+      "type": "video",
+      "path": "media/fal-first-person-tactical-gameplay.mp4",
+      "source_url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+      "rights_status": "third-party-attributed"
+    }
+  ],
+  "source": {
+    "type": "community-tested",
+    "author": "Bennett Heyn / fal",
+    "url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+    "source_location": "page",
+    "published_at": "2026-07-30",
+    "retrieved_at": "2026-08-01"
+  },
+  "verification": {
+    "prompt_visible": true,
+    "h3_confirmed": true,
+    "output_visible": true,
+    "notes": "Published by fal as a MiniMax H3 example with the exact prompt and result video visible."
+  }
+}

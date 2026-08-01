@@ -1,0 +1,50 @@
+{
+  "id": "h3-0024",
+  "title": {
+    "en": "Cyber-Grunge Fashion Film",
+    "zh": "赛博垃圾摇滚时尚短片"
+  },
+  "description": {
+    "en": "A published MiniMax H3 example demonstrating cyber-grunge fashion film, with its exact source prompt and result video.",
+    "zh": "公开的 MiniMax H3“赛博垃圾摇滚时尚短片”案例，包含原始提示词与对应成片。"
+  },
+  "mode": "reference-generation",
+  "featured": false,
+  "prompt": {
+    "original_language": "en",
+    "original": "Use Image 1 as the reference for texture and mood, and Image 2 for the subject’s appearance. Generate a 15-second, 16:9 fashion short. Preserve the subject’s identity: long platinum-blonde hair, narrow black vintage sunglasses, a glossy black patent-leather trench coat, a cool, self-assured expression, and orange firelight reflected across the coat.\n\nStyle: fast-cut fashion film on analog stock, set against a nighttime blaze with black smoke and orange-red flames. Layer in VHS glitches, CCTV signal interruptions, 1990s film grain, scanlines, chromatic aberration, light leaks, flash-to-white transitions, and subtle frame jitter.",
+    "zh": "图片 1 作为质感与情绪参考，图片 2 作为人物外观参考。生成一支 15 秒、16:9 的时尚短片。保持人物身份一致：铂金色长发、窄框黑色复古太阳镜、亮面黑色漆皮风衣、冷酷自信的表情，以及映在风衣上的橙色火光。\n\n风格：使用模拟胶片质感的快速剪辑时尚片，背景是夜间大火、黑烟和橙红色火焰。叠加 VHS 故障、监控信号中断、20 世纪 90 年代胶片颗粒、扫描线、色差、漏光、闪白转场和轻微画面抖动。"
+  },
+  "parameters": {
+    "duration": "5–15s",
+    "resolution": "2K",
+    "ratio": "not stated"
+  },
+  "tags": [
+    "reference-generation",
+    "fal-guide",
+    "community-tested"
+  ],
+  "media": [
+    {
+      "type": "video",
+      "path": "media/fal-cyber-grunge-fashion-film.mp4",
+      "source_url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+      "rights_status": "third-party-attributed"
+    }
+  ],
+  "source": {
+    "type": "community-tested",
+    "author": "Bennett Heyn / fal",
+    "url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+    "source_location": "page",
+    "published_at": "2026-07-30",
+    "retrieved_at": "2026-08-01"
+  },
+  "verification": {
+    "prompt_visible": true,
+    "h3_confirmed": true,
+    "output_visible": true,
+    "notes": "Published by fal as a MiniMax H3 example with the exact prompt and result video visible."
+  }
+}
