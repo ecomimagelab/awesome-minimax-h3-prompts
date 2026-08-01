@@ -12,7 +12,7 @@ LANG_CONFIG = {
         "about": "About MiniMax H3",
         "about_text": "MiniMax H3 is a multimodal video generation model that accepts text, images, video, and audio as context. This repository separates official examples, community-tested prompts, and unverified guide templates so readers can judge the evidence behind every entry.",
         "notice": "Copyright and verification notice",
-        "notice_text": "Public availability does not remove an author's rights. Every entry preserves attribution and a direct source link. `H3 confirmed: No` means the prompt was published for H3 but the source did not show a verifiable H3 result. Third-party media is linked rather than copied.",
+        "notice_text": "Public availability does not remove an author's rights. Publicly accessible media may be mirrored for research, discovery, and click-to-play viewing; every entry preserves attribution, the original URL, and retrieval metadata. Mirrored third-party material is excluded from this repository's CC BY 4.0 license and can be removed through the rights-holder request form. `H3 confirmed: No` means the source did not show a verifiable H3 result.",
         "stats": "Library statistics",
         "browse": "Browse by mode",
         "featured": "Featured prompts",
@@ -25,8 +25,12 @@ LANG_CONFIG = {
         "source_type": "Source type",
         "published": "Published",
         "retrieved": "Retrieved",
+        "thread": "Parent thread",
+        "source_location": "Source location",
         "parameters": "Parameters",
         "verification": "Verification",
+        "video": "Video",
+        "play_video": "Play the original video",
         "yes": "Yes",
         "no": "No",
         "prompt_visible": "Prompt visible",
@@ -45,7 +49,7 @@ LANG_CONFIG = {
         "about": "关于 MiniMax H3",
         "about_text": "MiniMax H3 是可将文本、图片、视频和音频作为统一上下文的视频生成模型。本仓库严格区分官方示例、社区实测 Prompt 和尚未展示 H3 结果的公开教程模板，方便读者判断每条内容的证据强度。",
         "notice": "版权与核验说明",
-        "notice_text": "内容公开可见不代表作者放弃权利。每条收录均保留作者署名和直接来源链接。`H3 已确认：否` 表示该 Prompt 虽面向 H3 发布，但来源页面没有展示可核验的 H3 结果。第三方媒体默认仅链接、不搬运。",
+        "notice_text": "内容公开可见不代表作者放弃权利。公开可访问的媒体可能会为研究、发现与点击播放而镜像保存；每条内容均保留作者署名、原始链接和抓取信息。镜像的第三方内容不适用本仓库的 CC BY 4.0，权利人可通过删除申请表要求下架。`H3 已确认：否` 表示来源没有展示可核验的 H3 结果。",
         "stats": "收录统计",
         "browse": "按生成模式浏览",
         "featured": "精选提示词",
@@ -58,8 +62,12 @@ LANG_CONFIG = {
         "source_type": "来源类型",
         "published": "发布时间",
         "retrieved": "收录时间",
+        "thread": "所属主帖",
+        "source_location": "来源位置",
         "parameters": "生成参数",
         "verification": "核验状态",
+        "video": "案例视频",
+        "play_video": "点击播放原视频",
         "yes": "是",
         "no": "否",
         "prompt_visible": "Prompt 可见",
@@ -112,6 +120,10 @@ def render_card(item: dict, lang: str, categories: dict, text: dict[str, str]) -
     if lang == "zh" and prompt["zh"].strip() != prompt["original"].strip():
         lines.extend(["", f"#### {text['translation']}", "", "```text", prompt["zh"], "```"])
 
+    for media in item.get("media", []):
+        if media.get("type") == "video" and media.get("path"):
+            lines.extend(["", f"#### {text['video']}", "", f"[▶ {text['play_video']}]({media['path']})"])
+
     lines.extend(
         [
             "",
@@ -121,6 +133,8 @@ def render_card(item: dict, lang: str, categories: dict, text: dict[str, str]) -
             f"- **Tags：** {tags}",
             f"- **{text['source_type']}：** {source_type}",
             f"- **{text['source']}：** [{source['author']}]({source['url']})",
+            *([f"- **{text['thread']}：** [X thread]({source['thread_url']})"] if source.get("thread_url") else []),
+            *([f"- **{text['source_location']}：** `{source['source_location']}`"] if source.get("source_location") else []),
             f"- **{text['published']}：** {source['published_at']}",
             f"- **{text['retrieved']}：** {source['retrieved_at']}",
             f"- **{text['verification']}：** {text['prompt_visible']} {bool_text(verification['prompt_visible'], text)} · {text['h3_confirmed']} {bool_text(verification['h3_confirmed'], text)} · {text['output_visible']} {bool_text(verification['output_visible'], text)}",

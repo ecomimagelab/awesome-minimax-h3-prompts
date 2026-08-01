@@ -16,6 +16,8 @@ Every submission must include:
 - Whether a generated result is visible at the source.
 - Publication date, if available.
 
+For X threads, inspect the main post plus consecutive author replies. If the prompt is in a reply or comment, use that reply as `source.url`, add the main post as `source.thread_url`, and set `source.source_location` to `reply` or `comment`.
+
 每次投稿必须提供：
 
 - 作者公开发布的完整原始 Prompt。
@@ -26,12 +28,14 @@ Every submission must include:
 - 来源是否展示生成结果。
 - 可获取时提供发布时间。
 
+对于 X 线程，请同时检查主帖和作者连续回复。如果 Prompt 位于回复或评论中，应将该回复设为 `source.url`，将主帖设为 `source.thread_url`，并把 `source.source_location` 标记为 `reply` 或 `comment`。
+
 ## Review rules / 审核规则
 
 - Do not submit private, paywalled, leaked, or deleted content.
 - Do not claim a result is H3-generated without a public statement or visible model label.
 - AI-written translations are allowed, but the original prompt must remain unchanged.
-- Do not upload third-party videos or images without permission; link to the original source.
+- Publicly accessible third-party media may be mirrored for click-to-play viewing only when attribution, the original URL, retrieval metadata, and removal-request path are preserved. Do not collect private, paywalled, leaked, or deleted media.
 - Maintainers may edit metadata and translations for clarity while preserving the source prompt.
 
 ## Local validation / 本地校验
@@ -42,4 +46,3 @@ python scripts/generate_readme.py
 ```
 
 Commit both the structured data and regenerated README files.
-

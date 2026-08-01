@@ -53,9 +53,11 @@ def validate_prompt(item: dict[str, Any], allowed_modes: set[str]) -> list[str]:
             errors.append(f"{item_id}: {field} must contain non-empty en and zh values")
 
     prompt = item.get("prompt", {})
-    for field in ("original", "en", "zh", "original_language"):
+    for field in ("original", "zh", "original_language"):
         if not isinstance(prompt, dict) or not prompt.get(field):
             errors.append(f"{item_id}: prompt.{field} is required")
+    if isinstance(prompt, dict) and prompt.get("original_language") != "en" and not prompt.get("en"):
+        errors.append(f"{item_id}: prompt.en is required when the original language is not English")
 
     source = item.get("source", {})
     source_url = source.get("url", "") if isinstance(source, dict) else ""
@@ -65,6 +67,13 @@ def validate_prompt(item: dict[str, Any], allowed_modes: set[str]) -> list[str]:
         if not isinstance(source, dict) or not source.get(field):
             errors.append(f"{item_id}: source.{field} is required")
 
+    source_location = source.get("source_location") if isinstance(source, dict) else None
+    if source_location is not None and source_location not in {"post", "reply", "comment", "page"}:
+        errors.append(f"{item_id}: unsupported source.source_location: {source_location!r}")
+    thread_url = source.get("thread_url", "") if isinstance(source, dict) else ""
+    if thread_url and not thread_url.startswith(("https://", "http://")):
+        errors.append(f"{item_id}: source.thread_url must be an HTTP(S) URL")
+
     verification = item.get("verification", {})
     for field in ("prompt_visible", "h3_confirmed", "output_visible", "notes"):
         if not isinstance(verification, dict) or field not in verification:
@@ -73,5 +82,14 @@ def validate_prompt(item: dict[str, Any], allowed_modes: set[str]) -> list[str]:
     if not isinstance(item.get("tags"), list) or not item.get("tags"):
         errors.append(f"{item_id}: tags must be a non-empty list")
 
-    return errors
+    for index, media in enumerate(item.get("media", [])):
+        if media.get("type") not in {"video", "image", "audio"}:
+            errors.append(f"{item_id}: media[{index}].type is unsupported")
+        if not media.get("path"):
+            errors.append(f"{item_id}: media[{index}].path is required")
+        elif media["path"].startswith(("http://", "https://")):
+            errors.append(f"{item_id}: media[{index}].path must be a repository-relative path")
+        if not media.get("source_url", "").startswith(("https://", "http://")):
+            errors.append(f"{item_id}: media[{index}].source_url must be an HTTP(S) URL")
 
+    return errors
