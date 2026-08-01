@@ -89,7 +89,21 @@ def anchor(value: str) -> str:
     return value.lower().replace(" / ", "-").replace(" ", "-")
 
 
-def render_card(item: dict, lang: str, categories: dict, text: dict[str, str]) -> str:
+def render_video(media: dict, text: dict[str, str]) -> list[str]:
+    playback_url = media.get("playback_url")
+    if playback_url:
+        return ["", f"#### {text['video']}", "", playback_url, "", f"[↗ {text['play_video']}]({playback_url})"]
+    return ["", f"#### {text['video']}", "", f"[▶ {text['play_video']}]({media['path']})"]
+
+
+def render_card(
+    item: dict,
+    lang: str,
+    categories: dict,
+    text: dict[str, str],
+    *,
+    include_media: bool = True,
+) -> str:
     title = item["title"][lang]
     description = item["description"][lang]
     prompt = item["prompt"]
@@ -120,13 +134,10 @@ def render_card(item: dict, lang: str, categories: dict, text: dict[str, str]) -
     if lang == "zh" and prompt["zh"].strip() != prompt["original"].strip():
         lines.extend(["", f"#### {text['translation']}", "", "```text", prompt["zh"], "```"])
 
-    for media in item.get("media", []):
-        if media.get("type") == "video" and media.get("path"):
-            playback_url = media.get("playback_url")
-            if playback_url:
-                lines.extend(["", f"#### {text['video']}", "", playback_url, "", f"[↗ {text['play_video']}]({playback_url})"])
-            else:
-                lines.extend(["", f"#### {text['video']}", "", f"[▶ {text['play_video']}]({media['path']})"])
+    if include_media:
+        for media in item.get("media", []):
+            if media.get("type") == "video" and media.get("path"):
+                lines.extend(render_video(media, text))
 
     lines.extend(
         [
@@ -150,11 +161,45 @@ def render_card(item: dict, lang: str, categories: dict, text: dict[str, str]) -
     return "\n".join(lines)
 
 
+def shared_video_groups(prompts: list[dict]) -> list[list[dict]]:
+    by_path: dict[str, list[dict]] = {}
+    for item in prompts:
+        for media in item.get("media", []):
+            if media.get("type") == "video" and media.get("path"):
+                by_path.setdefault(media["path"], []).append(item)
+                break
+    return [items for items in by_path.values() if len(items) > 1]
+
+
+def render_video_collection(
+    items: list[dict], lang: str, categories: dict, text: dict[str, str]
+) -> str:
+    first = items[0]
+    last = items[-1]
+    video = next(media for media in first["media"] if media.get("type") == "video")
+    id_range = f"{first['id'].upper()}–{last['id'].upper()}"
+    if lang == "zh":
+        title = f"{id_range} · 一个原视频中的 {len(items)} 段提示词"
+        note = "来源将这些案例发布在同一个合集视频中。视频只展示一次，对应的完整提示词依次列在下方。"
+    else:
+        title = f"{id_range} · {len(items)} prompts in one source video"
+        note = "The source presents these examples in a single compilation video. The video is shown once, followed by the complete prompt blocks below."
+
+    lines = [f"### {title}", "", note]
+    lines.extend(render_video(video, text))
+    lines.extend(["", "---", ""])
+    for item in items:
+        lines.extend([render_card(item, lang, categories, text, include_media=False), ""])
+    return "\n".join(lines)
+
+
 def generate(lang: str, prompts: list[dict], categories: dict) -> str:
     text = LANG_CONFIG[lang]
     source_counts = Counter(item["source"]["type"] for item in prompts)
     mode_counts = Counter(item["mode"] for item in prompts)
     latest = max(item["source"]["retrieved_at"] for item in prompts)
+    video_groups = shared_video_groups(prompts)
+    grouped_ids = {item["id"] for group in video_groups for item in group}
 
     lines = [
         '<p align="center"><img src="public/cover.svg" alt="Awesome MiniMax H3 Prompts" width="100%"></p>',
@@ -205,11 +250,22 @@ def generate(lang: str, prompts: list[dict], categories: dict) -> str:
         source_type = categories["source_types"][item["source"]["type"]][lang]
         lines.append(f"- [{item['title'][lang]}](#{item['id']}) — {source_type}")
 
+    if video_groups:
+        collection_heading = "合集视频与多段提示词" if lang == "zh" else "Compilation videos with multiple prompts"
+        lines.extend(["", f"## {collection_heading}", ""])
+        for group in video_groups:
+            lines.extend([render_video_collection(group, lang, categories, text), ""])
+
     lines.extend(["", f"## {text['all']}", ""])
     for mode_key, mode_label in categories["modes"].items():
         lines.extend([f"## {mode_label[lang]}", ""])
-        entries = [item for item in prompts if item["mode"] == mode_key]
-        if not entries:
+        grouped_entries = [item for item in prompts if item["mode"] == mode_key and item["id"] in grouped_ids]
+        entries = [item for item in prompts if item["mode"] == mode_key and item["id"] not in grouped_ids]
+        if grouped_entries:
+            label = "上方合集中的相关提示词" if lang == "zh" else "Related prompts in the compilation above"
+            links = " · ".join(f"[{item['id'].upper()}](#{item['id']})" for item in grouped_entries)
+            lines.extend([f"*{label}:* {links}", ""])
+        if not entries and not grouped_entries:
             lines.extend(["_Coming soon._", ""])
             continue
         for item in entries:

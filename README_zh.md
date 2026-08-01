@@ -56,9 +56,431 @@ MiniMax H3 是可将文本、图片、视频和音频作为统一上下文的视
 - [交互式游戏装备界面](#h3-0019) — 社区实测
 - [咖啡微距到沙漠的无缝转场](#h3-0020) — 社区实测
 
+## 合集视频与多段提示词
+
+### H3-0012–H3-0016 · 一个原视频中的 5 段提示词
+
+来源将这些案例发布在同一个合集视频中。视频只展示一次，对应的完整提示词依次列在下方。
+
+#### 案例视频
+
+https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2
+
+[↗ 点击播放原视频](https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2)
+
+---
+
+<a id="h3-0012"></a>
+
+### H3-0012 · 别再叫我的名字
+
+**文生视频** · **社区实测** · ⭐ Featured
+
+#### 内容说明
+
+一段 15 秒荒漠对峙，以单一手持镜头呈现，第二位说话者始终位于摄影机后。
+
+#### 原始 Prompt
+
+```text
+PROMPT 1:
+
+SCENE CONTEXT A middle-aged man stands in the middle of a dirt road in open desert and holds a pistol level at the person filming him. He gives an instruction, is answered by name, and warns them not to say it again. Nothing is fired.
+
+TIMELINE 0.0–3.0s — he is already aimed and steady; his first line lands. 3.0–6.0s — the off-frame reply uses his name; his jaw sets and the muzzle does not drop. 6.0–9.0s — his second line; he takes half a step forward and re-sights. 9.0–11.0s — the off-frame voice starts his name again and stops. 11.0–15.0s — his last line; wind lifts dust across the road behind him; he holds the aim. Hold to black-free end.
+
+ACTIVE REFERENCES No image or video references are active in this shot. Build the man from description only. Man, fifties, white, average build, standing, thinning brown hair, a brown moustache, thin-rimmed prescription glasses; light green long-sleeved button-down shirt with the sleeves buttoned at the wrist, dark work trousers; stern, brow furrowed, sweat starting at the hairline; frightened underneath and controlling it; speaking voice flat, plain, mid-western American, no theatricality. Second speaker: the unseen person the pistol is aimed at, occupying the camera position, never entering frame and never seen. Voice only — male, forties, close to the lens, low and careful.
+
+LOCATION MAP Camera on the dirt road 3.5 m from him at his chest height, facing him square-on so the muzzle is aligned with the lens axis. FG: rutted dirt and loose gravel across the lower frame. MG: the man alone, centre frame. BG: the dirt road receding to a vanishing point at x 50%, y 44%, low scrub and dry brush from x 0% to x 30% and x 70% to x 100%, a distant fence line at x 62%, y 48%, flat desert horizon at y 46%, overcast sky filling the upper half with one pale blue break low at x 24%, y 36%. He occupies x 50%, y 50%, body frontal, both feet planted, right arm extended toward camera with the silver pistol at x 50%, y 56%, held at the very front of the depth plane. His eyeline is straight down the lens. The first visible frame already has him aimed and in position — no empty establishing frame, no walk-in, no delayed reveal, and he remains the only figure in frame for the entire take.
+
+FORMAT MODE Single continuous take, no internal cuts, no transitions, no fades. Real-time motion. His lines are on camera; the second voice is an intentional off-frame speaker at the camera position. No other voices, no narration, no subtitles, no score.
+
+CAMERA 47° diagonal field of view, camera 3.5 m from him at chest height, natural human-eye perspective, no distortion, natural face and body proportions, the road and horizon readable behind him, comfortable depth of field with the pistol slightly forward of his focal plane. Handheld, shoulder-mounted mass, operator breath and small involuntary settling — the camera is being held by the person he is aiming at, so it flinches minutely rather than gliding. Total travel under 20 cm, no push-in, no zoom, no focus rack. Focus holds his eyes behind the glasses; the pistol stays just soft.
+
+ACTION TIMING He is already sighted along the barrel as the shot opens and speaks without lowering it. The off-frame voice answers with his name; his jaw sets and the muzzle does not waver. He speaks his second line and takes half a step forward on the dirt, re-sighting as his weight lands. The off-frame voice begins his name again and stops. He delivers his last line, and wind lifts a curtain of dust across the road behind him. He holds the aim to the end without firing and without lowering the weapon.
+
+PHYSICS The pistol carries real weight — his wrist and forearm show the load and micro-correct continuously; the muzzle drifts a few millimetres and is pulled back on line. His half step lands heel-first in soft dirt with visible weight transfer and a small dust puff that drifts and thins. Shirt fabric pulls across the extended shoulder and creases at the elbow. Wind moves the loose dust and the dry scrub in the same direction and at the same time. Thinning hair lifts and settles with the gust. Sweat beads at his temple and does not run.
+
+LIGHTING Primary source is the full overcast sky acting as one enormous soft toplight, giving even illumination with minimal harsh shadow — a soft shadow under the brow and the nose only, no hard edges anywhere. Secondary is dry ground bounce filling under the chin and lifting the shadow side of the pistol. Both lenses of his glasses carry a broad soft reflection of the sky, and his eyes stay readable behind them. Exposure is set for his face; the sky sits bright but not clipped. No sun shaft, no lens flare, no added key, no light change during the take.
+
+AUDIO Dry wind across open ground, loose grit moving on the road, dry brush ticking, one distant bird, his own breathing close and unsteady. Ambient ducks under the voices. Exactly this exchange, flat and plain, no shouting — 25 words total: HIM: "Put it on the ground. Slowly." OFF-FRAME: "You're not going to shoot me, Ray." HIM: "I've been wrong about myself before." OFF-FRAME: "Ray—" HIM: "Don't say my name again." His first line opens the shot. The off-frame reply lands as his jaw sets. His second line comes as he takes the half step. The off-frame "Ray—" is cut off by his last line, which is quieter than everything before it. His lips move only for his own lines; there is no dialogue in the pauses and no muttering between beats.
+
+POSITIVE LOCKS Exactly one visible person is in frame for the whole take — nobody enters at any edge, no second figure appears on the road, at the fence line or in the reflections on his glasses, and the off-frame speaker is never seen. The pistol stays in his right hand, stays aimed at the lens, and is never fired, never lowered and never re-holstered; no muzzle flash, no recoil, no gunshot. He stays on the road and never turns away from camera. Naturalistic muted palette of dry greens and browns against pale overcast grey. Live-action photoreal footage shot on ARRI Alexa 35, tense neutral mood, natural film grain.
+```
+
+#### 中文翻译
+
+```text
+提示词 1：
+
+场景背景 开阔荒漠的一条土路中央，一名中年男人用手枪平指正在拍摄他的人。他发出指令，对方叫出他的名字，他警告对方不要再说。全程不开枪。
+
+时间线 0.0–3.0 秒——他已稳定瞄准，说出第一句。3.0–6.0 秒——画外回应叫出他的名字；他咬紧下颌，枪口不落。6.0–9.0 秒——说第二句；向前半步并重新瞄准。9.0–11.0 秒——画外声音再次开口叫名字又停下。11.0–15.0 秒——他说最后一句；风卷起他身后路上的尘土，他保持瞄准。结尾不要淡黑。
+
+启用参考 本镜头不使用图片或视频参考，只按描述构建男人。五十多岁白人，普通体型，棕发稀疏、棕色小胡子、细框近视眼镜；浅绿色长袖扣领衬衫，袖口扣紧，深色工作裤；神情严厉、眉头紧皱，发际线开始出汗；内心恐惧但强行控制；声音平直朴素、美国中西部口音、不戏剧化。第二位说话者是被枪指着、位于摄影机位置且永不入镜的人。只有声音：四十多岁男性，靠近镜头，低声而谨慎。
+
+位置图 摄影机位于土路上，距他 3.5 米、胸口高度，正对他，使枪口与镜头轴线重合。前景：画面下方车辙与松散碎石。中景：男人独自在正中央。背景：土路向 x 50%、y 44% 消失点延伸；低矮灌木和枯枝位于 x 0%–30% 与 x 70%–100%；远处栅栏线在 x 62%、y 48%；平坦荒漠地平线在 y 46%；阴天占据上半画面，x 24%、y 36% 低处有一小块浅蓝天空。他位于 x 50%、y 50%，正面站立，双脚着地，右臂伸向摄影机，银色手枪位于 x 50%、y 56%，处在景深最前端。视线沿镜头直视。第一可见帧中他已就位瞄准；不要空镜、走入或延迟揭示，整段始终只有他一人入镜。
+
+格式模式 单一连续镜头，无内部切镜、转场或淡化；实时运动。他的台词在镜头内说出，第二个声音刻意设置在摄影机位置的画外。无其他声音、旁白、字幕或配乐。
+
+摄影 47° 对角视场，摄影机距 3.5 米、胸口高度；自然人眼透视、无畸变、脸与身体比例自然，后方道路和地平线清晰，舒适景深，手枪略微位于脸部焦平面之前。肩扛式手持重量感，保留摄影者呼吸与轻微不自主沉降；由于持机者正被瞄准，摄影机产生细小畏缩而非滑行。总位移小于 20 厘米，不推进、不变焦、不拉焦。焦点锁在眼镜后的双眼，手枪保持略虚。
+
+动作时序 镜头开始时他已沿枪管瞄准，不放下枪便开口。画外声音以名字回应；他咬紧下颌，枪口不晃。他说第二句并在土路上向前半步，重量落下时重新瞄准。画外声音再次开始叫名字又停下。他说最后一句，风在身后道路上卷起一幕尘土。他保持瞄准至结尾，不开枪也不放下武器。
+
+物理 手枪具有真实重量，手腕和前臂承受负荷并持续微调；枪口漂移几毫米后被拉回轴线。半步以脚跟先落在松软土中，可见重量转移与一小团逐渐飘散变薄的尘土。衬衫布料在伸出的肩膀上被拉紧，肘部形成褶皱。风同时、同向推动松尘和枯灌木；稀疏头发随阵风抬起后落下；太阳穴汗珠凝结但不流淌。
+
+灯光 主光为整片阴天形成的巨大柔和顶光，照明均匀，几乎无硬影；仅眉骨与鼻下有柔影，任何位置都无硬边。辅光为干燥地面反射，填充下巴下方并抬亮手枪阴影侧。两片镜片都有宽阔柔和的天空反光，眼睛仍清晰可读。曝光以脸为准，天空明亮但不剪裁。无阳光束、镜头光斑、额外主光，镜头中光线不变化。
+
+声音 开阔地面的干风、道路上移动的松砂、枯灌木轻响、一只远鸟，以及他近距离不稳定的呼吸。对白时环境声压低。严格按以下 25 个英文词的对白节奏，平直朴素、不喊叫：他："把它放在地上。慢慢来。" 画外："你不会开枪打我，雷。" 他："我以前也看错过自己。" 画外："雷——" 他："别再叫我的名字。" 第一行开启镜头；画外回应时他咬紧下颌；向前半步时说第二句；画外的“雷——”被他最后一句打断，最后一句比之前所有话都轻。他只在自己的台词中动嘴；停顿间没有对白或喃喃自语。
+
+正向锁定 全程恰好只有一个可见人物；任何边缘都不进入他人，道路、栅栏线或眼镜反射中都不出现第二个人，画外说话者绝不被看见。手枪始终在右手、始终指向镜头，绝不开火、放下或重新入套；无枪口火焰、后坐或枪声。他留在路上，从不背对摄影机。干燥绿与棕配浅阴天灰的自然低饱和色板。ARRI Alexa 35 拍摄的真人电影级写实影像，紧张而中性的情绪，自然胶片颗粒。
+```
+
+#### 详细信息
+
+- **生成参数：** `duration: 15s` · `resolution: 2560x1440` · `ratio: 16:9`
+- **Tags：** `desert` `single-take` `handheld` `dialogue` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Alex Patrascu (@maxescu)](https://x.com/maxescu/status/2082563245504856385)
+- **所属主帖：** [X thread](https://x.com/maxescu/status/2082563241062875568)
+- **来源位置：** `reply`
+- **发布时间：** 2026-07-29
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** The complete prompt appears in an author reply; the parent post says the displayed scenes were tried with MiniMax H3.
+
+---
+
+<a id="h3-0013"></a>
+
+### H3-0013 · 不会得到回复的信
+
+**文生视频** · **社区实测** · ⭐ Featured
+
+#### 内容说明
+
+一段发生在结霜温室中的克制年代戏，通过信纸特写表现人物情绪。
+
+#### 原始 Prompt
+
+```text
+PROMPT 2:
+
+SCENE CONTEXT In a frosted country-house conservatory on a grey morning, an older woman tells a younger one that the letter will not be answered. The younger woman holds her composure and loses it only in her hands.
+
+FORMAT MODE Controlled three-segment sequence, one HARD CUT and one INSERT CUT. Real-time motion.
+
+LOCATION MAP Camera inside a glazed conservatory, 3 m from the two women, facing them with the steamed glass wall behind them. FG: potted fern fronds at the frame edge. MG: older woman screen-left, younger woman screen-right, 80 cm apart. BG: glass panes, frost-white winter garden, a cast-iron bench, one low oil lamp. Soft light comes from the whole glass wall behind and above them.
+
+FIRST FRAME AND SPATIAL BLOCKING Both women are in frame from the first visible frame. Older woman at x 32%, y 46%, three-quarter profile facing screen-right, gloved hands folded at her waist. Younger woman at x 68%, y 44%, torso squared to her, gaze locked on her face, a folded letter held in both hands at x 62%, y 76%. No empty establishing frame.
+
+OPTICS LENS LOCK SEGMENT 1 = 47°, camera 3 m out, natural proportions, both faces and the conservatory geography readable. LENS LOCK SEGMENT 2 = 18°, camera 6.5 m back down the conservatory aisle, strong compression, glass panes and ferns stacking behind the younger woman, razor-thin focus on her eyes. LENS LOCK SEGMENT 3 = 29°, camera 4 m out and lower, close on her hands by lens reach, the room dissolving to creamy bokeh behind.
+
+CAMERA Segment 1 locked-off at eye height. Segment 2 long lens with the faintest human drift. Segment 3 handheld, settling downward toward the letter.
+
+ACTION TIMING BEAT 1 — The older woman speaks her line, chin level, hands unmoving. The younger woman does not react in her face. HARD CUT BEAT 2 — Long-lens hold on the younger woman. A long beat. Her eyelids redden; she blinks once and keeps her eyes forward, refusing to look down. INSERT CUT BEAT 3 — Tight on her hands. Her thumbs press and slowly crush the folded letter's edge until the paper buckles, then stop. Hold on the buckled paper.
+
+PHYSICS Paper buckles progressively under thumb pressure and holds its new shape. Glove leather stretches over her knuckles. Condensation runs down glass panes in slow irregular tracks. Silk and wool hold real weight; her skirts do not float. Breath fogs faintly in the cold air.
+
+LIGHTING Primary source is vast soft north daylight through the steamed glass wall behind and above them, motivated, wrapping both faces. Secondary: cold blue bounce off the frost outside, and one warm low oil lamp deep in frame. Soft shadow rolloff with clearly readable eyes and catchlights — restrained low contrast, not silhouette.
+
+AUDIO Rain ticking on glass, a distant door, the faint hiss of the oil lamp, a bird outside. Ambient ducks under the voice. The older woman speaks exactly this line as the shot opens: "There will be no reply, and you will not ask again." No other dialogue, no score. The younger woman's lips stay still.
+
+POSITIVE LOCKS Exactly two women appear and no servant or third figure enters. Both hold their positions across all segments. Costume, gloves, the folded letter and the frost state remain identical across the cuts. Cinematic photorealistic footage shot on ARRI Alexa 35, pearl-grey and soft-green grade, low contrast, natural film grain.
+```
+
+#### 中文翻译
+
+```text
+提示词 2：
+
+场景背景 灰暗的清晨，一座结霜的乡间宅邸玻璃温室里，一位年长女人告诉年轻女人，那封信不会得到回复。年轻女人保持着镇定，只有双手泄露了情绪。
+
+格式模式 受控的三段式序列，一次硬切和一次插入特写切镜；实时运动。
+
+位置图 摄影机位于玻璃温室内，距两位女人 3 米，面向她们，后方是蒙着水汽的玻璃墙。前景：画面边缘的盆栽蕨叶。中景：年长女人在画面左侧，年轻女人在右侧，相距 80 厘米。背景：玻璃窗格、霜白的冬季花园、一张铸铁长椅和一盏低矮油灯。柔光从她们身后及上方的整面玻璃墙照入。
+
+首帧与空间调度 第一可见帧中两人都已入镜。年长女人位于 x 32%、y 46%，三分之二侧面朝画面右侧，戴手套的双手叠在腰前。年轻女人位于 x 68%、y 44%，躯干正对她，目光锁住她的脸，双手在 x 62%、y 76% 处拿着一封折好的信。不要空镜建立镜头。
+
+光学与镜头锁定 第 1 段为 47°，摄影机距 3 米，自然比例，两张脸和温室空间均清晰可读。第 2 段为 18°，摄影机沿温室过道后退至 6.5 米，产生强烈压缩感，玻璃窗格与蕨类层叠在年轻女人身后，极浅焦点锁在她的眼睛。第 3 段为 29°，摄影机距 4 米且机位更低，以镜头焦段贴近她的双手，房间在后方化成奶油般散景。
+
+摄影 第 1 段眼平固定机位；第 2 段长焦，只有极轻微的人体漂移；第 3 段手持，向下沉落到信件。
+
+动作时序 节拍 1——年长女人抬平下巴说出台词，双手不动。年轻女人脸上毫无反应。硬切至节拍 2——长焦停留在年轻女人身上，长时间停顿。她的眼睑泛红，只眨一次眼，仍直视前方，拒绝低头。插入特写切至节拍 3——紧拍她的双手。拇指按压并缓慢碾皱折叠信纸的边缘，直到纸张屈曲后停下；停留在变形的纸上。
+
+物理 信纸在拇指压力下逐渐屈曲并保持新形状；手套皮革在指关节上绷紧；冷凝水沿玻璃窗格以缓慢而不规则的轨迹流下；丝绸与羊毛具有真实重量，裙摆不漂浮；寒冷空气中呼吸产生淡淡白雾。
+
+灯光 主光为从她们身后与上方蒙雾玻璃墙透入的大片柔和北向日光，动机明确并包裹两张脸。辅光来自室外霜面的冷蓝反射，画面深处另有一盏温暖低位油灯。阴影柔和过渡，双眼和眼神光清晰可见；克制的低反差，不要剪影。
+
+声音 雨点敲击玻璃、远处一扇门、油灯轻微嘶声和室外鸟鸣。说话时环境声压低。镜头开始时，年长女人准确说："不会有回信，你也不准再问。" 没有其他对白，没有配乐；年轻女人的嘴唇始终不动。
+
+正向锁定 画面中恰好只有两位女人，不出现仆人或第三个人。三段中两人位置保持不变；服装、手套、折叠信件和结霜状态在切镜间完全一致。ARRI Alexa 35 拍摄的电影级写实影像，珍珠灰与柔绿调色，低反差，自然胶片颗粒。
+```
+
+#### 详细信息
+
+- **生成参数：** `duration: 15s` · `resolution: 2560x1440` · `ratio: 16:9`
+- **Tags：** `period-drama` `dialogue` `three-segment` `insert-shot` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Alex Patrascu (@maxescu)](https://x.com/maxescu/status/2082563249095020865)
+- **所属主帖：** [X thread](https://x.com/maxescu/status/2082563241062875568)
+- **来源位置：** `reply`
+- **发布时间：** 2026-07-29
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** The complete prompt appears in an author reply; the parent post says the displayed scenes were tried with MiniMax H3.
+
+---
+
+<a id="h3-0014"></a>
+
+### H3-0014 · 我看得见尘土
+
+**图生视频** · **社区实测** · ⭐ Featured
+
+#### 内容说明
+
+一段以参考图锁定人物和光线、带热浪效果的 15 秒西部片单镜头。
+
+#### 原始 Prompt
+
+```text
+PROMPT 3:
+
+SCENE CONTEXT A weathered man rests against a timber rail in blistering noon heat while something is brought up the street toward him. A voice across the street offers him a way out and he declines it.
+
+TIMELINE 0.0–3.0s — the off-frame line; a gust lifts dust across frame. 3.0–6.0s — his answer; he turns his face out of the dust and works his jaw once. 6.0–9.5s — the second off-frame line; his eyes track slowly screen-left to screen-right. 9.5–12.5s — his last line, flat and final. 12.5–15.0s — he pushes off the rail with one shoulder and straightens out of the top of frame; dust closes behind him.
+
+ACTIVE REFERENCES 📷Image1 is the reference and the exact first visible frame — source of truth for his face, hat, wardrobe and the light. Man, fifties, leaning against a timber rail, pale wide-brim hat pushed back with a visible pale forehead line, dust-caked collarless shirt torn at one shoulder, deep sun creases, broken capillaries, grit in the stubble; long past being surprised; speaking voice dry, laconic, low volume. 100% matches the reference. Second speaker: an unseen man across the street, off-frame screen-left at the same level, never entering frame. Voice only — male, middle-aged, flat, carrying across distance.
+
+LOCATION MAP Camera on the street 4.5 m from him at his eye height. FG: nothing between camera and subject except airborne dust. MG: the man against grey weathered timber spanning x 0% to x 55%. BG: a blurred wagon at x 76%, y 30% and two standing figures at x 84%, y 34% and x 92%, y 36%, dissolved in heat shimmer, pale sky at the top edge. He occupies x 34%, y 50%, chest-up, torso angled to screen-right, eyes to screen-left. The first visible frame already contains him in exactly this position. He is the only sharp figure and remains so.
+
+FORMAT MODE Single continuous take, no internal cuts, no transitions. Real-time motion. His lines are on camera; the second voice is an intentional off-frame reply. No other voices, no narration, no subtitles, no music.
+CAMERA 29° diagonal field of view, camera 4.5 m out at his eye height, close framing achieved through lens reach, his face razor-sharp, the wagon and the two figures compressed flat behind him and melting into bokeh, visible heat shimmer between camera and background. Locked off with the faintest human drift; no push-in, no focus rack.
+
+ACTION TIMING He squints harder as a gust lifts dust across the frame, and turns his face a few degrees out of it as he answers. He works his jaw once. His eyes track slowly from screen-left to screen-right, following something crossing behind camera. A long beat. He delivers his last line, then pushes off the rail with one shoulder and straightens, rising out of the top edge of frame as the dust closes behind him.
+
+PHYSICS Airborne dust crosses in real gusts, catches the light and settles on his shoulders. The torn shirt fabric lifts at the shoulder and falls. The timber rail does not move when he pushes off it, and his weight transfers audibly into his boots. Sweat and grit sit on the skin without running.
+
+LIGHTING Inherit 📷Image1 exactly and do not relight. Primary: hard vertical noon sun. Secondary: brilliant bounce off pale caliche dust filling the shadows from below. Deep shadow under the hat brim across the bridge of his nose. Highlights on the timber and sky sit near clipping. No fill added, no light change during the take.
+
+AUDIO Dry wind against timber, distant wagon wheels and harness, a fly, boot grit. Ambient ducks under the voices. Exactly this exchange, laconic and flat, spoken across distance without echo effects — 22 words total: OFF-FRAME MAN: "They're bringing him up now." HIM: "I can see the dust." OFF-FRAME MAN: "You want to be somewhere else?" HIM: "I've been somewhere else. Didn't help." The off-frame line opens the shot. He answers into the gust. The second off-frame line comes while his eyes track across. His last line lands as he pushes off the rail. His lips move only for his own lines.
+
+POSITIVE LOCKS Exactly one sharp figure is in frame; the two background figures stay unresolved in the heat haze and never become characters or come into focus, and no one crosses between camera and subject. Hat, torn shirt, dust layer and the timber rail stay exactly as in 📷Image1. Cinematic photorealistic footage shot on ARRI Alexa 35, natural film grain.
+```
+
+#### 中文翻译
+
+```text
+提示词 3：
+
+场景背景 炙热正午，一名饱经风霜的男人靠在木栏上，街道远处有人正把某个对象带向他。街对面一个声音给他逃脱的机会，他拒绝了。
+
+时间线 0.0–3.0 秒——画外台词响起，一阵风把尘土卷过画面。3.0–6.0 秒——他回答，稍微转脸避开尘土，下颌动一次。6.0–9.5 秒——第二句画外台词，他的目光缓慢从画面左侧移至右侧。9.5–12.5 秒——他说出最后一句，平淡而决绝。12.5–15.0 秒——他用一侧肩膀推离栏杆，站直并从画面上缘离开，尘土在身后合拢。
+
+启用参考 📷Image1 是参考图，也是精确的第一可见帧，是其脸、帽子、服装和光线的唯一依据。男人五十多岁，靠着木栏；浅色宽檐帽向后推，额头留有清晰浅色晒痕；无领衬衫覆满尘土，一侧肩头撕裂；深重日晒纹、破裂毛细血管、胡茬里夹着砂砾；早已不会感到意外；声音干涩、简短、低声。与参考图 100% 一致。第二位说话者是街对面看不见的男人，位于画外左侧同一高度，始终不入镜；只有声音，中年男性，平直，能跨越距离传来。
+
+位置图 摄影机在街上，距他 4.5 米，与眼睛同高。前景除悬浮尘土外没有遮挡。中景是男人靠在从 x 0% 延伸至 x 55% 的灰色风化木栏。背景：x 76%、y 30% 处一辆模糊马车，x 84%、y 34% 与 x 92%、y 36% 处两名站立人物，均消融在热浪中；画面顶部为浅色天空。他位于 x 34%、y 50%，胸部以上入镜，身体朝画面右侧，眼睛看向左侧。第一帧已精确处于此位置；他始终是唯一清晰人物。
+
+格式模式 单一连续镜头，无内部切镜、无转场；实时运动。他的台词在镜头内说出，第二个声音为刻意设置的画外回应。无其他声音、旁白、字幕或音乐。
+
+摄影 29° 对角视场，摄影机距 4.5 米、与他眼睛同高，通过焦段获得近景。他的脸锐利清晰，马车和两个人物被压扁在后方并融为散景，镜头与背景之间可见热浪。固定机位，仅有极轻微人体漂移；不推进，不拉焦。
+
+动作时序 阵风卷起尘土时他眯紧眼睛，回答时将脸转开几度避尘，下颌动一次。目光缓慢从左移到右，跟随摄影机后方横穿的东西。长停顿后说最后一句，再以肩膀推离栏杆站直，从画面上缘离开，尘土在身后合拢。
+
+物理 悬浮尘土以真实阵风横穿画面，捕捉光线并落在肩上；撕裂衬衫在肩头被吹起后落下；他推离时木栏不动，重量转移到靴子上且有可听见的声音；汗水与砂砾停留在皮肤上而不流淌。
+
+灯光 完全继承 📷Image1，不重新布光。主光为垂直的强烈正午阳光；辅光是浅色钙质尘土从下方产生的明亮反射，填充阴影。帽檐下方横跨鼻梁形成深影。木材与天空高光接近过曝；不加补光，镜头中光线不变化。
+
+声音 干风吹过木材、远处马车轮与挽具声、苍蝇和靴底砂砾声。对白时环境声压低。严格说出这组简短平淡、跨距离但不加回声效果的 22 词对白：画外男人："他们正把他带上来。" 他："我看得见尘土。" 画外男人："你想去别处吗？" 他："我去过别处。没用。" 画外台词开启镜头；他迎着阵风回答；目光横移时第二句画外台词响起；推离栏杆时最后一句落下。他只在自己的台词中动嘴。
+
+正向锁定 画面中恰好只有一个清晰人物；背景两人始终无法在热浪中辨认，绝不成为角色或进入焦点，也没有人从摄影机与主体之间穿过。帽子、破衬衫、尘土层与木栏必须与 📷Image1 完全一致。ARRI Alexa 35 拍摄的电影级写实影像，自然胶片颗粒。
+```
+
+#### 详细信息
+
+- **生成参数：** `duration: 15s` · `resolution: 2560x1440` · `ratio: 16:9`
+- **Tags：** `western` `image-reference` `single-take` `dialogue` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Alex Patrascu (@maxescu)](https://x.com/maxescu/status/2082563252471357498)
+- **所属主帖：** [X thread](https://x.com/maxescu/status/2082563241062875568)
+- **来源位置：** `reply`
+- **发布时间：** 2026-07-29
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** The complete prompt appears in an author reply; the parent post says the displayed scenes were tried with MiniMax H3. Image1 is required but is not redistributed here.
+
+---
+
+<a id="h3-0015"></a>
+
+### H3-0015 · 我星期二签了
+
+**文生视频** · **社区实测**
+
+#### 内容说明
+
+以三个克制机位讲述的那不勒斯蓝调时刻阳台戏。
+
+#### 原始 Prompt
+
+```text
+PROMPT 4:
+
+SCENE CONTEXT On a narrow Naples balcony at blue hour, a woman tells a man she has already taken the job. He does not argue, which is worse.
+
+FORMAT MODE Controlled three-segment sequence, two HARD CUTs. Real-time motion. Restrained camera throughout.
+
+LOCATION MAP Camera on the balcony, 2 m from the couple, facing them with the lit kitchen doorway behind them screen-centre-left. FG: iron rail and two espresso cups. MG: woman and man standing 60 cm apart. BG: alley canyon, drying laundry, a lit window opposite, string lights. Warm light comes from behind them through the doorway; cool dusk fills from camera side.
+
+FIRST FRAME AND SPATIAL BLOCKING Both are in frame from the first visible frame. Woman at x 34%, y 46%, torso facing screen-right, one hand on the iron rail. Man at x 68%, y 44%, three-quarter profile facing her, hands at his sides. Their eyelines meet at x 50%. The two espresso cups sit on the rail at x 52%, y 74%.
+
+OPTICS LENS LOCK SEGMENT 1 = 47°, camera 2.2 m out, natural proportions, both faces and the alley depth readable. LENS LOCK SEGMENT 2 = 29°, camera 4.5 m back along the balcony, close on the woman by lens reach, alley lights compressing into soft round bokeh behind her. LENS LOCK SEGMENT 3 = 84°, camera 1 m from the man, foreground rail presence, the whole balcony and doorway visible to the edges.
+
+CAMERA Segment 1 handheld with almost no travel, operator breath only. Segment 2 locked-off. Segment 3 handheld, a slow 20 cm settle downward as he lowers his head. Camera stays on the dusk side of both faces.
+
+ACTION TIMING BEAT 1 — She speaks her line, then looks at her own hand on the rail rather than at him. He does not move. HARD CUT BEAT 2 — Held on her. A long beat. Her mouth begins a word and abandons it; she swallows and lifts her eyes back to him. HARD CUT BEAT 3 — On him. He nods once, small, and picks up one of the espresso cups without drinking from it. The shot holds on his hand around the cup as the string lights flicker once.
+
+PHYSICS Cool air moves the drying laundry in the background on real cloth delay. Her knit sleeve compresses where her forearm presses the rail. The cup has weight; the saucer chatters faintly when lifted. Loose hair moves independently of her head turn.
+
+LIGHTING Primary source is the warm kitchen bulb behind them through the doorway, motivated, giving both a warm hair and shoulder rim. Fill is cool ambient dusk from camera side. Soft shadow rolloff, not crushed silhouettes — eyes stay readable with visible catchlights. Practical string lights and one lit window across the alley sit in the background.
+
+AUDIO Distant scooter, a television two floors down, pigeons, faint street voices. Ambient ducks under the voice. She speaks exactly this line as the shot opens: "I signed it on Tuesday." No other dialogue, no score. His lips stay still.
+
+POSITIVE LOCKS Exactly two people are on the balcony and no one appears in the doorway behind them. Their positions, wardrobe, the two cups and the laundry arrangement remain identical across the cuts. Cinematic photorealistic footage shot on ARRI Alexa 35, warm-amber against slate-blue grade, low contrast, natural film grain.
+```
+
+#### 中文翻译
+
+```text
+提示词 4：
+
+场景背景 蓝调时刻，那不勒斯一处狭窄阳台上，女人告诉男人她已经接受那份工作。他没有争辩，这反而更糟。
+
+格式模式 受控三段式序列，两次硬切；实时运动，全程采用克制摄影。
+
+位置图 摄影机位于阳台，距两人 2 米，面向他们，后方画面中左位置是亮着灯的厨房门。前景：铁栏杆与两杯意式浓缩咖啡。中景：女人和男人相距 60 厘米站立。背景：狭长巷道、晾晒衣物、对面一扇亮窗与串灯。暖光从他们后方门内照出，摄影机方向以冷色暮光补光。
+
+首帧与空间调度 第一可见帧中两人都已入镜。女人位于 x 34%、y 46%，躯干朝画面右侧，一只手放在铁栏杆上。男人位于 x 68%、y 44%，三分之二侧面朝向她，双手垂在身侧。二人视线在 x 50% 相交。两杯咖啡位于栏杆 x 52%、y 74%。
+
+光学与镜头锁定 第 1 段 47°，摄影机距 2.2 米，自然比例，两张脸和巷道纵深清晰可读。第 2 段 29°，摄影机沿阳台后退至 4.5 米，以焦段贴近女人，巷灯在她身后压缩成柔和圆形散景。第 3 段 84°，距男人 1 米，前景保留栏杆存在感，完整阳台和门口一直可见到画面边缘。
+
+摄影 第 1 段手持、几乎无位移，只有摄影者呼吸；第 2 段固定机位；第 3 段手持，男人低头时缓慢向下沉 20 厘米。摄影机始终位于两张脸的暮光侧。
+
+动作时序 节拍 1——她说出台词，然后看向自己放在栏杆上的手而不是男人；男人不动。硬切至节拍 2——停留在她身上，长时间停顿；她刚想开口便放弃，吞咽一下，再抬眼看他。硬切至节拍 3——拍男人；他轻轻点头一次，拿起其中一只咖啡杯但不喝。镜头停在他握杯的手上，串灯闪烁一次。
+
+物理 冷空气吹动背景晾晒衣物，布料反应具有真实延迟；她前臂压栏杆处的针织袖子被挤压；杯子有重量，端起时杯碟轻响；散发的运动独立于她的转头。
+
+灯光 主光来自身后门内暖色厨房灯泡，为头发与肩膀形成暖边光；补光为摄影机侧的冷色暮光。阴影柔和过渡，不要死黑剪影，眼睛与眼神光可读；背景保留真实串灯和对面一扇亮窗。
+
+声音 远处踏板车、楼下两层的电视、鸽子与微弱街谈声。对白时环境声压低。镜头开始时她准确说："我星期二签了。" 没有其他对白或配乐；男人嘴唇始终不动。
+
+正向锁定 阳台上恰好两个人，后方门口不出现任何人。切镜间二人位置、服装、两只杯子与晾衣布局保持完全一致。ARRI Alexa 35 拍摄的电影级写实影像，暖琥珀与石板蓝调色，低反差，自然胶片颗粒。
+```
+
+#### 详细信息
+
+- **生成参数：** `duration: 15s` · `resolution: 2560x1440` · `ratio: 16:9`
+- **Tags：** `relationship-drama` `blue-hour` `three-segment` `dialogue` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Alex Patrascu (@maxescu)](https://x.com/maxescu/status/2082563256028139736)
+- **所属主帖：** [X thread](https://x.com/maxescu/status/2082563241062875568)
+- **来源位置：** `reply`
+- **发布时间：** 2026-07-29
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** The complete prompt appears in an author reply; the parent post says the displayed scenes were tried with MiniMax H3.
+
+---
+
+<a id="h3-0016"></a>
+
+### H3-0016 · 天亮时拿下那条路
+
+**文生视频** · **社区实测**
+
+#### 内容说明
+
+由煤油灯、月光和炮火闪光推动的三段式战时命令场景。
+
+#### 原始 Prompt
+
+```text
+PROMPT 5:
+
+SCENE CONTEXT In a shelled Normandy farmhouse at night, a colonel orders a captain to take the lane at first light. The captain accepts the order knowing what it costs.
+
+FORMAT MODE Controlled three-segment sequence, one HARD CUT and one REVERSE CUT. Real-time motion.
+
+LOCATION MAP Camera inside a roofless farmhouse room, 2.5 m from a map table. FG: table edge, tin mug, field telephone. MG: colonel standing screen-left of the table, captain standing screen-right. BG: pinned maps on plaster, splintered beams, a hole in the roof. Primary light is a hurricane lamp on the table between them.
+
+FIRST FRAME AND SPATIAL BLOCKING Both officers are already at the table in the first visible frame. Colonel at x 30%, y 44%, three-quarter profile facing screen-right, index finger planted on the map at x 46%, y 76%. Captain at x 70%, y 42%, torso squared to the colonel, gaze down on the finger, not the face. Lamp at x 50%, y 66%. No empty establishing frame.
+
+OPTICS LENS LOCK SEGMENT 1 = 47°, camera 2.5 m from the table, natural proportions, both officers and the map geography readable. LENS LOCK SEGMENT 2 = 29°, camera 4 m back, close on the captain by lens reach, the pinned map wall compressed soft behind him. LENS LOCK SEGMENT 3 = 84°, camera 1.1 m above the map surface angled up past the lamp, foreground lamp glass looming, both men and the broken roof visible to the edges.
+
+CAMERA Segment 1 locked-off at chest height. Segment 2 handheld with operator breath, camera on the lamp's shadow side. Segment 3 handheld low, slow rise past the lamp flame.
+
+ACTION TIMING BEAT 1 — The colonel speaks his line, finger pressing hard enough to crease the map. Plaster dust drifts through the lamp beam. REVERSE CUT BEAT 2 — On the captain. A distant artillery flash strobes blue across his face. A muscle jumps in his cheek; he nods once and looks up. HARD CUT BEAT 3 — Low wide past the lamp. The captain squares his cap, turns and walks out of frame screen-right. The colonel stays, hand flattening the creased map, and the lamp flame leans in the draught of the door.
+
+PHYSICS Paper creases and holds the crease under finger pressure. The lamp flame bends and recovers when air moves; its light level dips accordingly. Plaster dust falls with real settling drift. Boots find rubble with uneven weight transfer and grit sound. Wool uniform holds damp weight and does not billow.
+
+LIGHTING Primary source is the hurricane lamp on the table, motivated, hard and warm, underlighting both faces and leaving eye sockets in shadow. Secondary: cold moonlight through the roof hole rimming shoulders, plus intermittent distant artillery flash on the back wall. Exposure is set for the lamp; shadows are allowed to crush. No added frontal fill.
+
+AUDIO Distant shellfire, a field telephone hum, wind through the broken roof, drip of water. Ambient ducks under the voice. The colonel speaks exactly this line as the shot opens: "You take the lane at first light, with what you have." No other dialogue, no score. The captain's lips stay still.
+
+POSITIVE LOCKS Exactly two officers are in the room and no other figures enter. Both stay on their own side of the table until the captain exits in the final beat. Uniform state, mud, plaster dust and the lamp position remain identical across the cuts. Cinematic photorealistic footage shot on ARRI Alexa 35, desaturated olive-and-amber grade, natural film grain.
+```
+
+#### 中文翻译
+
+```text
+提示词 5：
+
+场景背景 夜晚，一座遭炮击的诺曼底农舍里，上校命令一名上尉在天亮时夺取那条小路。上尉明知代价仍接受命令。
+
+格式模式 受控三段式序列，一次硬切和一次反打切镜；实时运动。
+
+位置图 摄影机位于没有屋顶的农舍房间内，距地图桌 2.5 米。前景：桌沿、锡杯和野战电话。中景：上校站在桌子左侧，上尉站在右侧。背景：钉在灰泥墙上的地图、断裂木梁和屋顶破洞。主光为两人之间桌上的一盏煤油灯。
+
+首帧与空间调度 第一可见帧中两位军官已经在桌旁。上校位于 x 30%、y 44%，三分之二侧面朝画面右侧，食指压在地图 x 46%、y 76% 处。上尉位于 x 70%、y 42%，躯干正对上校，目光落在手指而不是脸上。灯位于 x 50%、y 66%。不要空镜建立镜头。
+
+光学与镜头锁定 第 1 段 47°，摄影机距桌 2.5 米，自然比例，两位军官和地图空间都清晰可读。第 2 段 29°，摄影机后退到 4 米，以焦段贴近上尉，钉满地图的墙在他身后被柔和压缩。第 3 段 84°，摄影机位于地图表面上方 1.1 米，越过灯向上拍，前景灯罩具有压迫感，两人和破损屋顶一直可见到画面边缘。
+
+摄影 第 1 段胸口高度固定机位；第 2 段手持并保留摄影者呼吸，摄影机位于灯的阴影侧；第 3 段低位手持，缓慢上升越过灯焰。
+
+动作时序 节拍 1——上校说出台词，手指用力到让地图产生折痕；灰泥粉尘穿过灯光漂浮。反打切至节拍 2——拍上尉；远处炮火闪光以蓝光扫过他的脸，脸颊肌肉抽动一下，他点一次头并抬眼。硬切至节拍 3——越过灯的低位广角；上尉扶正军帽、转身并从画面右侧走出。上校留下，用手压平有折痕的地图，门口穿堂风令灯焰倾斜。
+
+物理 纸张在手指压力下形成并保持折痕；空气流动时灯焰弯曲后恢复，亮度随之下降；灰泥粉尘以真实沉降漂移落下；靴子踩过碎石时重量转移不均并发出砂砾声；羊毛军服带有潮湿重量且不鼓胀飘动。
+
+灯光 主光为桌上动机明确、坚硬温暖的煤油灯，从下方照亮两张脸并使眼窝留在阴影中。辅光为穿过屋顶破洞、勾勒肩部的冷月光，以及间歇照亮后墙的远处炮火闪光。曝光以灯为准，允许阴影压黑；不加正面补光。
+
+声音 远处炮击、野战电话嗡鸣、风穿过破损屋顶和滴水声。对白时环境声压低。镜头开始时上校准确说："天亮时，你带着现有的人和装备拿下那条路。" 没有其他对白或配乐；上尉嘴唇始终不动。
+
+正向锁定 房间内恰好只有两名军官，不出现其他人。直到最后节拍上尉离开前，两人始终各自在桌子一侧。切镜间制服状态、泥污、灰泥粉尘和灯的位置完全一致。ARRI Alexa 35 拍摄的电影级写实影像，低饱和橄榄绿与琥珀色调，自然胶片颗粒。
+```
+
+#### 详细信息
+
+- **生成参数：** `duration: 15s` · `resolution: 2560x1440` · `ratio: 16:9`
+- **Tags：** `war-drama` `night` `three-segment` `dialogue` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Alex Patrascu (@maxescu)](https://x.com/maxescu/status/2082563259782287522)
+- **所属主帖：** [X thread](https://x.com/maxescu/status/2082563241062875568)
+- **来源位置：** `reply`
+- **发布时间：** 2026-07-29
+- **收录时间：** 2026-08-01
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** The complete prompt appears in an author reply; the parent post says the displayed scenes were tried with MiniMax H3.
+
+---
+
+
+
 ## 全部提示词
 
 ## 文生视频
+
+*上方合集中的相关提示词:* [H3-0012](#h3-0012) · [H3-0013](#h3-0013) · [H3-0015](#h3-0015) · [H3-0016](#h3-0016)
 
 <a id="h3-0001"></a>
 
@@ -305,354 +727,6 @@ Anime-style medium-wide shot of a teenage swordswoman sprinting across rain-soak
 
 ---
 
-<a id="h3-0012"></a>
-
-### H3-0012 · 别再叫我的名字
-
-**文生视频** · **社区实测** · ⭐ Featured
-
-#### 内容说明
-
-一段 15 秒荒漠对峙，以单一手持镜头呈现，第二位说话者始终位于摄影机后。
-
-#### 原始 Prompt
-
-```text
-PROMPT 1:
-
-SCENE CONTEXT A middle-aged man stands in the middle of a dirt road in open desert and holds a pistol level at the person filming him. He gives an instruction, is answered by name, and warns them not to say it again. Nothing is fired.
-
-TIMELINE 0.0–3.0s — he is already aimed and steady; his first line lands. 3.0–6.0s — the off-frame reply uses his name; his jaw sets and the muzzle does not drop. 6.0–9.0s — his second line; he takes half a step forward and re-sights. 9.0–11.0s — the off-frame voice starts his name again and stops. 11.0–15.0s — his last line; wind lifts dust across the road behind him; he holds the aim. Hold to black-free end.
-
-ACTIVE REFERENCES No image or video references are active in this shot. Build the man from description only. Man, fifties, white, average build, standing, thinning brown hair, a brown moustache, thin-rimmed prescription glasses; light green long-sleeved button-down shirt with the sleeves buttoned at the wrist, dark work trousers; stern, brow furrowed, sweat starting at the hairline; frightened underneath and controlling it; speaking voice flat, plain, mid-western American, no theatricality. Second speaker: the unseen person the pistol is aimed at, occupying the camera position, never entering frame and never seen. Voice only — male, forties, close to the lens, low and careful.
-
-LOCATION MAP Camera on the dirt road 3.5 m from him at his chest height, facing him square-on so the muzzle is aligned with the lens axis. FG: rutted dirt and loose gravel across the lower frame. MG: the man alone, centre frame. BG: the dirt road receding to a vanishing point at x 50%, y 44%, low scrub and dry brush from x 0% to x 30% and x 70% to x 100%, a distant fence line at x 62%, y 48%, flat desert horizon at y 46%, overcast sky filling the upper half with one pale blue break low at x 24%, y 36%. He occupies x 50%, y 50%, body frontal, both feet planted, right arm extended toward camera with the silver pistol at x 50%, y 56%, held at the very front of the depth plane. His eyeline is straight down the lens. The first visible frame already has him aimed and in position — no empty establishing frame, no walk-in, no delayed reveal, and he remains the only figure in frame for the entire take.
-
-FORMAT MODE Single continuous take, no internal cuts, no transitions, no fades. Real-time motion. His lines are on camera; the second voice is an intentional off-frame speaker at the camera position. No other voices, no narration, no subtitles, no score.
-
-CAMERA 47° diagonal field of view, camera 3.5 m from him at chest height, natural human-eye perspective, no distortion, natural face and body proportions, the road and horizon readable behind him, comfortable depth of field with the pistol slightly forward of his focal plane. Handheld, shoulder-mounted mass, operator breath and small involuntary settling — the camera is being held by the person he is aiming at, so it flinches minutely rather than gliding. Total travel under 20 cm, no push-in, no zoom, no focus rack. Focus holds his eyes behind the glasses; the pistol stays just soft.
-
-ACTION TIMING He is already sighted along the barrel as the shot opens and speaks without lowering it. The off-frame voice answers with his name; his jaw sets and the muzzle does not waver. He speaks his second line and takes half a step forward on the dirt, re-sighting as his weight lands. The off-frame voice begins his name again and stops. He delivers his last line, and wind lifts a curtain of dust across the road behind him. He holds the aim to the end without firing and without lowering the weapon.
-
-PHYSICS The pistol carries real weight — his wrist and forearm show the load and micro-correct continuously; the muzzle drifts a few millimetres and is pulled back on line. His half step lands heel-first in soft dirt with visible weight transfer and a small dust puff that drifts and thins. Shirt fabric pulls across the extended shoulder and creases at the elbow. Wind moves the loose dust and the dry scrub in the same direction and at the same time. Thinning hair lifts and settles with the gust. Sweat beads at his temple and does not run.
-
-LIGHTING Primary source is the full overcast sky acting as one enormous soft toplight, giving even illumination with minimal harsh shadow — a soft shadow under the brow and the nose only, no hard edges anywhere. Secondary is dry ground bounce filling under the chin and lifting the shadow side of the pistol. Both lenses of his glasses carry a broad soft reflection of the sky, and his eyes stay readable behind them. Exposure is set for his face; the sky sits bright but not clipped. No sun shaft, no lens flare, no added key, no light change during the take.
-
-AUDIO Dry wind across open ground, loose grit moving on the road, dry brush ticking, one distant bird, his own breathing close and unsteady. Ambient ducks under the voices. Exactly this exchange, flat and plain, no shouting — 25 words total: HIM: "Put it on the ground. Slowly." OFF-FRAME: "You're not going to shoot me, Ray." HIM: "I've been wrong about myself before." OFF-FRAME: "Ray—" HIM: "Don't say my name again." His first line opens the shot. The off-frame reply lands as his jaw sets. His second line comes as he takes the half step. The off-frame "Ray—" is cut off by his last line, which is quieter than everything before it. His lips move only for his own lines; there is no dialogue in the pauses and no muttering between beats.
-
-POSITIVE LOCKS Exactly one visible person is in frame for the whole take — nobody enters at any edge, no second figure appears on the road, at the fence line or in the reflections on his glasses, and the off-frame speaker is never seen. The pistol stays in his right hand, stays aimed at the lens, and is never fired, never lowered and never re-holstered; no muzzle flash, no recoil, no gunshot. He stays on the road and never turns away from camera. Naturalistic muted palette of dry greens and browns against pale overcast grey. Live-action photoreal footage shot on ARRI Alexa 35, tense neutral mood, natural film grain.
-```
-
-#### 中文翻译
-
-```text
-提示词 1：
-
-场景背景 开阔荒漠的一条土路中央，一名中年男人用手枪平指正在拍摄他的人。他发出指令，对方叫出他的名字，他警告对方不要再说。全程不开枪。
-
-时间线 0.0–3.0 秒——他已稳定瞄准，说出第一句。3.0–6.0 秒——画外回应叫出他的名字；他咬紧下颌，枪口不落。6.0–9.0 秒——说第二句；向前半步并重新瞄准。9.0–11.0 秒——画外声音再次开口叫名字又停下。11.0–15.0 秒——他说最后一句；风卷起他身后路上的尘土，他保持瞄准。结尾不要淡黑。
-
-启用参考 本镜头不使用图片或视频参考，只按描述构建男人。五十多岁白人，普通体型，棕发稀疏、棕色小胡子、细框近视眼镜；浅绿色长袖扣领衬衫，袖口扣紧，深色工作裤；神情严厉、眉头紧皱，发际线开始出汗；内心恐惧但强行控制；声音平直朴素、美国中西部口音、不戏剧化。第二位说话者是被枪指着、位于摄影机位置且永不入镜的人。只有声音：四十多岁男性，靠近镜头，低声而谨慎。
-
-位置图 摄影机位于土路上，距他 3.5 米、胸口高度，正对他，使枪口与镜头轴线重合。前景：画面下方车辙与松散碎石。中景：男人独自在正中央。背景：土路向 x 50%、y 44% 消失点延伸；低矮灌木和枯枝位于 x 0%–30% 与 x 70%–100%；远处栅栏线在 x 62%、y 48%；平坦荒漠地平线在 y 46%；阴天占据上半画面，x 24%、y 36% 低处有一小块浅蓝天空。他位于 x 50%、y 50%，正面站立，双脚着地，右臂伸向摄影机，银色手枪位于 x 50%、y 56%，处在景深最前端。视线沿镜头直视。第一可见帧中他已就位瞄准；不要空镜、走入或延迟揭示，整段始终只有他一人入镜。
-
-格式模式 单一连续镜头，无内部切镜、转场或淡化；实时运动。他的台词在镜头内说出，第二个声音刻意设置在摄影机位置的画外。无其他声音、旁白、字幕或配乐。
-
-摄影 47° 对角视场，摄影机距 3.5 米、胸口高度；自然人眼透视、无畸变、脸与身体比例自然，后方道路和地平线清晰，舒适景深，手枪略微位于脸部焦平面之前。肩扛式手持重量感，保留摄影者呼吸与轻微不自主沉降；由于持机者正被瞄准，摄影机产生细小畏缩而非滑行。总位移小于 20 厘米，不推进、不变焦、不拉焦。焦点锁在眼镜后的双眼，手枪保持略虚。
-
-动作时序 镜头开始时他已沿枪管瞄准，不放下枪便开口。画外声音以名字回应；他咬紧下颌，枪口不晃。他说第二句并在土路上向前半步，重量落下时重新瞄准。画外声音再次开始叫名字又停下。他说最后一句，风在身后道路上卷起一幕尘土。他保持瞄准至结尾，不开枪也不放下武器。
-
-物理 手枪具有真实重量，手腕和前臂承受负荷并持续微调；枪口漂移几毫米后被拉回轴线。半步以脚跟先落在松软土中，可见重量转移与一小团逐渐飘散变薄的尘土。衬衫布料在伸出的肩膀上被拉紧，肘部形成褶皱。风同时、同向推动松尘和枯灌木；稀疏头发随阵风抬起后落下；太阳穴汗珠凝结但不流淌。
-
-灯光 主光为整片阴天形成的巨大柔和顶光，照明均匀，几乎无硬影；仅眉骨与鼻下有柔影，任何位置都无硬边。辅光为干燥地面反射，填充下巴下方并抬亮手枪阴影侧。两片镜片都有宽阔柔和的天空反光，眼睛仍清晰可读。曝光以脸为准，天空明亮但不剪裁。无阳光束、镜头光斑、额外主光，镜头中光线不变化。
-
-声音 开阔地面的干风、道路上移动的松砂、枯灌木轻响、一只远鸟，以及他近距离不稳定的呼吸。对白时环境声压低。严格按以下 25 个英文词的对白节奏，平直朴素、不喊叫：他："把它放在地上。慢慢来。" 画外："你不会开枪打我，雷。" 他："我以前也看错过自己。" 画外："雷——" 他："别再叫我的名字。" 第一行开启镜头；画外回应时他咬紧下颌；向前半步时说第二句；画外的“雷——”被他最后一句打断，最后一句比之前所有话都轻。他只在自己的台词中动嘴；停顿间没有对白或喃喃自语。
-
-正向锁定 全程恰好只有一个可见人物；任何边缘都不进入他人，道路、栅栏线或眼镜反射中都不出现第二个人，画外说话者绝不被看见。手枪始终在右手、始终指向镜头，绝不开火、放下或重新入套；无枪口火焰、后坐或枪声。他留在路上，从不背对摄影机。干燥绿与棕配浅阴天灰的自然低饱和色板。ARRI Alexa 35 拍摄的真人电影级写实影像，紧张而中性的情绪，自然胶片颗粒。
-```
-
-#### 案例视频
-
-https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2
-
-[↗ 点击播放原视频](https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2)
-
-#### 详细信息
-
-- **生成参数：** `duration: 15s` · `resolution: 2560x1440` · `ratio: 16:9`
-- **Tags：** `desert` `single-take` `handheld` `dialogue` `community-tested`
-- **来源类型：** 社区实测
-- **来源：** [Alex Patrascu (@maxescu)](https://x.com/maxescu/status/2082563245504856385)
-- **所属主帖：** [X thread](https://x.com/maxescu/status/2082563241062875568)
-- **来源位置：** `reply`
-- **发布时间：** 2026-07-29
-- **收录时间：** 2026-08-01
-- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
-- **Note：** The complete prompt appears in an author reply; the parent post says the displayed scenes were tried with MiniMax H3.
-
----
-
-<a id="h3-0013"></a>
-
-### H3-0013 · 不会得到回复的信
-
-**文生视频** · **社区实测** · ⭐ Featured
-
-#### 内容说明
-
-一段发生在结霜温室中的克制年代戏，通过信纸特写表现人物情绪。
-
-#### 原始 Prompt
-
-```text
-PROMPT 2:
-
-SCENE CONTEXT In a frosted country-house conservatory on a grey morning, an older woman tells a younger one that the letter will not be answered. The younger woman holds her composure and loses it only in her hands.
-
-FORMAT MODE Controlled three-segment sequence, one HARD CUT and one INSERT CUT. Real-time motion.
-
-LOCATION MAP Camera inside a glazed conservatory, 3 m from the two women, facing them with the steamed glass wall behind them. FG: potted fern fronds at the frame edge. MG: older woman screen-left, younger woman screen-right, 80 cm apart. BG: glass panes, frost-white winter garden, a cast-iron bench, one low oil lamp. Soft light comes from the whole glass wall behind and above them.
-
-FIRST FRAME AND SPATIAL BLOCKING Both women are in frame from the first visible frame. Older woman at x 32%, y 46%, three-quarter profile facing screen-right, gloved hands folded at her waist. Younger woman at x 68%, y 44%, torso squared to her, gaze locked on her face, a folded letter held in both hands at x 62%, y 76%. No empty establishing frame.
-
-OPTICS LENS LOCK SEGMENT 1 = 47°, camera 3 m out, natural proportions, both faces and the conservatory geography readable. LENS LOCK SEGMENT 2 = 18°, camera 6.5 m back down the conservatory aisle, strong compression, glass panes and ferns stacking behind the younger woman, razor-thin focus on her eyes. LENS LOCK SEGMENT 3 = 29°, camera 4 m out and lower, close on her hands by lens reach, the room dissolving to creamy bokeh behind.
-
-CAMERA Segment 1 locked-off at eye height. Segment 2 long lens with the faintest human drift. Segment 3 handheld, settling downward toward the letter.
-
-ACTION TIMING BEAT 1 — The older woman speaks her line, chin level, hands unmoving. The younger woman does not react in her face. HARD CUT BEAT 2 — Long-lens hold on the younger woman. A long beat. Her eyelids redden; she blinks once and keeps her eyes forward, refusing to look down. INSERT CUT BEAT 3 — Tight on her hands. Her thumbs press and slowly crush the folded letter's edge until the paper buckles, then stop. Hold on the buckled paper.
-
-PHYSICS Paper buckles progressively under thumb pressure and holds its new shape. Glove leather stretches over her knuckles. Condensation runs down glass panes in slow irregular tracks. Silk and wool hold real weight; her skirts do not float. Breath fogs faintly in the cold air.
-
-LIGHTING Primary source is vast soft north daylight through the steamed glass wall behind and above them, motivated, wrapping both faces. Secondary: cold blue bounce off the frost outside, and one warm low oil lamp deep in frame. Soft shadow rolloff with clearly readable eyes and catchlights — restrained low contrast, not silhouette.
-
-AUDIO Rain ticking on glass, a distant door, the faint hiss of the oil lamp, a bird outside. Ambient ducks under the voice. The older woman speaks exactly this line as the shot opens: "There will be no reply, and you will not ask again." No other dialogue, no score. The younger woman's lips stay still.
-
-POSITIVE LOCKS Exactly two women appear and no servant or third figure enters. Both hold their positions across all segments. Costume, gloves, the folded letter and the frost state remain identical across the cuts. Cinematic photorealistic footage shot on ARRI Alexa 35, pearl-grey and soft-green grade, low contrast, natural film grain.
-```
-
-#### 中文翻译
-
-```text
-提示词 2：
-
-场景背景 灰暗的清晨，一座结霜的乡间宅邸玻璃温室里，一位年长女人告诉年轻女人，那封信不会得到回复。年轻女人保持着镇定，只有双手泄露了情绪。
-
-格式模式 受控的三段式序列，一次硬切和一次插入特写切镜；实时运动。
-
-位置图 摄影机位于玻璃温室内，距两位女人 3 米，面向她们，后方是蒙着水汽的玻璃墙。前景：画面边缘的盆栽蕨叶。中景：年长女人在画面左侧，年轻女人在右侧，相距 80 厘米。背景：玻璃窗格、霜白的冬季花园、一张铸铁长椅和一盏低矮油灯。柔光从她们身后及上方的整面玻璃墙照入。
-
-首帧与空间调度 第一可见帧中两人都已入镜。年长女人位于 x 32%、y 46%，三分之二侧面朝画面右侧，戴手套的双手叠在腰前。年轻女人位于 x 68%、y 44%，躯干正对她，目光锁住她的脸，双手在 x 62%、y 76% 处拿着一封折好的信。不要空镜建立镜头。
-
-光学与镜头锁定 第 1 段为 47°，摄影机距 3 米，自然比例，两张脸和温室空间均清晰可读。第 2 段为 18°，摄影机沿温室过道后退至 6.5 米，产生强烈压缩感，玻璃窗格与蕨类层叠在年轻女人身后，极浅焦点锁在她的眼睛。第 3 段为 29°，摄影机距 4 米且机位更低，以镜头焦段贴近她的双手，房间在后方化成奶油般散景。
-
-摄影 第 1 段眼平固定机位；第 2 段长焦，只有极轻微的人体漂移；第 3 段手持，向下沉落到信件。
-
-动作时序 节拍 1——年长女人抬平下巴说出台词，双手不动。年轻女人脸上毫无反应。硬切至节拍 2——长焦停留在年轻女人身上，长时间停顿。她的眼睑泛红，只眨一次眼，仍直视前方，拒绝低头。插入特写切至节拍 3——紧拍她的双手。拇指按压并缓慢碾皱折叠信纸的边缘，直到纸张屈曲后停下；停留在变形的纸上。
-
-物理 信纸在拇指压力下逐渐屈曲并保持新形状；手套皮革在指关节上绷紧；冷凝水沿玻璃窗格以缓慢而不规则的轨迹流下；丝绸与羊毛具有真实重量，裙摆不漂浮；寒冷空气中呼吸产生淡淡白雾。
-
-灯光 主光为从她们身后与上方蒙雾玻璃墙透入的大片柔和北向日光，动机明确并包裹两张脸。辅光来自室外霜面的冷蓝反射，画面深处另有一盏温暖低位油灯。阴影柔和过渡，双眼和眼神光清晰可见；克制的低反差，不要剪影。
-
-声音 雨点敲击玻璃、远处一扇门、油灯轻微嘶声和室外鸟鸣。说话时环境声压低。镜头开始时，年长女人准确说："不会有回信，你也不准再问。" 没有其他对白，没有配乐；年轻女人的嘴唇始终不动。
-
-正向锁定 画面中恰好只有两位女人，不出现仆人或第三个人。三段中两人位置保持不变；服装、手套、折叠信件和结霜状态在切镜间完全一致。ARRI Alexa 35 拍摄的电影级写实影像，珍珠灰与柔绿调色，低反差，自然胶片颗粒。
-```
-
-#### 案例视频
-
-https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2
-
-[↗ 点击播放原视频](https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2)
-
-#### 详细信息
-
-- **生成参数：** `duration: 15s` · `resolution: 2560x1440` · `ratio: 16:9`
-- **Tags：** `period-drama` `dialogue` `three-segment` `insert-shot` `community-tested`
-- **来源类型：** 社区实测
-- **来源：** [Alex Patrascu (@maxescu)](https://x.com/maxescu/status/2082563249095020865)
-- **所属主帖：** [X thread](https://x.com/maxescu/status/2082563241062875568)
-- **来源位置：** `reply`
-- **发布时间：** 2026-07-29
-- **收录时间：** 2026-08-01
-- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
-- **Note：** The complete prompt appears in an author reply; the parent post says the displayed scenes were tried with MiniMax H3.
-
----
-
-<a id="h3-0015"></a>
-
-### H3-0015 · 我星期二签了
-
-**文生视频** · **社区实测**
-
-#### 内容说明
-
-以三个克制机位讲述的那不勒斯蓝调时刻阳台戏。
-
-#### 原始 Prompt
-
-```text
-PROMPT 4:
-
-SCENE CONTEXT On a narrow Naples balcony at blue hour, a woman tells a man she has already taken the job. He does not argue, which is worse.
-
-FORMAT MODE Controlled three-segment sequence, two HARD CUTs. Real-time motion. Restrained camera throughout.
-
-LOCATION MAP Camera on the balcony, 2 m from the couple, facing them with the lit kitchen doorway behind them screen-centre-left. FG: iron rail and two espresso cups. MG: woman and man standing 60 cm apart. BG: alley canyon, drying laundry, a lit window opposite, string lights. Warm light comes from behind them through the doorway; cool dusk fills from camera side.
-
-FIRST FRAME AND SPATIAL BLOCKING Both are in frame from the first visible frame. Woman at x 34%, y 46%, torso facing screen-right, one hand on the iron rail. Man at x 68%, y 44%, three-quarter profile facing her, hands at his sides. Their eyelines meet at x 50%. The two espresso cups sit on the rail at x 52%, y 74%.
-
-OPTICS LENS LOCK SEGMENT 1 = 47°, camera 2.2 m out, natural proportions, both faces and the alley depth readable. LENS LOCK SEGMENT 2 = 29°, camera 4.5 m back along the balcony, close on the woman by lens reach, alley lights compressing into soft round bokeh behind her. LENS LOCK SEGMENT 3 = 84°, camera 1 m from the man, foreground rail presence, the whole balcony and doorway visible to the edges.
-
-CAMERA Segment 1 handheld with almost no travel, operator breath only. Segment 2 locked-off. Segment 3 handheld, a slow 20 cm settle downward as he lowers his head. Camera stays on the dusk side of both faces.
-
-ACTION TIMING BEAT 1 — She speaks her line, then looks at her own hand on the rail rather than at him. He does not move. HARD CUT BEAT 2 — Held on her. A long beat. Her mouth begins a word and abandons it; she swallows and lifts her eyes back to him. HARD CUT BEAT 3 — On him. He nods once, small, and picks up one of the espresso cups without drinking from it. The shot holds on his hand around the cup as the string lights flicker once.
-
-PHYSICS Cool air moves the drying laundry in the background on real cloth delay. Her knit sleeve compresses where her forearm presses the rail. The cup has weight; the saucer chatters faintly when lifted. Loose hair moves independently of her head turn.
-
-LIGHTING Primary source is the warm kitchen bulb behind them through the doorway, motivated, giving both a warm hair and shoulder rim. Fill is cool ambient dusk from camera side. Soft shadow rolloff, not crushed silhouettes — eyes stay readable with visible catchlights. Practical string lights and one lit window across the alley sit in the background.
-
-AUDIO Distant scooter, a television two floors down, pigeons, faint street voices. Ambient ducks under the voice. She speaks exactly this line as the shot opens: "I signed it on Tuesday." No other dialogue, no score. His lips stay still.
-
-POSITIVE LOCKS Exactly two people are on the balcony and no one appears in the doorway behind them. Their positions, wardrobe, the two cups and the laundry arrangement remain identical across the cuts. Cinematic photorealistic footage shot on ARRI Alexa 35, warm-amber against slate-blue grade, low contrast, natural film grain.
-```
-
-#### 中文翻译
-
-```text
-提示词 4：
-
-场景背景 蓝调时刻，那不勒斯一处狭窄阳台上，女人告诉男人她已经接受那份工作。他没有争辩，这反而更糟。
-
-格式模式 受控三段式序列，两次硬切；实时运动，全程采用克制摄影。
-
-位置图 摄影机位于阳台，距两人 2 米，面向他们，后方画面中左位置是亮着灯的厨房门。前景：铁栏杆与两杯意式浓缩咖啡。中景：女人和男人相距 60 厘米站立。背景：狭长巷道、晾晒衣物、对面一扇亮窗与串灯。暖光从他们后方门内照出，摄影机方向以冷色暮光补光。
-
-首帧与空间调度 第一可见帧中两人都已入镜。女人位于 x 34%、y 46%，躯干朝画面右侧，一只手放在铁栏杆上。男人位于 x 68%、y 44%，三分之二侧面朝向她，双手垂在身侧。二人视线在 x 50% 相交。两杯咖啡位于栏杆 x 52%、y 74%。
-
-光学与镜头锁定 第 1 段 47°，摄影机距 2.2 米，自然比例，两张脸和巷道纵深清晰可读。第 2 段 29°，摄影机沿阳台后退至 4.5 米，以焦段贴近女人，巷灯在她身后压缩成柔和圆形散景。第 3 段 84°，距男人 1 米，前景保留栏杆存在感，完整阳台和门口一直可见到画面边缘。
-
-摄影 第 1 段手持、几乎无位移，只有摄影者呼吸；第 2 段固定机位；第 3 段手持，男人低头时缓慢向下沉 20 厘米。摄影机始终位于两张脸的暮光侧。
-
-动作时序 节拍 1——她说出台词，然后看向自己放在栏杆上的手而不是男人；男人不动。硬切至节拍 2——停留在她身上，长时间停顿；她刚想开口便放弃，吞咽一下，再抬眼看他。硬切至节拍 3——拍男人；他轻轻点头一次，拿起其中一只咖啡杯但不喝。镜头停在他握杯的手上，串灯闪烁一次。
-
-物理 冷空气吹动背景晾晒衣物，布料反应具有真实延迟；她前臂压栏杆处的针织袖子被挤压；杯子有重量，端起时杯碟轻响；散发的运动独立于她的转头。
-
-灯光 主光来自身后门内暖色厨房灯泡，为头发与肩膀形成暖边光；补光为摄影机侧的冷色暮光。阴影柔和过渡，不要死黑剪影，眼睛与眼神光可读；背景保留真实串灯和对面一扇亮窗。
-
-声音 远处踏板车、楼下两层的电视、鸽子与微弱街谈声。对白时环境声压低。镜头开始时她准确说："我星期二签了。" 没有其他对白或配乐；男人嘴唇始终不动。
-
-正向锁定 阳台上恰好两个人，后方门口不出现任何人。切镜间二人位置、服装、两只杯子与晾衣布局保持完全一致。ARRI Alexa 35 拍摄的电影级写实影像，暖琥珀与石板蓝调色，低反差，自然胶片颗粒。
-```
-
-#### 案例视频
-
-https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2
-
-[↗ 点击播放原视频](https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2)
-
-#### 详细信息
-
-- **生成参数：** `duration: 15s` · `resolution: 2560x1440` · `ratio: 16:9`
-- **Tags：** `relationship-drama` `blue-hour` `three-segment` `dialogue` `community-tested`
-- **来源类型：** 社区实测
-- **来源：** [Alex Patrascu (@maxescu)](https://x.com/maxescu/status/2082563256028139736)
-- **所属主帖：** [X thread](https://x.com/maxescu/status/2082563241062875568)
-- **来源位置：** `reply`
-- **发布时间：** 2026-07-29
-- **收录时间：** 2026-08-01
-- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
-- **Note：** The complete prompt appears in an author reply; the parent post says the displayed scenes were tried with MiniMax H3.
-
----
-
-<a id="h3-0016"></a>
-
-### H3-0016 · 天亮时拿下那条路
-
-**文生视频** · **社区实测**
-
-#### 内容说明
-
-由煤油灯、月光和炮火闪光推动的三段式战时命令场景。
-
-#### 原始 Prompt
-
-```text
-PROMPT 5:
-
-SCENE CONTEXT In a shelled Normandy farmhouse at night, a colonel orders a captain to take the lane at first light. The captain accepts the order knowing what it costs.
-
-FORMAT MODE Controlled three-segment sequence, one HARD CUT and one REVERSE CUT. Real-time motion.
-
-LOCATION MAP Camera inside a roofless farmhouse room, 2.5 m from a map table. FG: table edge, tin mug, field telephone. MG: colonel standing screen-left of the table, captain standing screen-right. BG: pinned maps on plaster, splintered beams, a hole in the roof. Primary light is a hurricane lamp on the table between them.
-
-FIRST FRAME AND SPATIAL BLOCKING Both officers are already at the table in the first visible frame. Colonel at x 30%, y 44%, three-quarter profile facing screen-right, index finger planted on the map at x 46%, y 76%. Captain at x 70%, y 42%, torso squared to the colonel, gaze down on the finger, not the face. Lamp at x 50%, y 66%. No empty establishing frame.
-
-OPTICS LENS LOCK SEGMENT 1 = 47°, camera 2.5 m from the table, natural proportions, both officers and the map geography readable. LENS LOCK SEGMENT 2 = 29°, camera 4 m back, close on the captain by lens reach, the pinned map wall compressed soft behind him. LENS LOCK SEGMENT 3 = 84°, camera 1.1 m above the map surface angled up past the lamp, foreground lamp glass looming, both men and the broken roof visible to the edges.
-
-CAMERA Segment 1 locked-off at chest height. Segment 2 handheld with operator breath, camera on the lamp's shadow side. Segment 3 handheld low, slow rise past the lamp flame.
-
-ACTION TIMING BEAT 1 — The colonel speaks his line, finger pressing hard enough to crease the map. Plaster dust drifts through the lamp beam. REVERSE CUT BEAT 2 — On the captain. A distant artillery flash strobes blue across his face. A muscle jumps in his cheek; he nods once and looks up. HARD CUT BEAT 3 — Low wide past the lamp. The captain squares his cap, turns and walks out of frame screen-right. The colonel stays, hand flattening the creased map, and the lamp flame leans in the draught of the door.
-
-PHYSICS Paper creases and holds the crease under finger pressure. The lamp flame bends and recovers when air moves; its light level dips accordingly. Plaster dust falls with real settling drift. Boots find rubble with uneven weight transfer and grit sound. Wool uniform holds damp weight and does not billow.
-
-LIGHTING Primary source is the hurricane lamp on the table, motivated, hard and warm, underlighting both faces and leaving eye sockets in shadow. Secondary: cold moonlight through the roof hole rimming shoulders, plus intermittent distant artillery flash on the back wall. Exposure is set for the lamp; shadows are allowed to crush. No added frontal fill.
-
-AUDIO Distant shellfire, a field telephone hum, wind through the broken roof, drip of water. Ambient ducks under the voice. The colonel speaks exactly this line as the shot opens: "You take the lane at first light, with what you have." No other dialogue, no score. The captain's lips stay still.
-
-POSITIVE LOCKS Exactly two officers are in the room and no other figures enter. Both stay on their own side of the table until the captain exits in the final beat. Uniform state, mud, plaster dust and the lamp position remain identical across the cuts. Cinematic photorealistic footage shot on ARRI Alexa 35, desaturated olive-and-amber grade, natural film grain.
-```
-
-#### 中文翻译
-
-```text
-提示词 5：
-
-场景背景 夜晚，一座遭炮击的诺曼底农舍里，上校命令一名上尉在天亮时夺取那条小路。上尉明知代价仍接受命令。
-
-格式模式 受控三段式序列，一次硬切和一次反打切镜；实时运动。
-
-位置图 摄影机位于没有屋顶的农舍房间内，距地图桌 2.5 米。前景：桌沿、锡杯和野战电话。中景：上校站在桌子左侧，上尉站在右侧。背景：钉在灰泥墙上的地图、断裂木梁和屋顶破洞。主光为两人之间桌上的一盏煤油灯。
-
-首帧与空间调度 第一可见帧中两位军官已经在桌旁。上校位于 x 30%、y 44%，三分之二侧面朝画面右侧，食指压在地图 x 46%、y 76% 处。上尉位于 x 70%、y 42%，躯干正对上校，目光落在手指而不是脸上。灯位于 x 50%、y 66%。不要空镜建立镜头。
-
-光学与镜头锁定 第 1 段 47°，摄影机距桌 2.5 米，自然比例，两位军官和地图空间都清晰可读。第 2 段 29°，摄影机后退到 4 米，以焦段贴近上尉，钉满地图的墙在他身后被柔和压缩。第 3 段 84°，摄影机位于地图表面上方 1.1 米，越过灯向上拍，前景灯罩具有压迫感，两人和破损屋顶一直可见到画面边缘。
-
-摄影 第 1 段胸口高度固定机位；第 2 段手持并保留摄影者呼吸，摄影机位于灯的阴影侧；第 3 段低位手持，缓慢上升越过灯焰。
-
-动作时序 节拍 1——上校说出台词，手指用力到让地图产生折痕；灰泥粉尘穿过灯光漂浮。反打切至节拍 2——拍上尉；远处炮火闪光以蓝光扫过他的脸，脸颊肌肉抽动一下，他点一次头并抬眼。硬切至节拍 3——越过灯的低位广角；上尉扶正军帽、转身并从画面右侧走出。上校留下，用手压平有折痕的地图，门口穿堂风令灯焰倾斜。
-
-物理 纸张在手指压力下形成并保持折痕；空气流动时灯焰弯曲后恢复，亮度随之下降；灰泥粉尘以真实沉降漂移落下；靴子踩过碎石时重量转移不均并发出砂砾声；羊毛军服带有潮湿重量且不鼓胀飘动。
-
-灯光 主光为桌上动机明确、坚硬温暖的煤油灯，从下方照亮两张脸并使眼窝留在阴影中。辅光为穿过屋顶破洞、勾勒肩部的冷月光，以及间歇照亮后墙的远处炮火闪光。曝光以灯为准，允许阴影压黑；不加正面补光。
-
-声音 远处炮击、野战电话嗡鸣、风穿过破损屋顶和滴水声。对白时环境声压低。镜头开始时上校准确说："天亮时，你带着现有的人和装备拿下那条路。" 没有其他对白或配乐；上尉嘴唇始终不动。
-
-正向锁定 房间内恰好只有两名军官，不出现其他人。直到最后节拍上尉离开前，两人始终各自在桌子一侧。切镜间制服状态、泥污、灰泥粉尘和灯的位置完全一致。ARRI Alexa 35 拍摄的电影级写实影像，低饱和橄榄绿与琥珀色调，自然胶片颗粒。
-```
-
-#### 案例视频
-
-https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2
-
-[↗ 点击播放原视频](https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2)
-
-#### 详细信息
-
-- **生成参数：** `duration: 15s` · `resolution: 2560x1440` · `ratio: 16:9`
-- **Tags：** `war-drama` `night` `three-segment` `dialogue` `community-tested`
-- **来源类型：** 社区实测
-- **来源：** [Alex Patrascu (@maxescu)](https://x.com/maxescu/status/2082563259782287522)
-- **所属主帖：** [X thread](https://x.com/maxescu/status/2082563241062875568)
-- **来源位置：** `reply`
-- **发布时间：** 2026-07-29
-- **收录时间：** 2026-08-01
-- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
-- **Note：** The complete prompt appears in an author reply; the parent post says the displayed scenes were tried with MiniMax H3.
-
----
-
 <a id="h3-0018"></a>
 
 ### H3-0018 · 厨房里的手绘发光生物
@@ -705,6 +779,8 @@ https://v3b.fal.media/files/b/0aa44040/GWGO_2snsYSrP3ev7s6QO_out06_3-1-2.mp4
 
 ## 图生视频
 
+*上方合集中的相关提示词:* [H3-0014](#h3-0014)
+
 <a id="h3-0002"></a>
 
 ### H3-0002 · 从首帧生成现代舞
@@ -737,92 +813,6 @@ Contemporary dance, the people in the picture are performing contemporary dance.
 - **收录时间：** 2026-08-01
 - **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
 - **Note：** Published with a first-frame input in the official API guide.
-
----
-
-<a id="h3-0014"></a>
-
-### H3-0014 · 我看得见尘土
-
-**图生视频** · **社区实测** · ⭐ Featured
-
-#### 内容说明
-
-一段以参考图锁定人物和光线、带热浪效果的 15 秒西部片单镜头。
-
-#### 原始 Prompt
-
-```text
-PROMPT 3:
-
-SCENE CONTEXT A weathered man rests against a timber rail in blistering noon heat while something is brought up the street toward him. A voice across the street offers him a way out and he declines it.
-
-TIMELINE 0.0–3.0s — the off-frame line; a gust lifts dust across frame. 3.0–6.0s — his answer; he turns his face out of the dust and works his jaw once. 6.0–9.5s — the second off-frame line; his eyes track slowly screen-left to screen-right. 9.5–12.5s — his last line, flat and final. 12.5–15.0s — he pushes off the rail with one shoulder and straightens out of the top of frame; dust closes behind him.
-
-ACTIVE REFERENCES 📷Image1 is the reference and the exact first visible frame — source of truth for his face, hat, wardrobe and the light. Man, fifties, leaning against a timber rail, pale wide-brim hat pushed back with a visible pale forehead line, dust-caked collarless shirt torn at one shoulder, deep sun creases, broken capillaries, grit in the stubble; long past being surprised; speaking voice dry, laconic, low volume. 100% matches the reference. Second speaker: an unseen man across the street, off-frame screen-left at the same level, never entering frame. Voice only — male, middle-aged, flat, carrying across distance.
-
-LOCATION MAP Camera on the street 4.5 m from him at his eye height. FG: nothing between camera and subject except airborne dust. MG: the man against grey weathered timber spanning x 0% to x 55%. BG: a blurred wagon at x 76%, y 30% and two standing figures at x 84%, y 34% and x 92%, y 36%, dissolved in heat shimmer, pale sky at the top edge. He occupies x 34%, y 50%, chest-up, torso angled to screen-right, eyes to screen-left. The first visible frame already contains him in exactly this position. He is the only sharp figure and remains so.
-
-FORMAT MODE Single continuous take, no internal cuts, no transitions. Real-time motion. His lines are on camera; the second voice is an intentional off-frame reply. No other voices, no narration, no subtitles, no music.
-CAMERA 29° diagonal field of view, camera 4.5 m out at his eye height, close framing achieved through lens reach, his face razor-sharp, the wagon and the two figures compressed flat behind him and melting into bokeh, visible heat shimmer between camera and background. Locked off with the faintest human drift; no push-in, no focus rack.
-
-ACTION TIMING He squints harder as a gust lifts dust across the frame, and turns his face a few degrees out of it as he answers. He works his jaw once. His eyes track slowly from screen-left to screen-right, following something crossing behind camera. A long beat. He delivers his last line, then pushes off the rail with one shoulder and straightens, rising out of the top edge of frame as the dust closes behind him.
-
-PHYSICS Airborne dust crosses in real gusts, catches the light and settles on his shoulders. The torn shirt fabric lifts at the shoulder and falls. The timber rail does not move when he pushes off it, and his weight transfers audibly into his boots. Sweat and grit sit on the skin without running.
-
-LIGHTING Inherit 📷Image1 exactly and do not relight. Primary: hard vertical noon sun. Secondary: brilliant bounce off pale caliche dust filling the shadows from below. Deep shadow under the hat brim across the bridge of his nose. Highlights on the timber and sky sit near clipping. No fill added, no light change during the take.
-
-AUDIO Dry wind against timber, distant wagon wheels and harness, a fly, boot grit. Ambient ducks under the voices. Exactly this exchange, laconic and flat, spoken across distance without echo effects — 22 words total: OFF-FRAME MAN: "They're bringing him up now." HIM: "I can see the dust." OFF-FRAME MAN: "You want to be somewhere else?" HIM: "I've been somewhere else. Didn't help." The off-frame line opens the shot. He answers into the gust. The second off-frame line comes while his eyes track across. His last line lands as he pushes off the rail. His lips move only for his own lines.
-
-POSITIVE LOCKS Exactly one sharp figure is in frame; the two background figures stay unresolved in the heat haze and never become characters or come into focus, and no one crosses between camera and subject. Hat, torn shirt, dust layer and the timber rail stay exactly as in 📷Image1. Cinematic photorealistic footage shot on ARRI Alexa 35, natural film grain.
-```
-
-#### 中文翻译
-
-```text
-提示词 3：
-
-场景背景 炙热正午，一名饱经风霜的男人靠在木栏上，街道远处有人正把某个对象带向他。街对面一个声音给他逃脱的机会，他拒绝了。
-
-时间线 0.0–3.0 秒——画外台词响起，一阵风把尘土卷过画面。3.0–6.0 秒——他回答，稍微转脸避开尘土，下颌动一次。6.0–9.5 秒——第二句画外台词，他的目光缓慢从画面左侧移至右侧。9.5–12.5 秒——他说出最后一句，平淡而决绝。12.5–15.0 秒——他用一侧肩膀推离栏杆，站直并从画面上缘离开，尘土在身后合拢。
-
-启用参考 📷Image1 是参考图，也是精确的第一可见帧，是其脸、帽子、服装和光线的唯一依据。男人五十多岁，靠着木栏；浅色宽檐帽向后推，额头留有清晰浅色晒痕；无领衬衫覆满尘土，一侧肩头撕裂；深重日晒纹、破裂毛细血管、胡茬里夹着砂砾；早已不会感到意外；声音干涩、简短、低声。与参考图 100% 一致。第二位说话者是街对面看不见的男人，位于画外左侧同一高度，始终不入镜；只有声音，中年男性，平直，能跨越距离传来。
-
-位置图 摄影机在街上，距他 4.5 米，与眼睛同高。前景除悬浮尘土外没有遮挡。中景是男人靠在从 x 0% 延伸至 x 55% 的灰色风化木栏。背景：x 76%、y 30% 处一辆模糊马车，x 84%、y 34% 与 x 92%、y 36% 处两名站立人物，均消融在热浪中；画面顶部为浅色天空。他位于 x 34%、y 50%，胸部以上入镜，身体朝画面右侧，眼睛看向左侧。第一帧已精确处于此位置；他始终是唯一清晰人物。
-
-格式模式 单一连续镜头，无内部切镜、无转场；实时运动。他的台词在镜头内说出，第二个声音为刻意设置的画外回应。无其他声音、旁白、字幕或音乐。
-
-摄影 29° 对角视场，摄影机距 4.5 米、与他眼睛同高，通过焦段获得近景。他的脸锐利清晰，马车和两个人物被压扁在后方并融为散景，镜头与背景之间可见热浪。固定机位，仅有极轻微人体漂移；不推进，不拉焦。
-
-动作时序 阵风卷起尘土时他眯紧眼睛，回答时将脸转开几度避尘，下颌动一次。目光缓慢从左移到右，跟随摄影机后方横穿的东西。长停顿后说最后一句，再以肩膀推离栏杆站直，从画面上缘离开，尘土在身后合拢。
-
-物理 悬浮尘土以真实阵风横穿画面，捕捉光线并落在肩上；撕裂衬衫在肩头被吹起后落下；他推离时木栏不动，重量转移到靴子上且有可听见的声音；汗水与砂砾停留在皮肤上而不流淌。
-
-灯光 完全继承 📷Image1，不重新布光。主光为垂直的强烈正午阳光；辅光是浅色钙质尘土从下方产生的明亮反射，填充阴影。帽檐下方横跨鼻梁形成深影。木材与天空高光接近过曝；不加补光，镜头中光线不变化。
-
-声音 干风吹过木材、远处马车轮与挽具声、苍蝇和靴底砂砾声。对白时环境声压低。严格说出这组简短平淡、跨距离但不加回声效果的 22 词对白：画外男人："他们正把他带上来。" 他："我看得见尘土。" 画外男人："你想去别处吗？" 他："我去过别处。没用。" 画外台词开启镜头；他迎着阵风回答；目光横移时第二句画外台词响起；推离栏杆时最后一句落下。他只在自己的台词中动嘴。
-
-正向锁定 画面中恰好只有一个清晰人物；背景两人始终无法在热浪中辨认，绝不成为角色或进入焦点，也没有人从摄影机与主体之间穿过。帽子、破衬衫、尘土层与木栏必须与 📷Image1 完全一致。ARRI Alexa 35 拍摄的电影级写实影像，自然胶片颗粒。
-```
-
-#### 案例视频
-
-https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2
-
-[↗ 点击播放原视频](https://github.com/user-attachments/assets/33654d52-cba5-40c1-8878-ebba488a4dd2)
-
-#### 详细信息
-
-- **生成参数：** `duration: 15s` · `resolution: 2560x1440` · `ratio: 16:9`
-- **Tags：** `western` `image-reference` `single-take` `dialogue` `community-tested`
-- **来源类型：** 社区实测
-- **来源：** [Alex Patrascu (@maxescu)](https://x.com/maxescu/status/2082563252471357498)
-- **所属主帖：** [X thread](https://x.com/maxescu/status/2082563241062875568)
-- **来源位置：** `reply`
-- **发布时间：** 2026-07-29
-- **收录时间：** 2026-08-01
-- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
-- **Note：** The complete prompt appears in an author reply; the parent post says the displayed scenes were tried with MiniMax H3. Image1 is required but is not redistributed here.
 
 ---
 
