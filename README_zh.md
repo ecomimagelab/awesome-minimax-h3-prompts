@@ -30,18 +30,18 @@ MiniMax H3 是可将文本、图片、视频和音频作为统一上下文的视
 
 | Metric | Count |
 | --- | ---: |
-| Total prompts | **50** |
+| Total prompts | **58** |
 | Official examples | **39** |
-| Community tested | **11** |
+| Community tested | **19** |
 | Community guide templates | **0** |
-| Last curated | **2026-08-01** |
+| Last curated | **2026-08-02** |
 
 ## 按生成模式浏览
 
-- [文生视频 (9)](#文生视频)
+- [文生视频 (14)](#文生视频)
 - [图生视频 (1)](#图生视频)
 - [首尾帧生视频 (9)](#首尾帧生视频)
-- [多模态参考生成 (31)](#多模态参考生成)
+- [多模态参考生成 (34)](#多模态参考生成)
 
 ## 精选提示词
 
@@ -57,6 +57,10 @@ MiniMax H3 是可将文本、图片、视频和音频作为统一上下文的视
 - [厨房里的手绘发光生物](#h3-0018) — 社区实测
 - [交互式游戏装备界面](#h3-0019) — 社区实测
 - [咖啡微距到沙漠的无缝转场](#h3-0020) — 社区实测
+- [动画丛林逃脱：H3 与 Seedance 2.0 对比](#h3-0056) — 社区实测
+- [SEAM 角色设定稿转动作展示](#h3-0057) — 社区实测
+- [由情绪板和语音生成的蘑菇森林歌唱片段](#h3-0058) — 社区实测
+- [第一人称泥地越野摩托赛](#h3-0060) — 社区实测
 
 ## 合集视频与多段提示词
 
@@ -639,12 +643,291 @@ Remove the green-screen background from Video 1 and replace it with a fairy-tale
 ---
 
 
+### H3-0060–H3-0063 · 一个原视频中的 4 段提示词
+
+来源将这些案例发布在同一个合集视频中。视频只展示一次，对应的完整提示词依次列在下方。
+
+#### 案例视频
+
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-reddit-brojakhoeman-ltx-vs-h3-compilation) · [↗ 查看仓库中的 MP4 文件](media/reddit-brojakhoeman-ltx-vs-h3-compilation.mp4)
+
+---
+
+<a id="h3-0060"></a>
+
+### H3-0060 · 第一人称泥地越野摩托赛
+
+**文生视频** · **社区实测** · ⭐ Featured
+
+#### 内容说明
+
+LTX 2.3 与 H3 四场景对比合集中的第一段 H3 测试，重点考察高速运动、重量转移、泥浆和第一人称镜头物理。
+
+#### 原始 Prompt
+
+```text
+POV shot, first-person camera, mounted low above the handlebars of a mud-splattered dirt bike, looking out over a vibrating front fender and the churning earth of a narrow racing track. The view sways violently with the engine's heavy, rhythmic thrum, a mechanical shudder that travels through the frame. Ahead, the track is a chaotic corridor of brown sludge and flying grit, flanked by the blurred, colorful jerseys of other riders leaning hard into the turns.
+
+The sun is a harsh, low glare that catches the wet spray of mud, creating a shimmering, blinding haze that edges the periphery of the vision.
+
+The viewer's hands, a man's hands, olive-skinned and gripped tight around the rubberized black handles, lean into a sharp left-hand bend. The knuckles are white, tendons straining under the skin as he fights the bike's urge to slide outward on the slick, dark loam. The left hand pulls inward, a sudden, heavy tension that counters the centrifugal force, while the right hand stays clamped, fingers curled around the throttle.
+
+A thick glob of wet, dark mud hits the top of the front fender with a heavy, wet thud, sliding down the plastic toward the view.
+
+The bike lurches as the front tire hits a rut, the entire perspective jerking upward and then slamming back down into the muck. The viewer's hands absorb the impact, the wrists flexing deeply to keep the handlebars from wrenching out of his grip. The engine's roar peaks, a guttural, high-pitched scream that vibrates through the very air of the shot.
+
+To the side, the rear tire of a competitor kicks up a wide, fan-shaped spray of liquid earth that coats the side of the viewer's right forearm, the brown sludge clinging to the olive skin in heavy, textured clumps.
+
+The track flattens suddenly, and the engine's pitch climbs into a sustained, frantic howl as the bike hits a crest. The weight shifts backward, the handlebars pulling up toward the viewer's chest, and the horizon line tilts sharply toward the sky. The ground drops away entirely, leaving only the blurred, rushing brown of the track far below and the sudden, terrifying clarity of the bright, pale sky.
+
+The viewer's hands stay locked, the fingers digging into the grips as the bike hangs in the weightless, silent apex of the jump.
+
+Gravity reasserts itself with a violent, bone-jarring snap as the rear tire strikes the landing ramp. The camera bobs hard, a heavy, downward plunge that makes the handlebars whip left and right. The viewer's hands fight the oscillation, the left hand slamming down to stabilize the steering while the right hand twists the throttle to regain momentum.
+
+Mud sprays upward from the impact, a fine, misty rain of grit that streaks across the lower edge of the view, obscuring the front fender in a layer of dark, dripping filth.
+
+The bike enters a dense pack of riders, the view narrowing as the colorful shapes of other racers crowd the periphery. The sound is a cacophony of high-revving engines and the wet, slapping sounds of tires hitting deep puddles. The viewer's hands move in a rapid, corrective dance, micro-adjusting the steering to find the narrow strip of firmer ground between the deep ruts.
+
+A spray of cold, wet mud hits the viewer's left hand, the weight of the sludge momentarily pulling at the skin before it slides off into the churning track.
+
+The track curves sharply right, and the bike leans at an extreme angle, the frame tilting heavily toward the dirt. The viewer's hands shift their weight, the left hand pulling back on the bar to keep the front wheel from tucking, while the right hand maintains a steady, controlled pressure on the throttle. The ground rushes past mere inches from the view, a blur of brown and grey. The sound of the engine is muffled by the sheer volume of the wind rushing past the camera, a constant, low-frequency roar.
+
+The perspective levels out as the bike exits the turn, the engine's scream settling into a heavy, driving rhythm once more. The viewer's hands, now coated in a fine layer of drying silt, remain clamped to the grips, the olive skin darkened by the grime. The front fender is almost entirely hidden under a thick, textured crust of mud that drips slowly back onto the track.
+
+The camera begins to drift closer to the vibrating metal of the handlebars, the heavy, rhythmic shaking of the machine the only constant as the race continues into the haze.
+```
+
+#### 中文翻译
+
+```text
+主观视角，第一人称摄影机低位安装在沾满泥浆的越野摩托车把上方，越过震动的前挡泥板望向狭窄赛道上翻涌的泥土。引擎沉重而有节奏地轰鸣，机械震颤贯穿整个画面，视野随之猛烈摇摆。前方赛道像一条由棕色泥浆与飞散砂砾组成的混乱走廊，其他车手穿着鲜艳赛车服，模糊地从两侧压弯掠过。
+
+低悬的太阳形成刺眼强光，照亮湿泥飞沫，在视野边缘制造闪烁而近乎致盲的雾霭。
+
+画面中可见一名橄榄肤色男子的双手，紧握黑色橡胶车把进入急左弯。指节因用力发白，皮下肌腱绷紧，他竭力抵抗摩托车在湿滑黑土上向外侧滑出的趋势。左手猛力向内拉以抵消离心力，右手则牢牢握住油门。
+
+一大团湿重黑泥砸在前挡泥板顶部，发出沉闷水声，沿塑料表面朝镜头方向滑落。
+
+前轮撞进车辙，摩托车猛然颠起又重重砸回泥地。双手吸收冲击，手腕深度弯曲，防止车把从掌中扭脱；引擎声攀至刺耳的高频咆哮，让空气也随之震动。
+
+一侧竞争对手的后轮甩出扇形泥浪，覆盖骑手右前臂，棕色泥浆以厚重、有纹理的块状黏在皮肤上。
+
+赛道突然变平，摩托冲上坡顶，引擎转速升成持续而疯狂的尖啸。重量向后转移，车把抬向骑手胸前，地平线急剧倾向天空；地面彻底坠落，只剩远处飞速掠过的棕色赛道，以及骤然清晰、令人恐惧的苍白亮空。
+
+跃起的最高点近乎失重且短暂寂静，双手仍死死锁住车把，手指深陷握把。
+
+后轮撞上落地坡时，重力以猛烈、震骨的冲击重新出现。摄影机剧烈下坠弹跳，车把左右甩动；左手猛压稳定方向，右手拧动油门恢复速度。
+
+撞击扬起细密泥雾和砂砾，从画面下缘划过，用滴落的暗色污泥遮住前挡泥板。
+
+摩托冲入密集车群，其他车手的彩色身影挤满视野边缘。高转速引擎与轮胎拍打深水坑的湿响混成嘈杂声场；双手快速细调方向，在深车辙之间寻找仅有的坚实窄线。
+
+一股冰冷湿泥击中左手，泥浆重量短暂拉扯皮肤后滑回翻涌赛道。
+
+赛道急转向右，摩托以极限角度压弯，画面重重倾向地面。左手回拉车把防止前轮内折，右手保持稳定油门；地面在镜头几厘米外化为棕灰色模糊，狂风的低频轰鸣几乎盖住引擎。
+
+出弯后视野恢复水平，引擎尖啸重新沉入厚重、持续的节奏。双手覆盖着逐渐干燥的细泥，仍紧扣握把，橄榄色皮肤被污迹染暗；前挡泥板几乎完全被厚实泥壳覆盖，泥水缓慢滴回赛道。
+
+摄影机开始靠近持续震动的金属车把，机械沉重而有节奏的摇晃成为车赛穿入雾霭时唯一不变的元素。
+```
+
+#### 详细信息
+
+- **生成参数：** `duration: 117s four-scene comparison compilation` · `resolution: 960x720 source compilation` · `ratio: 4:3 source compilation`
+- **Tags：** `pov` `dirt-bike` `fast-motion` `physics` `mud` `comparison` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Brojakhoeman (Reddit)](https://www.reddit.com/r/StableDiffusion/comments/1vciy35/ltx_23_vs_h3_same_prompts_t2v/)
+- **来源位置：** `comment`
+- **发布时间：** 2026-08-01
+- **收录时间：** 2026-08-02
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** The author posted the complete dirt-bike prompt in the comments and explains that each pair in the compilation plays LTX first and H3 second.
+
+---
+
+<a id="h3-0061"></a>
+
+### H3-0061 · 多层对话的 1960 年代忙碌餐馆
+
+**文生视频** · **社区实测**
+
+#### 内容说明
+
+同一 LTX 与 H3 对比合集中的餐馆片段，测试多人场景、重叠环境声、物体接触、镜头漂移和口语对白。
+
+#### 原始 Prompt
+
+```text
+Wide shot of a 1960s diner interior, the space thick with the smell of grease and burnt coffee, lit by a buzzing overhead fluorescent tube that casts a sickly pale green tint over the Formica counters. A waitress in a starch-white uniform and a short, pleated skirt weaves through the narrow aisle, her weight shifting heavily from heel to toe as she balances a heavy ceramic tray of burgers and fries.
+
+In the background, a scratchy jazz record spins on a wood-cased player behind the counter, the trumpet notes warbling through a layer of dust and surface pop.
+
+A man in a tan trench coat sits at the corner booth, his shoulders hunched as he leans toward a woman in a vibrant polka-dot dress. The woman's gold hoop earrings catch the harsh light as she tilts her head, her fingers tapping a rhythmic, restless beat against the laminated tabletop. The low hum of the diner is a thick soup of clinking silverware, the hiss of the milkshake machine, and the low, rolling murmur of several distinct conversations happening at once.
+
+The waitress approaches the booth, her face tight with the fatigue of a long shift, a single strand of dark hair clinging to her damp temple. She sets a plate of steaming eggs down in front of a man in a navy wool blazer, the ceramic thudding against the table with a heavy, final sound. "You want more coffee, hon?" she asks, her voice raspy and tired, a low rasp that cuts through the background chatter. The man doesn't look up, his eyes fixed on the salt shaker as he reaches for a napkin.
+
+A group of teenagers in denim jackets and collared shirts erupt in a sudden, sharp burst of laughter from a nearby stool, the sound cutting through the ambient drone. One boy leans back, his chair creaking under his weight, as he gestures wildly with a half-eaten fry. "Tellin' me he actually did it, kid," he says with a wide, toothy grin, his voice bright and mocking. The waitress ignores them, her eyes scanning the room for the next order, her hand resting heavily on her hip.
+
+The camera drifts closer to the waitress as she turns away from the booth, her skirt swishing against her thighs with a dry, rhythmic sound. She passes a man in a grey fedora who is leaning over his newspaper, the paper crinkling loudly as he shifts his weight. She pauses by a woman in a red velvet coat, leaning down to clear an empty mug. "You're havin' a real hard time, ain't ya?" she says, in a Boston accent, her voice dropping into a low, gravelly drawl.
+
+The woman in red looks up, her eyes weary, and she offers a small, tight smile that doesn't reach her eyes. "It's just been one of those days, dear," she replies, her voice soft and thin, barely audible over the sudden, loud scrape of a chair being pushed back. The waitress nods once, a sharp, professional movement, and begins to move toward the kitchen, her heavy footsteps echoing on the checkered linoleum floor.
+
+The camera continues its slow, inevitable drift toward the kitchen door, passing the blurred shapes of the guests. The light from the window rakes across the grease-filmed glass of the pie display, catching the glint of a cherry pie sitting lonely on its silver stand. The jazz record reaches a crescendo of static, the needle skipping slightly on a worn groove, as the waitress disappears into the steam of the back room, leaving the diner to its own restless, overlapping noise.
+```
+
+#### 中文翻译
+
+```text
+1960 年代餐馆内部大全景。空气里仿佛充满油脂与焦咖啡气味，头顶嗡鸣的日光灯在防火板柜台上投下病态的淡绿色调。一名穿浆白制服和短百褶裙的女服务员穿行于狭窄过道，脚跟到脚尖的沉重重心转移清晰可见，她努力平衡装满汉堡薯条的厚重陶瓷托盘。
+
+背景中，柜台后的木壳唱机播放带刮擦声的爵士唱片，小号声穿过灰尘和爆豆噪声微微走调。
+
+角落卡座里，穿棕褐风衣的男子驼背靠向一名身穿鲜艳波点裙的女人。女人侧头时金色圆环耳饰反射刺眼灯光，手指焦躁地在覆膜桌面上敲出节奏。银餐具碰撞、奶昔机嘶响和多组同时进行的低沉谈话混成餐馆厚重的环境嗡鸣。
+
+女服务员走近卡座，长班后的疲惫绷在脸上，一缕黑发贴在潮湿太阳穴。她把一盘冒热气的鸡蛋放在穿藏青羊毛西装的男子面前，陶瓷盘以沉重而终结性的闷响落桌。她用沙哑疲惫的低声问："还要咖啡吗，亲爱的？"声音穿透背景闲聊。男子没有抬头，只盯着盐罐并伸手拿餐巾。
+
+附近高脚凳上一群穿牛仔夹克和有领衬衫的少年突然爆发尖锐笑声。一名男孩后仰，椅子在重量下吱呀作响，他挥舞着吃了一半的薯条，露齿嘲笑道："告诉你，那小子真干了。"女服务员不予理会，目光寻找下一份订单，一只手沉沉叉在腰间。
+
+她转身离开卡座时，摄影机缓慢靠近，裙摆擦过大腿发出干燥而有节奏的声音。她经过一名伏在报纸上的灰色软呢帽男子，男子换重心时报纸大声皱响。她停在一名红色天鹅绒外套女人旁，俯身收走空杯，用波士顿口音压低沙砾般嗓音问："你今天真不好过，对吧？"
+
+红衣女人抬起疲惫双眼，给出一个没有到达眼底的紧绷微笑，轻声回答："亲爱的，不过是倒霉的一天。"她细弱的声音几乎被突然推椅子的刺耳摩擦盖住。女服务员干练地点一下头，走向厨房，沉重脚步在棋盘格油毡地板上回响。
+
+摄影机继续不可避免地缓慢漂向厨房门，掠过模糊食客。窗光擦过覆盖油膜的派柜玻璃，照亮银架上孤独的樱桃派。爵士唱片的静电噪声升至高潮，唱针在磨损凹槽中轻微跳动；女服务员消失在后厨蒸汽里，只留下餐馆自身焦躁、重叠的噪声。
+```
+
+#### 详细信息
+
+- **生成参数：** `duration: 117s four-scene comparison compilation` · `resolution: 960x720 source compilation` · `ratio: 4:3 source compilation`
+- **Tags：** `diner` `1960s` `dialogue` `crowd` `sound-design` `comparison` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Brojakhoeman (Reddit)](https://www.reddit.com/r/StableDiffusion/comments/1vciy35/ltx_23_vs_h3_same_prompts_t2v/)
+- **来源位置：** `comment`
+- **发布时间：** 2026-08-01
+- **收录时间：** 2026-08-02
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** The author posted this prompt in the thread; the compilation order is LTX first and H3 second for each scene.
+
+---
+
+<a id="h3-0062"></a>
+
+### H3-0062 · 暴雨夜间 F1 赛车
+
+**文生视频** · **社区实测**
+
+#### 内容说明
+
+LTX 与 H3 对比合集中的三镜头赛车段落，包括湿地高速掠过、驾驶舱特写和车尾加速镜头。
+
+#### 原始 Prompt
+
+```text
+Shot with heavy grain and saturated blue gels. A wide side profile of a Formula 1 car streaks past a static camera on the Donnington track at night. Rain falls in thick, backlit sheets, catching the hard specular glare of stadium floodlights that rake across the wet asphalt. The car's chassis is a blur of carbon fiber and reflected neon, its tires throwing up heavy, heavy plumes of spray that catch the light like shattered glass.
+
+As the machine thunders past, the camera vibrates from the weight of the engine, the sound a deep, mechanical roar tearing through the rhythmic hiss of the downpour.
+
+CUT TO:
+
+A tight, shallow-focus close-up inside the cockpit. The driver is encased in a fireproof racing suit, his gloved hands gripping the steering wheel with white-knuckled tension. His helmet, slick with beads of rainwater, reflects the frantic strobe of trackside lights. Through the dark visor, his eyes remain fixed forward, unblinking and intense, tracking the line ahead.
+
+The interior is a claustrophobic tangle of glowing digital displays and carbon textures, drenched in the rhythmic pulse of red and amber light. The only sound is the driver's rapid, pressurized breathing inside the helmet and the high-pitched, mechanical scream of the engine.
+
+CUT TO:
+
+A low-angle rear shot of the car as it pulls away into the darkness of the track. The red LED rain light on the rear wing pulses violently, cutting through the thick haze of mist and exhaust. The car's rear end dances slightly under the force of the acceleration, its weight shifting onto the rear tires as they bite into the flooded surface. Sudden, bright orange flames erupt from the exhaust pipes in sharp, staccato pops, illuminating the swirling steam and rain for a fraction of a second.
+
+The camera drifts closer to the disappearing taillights, capturing the violent spray of water kicked up by the diffuser as the engine's roar fades into the heavy, ambient drumming of the rain.
+```
+
+#### 中文翻译
+
+```text
+使用明显胶片颗粒和饱和蓝色灯光拍摄。夜晚的多宁顿赛道上，一辆 F1 赛车以宽幅侧面姿态从固定摄影机前疾驰而过。厚重雨幕被逆光照亮，体育场泛光灯的硬质高光横扫湿透的沥青。碳纤维车身和霓虹反射融成高速模糊，轮胎掀起沉重水雾，在灯光中如碎玻璃般闪烁。
+
+赛车轰鸣掠过时，引擎重量令摄影机震动，深沉机械咆哮撕开暴雨有节奏的嘶声。
+
+切至：
+
+驾驶舱内的紧凑浅景深特写。车手裹在防火赛车服中，戴手套的双手因用力握方向盘而指节发白。头盔表面布满雨珠，反射赛道边疯狂闪烁的灯光；黑色面罩后，双眼始终强烈而不眨地盯住前方走线。
+
+狭窄座舱由发光数字屏和碳纤维纹理纠缠而成，浸在红色与琥珀色有节奏的脉冲光中。唯一声音是头盔内快速、受压的呼吸，以及引擎高频机械尖啸。
+
+切至：
+
+低机位车尾镜头，赛车驶入赛道黑暗。尾翼上的红色 LED 雨灯猛烈闪烁，穿透浓厚水雾与尾气。加速力量让车尾轻微摆动，重量压向后轮，轮胎咬住积水路面；排气管突然以急促爆响喷出亮橙火焰，短暂照亮旋转蒸汽和雨线。
+
+摄影机漂近逐渐消失的尾灯，记录扩散器暴力掀起的水雾；引擎咆哮渐远，融入暴雨沉重的环境鼓点。
+```
+
+#### 详细信息
+
+- **生成参数：** `duration: 117s four-scene comparison compilation` · `resolution: 960x720 source compilation` · `ratio: 4:3 source compilation`
+- **Tags：** `formula-1` `night` `rain` `cockpit` `multi-shot` `comparison` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Brojakhoeman (Reddit)](https://www.reddit.com/r/StableDiffusion/comments/1vciy35/ltx_23_vs_h3_same_prompts_t2v/)
+- **来源位置：** `comment`
+- **发布时间：** 2026-08-01
+- **收录时间：** 2026-08-02
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** The author posted this Formula 1 prompt in the thread; each scene in the source compilation shows LTX first and H3 second.
+
+---
+
+<a id="h3-0063"></a>
+
+### H3-0063 · LORA-DADDY 紫色西装音乐视频
+
+**文生视频** · **社区实测**
+
+#### 内容说明
+
+LTX 与 H3 对比合集中的最后一组场景，测试项链文字可读性、情绪化对白、布料运动、下蹲和朝镜头跃起。
+
+#### 原始 Prompt
+
+```text
+High-gloss music video. A very flamboyant Black man in a purple velvet suit stands center frame, a heavy golden chain reading LORA-DADDY pressing into his chest. Haze swirls around saturated purple gels, while hard backlight rims his silhouette. He bounces on the balls of his feet, hips rolling with infectious energy, sweat glistening on his forehead under the intense performance lights.
+
+He throws his head back, mouth wide open in a joyous shout, the velvet straining across his broad shoulders. He shouts, "God, it feels so good to be ALIVE!" His voice is bright, full, and resonant, the American accent crisp and clear. He laughs, a deep, booming sound that shakes his torso, eyes crinkling with pure, unadulterated delight as the camera holds steady on his radiant face.
+
+He drops suddenly into a quick, tight squat, knees bending deep, the gold chain swinging heavy against his stomach. The movement is sharp and controlled, gathering kinetic energy. His hands plant near the floor, fingers splayed, muscles coiling like springs. The shallow focus blurs the background haze into soft circles of light as he prepares to launch, tension building in his legs and spine.
+
+He explodes upward in a powerful leap directly towards the camera, arms raised high in triumph. The push-in accelerates, closing the distance rapidly. His face fills the frame, ecstatic and breathless, as he hangs in the air for a split second before the cut. The velvet suit flares around him, a burst of color against the dark, hazy void, capturing the peak of his over-the-top joy.
+```
+
+#### 中文翻译
+
+```text
+高光泽音乐视频。一名非常张扬的黑人男子身穿紫色天鹅绒西装站在画面中央，沉重金链压在胸前，链坠清晰写着 LORA-DADDY。雾气在饱和紫色灯光中旋转，强硬逆光勾勒他的轮廓。他以前脚掌弹跳、充满感染力地转动髋部，强烈舞台灯下额头汗水闪亮。
+
+他猛然仰头，张大嘴欢呼，天鹅绒紧绷在宽阔肩膀上。他高喊："上帝啊，活着的感觉太棒了！"声音明亮、饱满、共鸣强烈，美式口音清楚利落。他放声大笑，低沉洪亮的笑声震动躯干；摄影机稳定凝视他发光的面孔，双眼因纯粹喜悦而弯起。
+
+他突然快速收紧身体深蹲，膝盖大幅弯曲，金链沉重地摆向腹部。动作锐利且受控，正在积蓄动能；双手撑近地面，手指张开，肌肉像弹簧般卷紧。浅景深把背景雾气化为柔软光斑，腿部与脊柱张力不断增加，准备起跳。
+
+他爆发式向上跃起，直接冲向摄影机，双臂高举庆祝。镜头加速推进，距离迅速闭合；切镜前的瞬间，他在空中短暂停留，狂喜而气喘的脸填满画面。紫色天鹅绒西装在黑暗雾状空间中向外张开，像一团鲜艳色彩，定格他夸张喜悦的顶点。
+```
+
+#### 详细信息
+
+- **生成参数：** `duration: 117s four-scene comparison compilation` · `resolution: 960x720 source compilation` · `ratio: 4:3 source compilation`
+- **Tags：** `music-video` `purple` `typography` `dialogue` `jump` `comparison` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Brojakhoeman (Reddit)](https://www.reddit.com/r/StableDiffusion/comments/1vciy35/ltx_23_vs_h3_same_prompts_t2v/)
+- **来源位置：** `comment`
+- **发布时间：** 2026-08-01
+- **收录时间：** 2026-08-02
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** The author supplied the prompt in a reply; this is the final scene pair in a compilation that presents LTX first and H3 second.
+
+---
+
+
 
 ## 全部提示词
 
 ## 文生视频
 
-*上方合集中的相关提示词:* [H3-0006](#h3-0006) · [H3-0007](#h3-0007) · [H3-0012](#h3-0012) · [H3-0013](#h3-0013) · [H3-0015](#h3-0015) · [H3-0016](#h3-0016)
+*上方合集中的相关提示词:* [H3-0006](#h3-0006) · [H3-0007](#h3-0007) · [H3-0012](#h3-0012) · [H3-0013](#h3-0013) · [H3-0015](#h3-0015) · [H3-0016](#h3-0016) · [H3-0060](#h3-0060) · [H3-0061](#h3-0061) · [H3-0062](#h3-0062) · [H3-0063](#h3-0063)
 
 <a id="h3-0001"></a>
 
@@ -774,6 +1057,46 @@ Use a one-handed phone-camera feel with visible shake, exposure fluctuation unde
 - **收录时间：** 2026-08-01
 - **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
+
+---
+
+<a id="h3-0059"></a>
+
+### H3-0059 · 威尔·史密斯吃意大利面基准测试
+
+**文生视频** · **社区实测**
+
+#### 内容说明
+
+使用极简提示词复现经典文生视频基准的社区测试。
+
+#### 原始 Prompt
+
+```text
+Will smith eating spaghetti
+```
+
+#### 中文翻译
+
+```text
+威尔·史密斯在吃意大利面。
+```
+
+#### 案例视频
+
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-reddit-inner-reflections-will-smith-spaghetti) · [↗ 查看仓库中的 MP4 文件](media/reddit-inner-reflections-will-smith-spaghetti.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 10s` · `resolution: 1920x1080` · `ratio: 16:9`
+- **Tags：** `benchmark` `food` `celebrity` `minimal-prompt` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Inner-Reflections (Reddit)](https://www.reddit.com/r/StableDiffusion/comments/1vd4b4b/somebody_had_to_check_the_will_smith_benchmark/)
+- **来源位置：** `comment`
+- **发布时间：** 2026-08-02
+- **收录时间：** 2026-08-02
+- **核验状态：** Prompt 可见 ✅ 是 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** The author supplied the exact prompt in a comment; the post and discussion identify the attached result as a MiniMax H3 test.
 
 ---
 
@@ -2420,6 +2743,138 @@ Add orange-yellow hand-drawn marks like Image 1 around the two people in Video 1
 
 ---
 
+<a id="h3-0056"></a>
+
+### H3-0056 · 动画丛林逃脱：H3 与 Seedance 2.0 对比
+
+**多模态参考生成** · **社区实测** · ⭐ Featured
+
+#### 内容说明
+
+使用相同角色参考图制作的公开对比测试，展示 MiniMax H3 与 Seedance 2.0 对快速二维动画丛林逃脱场景的处理。
+
+#### 视频反推 Prompt（非来源原文）
+
+> [!NOTE]
+> 这段 Prompt 根据公开视频重构，仅为编辑推测，并非创作者发布的原始 Prompt。
+
+```text
+Using the supplied character reference images, create a 15-second 2D animated jungle escape. Preserve the flat graphic shapes, angular facial designs, warm coral-and-orange palette, costumes, and proportions of every character. A captive pirate wakes tied to a tree branch, notices three guards approaching through the mist, struggles against the rope, drops down, slips free, and sprints through dense foliage while the guards chase him. Cut energetically between low angles, close-ups, reaction shots, and a final chase shot. Keep silhouettes readable, character identities consistent, rope and clothing motion believable, and the layered jungle moving with cinematic parallax.
+```
+
+#### 中文翻译
+
+```text
+使用提供的角色参考图，制作一段 15 秒的二维动画丛林逃脱片段。严格保留每个角色扁平化的图形造型、棱角分明的面部设计、珊瑚橙暖色调、服装和身体比例。一名被俘的海盗醒来时被绑在树枝上；他发现三名守卫从薄雾中逼近，于是挣扎解开绳索、落到地面并冲进茂密植被，守卫随即追赶。使用低机位、特写、反应镜头和最终追逐镜头进行有活力的剪辑。确保角色轮廓清晰、身份一致，绳索与衣物运动可信，并让多层丛林产生电影感视差。
+```
+
+#### 案例视频
+
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-x-0xink-minimax-h3-vs-seedance) · [↗ 查看仓库中的 MP4 文件](media/x-0xink-minimax-h3-vs-seedance.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 15s` · `resolution: 2K stated for H3; comparison file 1920x2160` · `ratio: 16:9 outputs stacked vertically`
+- **Tags：** `animation` `character-reference` `jungle` `chase` `comparison` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [INK (@0xInk_)](https://x.com/0xInk_/status/2083065622095700139)
+- **来源位置：** `post`
+- **发布时间：** 2026-07-31
+- **收录时间：** 2026-08-02
+- **反推说明：** 作者说明两个模型使用了相同提示词和角色参考图，但未公开提示词正文；此版本依据可见的 15 秒对比视频进行编辑反推。
+- **核验状态：** Prompt 可见 ⚪ 否 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** The post explicitly labels the upper result MiniMax H3 and states that both models used the same prompt and character references; MiniMax's Hailuo account also replied to the post.
+
+---
+
+<a id="h3-0057"></a>
+
+### H3-0057 · SEAM 角色设定稿转动作展示
+
+**多模态参考生成** · **社区实测** · ⭐ Featured
+
+#### 内容说明
+
+一段 4K 社区案例，从平面角色设定稿过渡到风格化战斗场景，同时保持服装细节和界面文字可读。
+
+#### 视频反推 Prompt（非来源原文）
+
+> [!NOTE]
+> 这段 Prompt 根据公开视频重构，仅为编辑推测，并非创作者发布的原始 Prompt。
+
+```text
+Use the supplied SEAM character-design sheet as the locked visual reference. Preserve the smooth white mask, black-and-grey layered armor, high collar, long split coat, slim proportions, and neon-lime accents. Begin on a clean editorial character sheet with large readable labels such as SEAM, ROSTER, LOOK 01, and LOADOUT, then transition into a cinematic third-person action showcase in a sunlit ruined stone arena. The character draws the weapon, pivots through rapid attacks, blocks incoming enemies, and finishes with a forceful ground strike that releases a circular lime-green energy effect. Keep the character design stable through fast motion, maintain crisp typography, use dynamic game-trailer camera movement, and render in polished 4K.
+```
+
+#### 中文翻译
+
+```text
+将提供的 SEAM 角色设定稿作为锁定的视觉参考。严格保留光滑白色面具、黑灰分层护甲、高领、开衩长外套、修长比例和荧光青柠色点缀。开场展示干净的杂志式角色设定页，并清晰呈现 SEAM、ROSTER、LOOK 01、LOADOUT 等大字标题；随后过渡到阳光下废墟石砌竞技场中的电影化第三人称动作展示。角色拔出武器、转身连续快速攻击、格挡来敌，并以一次有力的砸地动作收尾，释放环形青柠绿色能量效果。快速运动中保持角色设计稳定、文字锐利可读，使用游戏预告片式动态镜头，以精致 4K 质感呈现。
+```
+
+#### 案例视频
+
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-x-glitterpixely-h3-action-text-showcase) · [↗ 查看仓库中的 MP4 文件](media/x-glitterpixely-h3-action-text-showcase.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 28s source showcase` · `resolution: 3840x2160` · `ratio: 16:9`
+- **Tags：** `character-reference` `action` `combat` `typography` `game-trailer` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Glitter Gal (@GlitterPixely)](https://x.com/GlitterPixely/status/2083069389809590617)
+- **来源位置：** `post`
+- **发布时间：** 2026-07-31
+- **收录时间：** 2026-08-02
+- **反推说明：** 原帖提到提示词遵循和文字渲染能力，但未公开完整输入提示词；此版本依据可见的角色设定页和动作片段进行反推。
+- **核验状态：** Prompt 可见 ⚪ 否 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** The post uses the #MiniMaxH3 tag, quotes MiniMax's official H3 launch, and describes the attached video as a prompt-adherence, action, and text-rendering showcase.
+
+---
+
+<a id="h3-0058"></a>
+
+### H3-0058 · 由情绪板和语音生成的蘑菇森林歌唱片段
+
+**多模态参考生成** · **社区实测** · ⭐ Featured
+
+#### 内容说明
+
+一段 15 秒多模态参考测试，将情绪板、语音和文本组合成电影感奇幻歌唱场景。
+
+#### 视频反推 Prompt（非来源原文）
+
+> [!NOTE]
+> 这段 Prompt 根据公开视频重构，仅为编辑推测，并非创作者发布的原始 Prompt。
+
+```text
+Use the supplied moodboard to build a cinematic enchanted mushroom forest at night, filled with oversized red-and-white mushrooms, blue-violet bioluminescence, wet moss, drifting spores, and deep layered foliage. Place the referenced young singer in a flowing cream fairy-tale dress at the center of the path. Use the supplied voice note as her performance audio and synchronize her lips, breathing, and facial emotion naturally to the vocal. Move from a medium frontal singing shot into a gentle orbit and then a wider reveal of the glowing forest. Preserve her identity and costume, keep the lighting rich and theatrical, add subtle wind through her hair and dress, and end on a luminous wide composition with convincing depth.
+```
+
+#### 中文翻译
+
+```text
+使用提供的情绪板构建夜晚的电影感魔法蘑菇森林：巨大的红白蘑菇、蓝紫色生物荧光、湿润苔藓、飘浮孢子和层次深远的植被。让参考中的年轻歌手身穿飘逸的奶油色童话长裙，站在林间小径中央。将提供的语音作为她的演唱音轨，自然同步嘴型、呼吸和面部情绪。镜头从正面中景演唱逐渐过渡到轻柔环绕，再拉远展示整片发光森林。保持人物身份和服装一致，使用浓郁戏剧化灯光，让微风轻拂头发与裙摆，并以具有真实纵深感的明亮大全景收尾。
+```
+
+#### 案例视频
+
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-x-aibuzznews-h3-moodboard-voice) · [↗ 查看仓库中的 MP4 文件](media/x-aibuzznews-h3-moodboard-voice.mp4)
+
+#### 详细信息
+
+- **生成参数：** `duration: 15s` · `resolution: 2804x1402 source file` · `ratio: 2:1`
+- **Tags：** `moodboard` `audio-reference` `singing` `lip-sync` `fantasy` `community-tested`
+- **来源类型：** 社区实测
+- **来源：** [Patrick's AIBuzzNews (@AIBuzzNews)](https://x.com/AIBuzzNews/status/2083168994861654074)
+- **来源位置：** `post`
+- **发布时间：** 2026-07-31
+- **收录时间：** 2026-08-02
+- **反推说明：** 作者公开了输入类型（一张情绪板、一段语音和一段提示词），但未公开提示词正文；此版本依据下载后的成片进行编辑反推。
+- **核验状态：** Prompt 可见 ⚪ 否 · H3 已确认 ✅ 是 · 结果可见 ✅ 是
+- **Note：** The post explicitly says MiniMax H3 created the attached 15-second result from a moodboard, a voice note, and one prompt.
+
+---
+
 ## 参与贡献
 
 可通过 Issue 表单或 Pull Request 投稿。请提供原作者、直接来源链接、完整 Prompt、生成模式，以及是否存在可确认由 MiniMax H3 生成的公开结果。详情见 [CONTRIBUTING.md](docs/CONTRIBUTING.md)。
@@ -2432,4 +2887,4 @@ Add orange-yellow hand-drawn marks like Image 1 around the two people in Video 1
 
 MiniMax and Hailuo are trademarks of their respective owners. This community project is not affiliated with or endorsed by MiniMax.
 
-Generated from structured data curated through 2026-08-01.
+Generated from structured data curated through 2026-08-02.

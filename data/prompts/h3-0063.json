@@ -1,0 +1,17 @@
+{
+  "id": "h3-0063",
+  "title": {"en": "LORA-DADDY purple-suit music video", "zh": "LORA-DADDY 紫色西装音乐视频"},
+  "description": {"en": "The final scene pair in the LTX-versus-H3 compilation, testing readable necklace text, expressive dialogue, cloth motion, a squat, and a leap toward camera.", "zh": "LTX 与 H3 对比合集中的最后一组场景，测试项链文字可读性、情绪化对白、布料运动、下蹲和朝镜头跃起。"},
+  "mode": "text-to-video",
+  "featured": false,
+  "prompt": {
+    "original_language": "en",
+    "original": "High-gloss music video. A very flamboyant Black man in a purple velvet suit stands center frame, a heavy golden chain reading LORA-DADDY pressing into his chest. Haze swirls around saturated purple gels, while hard backlight rims his silhouette. He bounces on the balls of his feet, hips rolling with infectious energy, sweat glistening on his forehead under the intense performance lights.\n\nHe throws his head back, mouth wide open in a joyous shout, the velvet straining across his broad shoulders. He shouts, \"God, it feels so good to be ALIVE!\" His voice is bright, full, and resonant, the American accent crisp and clear. He laughs, a deep, booming sound that shakes his torso, eyes crinkling with pure, unadulterated delight as the camera holds steady on his radiant face.\n\nHe drops suddenly into a quick, tight squat, knees bending deep, the gold chain swinging heavy against his stomach. The movement is sharp and controlled, gathering kinetic energy. His hands plant near the floor, fingers splayed, muscles coiling like springs. The shallow focus blurs the background haze into soft circles of light as he prepares to launch, tension building in his legs and spine.\n\nHe explodes upward in a powerful leap directly towards the camera, arms raised high in triumph. The push-in accelerates, closing the distance rapidly. His face fills the frame, ecstatic and breathless, as he hangs in the air for a split second before the cut. The velvet suit flares around him, a burst of color against the dark, hazy void, capturing the peak of his over-the-top joy.",
+    "zh": "高光泽音乐视频。一名非常张扬的黑人男子身穿紫色天鹅绒西装站在画面中央，沉重金链压在胸前，链坠清晰写着 LORA-DADDY。雾气在饱和紫色灯光中旋转，强硬逆光勾勒他的轮廓。他以前脚掌弹跳、充满感染力地转动髋部，强烈舞台灯下额头汗水闪亮。\n\n他猛然仰头，张大嘴欢呼，天鹅绒紧绷在宽阔肩膀上。他高喊：\"上帝啊，活着的感觉太棒了！\"声音明亮、饱满、共鸣强烈，美式口音清楚利落。他放声大笑，低沉洪亮的笑声震动躯干；摄影机稳定凝视他发光的面孔，双眼因纯粹喜悦而弯起。\n\n他突然快速收紧身体深蹲，膝盖大幅弯曲，金链沉重地摆向腹部。动作锐利且受控，正在积蓄动能；双手撑近地面，手指张开，肌肉像弹簧般卷紧。浅景深把背景雾气化为柔软光斑，腿部与脊柱张力不断增加，准备起跳。\n\n他爆发式向上跃起，直接冲向摄影机，双臂高举庆祝。镜头加速推进，距离迅速闭合；切镜前的瞬间，他在空中短暂停留，狂喜而气喘的脸填满画面。紫色天鹅绒西装在黑暗雾状空间中向外张开，像一团鲜艳色彩，定格他夸张喜悦的顶点。"
+  },
+  "parameters": {"duration": "117s four-scene comparison compilation", "resolution": "960x720 source compilation", "ratio": "4:3 source compilation"},
+  "tags": ["music-video", "purple", "typography", "dialogue", "jump", "comparison", "community-tested"],
+  "media": [{"type": "video", "path": "media/reddit-brojakhoeman-ltx-vs-h3-compilation.mp4", "source_url": "https://www.reddit.com/r/StableDiffusion/comments/1vciy35/ltx_23_vs_h3_same_prompts_t2v/", "rights_status": "third-party-attributed"}],
+  "source": {"type": "community-tested", "author": "Brojakhoeman (Reddit)", "url": "https://www.reddit.com/r/StableDiffusion/comments/1vciy35/ltx_23_vs_h3_same_prompts_t2v/", "source_location": "comment", "published_at": "2026-08-01", "retrieved_at": "2026-08-02"},
+  "verification": {"prompt_visible": true, "h3_confirmed": true, "output_visible": true, "notes": "The author supplied the prompt in a reply; this is the final scene pair in a compilation that presents LTX first and H3 second."}
+}

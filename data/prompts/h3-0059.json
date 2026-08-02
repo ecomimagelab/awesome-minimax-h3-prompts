@@ -1,0 +1,13 @@
+{
+  "id": "h3-0059",
+  "title": {"en": "Will Smith eating spaghetti benchmark", "zh": "威尔·史密斯吃意大利面基准测试"},
+  "description": {"en": "A community recreation of the well-known text-to-video benchmark using an intentionally minimal prompt.", "zh": "使用极简提示词复现经典文生视频基准的社区测试。"},
+  "mode": "text-to-video",
+  "featured": false,
+  "prompt": {"original_language": "en", "original": "Will smith eating spaghetti", "zh": "威尔·史密斯在吃意大利面。"},
+  "parameters": {"duration": "10s", "resolution": "1920x1080", "ratio": "16:9"},
+  "tags": ["benchmark", "food", "celebrity", "minimal-prompt", "community-tested"],
+  "media": [{"type": "video", "path": "media/reddit-inner-reflections-will-smith-spaghetti.mp4", "source_url": "https://www.reddit.com/r/StableDiffusion/comments/1vd4b4b/somebody_had_to_check_the_will_smith_benchmark/", "rights_status": "third-party-attributed"}],
+  "source": {"type": "community-tested", "author": "Inner-Reflections (Reddit)", "url": "https://www.reddit.com/r/StableDiffusion/comments/1vd4b4b/somebody_had_to_check_the_will_smith_benchmark/", "source_location": "comment", "published_at": "2026-08-02", "retrieved_at": "2026-08-02"},
+  "verification": {"prompt_visible": true, "h3_confirmed": true, "output_visible": true, "notes": "The author supplied the exact prompt in a comment; the post and discussion identify the attached result as a MiniMax H3 test."}
+}

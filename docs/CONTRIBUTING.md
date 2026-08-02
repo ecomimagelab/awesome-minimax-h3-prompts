@@ -41,6 +41,7 @@ For X threads, inspect the main post plus consecutive author replies. If the pro
 - Do not submit private, paywalled, leaked, or deleted content.
 - No video, no entry: prompts without a downloadable public result video are not accepted.
 - Every accepted video must be downloaded and committed under `media/`; external playback URLs alone are not accepted.
+- Reject duplicate source URLs, duplicate prompt text, byte-identical videos, and visually duplicated/re-encoded clips. When several prompts belong to one compilation, keep one video file and group the prompt records under that path.
 - Reconstructed prompts must stay within observable evidence. Do not invent hidden reference assets, model parameters, exact dialogue, or production details that the video cannot support.
 - Do not claim a result is H3-generated without a public statement or visible model label.
 - AI-written translations are allowed, but the original prompt must remain unchanged.
@@ -55,6 +56,7 @@ For X threads, inspect the main post plus consecutive author replies. If the pro
 
 ```bash
 python scripts/validate_data.py
+python scripts/check_video_similarity.py --fail-on-match path/to/candidate.mp4
 python scripts/generate_readme.py
 ```
 

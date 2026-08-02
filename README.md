@@ -30,18 +30,18 @@ MiniMax H3 is a multimodal video generation model that accepts text, images, vid
 
 | Metric | Count |
 | --- | ---: |
-| Total prompts | **50** |
+| Total prompts | **58** |
 | Official examples | **39** |
-| Community tested | **11** |
+| Community tested | **19** |
 | Community guide templates | **0** |
-| Last curated | **2026-08-01** |
+| Last curated | **2026-08-02** |
 
 ## Browse by mode
 
-- [Text to Video (9)](#text-to-video)
+- [Text to Video (14)](#text-to-video)
 - [Image to Video (1)](#image-to-video)
 - [First / Last Frame (9)](#first-last-frame)
-- [Reference Generation (31)](#reference-generation)
+- [Reference Generation (34)](#reference-generation)
 
 ## Featured prompts
 
@@ -57,6 +57,10 @@ MiniMax H3 is a multimodal video generation model that accepts text, images, vid
 - [Hand-drawn kitchen creature](#h3-0018) — Community tested
 - [Interactive game equipment UI](#h3-0019) — Community tested
 - [Macro coffee-to-desert transition](#h3-0020) — Community tested
+- [Animated jungle escape: H3 vs Seedance 2.0](#h3-0056) — Community tested
+- [SEAM character sheet to action showcase](#h3-0057) — Community tested
+- [Mushroom-forest song from moodboard and voice note](#h3-0058) — Community tested
+- [First-person mud-track dirt-bike race](#h3-0060) — Community tested
 
 ## Compilation videos with multiple prompts
 
@@ -475,12 +479,205 @@ Remove the green-screen background from Video 1 and replace it with a fairy-tale
 ---
 
 
+### H3-0060–H3-0063 · 4 prompts in one source video
+
+The source presents these examples in a single compilation video. The video is shown once, followed by the complete prompt blocks below.
+
+#### Video
+
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-reddit-brojakhoeman-ltx-vs-h3-compilation) · [↗ View the MP4 file in this repository](media/reddit-brojakhoeman-ltx-vs-h3-compilation.mp4)
+
+---
+
+<a id="h3-0060"></a>
+
+### H3-0060 · First-person mud-track dirt-bike race
+
+**Text to Video** · **Community tested** · ⭐ Featured
+
+#### Description
+
+The first H3 segment in a four-scene LTX 2.3 versus H3 compilation, stressing fast motion, weight transfer, mud, and first-person camera physics.
+
+#### Prompt
+
+```text
+POV shot, first-person camera, mounted low above the handlebars of a mud-splattered dirt bike, looking out over a vibrating front fender and the churning earth of a narrow racing track. The view sways violently with the engine's heavy, rhythmic thrum, a mechanical shudder that travels through the frame. Ahead, the track is a chaotic corridor of brown sludge and flying grit, flanked by the blurred, colorful jerseys of other riders leaning hard into the turns.
+
+The sun is a harsh, low glare that catches the wet spray of mud, creating a shimmering, blinding haze that edges the periphery of the vision.
+
+The viewer's hands, a man's hands, olive-skinned and gripped tight around the rubberized black handles, lean into a sharp left-hand bend. The knuckles are white, tendons straining under the skin as he fights the bike's urge to slide outward on the slick, dark loam. The left hand pulls inward, a sudden, heavy tension that counters the centrifugal force, while the right hand stays clamped, fingers curled around the throttle.
+
+A thick glob of wet, dark mud hits the top of the front fender with a heavy, wet thud, sliding down the plastic toward the view.
+
+The bike lurches as the front tire hits a rut, the entire perspective jerking upward and then slamming back down into the muck. The viewer's hands absorb the impact, the wrists flexing deeply to keep the handlebars from wrenching out of his grip. The engine's roar peaks, a guttural, high-pitched scream that vibrates through the very air of the shot.
+
+To the side, the rear tire of a competitor kicks up a wide, fan-shaped spray of liquid earth that coats the side of the viewer's right forearm, the brown sludge clinging to the olive skin in heavy, textured clumps.
+
+The track flattens suddenly, and the engine's pitch climbs into a sustained, frantic howl as the bike hits a crest. The weight shifts backward, the handlebars pulling up toward the viewer's chest, and the horizon line tilts sharply toward the sky. The ground drops away entirely, leaving only the blurred, rushing brown of the track far below and the sudden, terrifying clarity of the bright, pale sky.
+
+The viewer's hands stay locked, the fingers digging into the grips as the bike hangs in the weightless, silent apex of the jump.
+
+Gravity reasserts itself with a violent, bone-jarring snap as the rear tire strikes the landing ramp. The camera bobs hard, a heavy, downward plunge that makes the handlebars whip left and right. The viewer's hands fight the oscillation, the left hand slamming down to stabilize the steering while the right hand twists the throttle to regain momentum.
+
+Mud sprays upward from the impact, a fine, misty rain of grit that streaks across the lower edge of the view, obscuring the front fender in a layer of dark, dripping filth.
+
+The bike enters a dense pack of riders, the view narrowing as the colorful shapes of other racers crowd the periphery. The sound is a cacophony of high-revving engines and the wet, slapping sounds of tires hitting deep puddles. The viewer's hands move in a rapid, corrective dance, micro-adjusting the steering to find the narrow strip of firmer ground between the deep ruts.
+
+A spray of cold, wet mud hits the viewer's left hand, the weight of the sludge momentarily pulling at the skin before it slides off into the churning track.
+
+The track curves sharply right, and the bike leans at an extreme angle, the frame tilting heavily toward the dirt. The viewer's hands shift their weight, the left hand pulling back on the bar to keep the front wheel from tucking, while the right hand maintains a steady, controlled pressure on the throttle. The ground rushes past mere inches from the view, a blur of brown and grey. The sound of the engine is muffled by the sheer volume of the wind rushing past the camera, a constant, low-frequency roar.
+
+The perspective levels out as the bike exits the turn, the engine's scream settling into a heavy, driving rhythm once more. The viewer's hands, now coated in a fine layer of drying silt, remain clamped to the grips, the olive skin darkened by the grime. The front fender is almost entirely hidden under a thick, textured crust of mud that drips slowly back onto the track.
+
+The camera begins to drift closer to the vibrating metal of the handlebars, the heavy, rhythmic shaking of the machine the only constant as the race continues into the haze.
+```
+
+#### Details
+
+- **Parameters：** `duration: 117s four-scene comparison compilation` · `resolution: 960x720 source compilation` · `ratio: 4:3 source compilation`
+- **Tags：** `pov` `dirt-bike` `fast-motion` `physics` `mud` `comparison` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Brojakhoeman (Reddit)](https://www.reddit.com/r/StableDiffusion/comments/1vciy35/ltx_23_vs_h3_same_prompts_t2v/)
+- **Source location：** `comment`
+- **Published：** 2026-08-01
+- **Retrieved：** 2026-08-02
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** The author posted the complete dirt-bike prompt in the comments and explains that each pair in the compilation plays LTX first and H3 second.
+
+---
+
+<a id="h3-0061"></a>
+
+### H3-0061 · Busy 1960s diner with layered dialogue
+
+**Text to Video** · **Community tested**
+
+#### Description
+
+The diner pair in the same LTX-versus-H3 compilation, testing many people, overlapping ambience, object contact, camera drift, and spoken dialogue.
+
+#### Prompt
+
+```text
+Wide shot of a 1960s diner interior, the space thick with the smell of grease and burnt coffee, lit by a buzzing overhead fluorescent tube that casts a sickly pale green tint over the Formica counters. A waitress in a starch-white uniform and a short, pleated skirt weaves through the narrow aisle, her weight shifting heavily from heel to toe as she balances a heavy ceramic tray of burgers and fries.
+
+In the background, a scratchy jazz record spins on a wood-cased player behind the counter, the trumpet notes warbling through a layer of dust and surface pop.
+
+A man in a tan trench coat sits at the corner booth, his shoulders hunched as he leans toward a woman in a vibrant polka-dot dress. The woman's gold hoop earrings catch the harsh light as she tilts her head, her fingers tapping a rhythmic, restless beat against the laminated tabletop. The low hum of the diner is a thick soup of clinking silverware, the hiss of the milkshake machine, and the low, rolling murmur of several distinct conversations happening at once.
+
+The waitress approaches the booth, her face tight with the fatigue of a long shift, a single strand of dark hair clinging to her damp temple. She sets a plate of steaming eggs down in front of a man in a navy wool blazer, the ceramic thudding against the table with a heavy, final sound. "You want more coffee, hon?" she asks, her voice raspy and tired, a low rasp that cuts through the background chatter. The man doesn't look up, his eyes fixed on the salt shaker as he reaches for a napkin.
+
+A group of teenagers in denim jackets and collared shirts erupt in a sudden, sharp burst of laughter from a nearby stool, the sound cutting through the ambient drone. One boy leans back, his chair creaking under his weight, as he gestures wildly with a half-eaten fry. "Tellin' me he actually did it, kid," he says with a wide, toothy grin, his voice bright and mocking. The waitress ignores them, her eyes scanning the room for the next order, her hand resting heavily on her hip.
+
+The camera drifts closer to the waitress as she turns away from the booth, her skirt swishing against her thighs with a dry, rhythmic sound. She passes a man in a grey fedora who is leaning over his newspaper, the paper crinkling loudly as he shifts his weight. She pauses by a woman in a red velvet coat, leaning down to clear an empty mug. "You're havin' a real hard time, ain't ya?" she says, in a Boston accent, her voice dropping into a low, gravelly drawl.
+
+The woman in red looks up, her eyes weary, and she offers a small, tight smile that doesn't reach her eyes. "It's just been one of those days, dear," she replies, her voice soft and thin, barely audible over the sudden, loud scrape of a chair being pushed back. The waitress nods once, a sharp, professional movement, and begins to move toward the kitchen, her heavy footsteps echoing on the checkered linoleum floor.
+
+The camera continues its slow, inevitable drift toward the kitchen door, passing the blurred shapes of the guests. The light from the window rakes across the grease-filmed glass of the pie display, catching the glint of a cherry pie sitting lonely on its silver stand. The jazz record reaches a crescendo of static, the needle skipping slightly on a worn groove, as the waitress disappears into the steam of the back room, leaving the diner to its own restless, overlapping noise.
+```
+
+#### Details
+
+- **Parameters：** `duration: 117s four-scene comparison compilation` · `resolution: 960x720 source compilation` · `ratio: 4:3 source compilation`
+- **Tags：** `diner` `1960s` `dialogue` `crowd` `sound-design` `comparison` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Brojakhoeman (Reddit)](https://www.reddit.com/r/StableDiffusion/comments/1vciy35/ltx_23_vs_h3_same_prompts_t2v/)
+- **Source location：** `comment`
+- **Published：** 2026-08-01
+- **Retrieved：** 2026-08-02
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** The author posted this prompt in the thread; the compilation order is LTX first and H3 second for each scene.
+
+---
+
+<a id="h3-0062"></a>
+
+### H3-0062 · Formula 1 night race in heavy rain
+
+**Text to Video** · **Community tested**
+
+#### Description
+
+A three-shot racing sequence from the LTX-versus-H3 compilation, combining a wet track fly-by, cockpit close-up, and rear acceleration shot.
+
+#### Prompt
+
+```text
+Shot with heavy grain and saturated blue gels. A wide side profile of a Formula 1 car streaks past a static camera on the Donnington track at night. Rain falls in thick, backlit sheets, catching the hard specular glare of stadium floodlights that rake across the wet asphalt. The car's chassis is a blur of carbon fiber and reflected neon, its tires throwing up heavy, heavy plumes of spray that catch the light like shattered glass.
+
+As the machine thunders past, the camera vibrates from the weight of the engine, the sound a deep, mechanical roar tearing through the rhythmic hiss of the downpour.
+
+CUT TO:
+
+A tight, shallow-focus close-up inside the cockpit. The driver is encased in a fireproof racing suit, his gloved hands gripping the steering wheel with white-knuckled tension. His helmet, slick with beads of rainwater, reflects the frantic strobe of trackside lights. Through the dark visor, his eyes remain fixed forward, unblinking and intense, tracking the line ahead.
+
+The interior is a claustrophobic tangle of glowing digital displays and carbon textures, drenched in the rhythmic pulse of red and amber light. The only sound is the driver's rapid, pressurized breathing inside the helmet and the high-pitched, mechanical scream of the engine.
+
+CUT TO:
+
+A low-angle rear shot of the car as it pulls away into the darkness of the track. The red LED rain light on the rear wing pulses violently, cutting through the thick haze of mist and exhaust. The car's rear end dances slightly under the force of the acceleration, its weight shifting onto the rear tires as they bite into the flooded surface. Sudden, bright orange flames erupt from the exhaust pipes in sharp, staccato pops, illuminating the swirling steam and rain for a fraction of a second.
+
+The camera drifts closer to the disappearing taillights, capturing the violent spray of water kicked up by the diffuser as the engine's roar fades into the heavy, ambient drumming of the rain.
+```
+
+#### Details
+
+- **Parameters：** `duration: 117s four-scene comparison compilation` · `resolution: 960x720 source compilation` · `ratio: 4:3 source compilation`
+- **Tags：** `formula-1` `night` `rain` `cockpit` `multi-shot` `comparison` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Brojakhoeman (Reddit)](https://www.reddit.com/r/StableDiffusion/comments/1vciy35/ltx_23_vs_h3_same_prompts_t2v/)
+- **Source location：** `comment`
+- **Published：** 2026-08-01
+- **Retrieved：** 2026-08-02
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** The author posted this Formula 1 prompt in the thread; each scene in the source compilation shows LTX first and H3 second.
+
+---
+
+<a id="h3-0063"></a>
+
+### H3-0063 · LORA-DADDY purple-suit music video
+
+**Text to Video** · **Community tested**
+
+#### Description
+
+The final scene pair in the LTX-versus-H3 compilation, testing readable necklace text, expressive dialogue, cloth motion, a squat, and a leap toward camera.
+
+#### Prompt
+
+```text
+High-gloss music video. A very flamboyant Black man in a purple velvet suit stands center frame, a heavy golden chain reading LORA-DADDY pressing into his chest. Haze swirls around saturated purple gels, while hard backlight rims his silhouette. He bounces on the balls of his feet, hips rolling with infectious energy, sweat glistening on his forehead under the intense performance lights.
+
+He throws his head back, mouth wide open in a joyous shout, the velvet straining across his broad shoulders. He shouts, "God, it feels so good to be ALIVE!" His voice is bright, full, and resonant, the American accent crisp and clear. He laughs, a deep, booming sound that shakes his torso, eyes crinkling with pure, unadulterated delight as the camera holds steady on his radiant face.
+
+He drops suddenly into a quick, tight squat, knees bending deep, the gold chain swinging heavy against his stomach. The movement is sharp and controlled, gathering kinetic energy. His hands plant near the floor, fingers splayed, muscles coiling like springs. The shallow focus blurs the background haze into soft circles of light as he prepares to launch, tension building in his legs and spine.
+
+He explodes upward in a powerful leap directly towards the camera, arms raised high in triumph. The push-in accelerates, closing the distance rapidly. His face fills the frame, ecstatic and breathless, as he hangs in the air for a split second before the cut. The velvet suit flares around him, a burst of color against the dark, hazy void, capturing the peak of his over-the-top joy.
+```
+
+#### Details
+
+- **Parameters：** `duration: 117s four-scene comparison compilation` · `resolution: 960x720 source compilation` · `ratio: 4:3 source compilation`
+- **Tags：** `music-video` `purple` `typography` `dialogue` `jump` `comparison` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Brojakhoeman (Reddit)](https://www.reddit.com/r/StableDiffusion/comments/1vciy35/ltx_23_vs_h3_same_prompts_t2v/)
+- **Source location：** `comment`
+- **Published：** 2026-08-01
+- **Retrieved：** 2026-08-02
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** The author supplied the prompt in a reply; this is the final scene pair in a compilation that presents LTX first and H3 second.
+
+---
+
+
 
 ## All prompts
 
 ## Text to Video
 
-*Related prompts in the compilation above:* [H3-0006](#h3-0006) · [H3-0007](#h3-0007) · [H3-0012](#h3-0012) · [H3-0013](#h3-0013) · [H3-0015](#h3-0015) · [H3-0016](#h3-0016)
+*Related prompts in the compilation above:* [H3-0006](#h3-0006) · [H3-0007](#h3-0007) · [H3-0012](#h3-0012) · [H3-0013](#h3-0013) · [H3-0015](#h3-0015) · [H3-0016](#h3-0016) · [H3-0060](#h3-0060) · [H3-0061](#h3-0061) · [H3-0062](#h3-0062) · [H3-0063](#h3-0063)
 
 <a id="h3-0001"></a>
 
@@ -586,6 +783,40 @@ Use a one-handed phone-camera feel with visible shake, exposure fluctuation unde
 - **Retrieved：** 2026-08-01
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
+
+---
+
+<a id="h3-0059"></a>
+
+### H3-0059 · Will Smith eating spaghetti benchmark
+
+**Text to Video** · **Community tested**
+
+#### Description
+
+A community recreation of the well-known text-to-video benchmark using an intentionally minimal prompt.
+
+#### Prompt
+
+```text
+Will smith eating spaghetti
+```
+
+#### Video
+
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-reddit-inner-reflections-will-smith-spaghetti) · [↗ View the MP4 file in this repository](media/reddit-inner-reflections-will-smith-spaghetti.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 10s` · `resolution: 1920x1080` · `ratio: 16:9`
+- **Tags：** `benchmark` `food` `celebrity` `minimal-prompt` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Inner-Reflections (Reddit)](https://www.reddit.com/r/StableDiffusion/comments/1vd4b4b/somebody_had_to_check_the_will_smith_benchmark/)
+- **Source location：** `comment`
+- **Published：** 2026-08-02
+- **Retrieved：** 2026-08-02
+- **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** The author supplied the exact prompt in a comment; the post and discussion identify the attached result as a MiniMax H3 test.
 
 ---
 
@@ -1946,6 +2177,120 @@ Add orange-yellow hand-drawn marks like Image 1 around the two people in Video 1
 
 ---
 
+<a id="h3-0056"></a>
+
+### H3-0056 · Animated jungle escape: H3 vs Seedance 2.0
+
+**Reference Generation** · **Community tested** · ⭐ Featured
+
+#### Description
+
+A public side-by-side character-reference test comparing MiniMax H3 with Seedance 2.0 on a fast 2D animated jungle escape.
+
+#### Reconstructed prompt (not published by the source)
+
+> [!NOTE]
+> This prompt was reconstructed from the public video. It is an editorial approximation, not the creator's original prompt.
+
+```text
+Using the supplied character reference images, create a 15-second 2D animated jungle escape. Preserve the flat graphic shapes, angular facial designs, warm coral-and-orange palette, costumes, and proportions of every character. A captive pirate wakes tied to a tree branch, notices three guards approaching through the mist, struggles against the rope, drops down, slips free, and sprints through dense foliage while the guards chase him. Cut energetically between low angles, close-ups, reaction shots, and a final chase shot. Keep silhouettes readable, character identities consistent, rope and clothing motion believable, and the layered jungle moving with cinematic parallax.
+```
+
+#### Video
+
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-x-0xink-minimax-h3-vs-seedance) · [↗ View the MP4 file in this repository](media/x-0xink-minimax-h3-vs-seedance.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 15s` · `resolution: 2K stated for H3; comparison file 1920x2160` · `ratio: 16:9 outputs stacked vertically`
+- **Tags：** `animation` `character-reference` `jungle` `chase` `comparison` `community-tested`
+- **Source type：** Community tested
+- **Source：** [INK (@0xInk_)](https://x.com/0xInk_/status/2083065622095700139)
+- **Source location：** `post`
+- **Published：** 2026-07-31
+- **Retrieved：** 2026-08-02
+- **Reconstruction notes：** The creator stated that both models used the same prompt and character references but did not publish the prompt text. This editorial prompt was reconstructed from the visible 15-second comparison.
+- **Verification：** Prompt visible ⚪ No · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** The post explicitly labels the upper result MiniMax H3 and states that both models used the same prompt and character references; MiniMax's Hailuo account also replied to the post.
+
+---
+
+<a id="h3-0057"></a>
+
+### H3-0057 · SEAM character sheet to action showcase
+
+**Reference Generation** · **Community tested** · ⭐ Featured
+
+#### Description
+
+A 4K community showcase that moves from a graphic character sheet into a stylized combat sequence while preserving costume details and readable interface text.
+
+#### Reconstructed prompt (not published by the source)
+
+> [!NOTE]
+> This prompt was reconstructed from the public video. It is an editorial approximation, not the creator's original prompt.
+
+```text
+Use the supplied SEAM character-design sheet as the locked visual reference. Preserve the smooth white mask, black-and-grey layered armor, high collar, long split coat, slim proportions, and neon-lime accents. Begin on a clean editorial character sheet with large readable labels such as SEAM, ROSTER, LOOK 01, and LOADOUT, then transition into a cinematic third-person action showcase in a sunlit ruined stone arena. The character draws the weapon, pivots through rapid attacks, blocks incoming enemies, and finishes with a forceful ground strike that releases a circular lime-green energy effect. Keep the character design stable through fast motion, maintain crisp typography, use dynamic game-trailer camera movement, and render in polished 4K.
+```
+
+#### Video
+
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-x-glitterpixely-h3-action-text-showcase) · [↗ View the MP4 file in this repository](media/x-glitterpixely-h3-action-text-showcase.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 28s source showcase` · `resolution: 3840x2160` · `ratio: 16:9`
+- **Tags：** `character-reference` `action` `combat` `typography` `game-trailer` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Glitter Gal (@GlitterPixely)](https://x.com/GlitterPixely/status/2083069389809590617)
+- **Source location：** `post`
+- **Published：** 2026-07-31
+- **Retrieved：** 2026-08-02
+- **Reconstruction notes：** The post describes prompt adherence and text rendering but does not publish the full input prompt. This version was reconstructed from the visible character sheet and action sequence.
+- **Verification：** Prompt visible ⚪ No · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** The post uses the #MiniMaxH3 tag, quotes MiniMax's official H3 launch, and describes the attached video as a prompt-adherence, action, and text-rendering showcase.
+
+---
+
+<a id="h3-0058"></a>
+
+### H3-0058 · Mushroom-forest song from moodboard and voice note
+
+**Reference Generation** · **Community tested** · ⭐ Featured
+
+#### Description
+
+A 15-second multimodal reference test combining a moodboard, a voice note, and text into a cinematic fantasy singing scene.
+
+#### Reconstructed prompt (not published by the source)
+
+> [!NOTE]
+> This prompt was reconstructed from the public video. It is an editorial approximation, not the creator's original prompt.
+
+```text
+Use the supplied moodboard to build a cinematic enchanted mushroom forest at night, filled with oversized red-and-white mushrooms, blue-violet bioluminescence, wet moss, drifting spores, and deep layered foliage. Place the referenced young singer in a flowing cream fairy-tale dress at the center of the path. Use the supplied voice note as her performance audio and synchronize her lips, breathing, and facial emotion naturally to the vocal. Move from a medium frontal singing shot into a gentle orbit and then a wider reveal of the glowing forest. Preserve her identity and costume, keep the lighting rich and theatrical, add subtle wind through her hair and dress, and end on a luminous wide composition with convincing depth.
+```
+
+#### Video
+
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-x-aibuzznews-h3-moodboard-voice) · [↗ View the MP4 file in this repository](media/x-aibuzznews-h3-moodboard-voice.mp4)
+
+#### Details
+
+- **Parameters：** `duration: 15s` · `resolution: 2804x1402 source file` · `ratio: 2:1`
+- **Tags：** `moodboard` `audio-reference` `singing` `lip-sync` `fantasy` `community-tested`
+- **Source type：** Community tested
+- **Source：** [Patrick's AIBuzzNews (@AIBuzzNews)](https://x.com/AIBuzzNews/status/2083168994861654074)
+- **Source location：** `post`
+- **Published：** 2026-07-31
+- **Retrieved：** 2026-08-02
+- **Reconstruction notes：** The creator disclosed the input types—one moodboard, one voice note, and one prompt—but not the prompt text. This editorial prompt was inferred from the downloaded result video.
+- **Verification：** Prompt visible ⚪ No · H3 confirmed ✅ Yes · Output visible ✅ Yes
+- **Note：** The post explicitly says MiniMax H3 created the attached 15-second result from a moodboard, a voice note, and one prompt.
+
+---
+
 ## Contributing
 
 Submit a prompt through the issue form or a pull request. Include the original author, direct source URL, exact prompt, generation mode, and whether a visible output confirms MiniMax H3. See [CONTRIBUTING.md](docs/CONTRIBUTING.md).
@@ -1958,4 +2303,4 @@ Original repository content is available under [CC BY 4.0](LICENSE). Third-party
 
 MiniMax and Hailuo are trademarks of their respective owners. This community project is not affiliated with or endorsed by MiniMax.
 
-Generated from structured data curated through 2026-08-01.
+Generated from structured data curated through 2026-08-02.

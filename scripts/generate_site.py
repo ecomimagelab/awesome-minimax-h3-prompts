@@ -114,7 +114,7 @@ def generate() -> str:
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="50 bilingual MiniMax H3 prompts with directly playable original videos.">
+  <meta name="description" content="{len(prompts)} bilingual MiniMax H3 prompts with directly playable original videos.">
   <link rel="canonical" href="{SITE_URL}">
   <title>Awesome MiniMax H3 Prompts · Video Library</title>
   <style>
@@ -196,7 +196,8 @@ def generate() -> str:
 def main() -> None:
     SITE_DIR.mkdir(parents=True, exist_ok=True)
     output = SITE_DIR / "index.html"
-    output.write_text(generate(), encoding="utf-8")
+    html = "\n".join(line.rstrip() for line in generate().splitlines()) + "\n"
+    output.write_text(html, encoding="utf-8")
     print(f"Wrote {output.relative_to(ROOT)}")
 
 

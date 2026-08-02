@@ -1,0 +1,19 @@
+{
+  "id": "h3-0057",
+  "title": {"en": "SEAM character sheet to action showcase", "zh": "SEAM 角色设定稿转动作展示"},
+  "description": {"en": "A 4K community showcase that moves from a graphic character sheet into a stylized combat sequence while preserving costume details and readable interface text.", "zh": "一段 4K 社区案例，从平面角色设定稿过渡到风格化战斗场景，同时保持服装细节和界面文字可读。"},
+  "mode": "reference-generation",
+  "featured": true,
+  "prompt": {
+    "original_language": "en",
+    "original": "Use the supplied SEAM character-design sheet as the locked visual reference. Preserve the smooth white mask, black-and-grey layered armor, high collar, long split coat, slim proportions, and neon-lime accents. Begin on a clean editorial character sheet with large readable labels such as SEAM, ROSTER, LOOK 01, and LOADOUT, then transition into a cinematic third-person action showcase in a sunlit ruined stone arena. The character draws the weapon, pivots through rapid attacks, blocks incoming enemies, and finishes with a forceful ground strike that releases a circular lime-green energy effect. Keep the character design stable through fast motion, maintain crisp typography, use dynamic game-trailer camera movement, and render in polished 4K.",
+    "zh": "将提供的 SEAM 角色设定稿作为锁定的视觉参考。严格保留光滑白色面具、黑灰分层护甲、高领、开衩长外套、修长比例和荧光青柠色点缀。开场展示干净的杂志式角色设定页，并清晰呈现 SEAM、ROSTER、LOOK 01、LOADOUT 等大字标题；随后过渡到阳光下废墟石砌竞技场中的电影化第三人称动作展示。角色拔出武器、转身连续快速攻击、格挡来敌，并以一次有力的砸地动作收尾，释放环形青柠绿色能量效果。快速运动中保持角色设计稳定、文字锐利可读，使用游戏预告片式动态镜头，以精致 4K 质感呈现。",
+    "reconstructed_from_video": true,
+    "reconstruction_notes": {"en": "The post describes prompt adherence and text rendering but does not publish the full input prompt. This version was reconstructed from the visible character sheet and action sequence.", "zh": "原帖提到提示词遵循和文字渲染能力，但未公开完整输入提示词；此版本依据可见的角色设定页和动作片段进行反推。"}
+  },
+  "parameters": {"duration": "28s source showcase", "resolution": "3840x2160", "ratio": "16:9"},
+  "tags": ["character-reference", "action", "combat", "typography", "game-trailer", "community-tested"],
+  "media": [{"type": "video", "path": "media/x-glitterpixely-h3-action-text-showcase.mp4", "source_url": "https://x.com/GlitterPixely/status/2083069389809590617", "rights_status": "third-party-attributed"}],
+  "source": {"type": "community-tested", "author": "Glitter Gal (@GlitterPixely)", "url": "https://x.com/GlitterPixely/status/2083069389809590617", "source_location": "post", "published_at": "2026-07-31", "retrieved_at": "2026-08-02"},
+  "verification": {"prompt_visible": false, "h3_confirmed": true, "output_visible": true, "notes": "The post uses the #MiniMaxH3 tag, quotes MiniMax's official H3 launch, and describes the attached video as a prompt-adherence, action, and text-rendering showcase."}
+}

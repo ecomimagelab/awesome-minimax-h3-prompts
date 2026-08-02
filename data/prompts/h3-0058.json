@@ -1,0 +1,19 @@
+{
+  "id": "h3-0058",
+  "title": {"en": "Mushroom-forest song from moodboard and voice note", "zh": "由情绪板和语音生成的蘑菇森林歌唱片段"},
+  "description": {"en": "A 15-second multimodal reference test combining a moodboard, a voice note, and text into a cinematic fantasy singing scene.", "zh": "一段 15 秒多模态参考测试，将情绪板、语音和文本组合成电影感奇幻歌唱场景。"},
+  "mode": "reference-generation",
+  "featured": true,
+  "prompt": {
+    "original_language": "en",
+    "original": "Use the supplied moodboard to build a cinematic enchanted mushroom forest at night, filled with oversized red-and-white mushrooms, blue-violet bioluminescence, wet moss, drifting spores, and deep layered foliage. Place the referenced young singer in a flowing cream fairy-tale dress at the center of the path. Use the supplied voice note as her performance audio and synchronize her lips, breathing, and facial emotion naturally to the vocal. Move from a medium frontal singing shot into a gentle orbit and then a wider reveal of the glowing forest. Preserve her identity and costume, keep the lighting rich and theatrical, add subtle wind through her hair and dress, and end on a luminous wide composition with convincing depth.",
+    "zh": "使用提供的情绪板构建夜晚的电影感魔法蘑菇森林：巨大的红白蘑菇、蓝紫色生物荧光、湿润苔藓、飘浮孢子和层次深远的植被。让参考中的年轻歌手身穿飘逸的奶油色童话长裙，站在林间小径中央。将提供的语音作为她的演唱音轨，自然同步嘴型、呼吸和面部情绪。镜头从正面中景演唱逐渐过渡到轻柔环绕，再拉远展示整片发光森林。保持人物身份和服装一致，使用浓郁戏剧化灯光，让微风轻拂头发与裙摆，并以具有真实纵深感的明亮大全景收尾。",
+    "reconstructed_from_video": true,
+    "reconstruction_notes": {"en": "The creator disclosed the input types—one moodboard, one voice note, and one prompt—but not the prompt text. This editorial prompt was inferred from the downloaded result video.", "zh": "作者公开了输入类型（一张情绪板、一段语音和一段提示词），但未公开提示词正文；此版本依据下载后的成片进行编辑反推。"}
+  },
+  "parameters": {"duration": "15s", "resolution": "2804x1402 source file", "ratio": "2:1"},
+  "tags": ["moodboard", "audio-reference", "singing", "lip-sync", "fantasy", "community-tested"],
+  "media": [{"type": "video", "path": "media/x-aibuzznews-h3-moodboard-voice.mp4", "source_url": "https://x.com/AIBuzzNews/status/2083168994861654074", "rights_status": "third-party-attributed"}],
+  "source": {"type": "community-tested", "author": "Patrick's AIBuzzNews (@AIBuzzNews)", "url": "https://x.com/AIBuzzNews/status/2083168994861654074", "source_location": "post", "published_at": "2026-07-31", "retrieved_at": "2026-08-02"},
+  "verification": {"prompt_visible": false, "h3_confirmed": true, "output_visible": true, "notes": "The post explicitly says MiniMax H3 created the attached 15-second result from a moodboard, a voice note, and one prompt."}
+}

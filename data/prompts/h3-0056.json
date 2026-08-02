@@ -1,0 +1,19 @@
+{
+  "id": "h3-0056",
+  "title": {"en": "Animated jungle escape: H3 vs Seedance 2.0", "zh": "动画丛林逃脱：H3 与 Seedance 2.0 对比"},
+  "description": {"en": "A public side-by-side character-reference test comparing MiniMax H3 with Seedance 2.0 on a fast 2D animated jungle escape.", "zh": "使用相同角色参考图制作的公开对比测试，展示 MiniMax H3 与 Seedance 2.0 对快速二维动画丛林逃脱场景的处理。"},
+  "mode": "reference-generation",
+  "featured": true,
+  "prompt": {
+    "original_language": "en",
+    "original": "Using the supplied character reference images, create a 15-second 2D animated jungle escape. Preserve the flat graphic shapes, angular facial designs, warm coral-and-orange palette, costumes, and proportions of every character. A captive pirate wakes tied to a tree branch, notices three guards approaching through the mist, struggles against the rope, drops down, slips free, and sprints through dense foliage while the guards chase him. Cut energetically between low angles, close-ups, reaction shots, and a final chase shot. Keep silhouettes readable, character identities consistent, rope and clothing motion believable, and the layered jungle moving with cinematic parallax.",
+    "zh": "使用提供的角色参考图，制作一段 15 秒的二维动画丛林逃脱片段。严格保留每个角色扁平化的图形造型、棱角分明的面部设计、珊瑚橙暖色调、服装和身体比例。一名被俘的海盗醒来时被绑在树枝上；他发现三名守卫从薄雾中逼近，于是挣扎解开绳索、落到地面并冲进茂密植被，守卫随即追赶。使用低机位、特写、反应镜头和最终追逐镜头进行有活力的剪辑。确保角色轮廓清晰、身份一致，绳索与衣物运动可信，并让多层丛林产生电影感视差。",
+    "reconstructed_from_video": true,
+    "reconstruction_notes": {"en": "The creator stated that both models used the same prompt and character references but did not publish the prompt text. This editorial prompt was reconstructed from the visible 15-second comparison.", "zh": "作者说明两个模型使用了相同提示词和角色参考图，但未公开提示词正文；此版本依据可见的 15 秒对比视频进行编辑反推。"}
+  },
+  "parameters": {"duration": "15s", "resolution": "2K stated for H3; comparison file 1920x2160", "ratio": "16:9 outputs stacked vertically"},
+  "tags": ["animation", "character-reference", "jungle", "chase", "comparison", "community-tested"],
+  "media": [{"type": "video", "path": "media/x-0xink-minimax-h3-vs-seedance.mp4", "source_url": "https://x.com/0xInk_/status/2083065622095700139", "rights_status": "third-party-attributed"}],
+  "source": {"type": "community-tested", "author": "INK (@0xInk_)", "url": "https://x.com/0xInk_/status/2083065622095700139", "source_location": "post", "published_at": "2026-07-31", "retrieved_at": "2026-08-02"},
+  "verification": {"prompt_visible": false, "h3_confirmed": true, "output_visible": true, "notes": "The post explicitly labels the upper result MiniMax H3 and states that both models used the same prompt and character references; MiniMax's Hailuo account also replied to the post."}
+}
