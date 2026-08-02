@@ -1,7 +1,13 @@
 {
   "id": "h3-0017",
-  "title": {"en": "Vintage binocular brand film", "zh": "复古望远镜品牌短片"},
-  "description": {"en": "A four-reference brand film with a locked binocular mask, focus-driven typography, and whip-scan transitions.", "zh": "使用四张参考图、固定双筒望远镜遮罩、焦点驱动文字和快速扫描转场的品牌短片。"},
+  "title": {
+    "en": "Vintage binocular brand film",
+    "zh": "复古望远镜品牌短片"
+  },
+  "description": {
+    "en": "A four-reference brand film with a locked binocular mask, focus-driven typography, and whip-scan transitions.",
+    "zh": "使用四张参考图、固定双筒望远镜遮罩、焦点驱动文字和快速扫描转场的品牌短片。"
+  },
   "mode": "reference-generation",
   "featured": true,
   "prompt": {
@@ -9,9 +15,38 @@
     "original": "Use Images 1–4 as sequential keyframes, seen through a vintage binocular viewfinder searching for the MINIMAX installation. Open out of focus with subtle handheld shake, then push in quickly and rack focus onto Image 1. Between keyframes, use fast binocular-scan transitions with whip movement, motion blur, optical smearing, and brief exposure flicker. Cut at peak blur, then settle and snap back into focus.\n\nKeep the twin circular lens mask absolutely fixed throughout: identical position, scale, feathered black vignette, and edge softness, with no warping or drift. Only the image inside the mask may move.\n\nIn Image 2, let the fabric move gently in the wind while the MINIMAX lettering follows the folds and remains legible. In Image 3, the subject should feel like a stylish passerby caught by chance, walking, turning, and swinging their arms naturally. In Image 4, the subject adjusts their glasses or lifts their chin slightly with a cool, effortless fashion-campaign attitude.\n\nRed typography should resolve with the focus: begin slightly blurred and at low opacity, then fade into clarity over 0.3–0.5 seconds. A subtle vertical slide or slight tracking expansion is allowed. Fade it out before the next transition or let motion blur carry it away. No spins, bounces, or large fly-ins/outs.\n\nVisual language: a voyeuristic, Wes Anderson-inspired 35 mm film look with fine grain, soft highlight halation, restrained color, and red typographic accents. Minimal, premium, lightly playful. Do not add people, vehicles, buildings, or logos. Preserve the core composition and the MINIMAX installation exactly.",
     "zh": "将图片 1–4 作为连续关键帧，通过复古双筒望远镜取景器寻找 MINIMAX 装置。开场失焦并带轻微手持抖动，随后快速推进并拉焦到图片 1。关键帧之间使用快速望远镜扫描转场：甩动、运动模糊、光学拖影与短暂曝光闪烁；在模糊峰值切镜，再稳定下来并迅速恢复清晰。\n\n双圆镜片遮罩全程绝对固定：位置、比例、羽化黑色暗角和边缘柔度完全一致，不变形、不漂移；只有遮罩内部画面可以移动。\n\n图片 2 中布料随风轻动，MINIMAX 字样跟随褶皱但保持可读。图片 3 中人物像偶然被捕捉的时髦路人，自然行走、转身和摆臂。图片 4 中人物调整眼镜或轻抬下巴，呈现冷静、不费力的时尚广告姿态。\n\n红色文字随焦点显现：初始略虚且低透明度，在 0.3–0.5 秒内淡入清晰；可轻微垂直滑动或扩展字距。下次转场前淡出，或由运动模糊带走。不要旋转、弹跳或大幅飞入飞出。\n\n视觉语言：带窥视感、受韦斯·安德森启发的 35mm 胶片质感，细颗粒、柔和高光晕染、克制色彩和红色文字点缀；极简、高级、略带俏皮。不要新增人物、车辆、建筑或标志；严格保留核心构图与 MINIMAX 装置。"
   },
-  "parameters": {"duration": "5–15s", "resolution": "2K", "ratio": "not stated"},
-  "tags": ["brand-film", "multi-image", "typography", "transition", "community-tested"],
-  "media": [{"type": "video", "path": "media/fal-vintage-binocular-brand-film.mp4", "source_url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide", "rights_status": "third-party-attributed"}],
-  "source": {"type": "community-tested", "author": "Bennett Heyn / fal", "url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide", "source_location": "page", "published_at": "2026-07-30", "retrieved_at": "2026-08-01"},
-  "verification": {"prompt_visible": true, "h3_confirmed": true, "output_visible": true, "notes": "Published by fal as a MiniMax H3 example with the result and four reference images visible."}
+  "parameters": {
+    "duration": "5–15s",
+    "resolution": "2K",
+    "ratio": "not stated"
+  },
+  "tags": [
+    "brand-film",
+    "multi-image",
+    "typography",
+    "transition",
+    "official"
+  ],
+  "media": [
+    {
+      "type": "video",
+      "path": "media/minimax-official-vintage-binocular-brand-film.mp4",
+      "source_url": "https://www.minimax.io/blog/minimax-h3",
+      "rights_status": "third-party-attributed"
+    }
+  ],
+  "source": {
+    "type": "official",
+    "author": "MiniMax",
+    "url": "https://www.minimax.io/blog/minimax-h3",
+    "source_location": "page",
+    "published_at": "2026-07-31",
+    "retrieved_at": "2026-08-01"
+  },
+  "verification": {
+    "prompt_visible": true,
+    "h3_confirmed": true,
+    "output_visible": true,
+    "notes": "Matched to the same prompt and result video in MiniMax's official H3 materials."
+  }
 }

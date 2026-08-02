@@ -22,29 +22,28 @@
   },
   "tags": [
     "first-last-frame",
-    "fal-guide",
-    "community-tested"
+    "official"
   ],
   "media": [
     {
       "type": "video",
-      "path": "media/fal-rotating-product-page-reveal.mp4",
-      "source_url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+      "path": "media/minimax-official-rotating-product-page-reveal.mp4",
+      "source_url": "https://www.minimax.io/blog/minimax-h3",
       "rights_status": "third-party-attributed"
     }
   ],
   "source": {
-    "type": "community-tested",
-    "author": "Bennett Heyn / fal",
-    "url": "https://fal.ai/learn/devs/minimax-h3-prompting-guide",
+    "type": "official",
+    "author": "MiniMax",
+    "url": "https://www.minimax.io/blog/minimax-h3",
     "source_location": "page",
-    "published_at": "2026-07-30",
+    "published_at": "2026-07-31",
     "retrieved_at": "2026-08-01"
   },
   "verification": {
     "prompt_visible": true,
     "h3_confirmed": true,
     "output_visible": true,
-    "notes": "Published by fal as a MiniMax H3 example with the exact prompt and result video visible."
+    "notes": "Matched to the same prompt and result video in MiniMax's official H3 materials."
   }
 }

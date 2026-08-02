@@ -1,8 +1,18 @@
 from __future__ import annotations
 
+import hashlib
 import sys
+from pathlib import Path
 
-from library import load_categories, load_prompts, validate_prompt
+from library import ROOT, load_categories, load_prompts, validate_prompt
+
+
+def sha256(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
 
 
 def main() -> int:
@@ -13,6 +23,7 @@ def main() -> int:
     errors: list[str] = []
     seen_ids: set[str] = set()
     seen_originals: dict[str, str] = {}
+    media_paths: set[str] = set()
 
     for item in prompts:
         errors.extend(validate_prompt(item, allowed_modes))
@@ -28,6 +39,24 @@ def main() -> int:
         elif original:
             seen_originals[original] = item_id
 
+        for media in item.get("media", []):
+            if media.get("type") == "video" and media.get("path"):
+                media_paths.add(media["path"])
+
+    seen_media_hashes: dict[str, str] = {}
+    for relative_path in sorted(media_paths):
+        local_path = ROOT / relative_path
+        if not local_path.is_file():
+            continue
+        digest = sha256(local_path)
+        if digest in seen_media_hashes:
+            errors.append(
+                f"duplicate video bytes: {relative_path} is identical to {seen_media_hashes[digest]}; "
+                "reuse one media path and group the prompts beneath it"
+            )
+        else:
+            seen_media_hashes[digest] = relative_path
+
     if errors:
         print("Data validation failed:")
         for error in errors:
@@ -40,4 +69,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
-

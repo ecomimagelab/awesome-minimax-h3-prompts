@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-"""Import a curated bilingual subset of fal.ai's MiniMax H3 guide.
+"""Import a curated bilingual subset of MiniMax H3 examples mirrored by fal.ai.
 
 The raw JSON is captured from the public guide page in a browser so each
-published prompt remains paired with its exact result-video URL. This script
-adds the curated records and downloads the videos into the repository.
+published prompt remains paired with its exact result-video URL. MiniMax's
+official H3 materials take attribution precedence for examples that appear in
+both places. This script adds the curated records and downloads the videos into
+the repository.
 """
 
 from __future__ import annotations
@@ -20,6 +22,7 @@ from pathlib import Path
 
 
 SOURCE_PAGE = "https://fal.ai/learn/devs/minimax-h3-prompting-guide"
+OFFICIAL_SOURCE_PAGE = "https://www.minimax.io/blog/minimax-h3"
 SELECTED = [1, 3, 4, 7, 8, 9, 10, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24,
             26, 27, 29, 30, 31, 32, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43]
 
@@ -212,12 +215,12 @@ def main() -> int:
         item = raw[index]
         translation = ZH[index]
         slug = slugify(item["title"])
-        # fal publishes indexes 9 and 36 with the same result video. Keep one
+        # Indexes 9 and 36 use the same official result video. Keep one
         # binary and let the README renderer group both prompts below it.
         media_name = (
-            "fal-green-screen-to-fairytale-composite.mp4"
+            "minimax-official-green-screen-to-fairytale-composite.mp4"
             if index == 36
-            else f"fal-{slug}.mp4"
+            else f"minimax-official-{slug}.mp4"
         )
         record = {
             "id": f"h3-{offset:04d}",
@@ -234,26 +237,26 @@ def main() -> int:
                 "zh": translation["prompt"],
             },
             "parameters": {"duration": "5–15s", "resolution": "2K", "ratio": "not stated"},
-            "tags": [mode_for(item["endpoint"]), "fal-guide", "community-tested"],
+            "tags": [mode_for(item["endpoint"]), "official"],
             "media": [{
                 "type": "video",
                 "path": f"media/{media_name}",
-                "source_url": SOURCE_PAGE,
+                "source_url": OFFICIAL_SOURCE_PAGE,
                 "rights_status": "third-party-attributed",
             }],
             "source": {
-                "type": "community-tested",
-                "author": "Bennett Heyn / fal",
-                "url": SOURCE_PAGE,
+                "type": "official",
+                "author": "MiniMax",
+                "url": OFFICIAL_SOURCE_PAGE,
                 "source_location": "page",
-                "published_at": "2026-07-30",
+                "published_at": "2026-07-31",
                 "retrieved_at": "2026-08-01",
             },
             "verification": {
                 "prompt_visible": True,
                 "h3_confirmed": True,
                 "output_visible": True,
-                "notes": "Published by fal as a MiniMax H3 example with the exact prompt and result video visible.",
+                "notes": "Matched to the same prompt and result video in MiniMax's official H3 materials.",
             },
         }
         output = prompt_dir / f"h3-{offset:04d}.json"
