@@ -123,7 +123,7 @@ def generate() -> str:
     html {{ scroll-behavior:smooth; }}
     body {{ margin:0; background:radial-gradient(circle at 75% -10%,#402011 0,transparent 28rem),var(--bg); color:var(--text); font:15px/1.6 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif; }}
     a {{ color:#ff9a75; text-decoration:none; }} a:hover {{ text-decoration:underline; }}
-    .lang-en {{ display:none; }} html[data-lang="en"] .lang-en {{ display:initial; }} html[data-lang="en"] .lang-zh {{ display:none; }}
+    .lang-en {{ display:none; }} html[data-lang="en"] .lang-en {{ display:revert; }} html[data-lang="en"] .lang-zh {{ display:none; }}
     .hero {{ padding:68px max(24px,calc((100vw - 1180px)/2)) 42px; border-bottom:1px solid var(--line); }}
     .eyebrow {{ color:var(--accent2); letter-spacing:.14em; text-transform:uppercase; font-weight:750; }}
     h1 {{ max-width:900px; margin:12px 0 16px; font-size:clamp(38px,7vw,76px); line-height:.98; letter-spacing:-.055em; }}
@@ -133,19 +133,19 @@ def generate() -> str:
     .button.primary {{ background:linear-gradient(135deg,var(--accent),#e8374e); border:0; color:white; }}
     .stats {{ display:flex; gap:32px; flex-wrap:wrap; margin-top:34px; }} .stat strong {{ display:block; font-size:26px; }} .stat span {{ color:var(--muted); }}
     .toolbar {{ position:sticky; top:0; z-index:10; padding:14px max(20px,calc((100vw - 1180px)/2)); background:rgba(8,9,12,.9); backdrop-filter:blur(16px); border-bottom:1px solid var(--line); }}
-    .toolbar-inner {{ display:flex; gap:10px; flex-wrap:wrap; align-items:center; }}
+    .toolbar-inner {{ display:flex; min-width:0; gap:10px; flex-wrap:wrap; align-items:center; }}
     input[type="search"] {{ flex:1 1 260px; min-width:0; border:1px solid var(--line); border-radius:12px; padding:11px 14px; background:#111319; color:var(--text); font:inherit; }}
-    .filters {{ display:flex; gap:7px; overflow:auto; }} .filter {{ white-space:nowrap; border:1px solid var(--line); border-radius:999px; padding:8px 12px; background:#111319; color:#c8ced9; cursor:pointer; }} .filter.active {{ background:#fff; color:#0b0c0f; }}
+    .filters {{ display:flex; flex:1 1 520px; min-width:0; max-width:100%; gap:7px; overflow-x:auto; }} .filter {{ flex:0 0 auto; white-space:nowrap; border:1px solid var(--line); border-radius:999px; padding:8px 12px; background:#111319; color:#c8ced9; cursor:pointer; }} .filter.active {{ background:#fff; color:#0b0c0f; }}
     main {{ width:min(1180px,calc(100% - 40px)); margin:34px auto 80px; display:grid; gap:30px; }}
     .video-card {{ overflow:hidden; scroll-margin-top:84px; border:1px solid var(--line); border-radius:20px; background:linear-gradient(180deg,#14171d,#0f1116); box-shadow:0 18px 70px rgba(0,0,0,.25); }}
     .video-card[hidden] {{ display:none; }} .card-head {{ padding:20px 22px 12px; }} .card-head h2 {{ margin:0; font-size:22px; }} .card-head p {{ margin:3px 0 0; color:var(--muted); }}
     .player-shell {{ background:#000; border-block:1px solid var(--line); }} video {{ width:100%; max-height:72vh; display:block; background:#000; }}
     .video-actions {{ display:flex; gap:16px; flex-wrap:wrap; padding:12px 22px 4px; font-size:13px; }}
-    .prompt-list {{ padding:10px 20px 22px; }} details.prompt {{ border-bottom:1px solid var(--line); }} details.prompt:last-child {{ border-bottom:0; }}
+    .prompt-list {{ min-width:0; padding:10px 20px 22px; }} details.prompt {{ min-width:0; border-bottom:1px solid var(--line); }} details.prompt:last-child {{ border-bottom:0; }}
     details.prompt {{ scroll-margin-top:84px; }}
     summary {{ display:flex; align-items:center; gap:10px; flex-wrap:wrap; padding:16px 2px; cursor:pointer; font-weight:750; }} .prompt-id {{ color:var(--accent2); font-size:12px; letter-spacing:.08em; }} .pill {{ margin-left:auto; padding:3px 9px; border:1px solid #393e49; border-radius:99px; color:#bfc5d0; font-size:12px; font-weight:650; }}
-    .prompt-body {{ padding:0 0 20px; }} .description {{ color:#b9c0cc; }} .prompt-label {{ margin:16px 0 6px; color:#f5d2c4; font-size:12px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; }}
-    pre {{ margin:0; padding:16px; max-height:360px; overflow:auto; white-space:pre-wrap; border:1px solid #252a34; border-radius:12px; background:#090b0f; color:#dfe3eb; font:13px/1.65 ui-monospace,SFMono-Regular,Consolas,monospace; }}
+    .prompt-body {{ min-width:0; padding:0 0 20px; }} .description {{ color:#b9c0cc; }} .prompt-label {{ margin:16px 0 6px; color:#f5d2c4; font-size:12px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; }}
+    pre {{ display:block; width:100%; max-width:100%; min-width:0; margin:0; padding:16px; max-height:360px; overflow:auto; white-space:pre-wrap; overflow-wrap:anywhere; border:1px solid #252a34; border-radius:12px; background:#090b0f; color:#dfe3eb; font:13px/1.65 ui-monospace,SFMono-Regular,Consolas,monospace; }}
     .meta {{ display:flex; gap:14px; flex-wrap:wrap; margin-top:12px; color:var(--muted); font-size:13px; }} .reconstructed {{ padding:10px 12px; border-left:3px solid var(--accent2); background:#2a2113; color:#f0d7a8; }}
     .empty {{ display:none; padding:60px 20px; text-align:center; color:var(--muted); }} footer {{ padding:30px 20px 60px; text-align:center; color:var(--muted); border-top:1px solid var(--line); }}
     @media (max-width:640px) {{ .hero {{ padding-top:42px; }} main {{ width:min(100% - 20px,1180px); }} .prompt-list {{ padding-inline:12px; }} .pill {{ margin-left:0; }} }}
