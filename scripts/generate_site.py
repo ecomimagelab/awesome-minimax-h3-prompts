@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from collections import Counter, defaultdict
 from html import escape
+from pathlib import PurePosixPath
 
 from library import ROOT, load_categories, load_prompts
 
@@ -9,6 +10,10 @@ from library import ROOT, load_categories, load_prompts
 SITE_DIR = ROOT / "site"
 SITE_URL = "https://ecomimagelab.github.io/awesome-minimax-h3-prompts/"
 REPO_URL = "https://github.com/ecomimagelab/awesome-minimax-h3-prompts"
+
+
+def video_anchor(path: str) -> str:
+    return f"video-{PurePosixPath(path).stem}"
 
 
 def mode_labels(categories: dict, mode: str) -> tuple[str, str]:
@@ -26,7 +31,7 @@ def prompt_block(item: dict, categories: dict) -> str:
         '<p class="reconstructed lang-zh">编辑反推内容，并非创作者发布的原始提示词。</p>'
     )
     return f"""
-      <details class="prompt" open>
+      <details class="prompt" id="{escape(item['id'], quote=True)}" open>
         <summary>
           <span class="prompt-id">{escape(item['id'].upper())}</span>
           <span class="lang-en">{escape(item['title']['en'])}</span>
@@ -43,6 +48,8 @@ def prompt_block(item: dict, categories: dict) -> str:
           <pre class="lang-zh"><code>{escape(item['prompt']['zh'])}</code></pre>
           <div class="meta">
             <a href="{escape(item['source']['url'], quote=True)}" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="{REPO_URL}/blob/main/README.md#{escape(item['id'], quote=True)}" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="{REPO_URL}/blob/main/README_zh.md#{escape(item['id'], quote=True)}" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>{escape(item['source']['author'])}</span>
           </div>
         </div>
@@ -58,7 +65,7 @@ def video_card(path: str, items: list[dict], categories: dict) -> str:
     title_zh = items[0]["title"]["zh"] if len(items) == 1 else f"同一原视频对应 {len(items)} 段提示词"
     blocks = "".join(prompt_block(item, categories) for item in items)
     return f"""
-    <article class="video-card" data-mode="{escape(modes, quote=True)}" data-search="{escape(search_text, quote=True)}">
+    <article class="video-card" id="{escape(video_anchor(path), quote=True)}" data-mode="{escape(modes, quote=True)}" data-search="{escape(search_text, quote=True)}">
       <header class="card-head">
         <div>
           <h2 class="lang-en">{escape(title_en)}</h2>
@@ -71,6 +78,10 @@ def video_card(path: str, items: list[dict], categories: dict) -> str:
           <source src="{escape(path, quote=True)}#t=0.001" type="video/mp4">
           Your browser does not support HTML5 video.
         </video>
+      </div>
+      <div class="video-actions">
+        <a href="{REPO_URL}/blob/main/{escape(path, quote=True)}" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="{escape(path, quote=True)}" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
       </div>
       <div class="prompt-list">{blocks}</div>
     </article>"""
@@ -126,10 +137,12 @@ def generate() -> str:
     input[type="search"] {{ flex:1 1 260px; min-width:0; border:1px solid var(--line); border-radius:12px; padding:11px 14px; background:#111319; color:var(--text); font:inherit; }}
     .filters {{ display:flex; gap:7px; overflow:auto; }} .filter {{ white-space:nowrap; border:1px solid var(--line); border-radius:999px; padding:8px 12px; background:#111319; color:#c8ced9; cursor:pointer; }} .filter.active {{ background:#fff; color:#0b0c0f; }}
     main {{ width:min(1180px,calc(100% - 40px)); margin:34px auto 80px; display:grid; gap:30px; }}
-    .video-card {{ overflow:hidden; border:1px solid var(--line); border-radius:20px; background:linear-gradient(180deg,#14171d,#0f1116); box-shadow:0 18px 70px rgba(0,0,0,.25); }}
+    .video-card {{ overflow:hidden; scroll-margin-top:84px; border:1px solid var(--line); border-radius:20px; background:linear-gradient(180deg,#14171d,#0f1116); box-shadow:0 18px 70px rgba(0,0,0,.25); }}
     .video-card[hidden] {{ display:none; }} .card-head {{ padding:20px 22px 12px; }} .card-head h2 {{ margin:0; font-size:22px; }} .card-head p {{ margin:3px 0 0; color:var(--muted); }}
     .player-shell {{ background:#000; border-block:1px solid var(--line); }} video {{ width:100%; max-height:72vh; display:block; background:#000; }}
+    .video-actions {{ display:flex; gap:16px; flex-wrap:wrap; padding:12px 22px 4px; font-size:13px; }}
     .prompt-list {{ padding:10px 20px 22px; }} details.prompt {{ border-bottom:1px solid var(--line); }} details.prompt:last-child {{ border-bottom:0; }}
+    details.prompt {{ scroll-margin-top:84px; }}
     summary {{ display:flex; align-items:center; gap:10px; flex-wrap:wrap; padding:16px 2px; cursor:pointer; font-weight:750; }} .prompt-id {{ color:var(--accent2); font-size:12px; letter-spacing:.08em; }} .pill {{ margin-left:auto; padding:3px 9px; border:1px solid #393e49; border-radius:99px; color:#bfc5d0; font-size:12px; font-weight:650; }}
     .prompt-body {{ padding:0 0 20px; }} .description {{ color:#b9c0cc; }} .prompt-label {{ margin:16px 0 6px; color:#f5d2c4; font-size:12px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; }}
     pre {{ margin:0; padding:16px; max-height:360px; overflow:auto; white-space:pre-wrap; border:1px solid #252a34; border-radius:12px; background:#090b0f; color:#dfe3eb; font:13px/1.65 ui-monospace,SFMono-Regular,Consolas,monospace; }}

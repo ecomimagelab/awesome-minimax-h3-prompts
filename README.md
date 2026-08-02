@@ -65,7 +65,7 @@ The source presents these examples in a single compilation video. The video is s
 
 #### Video
 
-[▶ Play the original video](media/reddit-neggy5-minimax-h3-tests.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-reddit-neggy5-minimax-h3-tests) · [↗ View the MP4 file in this repository](media/reddit-neggy5-minimax-h3-tests.mp4)
 
 ---
 
@@ -134,7 +134,7 @@ The source presents these examples in a single compilation video. The video is s
 
 #### Video
 
-[▶ Play the original video](media/alex-patrascu-minimax-h3-scenes.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-alex-patrascu-minimax-h3-scenes) · [↗ View the MP4 file in this repository](media/alex-patrascu-minimax-h3-scenes.mp4)
 
 ---
 
@@ -409,7 +409,7 @@ The source presents these examples in a single compilation video. The video is s
 
 #### Video
 
-[▶ Play the original video](media/fal-green-screen-to-fairytale-composite.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-green-screen-to-fairytale-composite) · [↗ View the MP4 file in this repository](media/fal-green-screen-to-fairytale-composite.mp4)
 
 ---
 
@@ -499,7 +499,7 @@ A tiktok dancer is dancing on a drone, doing flips and tricks.
 
 #### Video
 
-[▶ Play the original video](media/minimax-official-text-to-video.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-minimax-official-text-to-video) · [↗ View the MP4 file in this repository](media/minimax-official-text-to-video.mp4)
 
 #### Details
 
@@ -536,7 +536,7 @@ Do not show giant eyes, split mouths, fangs, threatening behavior, lunges, sudde
 
 #### Video
 
-[▶ Play the original video](media/fal-hand-drawn-kitchen-creature.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-hand-drawn-kitchen-creature) · [↗ View the MP4 file in this repository](media/fal-hand-drawn-kitchen-creature.mp4)
 
 #### Details
 
@@ -572,7 +572,7 @@ Use a one-handed phone-camera feel with visible shake, exposure fluctuation unde
 
 #### Video
 
-[▶ Play the original video](media/fal-neon-laundromat-encounter.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-neon-laundromat-encounter) · [↗ View the MP4 file in this repository](media/fal-neon-laundromat-encounter.mp4)
 
 #### Details
 
@@ -612,7 +612,7 @@ A little girl grows up.
 
 #### Video
 
-[▶ Play the original video](media/minimax-official-first-last-frame.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-minimax-official-first-last-frame) · [↗ View the MP4 file in this repository](media/minimax-official-first-last-frame.mp4)
 
 #### Details
 
@@ -647,7 +647,7 @@ Keep the pace fast and the scale enormous without letting the edit drag. Use sha
 
 #### Video
 
-[▶ Play the original video](media/fal-epic-space-opera-teaser.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-epic-space-opera-teaser) · [↗ View the MP4 file in this repository](media/fal-epic-space-opera-teaser.mp4)
 
 #### Details
 
@@ -681,7 +681,7 @@ Animate the source artwork as a motion poster while preserving its white gallery
 
 #### Video
 
-[▶ Play the original video](media/fal-animated-gallery-poster.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-animated-gallery-poster) · [↗ View the MP4 file in this repository](media/fal-animated-gallery-poster.mp4)
 
 #### Details
 
@@ -715,7 +715,7 @@ Animate the website UI: the top headline slides down into place, the copy panel 
 
 #### Video
 
-[▶ Play the original video](media/fal-automotive-website-ui-animation.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-automotive-website-ui-animation) · [↗ View the MP4 file in this repository](media/fal-automotive-website-ui-animation.mp4)
 
 #### Details
 
@@ -749,7 +749,7 @@ Reveal the layout from top to bottom. Upper and center typography slides down; l
 
 #### Video
 
-[▶ Play the original video](media/fal-rotating-product-page-reveal.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-rotating-product-page-reveal) · [↗ View the MP4 file in this repository](media/fal-rotating-product-page-reveal.mp4)
 
 #### Details
 
@@ -783,7 +783,7 @@ Claymation. A fox sprints to the edge of a cliff and launches without hesitation
 
 #### Video
 
-[▶ Play the original video](media/fal-claymation-lava-canyon-leap.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-claymation-lava-canyon-leap) · [↗ View the MP4 file in this repository](media/fal-claymation-lava-canyon-leap.mp4)
 
 #### Details
 
@@ -821,7 +821,7 @@ Camera movement: subtle player-driven sway while moving; begin with a slow advan
 
 #### Video
 
-[▶ Play the original video](media/fal-first-person-tactical-gameplay.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-first-person-tactical-gameplay) · [↗ View the MP4 file in this repository](media/fal-first-person-tactical-gameplay.mp4)
 
 #### Details
 
@@ -857,7 +857,7 @@ Use the first image as the exact opening frame and the second as the exact endin
 
 #### Video
 
-[▶ Play the original video](media/fal-interactive-otome-game-transition.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-interactive-otome-game-transition) · [↗ View the MP4 file in this repository](media/fal-interactive-otome-game-transition.mp4)
 
 #### Details
 
@@ -891,7 +891,7 @@ Two magicians stand onstage facing the audience and perform a “swap” illusio
 
 #### Video
 
-[▶ Play the original video](media/fal-precision-costume-swap.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-precision-costume-swap) · [↗ View the MP4 file in this repository](media/fal-precision-costume-swap.mp4)
 
 #### Details
 
@@ -929,7 +929,7 @@ On an overcast day, in an ancient cobbled alleyway, the model walks and adjusts 
 
 #### Video
 
-[▶ Play the original video](media/minimax-official-reference.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-minimax-official-reference) · [↗ View the MP4 file in this repository](media/minimax-official-reference.mp4)
 
 #### Details
 
@@ -962,7 +962,7 @@ Reference the Hitchcock camera movement from Video 1, have the character in Imag
 
 #### Video
 
-[▶ Play the original video](media/minimax-official-hitchcock-reference.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-minimax-official-hitchcock-reference) · [↗ View the MP4 file in this repository](media/minimax-official-hitchcock-reference.mp4)
 
 #### Details
 
@@ -1003,7 +1003,7 @@ Visual language: a voyeuristic, Wes Anderson-inspired 35 mm film look with fine 
 
 #### Video
 
-[▶ Play the original video](media/fal-vintage-binocular-brand-film.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-vintage-binocular-brand-film) · [↗ View the MP4 file in this repository](media/fal-vintage-binocular-brand-film.mp4)
 
 #### Details
 
@@ -1049,7 +1049,7 @@ Use Image 1 for the character and Image 2 for the UI style.
 
 #### Video
 
-[▶ Play the original video](media/fal-interactive-game-equipment-ui.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-interactive-game-equipment-ui) · [↗ View the MP4 file in this repository](media/fal-interactive-game-equipment-ui.mp4)
 
 #### Details
 
@@ -1087,7 +1087,7 @@ No tearing, black frames, hard cuts, obvious VFX, or compositing seams. Keep it 
 
 #### Video
 
-[▶ Play the original video](media/fal-macro-coffee-desert-transition.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-macro-coffee-desert-transition) · [↗ View the MP4 file in this repository](media/fal-macro-coffee-desert-transition.mp4)
 
 #### Details
 
@@ -1121,7 +1121,7 @@ Replace the cat in the video with a dog.
 
 #### Video
 
-[▶ Play the original video](media/fal-cat-to-dog-replacement.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-cat-to-dog-replacement) · [↗ View the MP4 file in this repository](media/fal-cat-to-dog-replacement.mp4)
 
 #### Details
 
@@ -1157,7 +1157,7 @@ Keep the story simple: beside a vintage car on a desert highway, a woman walks t
 
 #### Video
 
-[▶ Play the original video](media/fal-desert-fashion-campaign.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-desert-fashion-campaign) · [↗ View the MP4 file in this repository](media/fal-desert-fashion-campaign.mp4)
 
 #### Details
 
@@ -1193,7 +1193,7 @@ Style: fast-cut fashion film on analog stock, set against a nighttime blaze with
 
 #### Video
 
-[▶ Play the original video](media/fal-cyber-grunge-fashion-film.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-cyber-grunge-fashion-film) · [↗ View the MP4 file in this repository](media/fal-cyber-grunge-fashion-film.mp4)
 
 #### Details
 
@@ -1227,7 +1227,7 @@ Style: dark-pop / cyber-grunge / rap music video with photoreal high-fashion pol
 
 #### Video
 
-[▶ Play the original video](media/fal-cyber-grunge-rap-music-video.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-cyber-grunge-rap-music-video) · [↗ View the MP4 file in this repository](media/fal-cyber-grunge-rap-music-video.mp4)
 
 #### Details
 
@@ -1265,7 +1265,7 @@ Shoot mainly in medium-close shots with frequent shot/reverse-shot cutting. Keep
 
 #### Video
 
-[▶ Play the original video](media/fal-vertical-family-confrontation.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-vertical-family-confrontation) · [↗ View the MP4 file in this repository](media/fal-vertical-family-confrontation.mp4)
 
 #### Details
 
@@ -1301,7 +1301,7 @@ Use Image 1 for the key visual: two full-body female models, one Black and one w
 
 #### Video
 
-[▶ Play the original video](media/fal-futuristic-eyewear-campaign.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-futuristic-eyewear-campaign) · [↗ View the MP4 file in this repository](media/fal-futuristic-eyewear-campaign.mp4)
 
 #### Details
 
@@ -1337,7 +1337,7 @@ Present a black Herman Miller ergonomic chair in a premium office with a full 36
 
 #### Video
 
-[▶ Play the original video](media/fal-ergonomic-chair-product-film.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-ergonomic-chair-product-film) · [↗ View the MP4 file in this repository](media/fal-ergonomic-chair-product-film.mp4)
 
 #### Details
 
@@ -1371,7 +1371,7 @@ Create a dynamic product-landing-page UI/UX demo inspired by Nike’s digital la
 
 #### Video
 
-[▶ Play the original video](media/fal-nike-style-product-landing-page.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-nike-style-product-landing-page) · [↗ View the MP4 file in this repository](media/fal-nike-style-product-landing-page.mp4)
 
 #### Details
 
@@ -1407,7 +1407,7 @@ Render in high-quality 4K, 16:9 Chinese-inspired 3D with cinematic xianxia produ
 
 #### Video
 
-[▶ Play the original video](media/fal-fantasy-wuxia-character-film.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-fantasy-wuxia-character-film) · [↗ View the MP4 file in this repository](media/fal-fantasy-wuxia-character-film.mp4)
 
 #### Details
 
@@ -1441,7 +1441,7 @@ Create a character promo for a male lead in an otome game. Use Image 2 as a stri
 
 #### Video
 
-[▶ Play the original video](media/fal-otome-male-lead-character-promo.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-otome-male-lead-character-promo) · [↗ View the MP4 file in this repository](media/fal-otome-male-lead-character-promo.mp4)
 
 #### Details
 
@@ -1475,7 +1475,7 @@ Use Images 1–6 as assets. Match Reference Video 1 closely for shot rhythm, tra
 
 #### Video
 
-[▶ Play the original video](media/fal-multi-asset-cinematic-remix.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-multi-asset-cinematic-remix) · [↗ View the MP4 file in this repository](media/fal-multi-asset-cinematic-remix.mp4)
 
 #### Details
 
@@ -1509,7 +1509,7 @@ Preserve the buildings, pedestrians, and overall environment in Video 1 as photo
 
 #### Video
 
-[▶ Play the original video](media/fal-live-action-voxel-transformation.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-live-action-voxel-transformation) · [↗ View the MP4 file in this repository](media/fal-live-action-voxel-transformation.mp4)
 
 #### Details
 
@@ -1545,7 +1545,7 @@ At the sink on the right side of frame, the man hands a washed plate to the woma
 
 #### Video
 
-[▶ Play the original video](media/fal-character-swap-with-performance-reference.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-character-swap-with-performance-reference) · [↗ View the MP4 file in this repository](media/fal-character-swap-with-performance-reference.mp4)
 
 #### Details
 
@@ -1579,7 +1579,7 @@ Use Video 1 as the motion reference for a street-dance performance. Use Images 1
 
 #### Video
 
-[▶ Play the original video](media/fal-street-dance-motion-transfer.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-street-dance-motion-transfer) · [↗ View the MP4 file in this repository](media/fal-street-dance-motion-transfer.mp4)
 
 #### Details
 
@@ -1615,7 +1615,7 @@ Match the action in Video 1 from a locked-off wide camera. Replace the three sui
 
 #### Video
 
-[▶ Play the original video](media/fal-capybara-motion-recreation.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-capybara-motion-recreation) · [↗ View the MP4 file in this repository](media/fal-capybara-motion-recreation.mp4)
 
 #### Details
 
@@ -1649,7 +1649,7 @@ The character says: “Follow the wind, live free. Leave worries behind, enjoy t
 
 #### Video
 
-[▶ Play the original video](media/fal-voice-clone-dialogue-transfer.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-voice-clone-dialogue-transfer) · [↗ View the MP4 file in this repository](media/fal-voice-clone-dialogue-transfer.mp4)
 
 #### Details
 
@@ -1683,7 +1683,7 @@ Add one person on the left side of frame wearing the same team uniform and movin
 
 #### Video
 
-[▶ Play the original video](media/fal-add-a-character-in-sync-with-the-others.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-add-a-character-in-sync-with-the-others) · [↗ View the MP4 file in this repository](media/fal-add-a-character-in-sync-with-the-others.mp4)
 
 #### Details
 
@@ -1719,7 +1719,7 @@ Replace the child at the back of Video 1 with the golden retriever from Image 1.
 
 #### Video
 
-[▶ Play the original video](media/fal-subject-wardrobe-replacement.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-subject-wardrobe-replacement) · [↗ View the MP4 file in this repository](media/fal-subject-wardrobe-replacement.mp4)
 
 #### Details
 
@@ -1755,7 +1755,7 @@ Change the lighting in the reference video from daytime to night.
 
 #### Video
 
-[▶ Play the original video](media/fal-day-to-night-relighting.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-day-to-night-relighting) · [↗ View the MP4 file in this repository](media/fal-day-to-night-relighting.mp4)
 
 #### Details
 
@@ -1791,7 +1791,7 @@ Replace the view outside the window in Video 1 with Image 1.
 
 #### Video
 
-[▶ Play the original video](media/fal-window-view-replacement.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-window-view-replacement) · [↗ View the MP4 file in this repository](media/fal-window-view-replacement.mp4)
 
 #### Details
 
@@ -1825,7 +1825,7 @@ In Video 1, replace the woman’s line—“There’s no way we can be together.
 
 #### Video
 
-[▶ Play the original video](media/fal-dialogue-performance-replacement.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-dialogue-performance-replacement) · [↗ View the MP4 file in this repository](media/fal-dialogue-performance-replacement.mp4)
 
 #### Details
 
@@ -1859,7 +1859,7 @@ In the reference video: replace the newspaper with a green hardcover book; repla
 
 #### Video
 
-[▶ Play the original video](media/fal-multi-element-scene-editing.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-multi-element-scene-editing) · [↗ View the MP4 file in this repository](media/fal-multi-element-scene-editing.mp4)
 
 #### Details
 
@@ -1893,7 +1893,7 @@ In the reference video, replace the canned drink shown at the beginning with Coc
 
 #### Video
 
-[▶ Play the original video](media/fal-product-sign-dialogue-replacement.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-product-sign-dialogue-replacement) · [↗ View the MP4 file in this repository](media/fal-product-sign-dialogue-replacement.mp4)
 
 #### Details
 
@@ -1929,7 +1929,7 @@ Add orange-yellow hand-drawn marks like Image 1 around the two people in Video 1
 
 #### Video
 
-[▶ Play the original video](media/fal-hand-drawn-romance-vfx.mp4)
+[▶ Play on the video site](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-hand-drawn-romance-vfx) · [↗ View the MP4 file in this repository](media/fal-hand-drawn-romance-vfx.mp4)
 
 #### Details
 

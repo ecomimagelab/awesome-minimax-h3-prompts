@@ -1,7 +1,10 @@
 from __future__ import annotations
 
 from collections import Counter
+from pathlib import PurePosixPath
 from library import ROOT, load_categories, load_prompts
+
+SITE_URL = "https://ecomimagelab.github.io/awesome-minimax-h3-prompts/"
 
 LANG_CONFIG = {
     "en": {
@@ -33,7 +36,8 @@ LANG_CONFIG = {
         "parameters": "Parameters",
         "verification": "Verification",
         "video": "Video",
-        "play_video": "Play the original video",
+        "play_video": "Play on the video site",
+        "view_repo_video": "View the MP4 file in this repository",
         "yes": "Yes",
         "no": "No",
         "prompt_visible": "Prompt visible",
@@ -73,7 +77,8 @@ LANG_CONFIG = {
         "parameters": "生成参数",
         "verification": "核验状态",
         "video": "案例视频",
-        "play_video": "点击播放原视频",
+        "play_video": "在视频页面播放",
+        "view_repo_video": "查看仓库中的 MP4 文件",
         "yes": "是",
         "no": "否",
         "prompt_visible": "Prompt 可见",
@@ -96,10 +101,14 @@ def anchor(value: str) -> str:
 
 
 def render_video(media: dict, text: dict[str, str]) -> list[str]:
-    playback_url = media.get("playback_url")
-    if playback_url:
-        return ["", f"#### {text['video']}", "", playback_url, "", f"[↗ {text['play_video']}]({playback_url})"]
-    return ["", f"#### {text['video']}", "", f"[▶ {text['play_video']}]({media['path']})"]
+    anchor = f"video-{PurePosixPath(media['path']).stem}"
+    playback_url = f"{SITE_URL}#{anchor}"
+    return [
+        "",
+        f"#### {text['video']}",
+        "",
+        f"[▶ {text['play_video']}]({playback_url}) · [↗ {text['view_repo_video']}]({media['path']})",
+    ]
 
 
 def render_card(

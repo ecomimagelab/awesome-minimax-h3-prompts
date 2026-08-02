@@ -65,7 +65,7 @@ MiniMax H3 是可将文本、图片、视频和音频作为统一上下文的视
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/reddit-neggy5-minimax-h3-tests.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-reddit-neggy5-minimax-h3-tests) · [↗ 查看仓库中的 MP4 文件](media/reddit-neggy5-minimax-h3-tests.mp4)
 
 ---
 
@@ -146,7 +146,7 @@ a first-person view walk through a busy ultramodern shopping mall with frutiger 
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/alex-patrascu-minimax-h3-scenes.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-alex-patrascu-minimax-h3-scenes) · [↗ 查看仓库中的 MP4 文件](media/alex-patrascu-minimax-h3-scenes.mp4)
 
 ---
 
@@ -561,7 +561,7 @@ POSITIVE LOCKS Exactly two officers are in the room and no other figures enter. 
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-green-screen-to-fairytale-composite.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-green-screen-to-fairytale-composite) · [↗ 查看仓库中的 MP4 文件](media/fal-green-screen-to-fairytale-composite.mp4)
 
 ---
 
@@ -669,7 +669,7 @@ A tiktok dancer is dancing on a drone, doing flips and tricks.
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/minimax-official-text-to-video.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-minimax-official-text-to-video) · [↗ 查看仓库中的 MP4 文件](media/minimax-official-text-to-video.mp4)
 
 #### 详细信息
 
@@ -716,7 +716,7 @@ Do not show giant eyes, split mouths, fangs, threatening behavior, lunges, sudde
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-hand-drawn-kitchen-creature.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-hand-drawn-kitchen-creature) · [↗ 查看仓库中的 MP4 文件](media/fal-hand-drawn-kitchen-creature.mp4)
 
 #### 详细信息
 
@@ -760,7 +760,7 @@ Use a one-handed phone-camera feel with visible shake, exposure fluctuation unde
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-neon-laundromat-encounter.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-neon-laundromat-encounter) · [↗ 查看仓库中的 MP4 文件](media/fal-neon-laundromat-encounter.mp4)
 
 #### 详细信息
 
@@ -806,7 +806,7 @@ A little girl grows up.
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/minimax-official-first-last-frame.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-minimax-official-first-last-frame) · [↗ 查看仓库中的 MP4 文件](media/minimax-official-first-last-frame.mp4)
 
 #### 详细信息
 
@@ -849,7 +849,7 @@ Keep the pace fast and the scale enormous without letting the edit drag. Use sha
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-epic-space-opera-teaser.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-epic-space-opera-teaser) · [↗ 查看仓库中的 MP4 文件](media/fal-epic-space-opera-teaser.mp4)
 
 #### 详细信息
 
@@ -889,7 +889,7 @@ Animate the source artwork as a motion poster while preserving its white gallery
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-animated-gallery-poster.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-animated-gallery-poster) · [↗ 查看仓库中的 MP4 文件](media/fal-animated-gallery-poster.mp4)
 
 #### 详细信息
 
@@ -929,7 +929,7 @@ Animate the website UI: the top headline slides down into place, the copy panel 
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-automotive-website-ui-animation.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-automotive-website-ui-animation) · [↗ 查看仓库中的 MP4 文件](media/fal-automotive-website-ui-animation.mp4)
 
 #### 详细信息
 
@@ -969,7 +969,7 @@ Reveal the layout from top to bottom. Upper and center typography slides down; l
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-rotating-product-page-reveal.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-rotating-product-page-reveal) · [↗ 查看仓库中的 MP4 文件](media/fal-rotating-product-page-reveal.mp4)
 
 #### 详细信息
 
@@ -1009,7 +1009,7 @@ Claymation. A fox sprints to the edge of a cliff and launches without hesitation
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-claymation-lava-canyon-leap.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-claymation-lava-canyon-leap) · [↗ 查看仓库中的 MP4 文件](media/fal-claymation-lava-canyon-leap.mp4)
 
 #### 详细信息
 
@@ -1057,7 +1057,7 @@ Camera movement: subtle player-driven sway while moving; begin with a slow advan
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-first-person-tactical-gameplay.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-first-person-tactical-gameplay) · [↗ 查看仓库中的 MP4 文件](media/fal-first-person-tactical-gameplay.mp4)
 
 #### 详细信息
 
@@ -1101,7 +1101,7 @@ Use the first image as the exact opening frame and the second as the exact endin
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-interactive-otome-game-transition.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-interactive-otome-game-transition) · [↗ 查看仓库中的 MP4 文件](media/fal-interactive-otome-game-transition.mp4)
 
 #### 详细信息
 
@@ -1141,7 +1141,7 @@ Two magicians stand onstage facing the audience and perform a “swap” illusio
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-precision-costume-swap.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-precision-costume-swap) · [↗ 查看仓库中的 MP4 文件](media/fal-precision-costume-swap.mp4)
 
 #### 详细信息
 
@@ -1185,7 +1185,7 @@ On an overcast day, in an ancient cobbled alleyway, the model walks and adjusts 
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/minimax-official-reference.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-minimax-official-reference) · [↗ 查看仓库中的 MP4 文件](media/minimax-official-reference.mp4)
 
 #### 详细信息
 
@@ -1224,7 +1224,7 @@ Reference the Hitchcock camera movement from Video 1, have the character in Imag
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/minimax-official-hitchcock-reference.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-minimax-official-hitchcock-reference) · [↗ 查看仓库中的 MP4 文件](media/minimax-official-hitchcock-reference.mp4)
 
 #### 详细信息
 
@@ -1279,7 +1279,7 @@ Visual language: a voyeuristic, Wes Anderson-inspired 35 mm film look with fine 
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-vintage-binocular-brand-film.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-vintage-binocular-brand-film) · [↗ 查看仓库中的 MP4 文件](media/fal-vintage-binocular-brand-film.mp4)
 
 #### 详细信息
 
@@ -1343,7 +1343,7 @@ Use Image 1 for the character and Image 2 for the UI style.
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-interactive-game-equipment-ui.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-interactive-game-equipment-ui) · [↗ 查看仓库中的 MP4 文件](media/fal-interactive-game-equipment-ui.mp4)
 
 #### 详细信息
 
@@ -1391,7 +1391,7 @@ No tearing, black frames, hard cuts, obvious VFX, or compositing seams. Keep it 
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-macro-coffee-desert-transition.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-macro-coffee-desert-transition) · [↗ 查看仓库中的 MP4 文件](media/fal-macro-coffee-desert-transition.mp4)
 
 #### 详细信息
 
@@ -1431,7 +1431,7 @@ Replace the cat in the video with a dog.
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-cat-to-dog-replacement.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-cat-to-dog-replacement) · [↗ 查看仓库中的 MP4 文件](media/fal-cat-to-dog-replacement.mp4)
 
 #### 详细信息
 
@@ -1475,7 +1475,7 @@ Keep the story simple: beside a vintage car on a desert highway, a woman walks t
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-desert-fashion-campaign.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-desert-fashion-campaign) · [↗ 查看仓库中的 MP4 文件](media/fal-desert-fashion-campaign.mp4)
 
 #### 详细信息
 
@@ -1519,7 +1519,7 @@ Style: fast-cut fashion film on analog stock, set against a nighttime blaze with
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-cyber-grunge-fashion-film.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-cyber-grunge-fashion-film) · [↗ 查看仓库中的 MP4 文件](media/fal-cyber-grunge-fashion-film.mp4)
 
 #### 详细信息
 
@@ -1559,7 +1559,7 @@ Style: dark-pop / cyber-grunge / rap music video with photoreal high-fashion pol
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-cyber-grunge-rap-music-video.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-cyber-grunge-rap-music-video) · [↗ 查看仓库中的 MP4 文件](media/fal-cyber-grunge-rap-music-video.mp4)
 
 #### 详细信息
 
@@ -1607,7 +1607,7 @@ Shoot mainly in medium-close shots with frequent shot/reverse-shot cutting. Keep
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-vertical-family-confrontation.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-vertical-family-confrontation) · [↗ 查看仓库中的 MP4 文件](media/fal-vertical-family-confrontation.mp4)
 
 #### 详细信息
 
@@ -1651,7 +1651,7 @@ Use Image 1 for the key visual: two full-body female models, one Black and one w
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-futuristic-eyewear-campaign.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-futuristic-eyewear-campaign) · [↗ 查看仓库中的 MP4 文件](media/fal-futuristic-eyewear-campaign.mp4)
 
 #### 详细信息
 
@@ -1695,7 +1695,7 @@ Present a black Herman Miller ergonomic chair in a premium office with a full 36
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-ergonomic-chair-product-film.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-ergonomic-chair-product-film) · [↗ 查看仓库中的 MP4 文件](media/fal-ergonomic-chair-product-film.mp4)
 
 #### 详细信息
 
@@ -1735,7 +1735,7 @@ Create a dynamic product-landing-page UI/UX demo inspired by Nike’s digital la
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-nike-style-product-landing-page.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-nike-style-product-landing-page) · [↗ 查看仓库中的 MP4 文件](media/fal-nike-style-product-landing-page.mp4)
 
 #### 详细信息
 
@@ -1779,7 +1779,7 @@ Render in high-quality 4K, 16:9 Chinese-inspired 3D with cinematic xianxia produ
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-fantasy-wuxia-character-film.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-fantasy-wuxia-character-film) · [↗ 查看仓库中的 MP4 文件](media/fal-fantasy-wuxia-character-film.mp4)
 
 #### 详细信息
 
@@ -1819,7 +1819,7 @@ Create a character promo for a male lead in an otome game. Use Image 2 as a stri
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-otome-male-lead-character-promo.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-otome-male-lead-character-promo) · [↗ 查看仓库中的 MP4 文件](media/fal-otome-male-lead-character-promo.mp4)
 
 #### 详细信息
 
@@ -1859,7 +1859,7 @@ Use Images 1–6 as assets. Match Reference Video 1 closely for shot rhythm, tra
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-multi-asset-cinematic-remix.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-multi-asset-cinematic-remix) · [↗ 查看仓库中的 MP4 文件](media/fal-multi-asset-cinematic-remix.mp4)
 
 #### 详细信息
 
@@ -1899,7 +1899,7 @@ Preserve the buildings, pedestrians, and overall environment in Video 1 as photo
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-live-action-voxel-transformation.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-live-action-voxel-transformation) · [↗ 查看仓库中的 MP4 文件](media/fal-live-action-voxel-transformation.mp4)
 
 #### 详细信息
 
@@ -1943,7 +1943,7 @@ At the sink on the right side of frame, the man hands a washed plate to the woma
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-character-swap-with-performance-reference.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-character-swap-with-performance-reference) · [↗ 查看仓库中的 MP4 文件](media/fal-character-swap-with-performance-reference.mp4)
 
 #### 详细信息
 
@@ -1983,7 +1983,7 @@ Use Video 1 as the motion reference for a street-dance performance. Use Images 1
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-street-dance-motion-transfer.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-street-dance-motion-transfer) · [↗ 查看仓库中的 MP4 文件](media/fal-street-dance-motion-transfer.mp4)
 
 #### 详细信息
 
@@ -2027,7 +2027,7 @@ DIY 反应短片的动作参考
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-capybara-motion-recreation.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-capybara-motion-recreation) · [↗ 查看仓库中的 MP4 文件](media/fal-capybara-motion-recreation.mp4)
 
 #### 详细信息
 
@@ -2067,7 +2067,7 @@ The character says: “Follow the wind, live free. Leave worries behind, enjoy t
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-voice-clone-dialogue-transfer.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-voice-clone-dialogue-transfer) · [↗ 查看仓库中的 MP4 文件](media/fal-voice-clone-dialogue-transfer.mp4)
 
 #### 详细信息
 
@@ -2107,7 +2107,7 @@ Add one person on the left side of frame wearing the same team uniform and movin
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-add-a-character-in-sync-with-the-others.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-add-a-character-in-sync-with-the-others) · [↗ 查看仓库中的 MP4 文件](media/fal-add-a-character-in-sync-with-the-others.mp4)
 
 #### 详细信息
 
@@ -2151,7 +2151,7 @@ Replace the child at the back of Video 1 with the golden retriever from Image 1.
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-subject-wardrobe-replacement.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-subject-wardrobe-replacement) · [↗ 查看仓库中的 MP4 文件](media/fal-subject-wardrobe-replacement.mp4)
 
 #### 详细信息
 
@@ -2195,7 +2195,7 @@ Change the lighting in the reference video from daytime to night.
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-day-to-night-relighting.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-day-to-night-relighting) · [↗ 查看仓库中的 MP4 文件](media/fal-day-to-night-relighting.mp4)
 
 #### 详细信息
 
@@ -2239,7 +2239,7 @@ Replace the view outside the window in Video 1 with Image 1.
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-window-view-replacement.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-window-view-replacement) · [↗ 查看仓库中的 MP4 文件](media/fal-window-view-replacement.mp4)
 
 #### 详细信息
 
@@ -2279,7 +2279,7 @@ In Video 1, replace the woman’s line—“There’s no way we can be together.
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-dialogue-performance-replacement.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-dialogue-performance-replacement) · [↗ 查看仓库中的 MP4 文件](media/fal-dialogue-performance-replacement.mp4)
 
 #### 详细信息
 
@@ -2319,7 +2319,7 @@ In the reference video: replace the newspaper with a green hardcover book; repla
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-multi-element-scene-editing.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-multi-element-scene-editing) · [↗ 查看仓库中的 MP4 文件](media/fal-multi-element-scene-editing.mp4)
 
 #### 详细信息
 
@@ -2359,7 +2359,7 @@ In the reference video, replace the canned drink shown at the beginning with Coc
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-product-sign-dialogue-replacement.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-product-sign-dialogue-replacement) · [↗ 查看仓库中的 MP4 文件](media/fal-product-sign-dialogue-replacement.mp4)
 
 #### 详细信息
 
@@ -2403,7 +2403,7 @@ Add orange-yellow hand-drawn marks like Image 1 around the two people in Video 1
 
 #### 案例视频
 
-[▶ 点击播放原视频](media/fal-hand-drawn-romance-vfx.mp4)
+[▶ 在视频页面播放](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/#video-fal-hand-drawn-romance-vfx) · [↗ 查看仓库中的 MP4 文件](media/fal-hand-drawn-romance-vfx.mp4)
 
 #### 详细信息
 

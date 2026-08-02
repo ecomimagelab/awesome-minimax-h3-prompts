@@ -26,10 +26,12 @@
     input[type="search"] { flex:1 1 260px; min-width:0; border:1px solid var(--line); border-radius:12px; padding:11px 14px; background:#111319; color:var(--text); font:inherit; }
     .filters { display:flex; gap:7px; overflow:auto; } .filter { white-space:nowrap; border:1px solid var(--line); border-radius:999px; padding:8px 12px; background:#111319; color:#c8ced9; cursor:pointer; } .filter.active { background:#fff; color:#0b0c0f; }
     main { width:min(1180px,calc(100% - 40px)); margin:34px auto 80px; display:grid; gap:30px; }
-    .video-card { overflow:hidden; border:1px solid var(--line); border-radius:20px; background:linear-gradient(180deg,#14171d,#0f1116); box-shadow:0 18px 70px rgba(0,0,0,.25); }
+    .video-card { overflow:hidden; scroll-margin-top:84px; border:1px solid var(--line); border-radius:20px; background:linear-gradient(180deg,#14171d,#0f1116); box-shadow:0 18px 70px rgba(0,0,0,.25); }
     .video-card[hidden] { display:none; } .card-head { padding:20px 22px 12px; } .card-head h2 { margin:0; font-size:22px; } .card-head p { margin:3px 0 0; color:var(--muted); }
     .player-shell { background:#000; border-block:1px solid var(--line); } video { width:100%; max-height:72vh; display:block; background:#000; }
+    .video-actions { display:flex; gap:16px; flex-wrap:wrap; padding:12px 22px 4px; font-size:13px; }
     .prompt-list { padding:10px 20px 22px; } details.prompt { border-bottom:1px solid var(--line); } details.prompt:last-child { border-bottom:0; }
+    details.prompt { scroll-margin-top:84px; }
     summary { display:flex; align-items:center; gap:10px; flex-wrap:wrap; padding:16px 2px; cursor:pointer; font-weight:750; } .prompt-id { color:var(--accent2); font-size:12px; letter-spacing:.08em; } .pill { margin-left:auto; padding:3px 9px; border:1px solid #393e49; border-radius:99px; color:#bfc5d0; font-size:12px; font-weight:650; }
     .prompt-body { padding:0 0 20px; } .description { color:#b9c0cc; } .prompt-label { margin:16px 0 6px; color:#f5d2c4; font-size:12px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; }
     pre { margin:0; padding:16px; max-height:360px; overflow:auto; white-space:pre-wrap; border:1px solid #252a34; border-radius:12px; background:#090b0f; color:#dfe3eb; font:13px/1.65 ui-monospace,SFMono-Regular,Consolas,monospace; }
@@ -62,7 +64,7 @@
     </div>
   </nav>
   <main>
-    <article class="video-card" data-mode="text-to-video" data-search="drone-riding tiktok dancer 无人机上的 tiktok 舞者 action dance aerial official">
+    <article class="video-card" id="video-minimax-official-text-to-video" data-mode="text-to-video" data-search="drone-riding tiktok dancer 无人机上的 tiktok 舞者 action dance aerial official">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Drone-riding TikTok dancer</h2>
@@ -76,8 +78,12 @@
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/minimax-official-text-to-video.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/minimax-official-text-to-video.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0001" open>
         <summary>
           <span class="prompt-id">H3-0001</span>
           <span class="lang-en">Drone-riding TikTok dancer</span>
@@ -94,12 +100,14 @@
           <pre class="lang-zh"><code>一名 TikTok 舞者站在无人机上跳舞，完成空翻和各种特技动作。</code></pre>
           <div class="meta">
             <a href="https://platform.minimax.io/docs/guides/video-generation" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0001" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0001" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>MiniMax</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="first-last-frame" data-search="a little girl grows up 小女孩成长转场 transition aging first-frame last-frame official">
+    <article class="video-card" id="video-minimax-official-first-last-frame" data-mode="first-last-frame" data-search="a little girl grows up 小女孩成长转场 transition aging first-frame last-frame official">
       <header class="card-head">
         <div>
           <h2 class="lang-en">A little girl grows up</h2>
@@ -113,8 +121,12 @@
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/minimax-official-first-last-frame.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/minimax-official-first-last-frame.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0003" open>
         <summary>
           <span class="prompt-id">H3-0003</span>
           <span class="lang-en">A little girl grows up</span>
@@ -131,12 +143,14 @@
           <pre class="lang-zh"><code>一个小女孩逐渐长大。</code></pre>
           <div class="meta">
             <a href="https://platform.minimax.io/docs/guides/video-generation" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0003" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0003" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>MiniMax</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="reference-generation" data-search="vintage beret fashion walk 复古贝雷帽时尚漫步 fashion character-consistency cinematic official">
+    <article class="video-card" id="video-minimax-official-reference" data-mode="reference-generation" data-search="vintage beret fashion walk 复古贝雷帽时尚漫步 fashion character-consistency cinematic official">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Vintage beret fashion walk</h2>
@@ -150,8 +164,12 @@
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/minimax-official-reference.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/minimax-official-reference.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0004" open>
         <summary>
           <span class="prompt-id">H3-0004</span>
           <span class="lang-en">Vintage beret fashion walk</span>
@@ -168,12 +186,14 @@
           <pre class="lang-zh"><code>阴天，在古老的鹅卵石巷道中，模特一边行走，一边微笑着调整复古贝雷帽；自然光线，电影感色彩。</code></pre>
           <div class="meta">
             <a href="https://platform.minimax.io/docs/guides/video-generation" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0004" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0004" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>MiniMax</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="reference-generation" data-search="hitchcock move with referenced singer and audio 希区柯克运镜与参考歌声 multimodal camera-reference voice-reference official">
+    <article class="video-card" id="video-minimax-official-hitchcock-reference" data-mode="reference-generation" data-search="hitchcock move with referenced singer and audio 希区柯克运镜与参考歌声 multimodal camera-reference voice-reference official">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Hitchcock move with referenced singer and audio</h2>
@@ -187,8 +207,12 @@
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/minimax-official-hitchcock-reference.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/minimax-official-hitchcock-reference.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0005" open>
         <summary>
           <span class="prompt-id">H3-0005</span>
           <span class="lang-en">Hitchcock move with referenced singer and audio</span>
@@ -205,12 +229,14 @@
           <pre class="lang-zh"><code>参考视频 1 中的希区柯克式运镜，让图片 2 中的角色演唱，并使歌声与音频 3 保持一致。</code></pre>
           <div class="meta">
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0005" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0005" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>MiniMax</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="text-to-video" data-search="chow chow prancing in a park 公园里雀跃的松狮犬 animal park action-sequence community-tested frutiger aero shopping mall walk frutiger aero 商场第一人称漫步 first-person architecture frutiger-aero community-tested">
+    <article class="video-card" id="video-reddit-neggy5-minimax-h3-tests" data-mode="text-to-video" data-search="chow chow prancing in a park 公园里雀跃的松狮犬 animal park action-sequence community-tested frutiger aero shopping mall walk frutiger aero 商场第一人称漫步 first-person architecture frutiger-aero community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">2 prompts share this source video</h2>
@@ -224,8 +250,12 @@
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/reddit-neggy5-minimax-h3-tests.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/reddit-neggy5-minimax-h3-tests.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0006" open>
         <summary>
           <span class="prompt-id">H3-0006</span>
           <span class="lang-en">Chow chow prancing in a park</span>
@@ -242,11 +272,13 @@
           <pre class="lang-zh"><code>白天，一只可爱的成年松狮犬在公园里欢快地跳跃。随后它坐下来，可爱地打了个哈欠，并四处张望。</code></pre>
           <div class="meta">
             <a href="https://www.reddit.com/r/StableDiffusion/comments/1vc8o4u/used_my_last_hour_of_my_veniceai_sub_to_test/" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0006" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0006" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Neggy5</span>
           </div>
         </div>
       </details>
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0007" open>
         <summary>
           <span class="prompt-id">H3-0007</span>
           <span class="lang-en">Frutiger Aero shopping mall walk</span>
@@ -263,12 +295,14 @@
           <pre class="lang-zh"><code>黄昏时分，以第一人称视角穿行于一座繁忙的超现代购物中心，整体采用 Frutiger Aero 美学。周围有大量漂亮的树木与绿植、优美的有机建筑形态和富有氛围感的灯光。</code></pre>
           <div class="meta">
             <a href="https://www.reddit.com/r/StableDiffusion/comments/1vc8o4u/used_my_last_hour_of_my_veniceai_sub_to_test/" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0007" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0007" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Neggy5</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="image-to-video text-to-video" data-search="don&#x27;t say my name again 别再叫我的名字 desert single-take handheld dialogue community-tested the unanswered letter 不会得到回复的信 period-drama dialogue three-segment insert-shot community-tested i can see the dust 我看得见尘土 western image-reference single-take dialogue community-tested i signed it on tuesday 我星期二签了 relationship-drama blue-hour three-segment dialogue community-tested take the lane at first light 天亮时拿下那条路 war-drama night three-segment dialogue community-tested">
+    <article class="video-card" id="video-alex-patrascu-minimax-h3-scenes" data-mode="image-to-video text-to-video" data-search="don&#x27;t say my name again 别再叫我的名字 desert single-take handheld dialogue community-tested the unanswered letter 不会得到回复的信 period-drama dialogue three-segment insert-shot community-tested i can see the dust 我看得见尘土 western image-reference single-take dialogue community-tested i signed it on tuesday 我星期二签了 relationship-drama blue-hour three-segment dialogue community-tested take the lane at first light 天亮时拿下那条路 war-drama night three-segment dialogue community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">5 prompts share this source video</h2>
@@ -282,8 +316,12 @@
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/alex-patrascu-minimax-h3-scenes.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/alex-patrascu-minimax-h3-scenes.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0012" open>
         <summary>
           <span class="prompt-id">H3-0012</span>
           <span class="lang-en">Don&#x27;t say my name again</span>
@@ -344,11 +382,13 @@ POSITIVE LOCKS Exactly one visible person is in frame for the whole take — nob
 正向锁定 全程恰好只有一个可见人物；任何边缘都不进入他人，道路、栅栏线或眼镜反射中都不出现第二个人，画外说话者绝不被看见。手枪始终在右手、始终指向镜头，绝不开火、放下或重新入套；无枪口火焰、后坐或枪声。他留在路上，从不背对摄影机。干燥绿与棕配浅阴天灰的自然低饱和色板。ARRI Alexa 35 拍摄的真人电影级写实影像，紧张而中性的情绪，自然胶片颗粒。</code></pre>
           <div class="meta">
             <a href="https://x.com/maxescu/status/2082563245504856385" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0012" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0012" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Alex Patrascu (@maxescu)</span>
           </div>
         </div>
       </details>
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0013" open>
         <summary>
           <span class="prompt-id">H3-0013</span>
           <span class="lang-en">The unanswered letter</span>
@@ -409,11 +449,13 @@ POSITIVE LOCKS Exactly two women appear and no servant or third figure enters. B
 正向锁定 画面中恰好只有两位女人，不出现仆人或第三个人。三段中两人位置保持不变；服装、手套、折叠信件和结霜状态在切镜间完全一致。ARRI Alexa 35 拍摄的电影级写实影像，珍珠灰与柔绿调色，低反差，自然胶片颗粒。</code></pre>
           <div class="meta">
             <a href="https://x.com/maxescu/status/2082563249095020865" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0013" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0013" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Alex Patrascu (@maxescu)</span>
           </div>
         </div>
       </details>
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0014" open>
         <summary>
           <span class="prompt-id">H3-0014</span>
           <span class="lang-en">I can see the dust</span>
@@ -473,11 +515,13 @@ POSITIVE LOCKS Exactly one sharp figure is in frame; the two background figures 
 正向锁定 画面中恰好只有一个清晰人物；背景两人始终无法在热浪中辨认，绝不成为角色或进入焦点，也没有人从摄影机与主体之间穿过。帽子、破衬衫、尘土层与木栏必须与 📷Image1 完全一致。ARRI Alexa 35 拍摄的电影级写实影像，自然胶片颗粒。</code></pre>
           <div class="meta">
             <a href="https://x.com/maxescu/status/2082563252471357498" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0014" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0014" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Alex Patrascu (@maxescu)</span>
           </div>
         </div>
       </details>
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0015" open>
         <summary>
           <span class="prompt-id">H3-0015</span>
           <span class="lang-en">I signed it on Tuesday</span>
@@ -538,11 +582,13 @@ POSITIVE LOCKS Exactly two people are on the balcony and no one appears in the d
 正向锁定 阳台上恰好两个人，后方门口不出现任何人。切镜间二人位置、服装、两只杯子与晾衣布局保持完全一致。ARRI Alexa 35 拍摄的电影级写实影像，暖琥珀与石板蓝调色，低反差，自然胶片颗粒。</code></pre>
           <div class="meta">
             <a href="https://x.com/maxescu/status/2082563256028139736" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0015" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0015" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Alex Patrascu (@maxescu)</span>
           </div>
         </div>
       </details>
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0016" open>
         <summary>
           <span class="prompt-id">H3-0016</span>
           <span class="lang-en">Take the lane at first light</span>
@@ -603,12 +649,14 @@ POSITIVE LOCKS Exactly two officers are in the room and no other figures enter. 
 正向锁定 房间内恰好只有两名军官，不出现其他人。直到最后节拍上尉离开前，两人始终各自在桌子一侧。切镜间制服状态、泥污、灰泥粉尘和灯的位置完全一致。ARRI Alexa 35 拍摄的电影级写实影像，低饱和橄榄绿与琥珀色调，自然胶片颗粒。</code></pre>
           <div class="meta">
             <a href="https://x.com/maxescu/status/2082563259782287522" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0016" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0016" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Alex Patrascu (@maxescu)</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="reference-generation" data-search="vintage binocular brand film 复古望远镜品牌短片 brand-film multi-image typography transition community-tested">
+    <article class="video-card" id="video-fal-vintage-binocular-brand-film" data-mode="reference-generation" data-search="vintage binocular brand film 复古望远镜品牌短片 brand-film multi-image typography transition community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Vintage binocular brand film</h2>
@@ -622,8 +670,12 @@ POSITIVE LOCKS Exactly two officers are in the room and no other figures enter. 
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-vintage-binocular-brand-film.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-vintage-binocular-brand-film.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0017" open>
         <summary>
           <span class="prompt-id">H3-0017</span>
           <span class="lang-en">Vintage binocular brand film</span>
@@ -656,12 +708,14 @@ Visual language: a voyeuristic, Wes Anderson-inspired 35 mm film look with fine 
 视觉语言：带窥视感、受韦斯·安德森启发的 35mm 胶片质感，细颗粒、柔和高光晕染、克制色彩和红色文字点缀；极简、高级、略带俏皮。不要新增人物、车辆、建筑或标志；严格保留核心构图与 MINIMAX 装置。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0017" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0017" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="text-to-video" data-search="hand-drawn kitchen creature 厨房里的手绘发光生物 hand-drawn live-action phone-camera native-audio community-tested">
+    <article class="video-card" id="video-fal-hand-drawn-kitchen-creature" data-mode="text-to-video" data-search="hand-drawn kitchen creature 厨房里的手绘发光生物 hand-drawn live-action phone-camera native-audio community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Hand-drawn kitchen creature</h2>
@@ -675,8 +729,12 @@ Visual language: a voyeuristic, Wes Anderson-inspired 35 mm film look with fine 
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-hand-drawn-kitchen-creature.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-hand-drawn-kitchen-creature.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0018" open>
         <summary>
           <span class="prompt-id">H3-0018</span>
           <span class="lang-en">Hand-drawn kitchen creature</span>
@@ -701,12 +759,14 @@ Do not show giant eyes, split mouths, fangs, threatening behavior, lunges, sudde
 不要出现巨眼、裂口、尖牙、威胁行为、猛扑、突然黑帧或惊吓镜头。声音仅包括室内底噪、布料摩擦、杯子轻响、水龙头滴水、拍摄者脚步和轻微呼吸，以及温柔电子音与手绘生物细小的叫声。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0018" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0018" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="reference-generation" data-search="interactive game equipment ui 交互式游戏装备界面 game-ui timecoded typography cyberpunk community-tested">
+    <article class="video-card" id="video-fal-interactive-game-equipment-ui" data-mode="reference-generation" data-search="interactive game equipment ui 交互式游戏装备界面 game-ui timecoded typography cyberpunk community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Interactive game equipment UI</h2>
@@ -720,8 +780,12 @@ Do not show giant eyes, split mouths, fangs, threatening behavior, lunges, sudde
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-interactive-game-equipment-ui.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-interactive-game-equipment-ui.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0019" open>
         <summary>
           <span class="prompt-id">H3-0019</span>
           <span class="lang-en">Interactive game equipment UI</span>
@@ -762,12 +826,14 @@ Do not show giant eyes, split mouths, fangs, threatening behavior, lunges, sudde
 [10–15 秒] 她站起时完整世界在周围加载：密集赛博朋克贫民区、闪烁霓虹、雨湿街道、移动人群、驶过的摩托车、纠缠电缆与层叠建筑，并延伸到未来高塔。摄影机稳定在她身后的第三人称视角。HUD 依次淡入：右上小地图、左下生命与弹药、任务标记。她迈步走入街道。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0019" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0019" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="reference-generation" data-search="macro coffee-to-desert transition 咖啡微距到沙漠的无缝转场 macro seamless-transition material-match multi-image community-tested">
+    <article class="video-card" id="video-fal-macro-coffee-desert-transition" data-mode="reference-generation" data-search="macro coffee-to-desert transition 咖啡微距到沙漠的无缝转场 macro seamless-transition material-match multi-image community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Macro coffee-to-desert transition</h2>
@@ -781,8 +847,12 @@ Do not show giant eyes, split mouths, fangs, threatening behavior, lunges, sudde
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-macro-coffee-desert-transition.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-macro-coffee-desert-transition.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0020" open>
         <summary>
           <span class="prompt-id">H3-0020</span>
           <span class="lang-en">Macro coffee-to-desert transition</span>
@@ -807,12 +877,14 @@ No tearing, black frames, hard cuts, obvious VFX, or compositing seams. Keep it 
 不要撕裂、黑帧、硬切、明显特效或合成接缝。保持写实、安静和克制，仿佛同一种颗粒材料从微观咖啡表面自然扩展成辽阔沙漠。单一连续镜头，不出现可见剪辑。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0020" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0020" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="reference-generation" data-search="cat-to-dog video replacement 视频中猫替换为狗 video-editing subject-replacement localized-edit community-tested">
+    <article class="video-card" id="video-fal-cat-to-dog-replacement" data-mode="reference-generation" data-search="cat-to-dog video replacement 视频中猫替换为狗 video-editing subject-replacement localized-edit community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Cat-to-dog video replacement</h2>
@@ -826,8 +898,12 @@ No tearing, black frames, hard cuts, obvious VFX, or compositing seams. Keep it 
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-cat-to-dog-replacement.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-cat-to-dog-replacement.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0021" open>
         <summary>
           <span class="prompt-id">H3-0021</span>
           <span class="lang-en">Cat-to-dog video replacement</span>
@@ -844,12 +920,14 @@ No tearing, black frames, hard cuts, obvious VFX, or compositing seams. Keep it 
           <pre class="lang-zh"><code>将视频中的猫替换成狗。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0021" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0021" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="first-last-frame" data-search="epic space opera teaser 史诗太空歌剧预告片 first-last-frame fal-guide community-tested">
+    <article class="video-card" id="video-fal-epic-space-opera-teaser" data-mode="first-last-frame" data-search="epic space opera teaser 史诗太空歌剧预告片 first-last-frame fal-guide community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Epic Space Opera Teaser</h2>
@@ -863,8 +941,12 @@ No tearing, black frames, hard cuts, obvious VFX, or compositing seams. Keep it 
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-epic-space-opera-teaser.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-epic-space-opera-teaser.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0022" open>
         <summary>
           <span class="prompt-id">H3-0022</span>
           <span class="lang-en">Epic Space Opera Teaser</span>
@@ -885,12 +967,14 @@ Keep the pace fast and the scale enormous without letting the edit drag. Use sha
 保持快速节奏和宏大尺度，不要让剪辑拖沓。使用凌厉的硬切、剧烈震动的指挥舱、炽白闪光、转瞬即逝的黑场，以及猛烈跃迁至曲速的冲击。标题卡使用宽字距的电影字体——不要用纯白色——配合克制的材质纹理、轻微照明和淡淡的边缘辉光。标题动画从深空阴影中浮现，掠过一束星光，逐渐拉开字距，留下轻微残影，并在黑场上短暂闪现。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0022" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0022" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="reference-generation" data-search="desert fashion campaign 沙漠时尚广告片 reference-generation fal-guide community-tested">
+    <article class="video-card" id="video-fal-desert-fashion-campaign" data-mode="reference-generation" data-search="desert fashion campaign 沙漠时尚广告片 reference-generation fal-guide community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Desert Fashion Campaign</h2>
@@ -904,8 +988,12 @@ Keep the pace fast and the scale enormous without letting the edit drag. Use sha
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-desert-fashion-campaign.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-desert-fashion-campaign.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0023" open>
         <summary>
           <span class="prompt-id">H3-0023</span>
           <span class="lang-en">Desert Fashion Campaign</span>
@@ -926,12 +1014,14 @@ Keep the story simple: beside a vintage car on a desert highway, a woman walks t
 故事保持简单：在沙漠公路的一辆老爷车旁，一位女子走到车尾，打开后备厢，取出一个黑色包袋，与站在旁边的男子安静对视片刻，随后提包离开。让服装和包袋自然融入表演，使其成为角色身份的一部分。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0023" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0023" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="reference-generation" data-search="cyber-grunge fashion film 赛博垃圾摇滚时尚短片 reference-generation fal-guide community-tested">
+    <article class="video-card" id="video-fal-cyber-grunge-fashion-film" data-mode="reference-generation" data-search="cyber-grunge fashion film 赛博垃圾摇滚时尚短片 reference-generation fal-guide community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Cyber-Grunge Fashion Film</h2>
@@ -945,8 +1035,12 @@ Keep the story simple: beside a vintage car on a desert highway, a woman walks t
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-cyber-grunge-fashion-film.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-cyber-grunge-fashion-film.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0024" open>
         <summary>
           <span class="prompt-id">H3-0024</span>
           <span class="lang-en">Cyber-Grunge Fashion Film</span>
@@ -967,12 +1061,14 @@ Style: fast-cut fashion film on analog stock, set against a nighttime blaze with
 风格：使用模拟胶片质感的快速剪辑时尚片，背景是夜间大火、黑烟和橙红色火焰。叠加 VHS 故障、监控信号中断、20 世纪 90 年代胶片颗粒、扫描线、色差、漏光、闪白转场和轻微画面抖动。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0024" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0024" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="text-to-video" data-search="neon laundromat encounter 霓虹洗衣店邂逅 text-to-video fal-guide community-tested">
+    <article class="video-card" id="video-fal-neon-laundromat-encounter" data-mode="text-to-video" data-search="neon laundromat encounter 霓虹洗衣店邂逅 text-to-video fal-guide community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Neon Laundromat Encounter</h2>
@@ -986,8 +1082,12 @@ Style: fast-cut fashion film on analog stock, set against a nighttime blaze with
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-neon-laundromat-encounter.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-neon-laundromat-encounter.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0025" open>
         <summary>
           <span class="prompt-id">H3-0025</span>
           <span class="lang-en">Neon Laundromat Encounter</span>
@@ -1008,12 +1108,14 @@ Use a one-handed phone-camera feel with visible shake, exposure fluctuation unde
 采用单手持手机拍摄的感觉，保留明显抖动、白色荧光灯下的曝光波动、玻璃上的环境反射，以及近距离拍摄时稍显迟缓的自动对焦。避免精致的商业构图；画面应像在跟随一个奇异幻影时偶然拍到的真实深夜邂逅。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0025" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0025" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="reference-generation" data-search="cyber-grunge rap music video 赛博垃圾摇滚说唱 mv reference-generation fal-guide community-tested">
+    <article class="video-card" id="video-fal-cyber-grunge-rap-music-video" data-mode="reference-generation" data-search="cyber-grunge rap music video 赛博垃圾摇滚说唱 mv reference-generation fal-guide community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Cyber-Grunge Rap Music Video</h2>
@@ -1027,8 +1129,12 @@ Use a one-handed phone-camera feel with visible shake, exposure fluctuation unde
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-cyber-grunge-rap-music-video.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-cyber-grunge-rap-music-video.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0026" open>
         <summary>
           <span class="prompt-id">H3-0026</span>
           <span class="lang-en">Cyber-Grunge Rap Music Video</span>
@@ -1045,12 +1151,14 @@ Use a one-handed phone-camera feel with visible shake, exposure fluctuation unde
           <pre class="lang-zh"><code>风格：暗黑流行／赛博垃圾摇滚／说唱音乐录像，兼具照片级高定时尚质感和扫描电影杂志的纹理——高对比但不廉价。参考 20 世纪 90 年代末至 21 世纪初的独立杂志、复印件、胶片扫描、地下音乐海报和 zine 拼贴。加入粗颗粒、轻微片门晃动、半色调网点、粗糙印刷边缘和轻微扫描套印偏移。保持快速剪辑，只使用硬切——不要淡入淡出或柔和转场。文字处理和表面质感要与参考图片一致。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0026" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0026" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="reference-generation" data-search="green-screen to fairytale composite 绿幕转童话场景合成 reference-generation fal-guide community-tested green-screen environment replacement 绿幕环境替换 reference-generation fal-guide community-tested">
+    <article class="video-card" id="video-fal-green-screen-to-fairytale-composite" data-mode="reference-generation" data-search="green-screen to fairytale composite 绿幕转童话场景合成 reference-generation fal-guide community-tested green-screen environment replacement 绿幕环境替换 reference-generation fal-guide community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">2 prompts share this source video</h2>
@@ -1064,8 +1172,12 @@ Use a one-handed phone-camera feel with visible shake, exposure fluctuation unde
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-green-screen-to-fairytale-composite.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-green-screen-to-fairytale-composite.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0027" open>
         <summary>
           <span class="prompt-id">H3-0027</span>
           <span class="lang-en">Green-Screen to Fairytale Composite</span>
@@ -1082,11 +1194,13 @@ Use a one-handed phone-camera feel with visible shake, exposure fluctuation unde
           <pre class="lang-zh"><code>移除视频 1 的绿幕背景，替换为与视频 2 相似的童话式背景。背景元素必须与视频 1 中人物的动作完全匹配。调整视频 1 中人物的光照，使其与新背景完全一致。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0027" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0027" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details>
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0048" open>
         <summary>
           <span class="prompt-id">H3-0048</span>
           <span class="lang-en">Green-Screen Environment Replacement</span>
@@ -1103,12 +1217,14 @@ Use a one-handed phone-camera feel with visible shake, exposure fluctuation unde
           <pre class="lang-zh"><code>移除视频 1 的绿幕背景，替换为与视频 2 相似的童话环境。让所有背景元素正确响应主体的动作，并重新调整主体光照，使其自然融入新场景。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0048" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0048" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="first-last-frame" data-search="animated gallery poster 动态画廊海报 first-last-frame fal-guide community-tested">
+    <article class="video-card" id="video-fal-animated-gallery-poster" data-mode="first-last-frame" data-search="animated gallery poster 动态画廊海报 first-last-frame fal-guide community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Animated Gallery Poster</h2>
@@ -1122,8 +1238,12 @@ Use a one-handed phone-camera feel with visible shake, exposure fluctuation unde
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-animated-gallery-poster.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-animated-gallery-poster.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0028" open>
         <summary>
           <span class="prompt-id">H3-0028</span>
           <span class="lang-en">Animated Gallery Poster</span>
@@ -1140,12 +1260,14 @@ Use a one-handed phone-camera feel with visible shake, exposure fluctuation unde
           <pre class="lang-zh"><code>将源艺术作品制作成动态海报，同时保留白色画廊边框、内框、红白黑配色、3D 收藏级人偶质感和原始版式。每当文字出现时，加入轻快俏皮的打字音效。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0028" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0028" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="reference-generation" data-search="vertical family confrontation 竖屏家庭冲突短剧 reference-generation fal-guide community-tested">
+    <article class="video-card" id="video-fal-vertical-family-confrontation" data-mode="reference-generation" data-search="vertical family confrontation 竖屏家庭冲突短剧 reference-generation fal-guide community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Vertical Family Confrontation</h2>
@@ -1159,8 +1281,12 @@ Use a one-handed phone-camera feel with visible shake, exposure fluctuation unde
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-vertical-family-confrontation.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-vertical-family-confrontation.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0029" open>
         <summary>
           <span class="prompt-id">H3-0029</span>
           <span class="lang-en">Vertical Family Confrontation</span>
@@ -1185,12 +1311,14 @@ Shoot mainly in medium-close shots with frequent shot/reverse-shot cutting. Keep
 主要使用中近景，并频繁进行正反打剪辑。环境要有真实生活气息。不要科幻、古装或动画风格。不要出现字幕、额外文字、平台水印或贴纸。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0029" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0029" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="reference-generation" data-search="futuristic eyewear campaign 未来感眼镜广告 reference-generation fal-guide community-tested">
+    <article class="video-card" id="video-fal-futuristic-eyewear-campaign" data-mode="reference-generation" data-search="futuristic eyewear campaign 未来感眼镜广告 reference-generation fal-guide community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Futuristic Eyewear Campaign</h2>
@@ -1204,8 +1332,12 @@ Shoot mainly in medium-close shots with frequent shot/reverse-shot cutting. Keep
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-futuristic-eyewear-campaign.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-futuristic-eyewear-campaign.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0030" open>
         <summary>
           <span class="prompt-id">H3-0030</span>
           <span class="lang-en">Futuristic Eyewear Campaign</span>
@@ -1226,12 +1358,14 @@ Use Image 1 for the key visual: two full-body female models, one Black and one w
 图片 1 作为主视觉：两位全身女性模特，一位黑人、一位白人，保留她们的高级服装、肢体语言、影棚灯光、T 台气场和冷峻态度。图片 2 用于面部细节。两位模特都佩戴基于图片 3 的未来奢华眼镜：环绕式弧形镜片、锐利的猫眼与护目镜混合轮廓、镜面反射、流线型镜腿，以及高级时尚配饰的精致表面。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0030" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0030" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="reference-generation" data-search="ergonomic chair product film 人体工学椅产品短片 reference-generation fal-guide community-tested">
+    <article class="video-card" id="video-fal-ergonomic-chair-product-film" data-mode="reference-generation" data-search="ergonomic chair product film 人体工学椅产品短片 reference-generation fal-guide community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Ergonomic Chair Product Film</h2>
@@ -1245,8 +1379,12 @@ Use Image 1 for the key visual: two full-body female models, one Black and one w
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-ergonomic-chair-product-film.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-ergonomic-chair-product-film.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0031" open>
         <summary>
           <span class="prompt-id">H3-0031</span>
           <span class="lang-en">Ergonomic Chair Product Film</span>
@@ -1267,12 +1405,14 @@ Present a black Herman Miller ergonomic chair in a premium office with a full 36
 在高级办公空间中展示一把黑色 Herman Miller 人体工学椅，并完成 360 度产品展示。切至透气网布椅背的微距镜头并可视化气流；展示腰部支撑和人体工学曲线的工程动画；演示多方向扶手和座椅高度调节。呈现设计师、开发者和创意专业人士长时间舒适工作的状态。加入 3D 骨骼支撑可视化，传达全天候舒适性，并搭配精致的室内设计。片尾显示：“WHERE INSPIRATION MEETS COMFORT.” 整体方向极简、冷色、专业、未来感且节奏舒缓。图片 1 用于功能细节，图片 2 用于产品。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0031" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0031" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="reference-generation" data-search="nike-style product landing page nike 风格产品落地页 reference-generation fal-guide community-tested">
+    <article class="video-card" id="video-fal-nike-style-product-landing-page" data-mode="reference-generation" data-search="nike-style product landing page nike 风格产品落地页 reference-generation fal-guide community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Nike-Style Product Landing Page</h2>
@@ -1286,8 +1426,12 @@ Present a black Herman Miller ergonomic chair in a premium office with a full 36
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-nike-style-product-landing-page.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-nike-style-product-landing-page.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0032" open>
         <summary>
           <span class="prompt-id">H3-0032</span>
           <span class="lang-en">Nike-Style Product Landing Page</span>
@@ -1304,12 +1448,14 @@ Present a black Herman Miller ergonomic chair in a premium office with a full 36
           <pre class="lang-zh"><code>围绕图片 1 中的产品，制作一个受 Nike 数字视觉语言启发的动态产品落地页 UI/UX 演示。使用超大、粗体、斜体无衬线字体，背景结合强调速度的光轨与深色碳纤维或透气运动网布纹理。展示流畅、快速、有力量的页面滚动，并加入高冲击力的悬停交互，如放大和颜色反转。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0032" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0032" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="first-last-frame" data-search="automotive website ui animation 汽车网站 ui 动效 first-last-frame fal-guide community-tested">
+    <article class="video-card" id="video-fal-automotive-website-ui-animation" data-mode="first-last-frame" data-search="automotive website ui animation 汽车网站 ui 动效 first-last-frame fal-guide community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Automotive Website UI Animation</h2>
@@ -1323,8 +1469,12 @@ Present a black Herman Miller ergonomic chair in a premium office with a full 36
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-automotive-website-ui-animation.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-automotive-website-ui-animation.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0033" open>
         <summary>
           <span class="prompt-id">H3-0033</span>
           <span class="lang-en">Automotive Website UI Animation</span>
@@ -1341,12 +1491,14 @@ Present a black Herman Miller ergonomic chair in a premium office with a full 36
           <pre class="lang-zh"><code>为网站 UI 制作动画：顶部标题向下滑入定位，下方文案面板向上滑入，汽车灯光从暗色变为红色。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0033" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0033" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="first-last-frame" data-search="rotating product page reveal 旋转产品页面揭幕 first-last-frame fal-guide community-tested">
+    <article class="video-card" id="video-fal-rotating-product-page-reveal" data-mode="first-last-frame" data-search="rotating product page reveal 旋转产品页面揭幕 first-last-frame fal-guide community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Rotating Product Page Reveal</h2>
@@ -1360,8 +1512,12 @@ Present a black Herman Miller ergonomic chair in a premium office with a full 36
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-rotating-product-page-reveal.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-rotating-product-page-reveal.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0034" open>
         <summary>
           <span class="prompt-id">H3-0034</span>
           <span class="lang-en">Rotating Product Page Reveal</span>
@@ -1378,12 +1534,14 @@ Present a black Herman Miller ergonomic chair in a premium office with a full 36
           <pre class="lang-zh"><code>从上到下揭示页面布局。上方和中部文字向下滑入，下方文字向上滑入。中央产品出现后，让它轻微旋转。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0034" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0034" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="first-last-frame" data-search="claymation lava canyon leap 黏土动画熔岩峡谷飞跃 first-last-frame fal-guide community-tested">
+    <article class="video-card" id="video-fal-claymation-lava-canyon-leap" data-mode="first-last-frame" data-search="claymation lava canyon leap 黏土动画熔岩峡谷飞跃 first-last-frame fal-guide community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Claymation Lava Canyon Leap</h2>
@@ -1397,8 +1555,12 @@ Present a black Herman Miller ergonomic chair in a premium office with a full 36
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-claymation-lava-canyon-leap.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-claymation-lava-canyon-leap.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0035" open>
         <summary>
           <span class="prompt-id">H3-0035</span>
           <span class="lang-en">Claymation Lava Canyon Leap</span>
@@ -1415,12 +1577,14 @@ Present a black Herman Miller ergonomic chair in a premium office with a full 36
           <pre class="lang-zh"><code>黏土动画。一只狐狸冲向悬崖边缘，毫不犹豫地起跳，以戏剧化的英雄式慢动作飞越巨大的熔岩峡谷。腾空时，摄影机以大胆的动态运动从狐狸腹部下方高速掠过，展现深不见底的峡谷和黏土身体完全舒展的动作。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0035" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0035" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="reference-generation" data-search="fantasy wuxia character film 仙侠角色短片 reference-generation fal-guide community-tested">
+    <article class="video-card" id="video-fal-fantasy-wuxia-character-film" data-mode="reference-generation" data-search="fantasy wuxia character film 仙侠角色短片 reference-generation fal-guide community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Fantasy Wuxia Character Film</h2>
@@ -1434,8 +1598,12 @@ Present a black Herman Miller ergonomic chair in a premium office with a full 36
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-fantasy-wuxia-character-film.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-fantasy-wuxia-character-film.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0036" open>
         <summary>
           <span class="prompt-id">H3-0036</span>
           <span class="lang-en">Fantasy Wuxia Character Film</span>
@@ -1456,12 +1624,14 @@ Render in high-quality 4K, 16:9 Chinese-inspired 3D with cinematic xianxia produ
 以高质量 4K、16:9 的中式 3D 风格呈现，具备电影级仙侠制作水准：强烈、庄重，并带有宿命感。逐拍遵循分镜，摄影机运动自然、转场无缝——绝不能像幻灯片。仅在近景或特写中展示面部。远景使用背面、后侧三分之四视角或空镜；不要在远处展示正脸。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0036" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0036" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="reference-generation" data-search="otome male lead character promo 乙游男主角色宣传片 reference-generation fal-guide community-tested">
+    <article class="video-card" id="video-fal-otome-male-lead-character-promo" data-mode="reference-generation" data-search="otome male lead character promo 乙游男主角色宣传片 reference-generation fal-guide community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Otome Male Lead Character Promo</h2>
@@ -1475,8 +1645,12 @@ Render in high-quality 4K, 16:9 Chinese-inspired 3D with cinematic xianxia produ
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-otome-male-lead-character-promo.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-otome-male-lead-character-promo.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0037" open>
         <summary>
           <span class="prompt-id">H3-0037</span>
           <span class="lang-en">Otome Male Lead Character Promo</span>
@@ -1493,12 +1667,14 @@ Render in high-quality 4K, 16:9 Chinese-inspired 3D with cinematic xianxia produ
           <pre class="lang-zh"><code>为乙女游戏中的男性主角制作角色宣传片。将图片 2 作为严格的身份参考。全程保持相同的面容、发型、身体比例、服装设计、材质细节和精致的乙游 CG 美学。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0037" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0037" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="first-last-frame" data-search="first-person tactical gameplay 第一人称战术游戏画面 first-last-frame fal-guide community-tested">
+    <article class="video-card" id="video-fal-first-person-tactical-gameplay" data-mode="first-last-frame" data-search="first-person tactical gameplay 第一人称战术游戏画面 first-last-frame fal-guide community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">First-Person Tactical Gameplay</h2>
@@ -1512,8 +1688,12 @@ Render in high-quality 4K, 16:9 Chinese-inspired 3D with cinematic xianxia produ
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-first-person-tactical-gameplay.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-first-person-tactical-gameplay.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0038" open>
         <summary>
           <span class="prompt-id">H3-0038</span>
           <span class="lang-en">First-Person Tactical Gameplay</span>
@@ -1538,12 +1718,14 @@ Camera movement: subtle player-driven sway while moving; begin with a slow advan
 摄影机运动：移动时带轻微的玩家操控摇摆；开场缓慢前进，小幅左右查看，射击时加入轻微后坐力，随后稳定继续向前。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0038" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0038" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="first-last-frame" data-search="interactive otome game transition 互动乙游转场 first-last-frame fal-guide community-tested">
+    <article class="video-card" id="video-fal-interactive-otome-game-transition" data-mode="first-last-frame" data-search="interactive otome game transition 互动乙游转场 first-last-frame fal-guide community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Interactive Otome Game Transition</h2>
@@ -1557,8 +1739,12 @@ Camera movement: subtle player-driven sway while moving; begin with a slow advan
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-interactive-otome-game-transition.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-interactive-otome-game-transition.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0039" open>
         <summary>
           <span class="prompt-id">H3-0039</span>
           <span class="lang-en">Interactive Otome Game Transition</span>
@@ -1579,12 +1765,14 @@ Use the first image as the exact opening frame and the second as the exact endin
 将第一张图片作为精确起始帧，第二张图片作为精确结束帧。在高级中式乙女视觉小说界面中制作转场，呈现演出前后亲密的后台时刻。从“选择观看他的表演”自然过渡到“韩旭听到女主角的话后露出饶有兴趣的反应”。以精致的乙游动效呈现 UI 文案、选项和对话框。转场保持流畅，浪漫张力含蓄而克制。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0039" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0039" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="reference-generation" data-search="multi-asset cinematic remix 多素材电影感重混 reference-generation fal-guide community-tested">
+    <article class="video-card" id="video-fal-multi-asset-cinematic-remix" data-mode="reference-generation" data-search="multi-asset cinematic remix 多素材电影感重混 reference-generation fal-guide community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Multi-Asset Cinematic Remix</h2>
@@ -1598,8 +1786,12 @@ Use the first image as the exact opening frame and the second as the exact endin
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-multi-asset-cinematic-remix.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-multi-asset-cinematic-remix.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0040" open>
         <summary>
           <span class="prompt-id">H3-0040</span>
           <span class="lang-en">Multi-Asset Cinematic Remix</span>
@@ -1616,12 +1808,14 @@ Use the first image as the exact opening frame and the second as the exact endin
           <pre class="lang-zh"><code>使用图片 1–6 作为素材。紧密匹配参考视频 1 的镜头节奏、转场语言和音乐。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0040" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0040" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="reference-generation" data-search="live-action voxel transformation 真人场景体素化变换 reference-generation fal-guide community-tested">
+    <article class="video-card" id="video-fal-live-action-voxel-transformation" data-mode="reference-generation" data-search="live-action voxel transformation 真人场景体素化变换 reference-generation fal-guide community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Live-Action Voxel Transformation</h2>
@@ -1635,8 +1829,12 @@ Use the first image as the exact opening frame and the second as the exact endin
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-live-action-voxel-transformation.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-live-action-voxel-transformation.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0041" open>
         <summary>
           <span class="prompt-id">H3-0041</span>
           <span class="lang-en">Live-Action Voxel Transformation</span>
@@ -1653,12 +1851,14 @@ Use the first image as the exact opening frame and the second as the exact endin
           <pre class="lang-zh"><code>保留视频 1 中的建筑、行人和整体环境为照片级真人实拍。仅将树木和汽车转换为《我的世界》风格的 3D 像素艺术或体素方块物体，并使用图片 1 作为视觉参考。保持它们的运动符合物理规律，同时保留真实环境中的阴影和透射光。视频 2 作为整体目标参考。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0041" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0041" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="reference-generation" data-search="character swap with performance reference 角色替换与表演参考 reference-generation fal-guide community-tested">
+    <article class="video-card" id="video-fal-character-swap-with-performance-reference" data-mode="reference-generation" data-search="character swap with performance reference 角色替换与表演参考 reference-generation fal-guide community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Character Swap with Performance Reference</h2>
@@ -1672,8 +1872,12 @@ Use the first image as the exact opening frame and the second as the exact endin
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-character-swap-with-performance-reference.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-character-swap-with-performance-reference.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0042" open>
         <summary>
           <span class="prompt-id">H3-0042</span>
           <span class="lang-en">Character Swap with Performance Reference</span>
@@ -1694,12 +1898,14 @@ At the sink on the right side of frame, the man hands a washed plate to the woma
 画面右侧水槽旁，男子把洗好的盘子递给左侧女子。他转身后突然用右手把洗洁精泡沫弹向她。她被吓到后立即反击。两人一边大笑、一边躲闪，玩闹着互相抛洒泡沫。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0042" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0042" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="reference-generation" data-search="street dance motion transfer 街舞动作迁移 reference-generation fal-guide community-tested">
+    <article class="video-card" id="video-fal-street-dance-motion-transfer" data-mode="reference-generation" data-search="street dance motion transfer 街舞动作迁移 reference-generation fal-guide community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Street Dance Motion Transfer</h2>
@@ -1713,8 +1919,12 @@ At the sink on the right side of frame, the man hands a washed plate to the woma
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-street-dance-motion-transfer.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-street-dance-motion-transfer.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0043" open>
         <summary>
           <span class="prompt-id">H3-0043</span>
           <span class="lang-en">Street Dance Motion Transfer</span>
@@ -1731,12 +1941,14 @@ At the sink on the right side of frame, the man hands a washed plate to the woma
           <pre class="lang-zh"><code>使用视频 1 作为街舞表演的动作参考。使用图片 1 和图片 2 作为角色参考。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0043" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0043" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="reference-generation" data-search="capybara motion recreation 水豚动作复现 reference-generation fal-guide community-tested">
+    <article class="video-card" id="video-fal-capybara-motion-recreation" data-mode="reference-generation" data-search="capybara motion recreation 水豚动作复现 reference-generation fal-guide community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Capybara Motion Recreation</h2>
@@ -1750,8 +1962,12 @@ At the sink on the right side of frame, the man hands a washed plate to the woma
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-capybara-motion-recreation.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-capybara-motion-recreation.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0044" open>
         <summary>
           <span class="prompt-id">H3-0044</span>
           <span class="lang-en">Capybara Motion Recreation</span>
@@ -1772,12 +1988,14 @@ Match the action in Video 1 from a locked-off wide camera. Replace the three sui
 使用固定广角机位匹配视频 1 中的动作。将三名穿西装的男子替换为三只高度照片级真实的水豚。精确保留原始运动路径：三只水豚同时快速趴到地面；左侧水豚跳到中央；中央水豚滚到最左侧；新的中央水豚滚到最右侧；右侧水豚跳到中央；最后中央水豚跳到另外两只上方，叠成金字塔。保持摄影机固定，并让毛发、光照和阴影真实融入场景。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0044" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0044" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="reference-generation" data-search="voice clone dialogue transfer 声音克隆对白迁移 reference-generation fal-guide community-tested">
+    <article class="video-card" id="video-fal-voice-clone-dialogue-transfer" data-mode="reference-generation" data-search="voice clone dialogue transfer 声音克隆对白迁移 reference-generation fal-guide community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Voice Clone Dialogue Transfer</h2>
@@ -1791,8 +2009,12 @@ Match the action in Video 1 from a locked-off wide camera. Replace the three sui
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-voice-clone-dialogue-transfer.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-voice-clone-dialogue-transfer.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0045" open>
         <summary>
           <span class="prompt-id">H3-0045</span>
           <span class="lang-en">Voice Clone Dialogue Transfer</span>
@@ -1809,12 +2031,14 @@ Match the action in Video 1 from a locked-off wide camera. Replace the three sui
           <pre class="lang-zh"><code>角色说道：“逐风而行，自在而活。抛开烦恼，享受当下。”声音匹配音频 1。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0045" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0045" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="reference-generation" data-search="add a character in sync with the others 添加与群体同步的角色 reference-generation fal-guide community-tested">
+    <article class="video-card" id="video-fal-add-a-character-in-sync-with-the-others" data-mode="reference-generation" data-search="add a character in sync with the others 添加与群体同步的角色 reference-generation fal-guide community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Add a Character in Sync with the Others</h2>
@@ -1828,8 +2052,12 @@ Match the action in Video 1 from a locked-off wide camera. Replace the three sui
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-add-a-character-in-sync-with-the-others.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-add-a-character-in-sync-with-the-others.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0046" open>
         <summary>
           <span class="prompt-id">H3-0046</span>
           <span class="lang-en">Add a Character in Sync with the Others</span>
@@ -1846,12 +2074,14 @@ Match the action in Video 1 from a locked-off wide camera. Replace the three sui
           <pre class="lang-zh"><code>在画面左侧添加一个人，穿着与其他人相同的队服，并与其他人同步运动。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0046" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0046" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="reference-generation" data-search="subject &amp; wardrobe replacement 主体与服装精准替换 reference-generation fal-guide community-tested">
+    <article class="video-card" id="video-fal-subject-wardrobe-replacement" data-mode="reference-generation" data-search="subject &amp; wardrobe replacement 主体与服装精准替换 reference-generation fal-guide community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Subject &amp; Wardrobe Replacement</h2>
@@ -1865,8 +2095,12 @@ Match the action in Video 1 from a locked-off wide camera. Replace the three sui
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-subject-wardrobe-replacement.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-subject-wardrobe-replacement.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0047" open>
         <summary>
           <span class="prompt-id">H3-0047</span>
           <span class="lang-en">Subject &amp; Wardrobe Replacement</span>
@@ -1887,12 +2121,14 @@ Replace the child at the back of Video 1 with the golden retriever from Image 1.
 将视频 1 后方的儿童替换为图片 1 中的金毛犬。将最左侧儿童穿的卡其色夹克替换为图片 2 中的牛仔夹克。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0047" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0047" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="reference-generation" data-search="day-to-night relighting 日转夜重打光 reference-generation fal-guide community-tested">
+    <article class="video-card" id="video-fal-day-to-night-relighting" data-mode="reference-generation" data-search="day-to-night relighting 日转夜重打光 reference-generation fal-guide community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Day-to-Night Relighting</h2>
@@ -1906,8 +2142,12 @@ Replace the child at the back of Video 1 with the golden retriever from Image 1.
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-day-to-night-relighting.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-day-to-night-relighting.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0049" open>
         <summary>
           <span class="prompt-id">H3-0049</span>
           <span class="lang-en">Day-to-Night Relighting</span>
@@ -1928,12 +2168,14 @@ Change the lighting in the reference video from daytime to night.</code></pre>
 将参考视频中的光照从白天改为夜晚。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0049" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0049" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="reference-generation" data-search="window view replacement 窗外景观替换 reference-generation fal-guide community-tested">
+    <article class="video-card" id="video-fal-window-view-replacement" data-mode="reference-generation" data-search="window view replacement 窗外景观替换 reference-generation fal-guide community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Window View Replacement</h2>
@@ -1947,8 +2189,12 @@ Change the lighting in the reference video from daytime to night.</code></pre>
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-window-view-replacement.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-window-view-replacement.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0050" open>
         <summary>
           <span class="prompt-id">H3-0050</span>
           <span class="lang-en">Window View Replacement</span>
@@ -1969,12 +2215,14 @@ Replace the view outside the window in Video 1 with Image 1.</code></pre>
 将视频 1 中窗外的景色替换为图片 1。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0050" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0050" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="reference-generation" data-search="dialogue &amp; performance replacement 对白与表演替换 reference-generation fal-guide community-tested">
+    <article class="video-card" id="video-fal-dialogue-performance-replacement" data-mode="reference-generation" data-search="dialogue &amp; performance replacement 对白与表演替换 reference-generation fal-guide community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Dialogue &amp; Performance Replacement</h2>
@@ -1988,8 +2236,12 @@ Replace the view outside the window in Video 1 with Image 1.</code></pre>
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-dialogue-performance-replacement.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-dialogue-performance-replacement.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0051" open>
         <summary>
           <span class="prompt-id">H3-0051</span>
           <span class="lang-en">Dialogue &amp; Performance Replacement</span>
@@ -2006,12 +2258,14 @@ Replace the view outside the window in Video 1 with Image 1.</code></pre>
           <pre class="lang-zh"><code>在视频 1 中，将女子的台词——“我们不可能在一起。不是我不爱你；只是我们根本走不到最后。”——替换为音频 1 中的台词：“请不要走。这一次，我们不要再放开彼此。”细微调整表演，使其匹配新的对白。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0051" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0051" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="reference-generation" data-search="multi-element scene editing 多元素场景编辑 reference-generation fal-guide community-tested">
+    <article class="video-card" id="video-fal-multi-element-scene-editing" data-mode="reference-generation" data-search="multi-element scene editing 多元素场景编辑 reference-generation fal-guide community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Multi-Element Scene Editing</h2>
@@ -2025,8 +2279,12 @@ Replace the view outside the window in Video 1 with Image 1.</code></pre>
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-multi-element-scene-editing.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-multi-element-scene-editing.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0052" open>
         <summary>
           <span class="prompt-id">H3-0052</span>
           <span class="lang-en">Multi-Element Scene Editing</span>
@@ -2043,12 +2301,14 @@ Replace the view outside the window in Video 1 with Image 1.</code></pre>
           <pre class="lang-zh"><code>在参考视频中：将报纸替换为绿色精装书；将椅子替换为红色沙发；移除主体的太阳镜并露出清晰面容；移除汽车燃烧效果并恢复车辆正常状态；将从外套中取出的照片替换为黑色小笔记本；在画面左侧添加一棵树。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0052" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0052" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="reference-generation" data-search="product, sign &amp; dialogue replacement 产品、招牌与对白替换 reference-generation fal-guide community-tested">
+    <article class="video-card" id="video-fal-product-sign-dialogue-replacement" data-mode="reference-generation" data-search="product, sign &amp; dialogue replacement 产品、招牌与对白替换 reference-generation fal-guide community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Product, Sign &amp; Dialogue Replacement</h2>
@@ -2062,8 +2322,12 @@ Replace the view outside the window in Video 1 with Image 1.</code></pre>
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-product-sign-dialogue-replacement.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-product-sign-dialogue-replacement.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0053" open>
         <summary>
           <span class="prompt-id">H3-0053</span>
           <span class="lang-en">Product, Sign &amp; Dialogue Replacement</span>
@@ -2080,12 +2344,14 @@ Replace the view outside the window in Video 1 with Image 1.</code></pre>
           <pre class="lang-zh"><code>在参考视频中，将开头出现的罐装饮料替换为可口可乐。把背景中发光的“FamilyMart”便利店招牌改为“HUHUI”。结尾时，将塑料袋中的所有零食替换为罐装可口可乐，并把最后一句“我买了几样零食”改为“我买了一大堆可乐”。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0053" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0053" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="first-last-frame" data-search="precision costume swap 精准服装互换 first-last-frame fal-guide community-tested">
+    <article class="video-card" id="video-fal-precision-costume-swap" data-mode="first-last-frame" data-search="precision costume swap 精准服装互换 first-last-frame fal-guide community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Precision Costume Swap</h2>
@@ -2099,8 +2365,12 @@ Replace the view outside the window in Video 1 with Image 1.</code></pre>
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-precision-costume-swap.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-precision-costume-swap.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0054" open>
         <summary>
           <span class="prompt-id">H3-0054</span>
           <span class="lang-en">Precision Costume Swap</span>
@@ -2117,12 +2387,14 @@ Replace the view outside the window in Video 1 with Image 1.</code></pre>
           <pre class="lang-zh"><code>两名魔术师站在舞台上面向观众，表演“互换”魔术。他们同时挥动魔杖，烟雾升起。烟雾散去后，两人的西装颜色已经互换：左侧魔术师现在穿白色，右侧魔术师现在穿黑色。手套颜色不变。两人鞠躬；身后的红色幕布合拢，并逐渐从深红变为深蓝。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0054" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0054" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
       </details></div>
     </article>
-    <article class="video-card" data-mode="reference-generation" data-search="hand-drawn romance vfx 手绘浪漫特效 reference-generation fal-guide community-tested">
+    <article class="video-card" id="video-fal-hand-drawn-romance-vfx" data-mode="reference-generation" data-search="hand-drawn romance vfx 手绘浪漫特效 reference-generation fal-guide community-tested">
       <header class="card-head">
         <div>
           <h2 class="lang-en">Hand-Drawn Romance VFX</h2>
@@ -2136,8 +2408,12 @@ Replace the view outside the window in Video 1 with Image 1.</code></pre>
           Your browser does not support HTML5 video.
         </video>
       </div>
+      <div class="video-actions">
+        <a href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/media/fal-hand-drawn-romance-vfx.mp4" target="_blank" rel="noopener"><span class="lang-en">View video file on GitHub ↗</span><span class="lang-zh">在 GitHub 查看视频文件 ↗</span></a>
+        <a href="media/fal-hand-drawn-romance-vfx.mp4" target="_blank" rel="noopener"><span class="lang-en">Open direct MP4 ↗</span><span class="lang-zh">打开 MP4 直链 ↗</span></a>
+      </div>
       <div class="prompt-list">
-      <details class="prompt" open>
+      <details class="prompt" id="h3-0055" open>
         <summary>
           <span class="prompt-id">H3-0055</span>
           <span class="lang-en">Hand-Drawn Romance VFX</span>
@@ -2158,6 +2434,8 @@ Add orange-yellow hand-drawn marks like Image 1 around the two people in Video 1
 在视频 1 中两人周围加入类似图片 1 的橙黄色手绘标记。随着两人靠近，标记不断增多，从微小火花逐渐积累为明亮光芒。两人接吻时，加入粉色笔触。</code></pre>
           <div class="meta">
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
+            <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0055" target="_blank" rel="noopener">View entry in repository ↗</a>
+            <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0055" target="_blank" rel="noopener">查看仓库条目 ↗</a>
             <span>Bennett Heyn / fal</span>
           </div>
         </div>
