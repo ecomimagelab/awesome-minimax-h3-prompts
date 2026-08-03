@@ -5,6 +5,7 @@ from pathlib import PurePosixPath
 from library import ROOT, load_categories, load_prompts
 
 SITE_URL = "https://ecomimagelab.github.io/awesome-minimax-h3-prompts/"
+PIXPIX_URL = "https://www.pixpix.com/minimax-h3?source=github"
 
 LANG_CONFIG = {
     "en": {
@@ -38,6 +39,7 @@ LANG_CONFIG = {
         "video": "Video",
         "play_video": "Play on the video site",
         "view_repo_video": "View the MP4 file in this repository",
+        "try_it": "👉 Try it now on PixPix →",
         "yes": "Yes",
         "no": "No",
         "prompt_visible": "Prompt visible",
@@ -79,6 +81,7 @@ LANG_CONFIG = {
         "video": "案例视频",
         "play_video": "在视频页面播放",
         "view_repo_video": "查看仓库中的 MP4 文件",
+        "try_it": "👉 立即在 PixPix 试用 →",
         "yes": "是",
         "no": "否",
         "prompt_visible": "Prompt 可见",
@@ -173,6 +176,8 @@ def render_card(
             f"- **{text['verification']}：** {text['prompt_visible']} {bool_text(verification['prompt_visible'], text)} · {text['h3_confirmed']} {bool_text(verification['h3_confirmed'], text)} · {text['output_visible']} {bool_text(verification['output_visible'], text)}",
             f"- **Note：** {verification['notes']}",
             "",
+            f"[{text['try_it']}]({PIXPIX_URL})",
+            "",
             "---",
         ]
     )
@@ -233,6 +238,8 @@ def generate(lang: str, prompts: list[dict], categories: dict) -> str:
         f"{text['switch']}",
         "",
         "[▶ **Open the playable video library / 打开可直接播放的视频页面**](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/)",
+        "",
+        f"[👉 **Try MiniMax H3 on PixPix / 在 PixPix 立即体验**]({PIXPIX_URL})",
         "",
         f"## {text['about']}",
         "",

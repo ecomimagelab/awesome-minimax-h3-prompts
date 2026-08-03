@@ -20,6 +20,7 @@
     .hero-actions { display:flex; gap:10px; flex-wrap:wrap; margin-top:24px; }
     .button,.lang-toggle { border:1px solid var(--line); border-radius:999px; padding:10px 16px; background:#171a21; color:var(--text); font-weight:700; cursor:pointer; }
     .button.primary { background:linear-gradient(135deg,var(--accent),#e8374e); border:0; color:white; }
+    .button.pixpix { border-color:#ff7a56; color:#fff; box-shadow:inset 0 0 0 1px rgba(255,91,49,.18); }
     .stats { display:flex; gap:32px; flex-wrap:wrap; margin-top:34px; } .stat strong { display:block; font-size:26px; } .stat span { color:var(--muted); }
     .toolbar { position:sticky; top:0; z-index:10; padding:14px max(20px,calc((100vw - 1180px)/2)); background:rgba(8,9,12,.9); backdrop-filter:blur(16px); border-bottom:1px solid var(--line); }
     .toolbar-inner { display:flex; min-width:0; gap:10px; flex-wrap:wrap; align-items:center; }
@@ -35,7 +36,7 @@
     summary { display:flex; align-items:center; gap:10px; flex-wrap:wrap; padding:16px 2px; cursor:pointer; font-weight:750; } .prompt-id { color:var(--accent2); font-size:12px; letter-spacing:.08em; } .pill { margin-left:auto; padding:3px 9px; border:1px solid #393e49; border-radius:99px; color:#bfc5d0; font-size:12px; font-weight:650; }
     .prompt-body { min-width:0; padding:0 0 20px; } .description { color:#b9c0cc; } .prompt-label { margin:16px 0 6px; color:#f5d2c4; font-size:12px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; }
     pre { display:block; width:100%; max-width:100%; min-width:0; margin:0; padding:16px; max-height:360px; overflow:auto; white-space:pre-wrap; overflow-wrap:anywhere; border:1px solid #252a34; border-radius:12px; background:#090b0f; color:#dfe3eb; font:13px/1.65 ui-monospace,SFMono-Regular,Consolas,monospace; }
-    .meta { display:flex; gap:14px; flex-wrap:wrap; margin-top:12px; color:var(--muted); font-size:13px; } .reconstructed { padding:10px 12px; border-left:3px solid var(--accent2); background:#2a2113; color:#f0d7a8; }
+    .meta { display:flex; gap:14px; flex-wrap:wrap; align-items:center; margin-top:12px; color:var(--muted); font-size:13px; } .meta .try-link { padding:5px 10px; border:1px solid #70412f; border-radius:999px; background:#21150f; color:#ffb08f; font-weight:750; } .reconstructed { padding:10px 12px; border-left:3px solid var(--accent2); background:#2a2113; color:#f0d7a8; }
     .empty { display:none; padding:60px 20px; text-align:center; color:var(--muted); } footer { padding:30px 20px 60px; text-align:center; color:var(--muted); border-top:1px solid var(--line); }
     @media (max-width:640px) { .hero { padding-top:42px; } main { width:min(100% - 20px,1180px); } .prompt-list { padding-inline:12px; } .pill { margin-left:0; } }
   </style>
@@ -48,6 +49,7 @@
     <p class="lede lang-zh">每条内容都把中英双语提示词与已下载的原始成片放在一起。直接在本页点击播放，不需要跳转外部播放器。</p>
     <div class="hero-actions">
       <a class="button primary" href="#library"><span class="lang-en">Browse videos</span><span class="lang-zh">浏览视频</span></a>
+      <a class="button pixpix" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try H3 on PixPix ↗</span><span class="lang-zh">在 PixPix 体验 H3 ↗</span></a>
       <a class="button" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts">GitHub ↗</a>
       <button class="lang-toggle" id="langToggle" type="button">English / 中文</button>
     </div>
@@ -99,6 +101,7 @@
           <pre class="lang-en"><code>A tiktok dancer is dancing on a drone, doing flips and tricks.</code></pre>
           <pre class="lang-zh"><code>一名 TikTok 舞者站在无人机上跳舞，完成空翻和各种特技动作。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://platform.minimax.io/docs/guides/video-generation" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0001" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0001" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -142,6 +145,7 @@
           <pre class="lang-en"><code>A little girl grows up.</code></pre>
           <pre class="lang-zh"><code>一个小女孩逐渐长大。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://platform.minimax.io/docs/guides/video-generation" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0003" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0003" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -185,6 +189,7 @@
           <pre class="lang-en"><code>On an overcast day, in an ancient cobbled alleyway, the model walks and adjusts a vintage beret with a smile; natural lighting and cinematic colors.</code></pre>
           <pre class="lang-zh"><code>阴天，在古老的鹅卵石巷道中，模特一边行走，一边微笑着调整复古贝雷帽；自然光线，电影感色彩。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://platform.minimax.io/docs/guides/video-generation" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0004" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0004" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -228,6 +233,7 @@
           <pre class="lang-en"><code>Reference the Hitchcock camera movement from Video 1, have the character in Image 2 sing, with the vocals matching Audio 3.</code></pre>
           <pre class="lang-zh"><code>参考视频 1 中的希区柯克式运镜，让图片 2 中的角色演唱，并使歌声与音频 3 保持一致。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0005" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0005" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -271,6 +277,7 @@
           <pre class="lang-en"><code>an adorable adult chow chow dog prancing in a park at daytime, the dog then sits down and yawns cutely, looking around.</code></pre>
           <pre class="lang-zh"><code>白天，一只可爱的成年松狮犬在公园里欢快地跳跃。随后它坐下来，可爱地打了个哈欠，并四处张望。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.reddit.com/r/StableDiffusion/comments/1vc8o4u/used_my_last_hour_of_my_veniceai_sub_to_test/" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0006" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0006" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -294,6 +301,7 @@
           <pre class="lang-en"><code>a first-person view walk through a busy ultramodern shopping mall with frutiger aero aesthetic at dusk. lots of pretty trees and foliage, beautiful organic architecture, lighting</code></pre>
           <pre class="lang-zh"><code>黄昏时分，以第一人称视角穿行于一座繁忙的超现代购物中心，整体采用 Frutiger Aero 美学。周围有大量漂亮的树木与绿植、优美的有机建筑形态和富有氛围感的灯光。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.reddit.com/r/StableDiffusion/comments/1vc8o4u/used_my_last_hour_of_my_veniceai_sub_to_test/" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0007" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0007" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -381,6 +389,7 @@ POSITIVE LOCKS Exactly one visible person is in frame for the whole take — nob
 
 正向锁定 全程恰好只有一个可见人物；任何边缘都不进入他人，道路、栅栏线或眼镜反射中都不出现第二个人，画外说话者绝不被看见。手枪始终在右手、始终指向镜头，绝不开火、放下或重新入套；无枪口火焰、后坐或枪声。他留在路上，从不背对摄影机。干燥绿与棕配浅阴天灰的自然低饱和色板。ARRI Alexa 35 拍摄的真人电影级写实影像，紧张而中性的情绪，自然胶片颗粒。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://x.com/maxescu/status/2082563245504856385" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0012" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0012" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -448,6 +457,7 @@ POSITIVE LOCKS Exactly two women appear and no servant or third figure enters. B
 
 正向锁定 画面中恰好只有两位女人，不出现仆人或第三个人。三段中两人位置保持不变；服装、手套、折叠信件和结霜状态在切镜间完全一致。ARRI Alexa 35 拍摄的电影级写实影像，珍珠灰与柔绿调色，低反差，自然胶片颗粒。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://x.com/maxescu/status/2082563249095020865" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0013" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0013" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -514,6 +524,7 @@ POSITIVE LOCKS Exactly one sharp figure is in frame; the two background figures 
 
 正向锁定 画面中恰好只有一个清晰人物；背景两人始终无法在热浪中辨认，绝不成为角色或进入焦点，也没有人从摄影机与主体之间穿过。帽子、破衬衫、尘土层与木栏必须与 📷Image1 完全一致。ARRI Alexa 35 拍摄的电影级写实影像，自然胶片颗粒。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://x.com/maxescu/status/2082563252471357498" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0014" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0014" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -581,6 +592,7 @@ POSITIVE LOCKS Exactly two people are on the balcony and no one appears in the d
 
 正向锁定 阳台上恰好两个人，后方门口不出现任何人。切镜间二人位置、服装、两只杯子与晾衣布局保持完全一致。ARRI Alexa 35 拍摄的电影级写实影像，暖琥珀与石板蓝调色，低反差，自然胶片颗粒。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://x.com/maxescu/status/2082563256028139736" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0015" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0015" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -648,6 +660,7 @@ POSITIVE LOCKS Exactly two officers are in the room and no other figures enter. 
 
 正向锁定 房间内恰好只有两名军官，不出现其他人。直到最后节拍上尉离开前，两人始终各自在桌子一侧。切镜间制服状态、泥污、灰泥粉尘和灯的位置完全一致。ARRI Alexa 35 拍摄的电影级写实影像，低饱和橄榄绿与琥珀色调，自然胶片颗粒。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://x.com/maxescu/status/2082563259782287522" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0016" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0016" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -707,6 +720,7 @@ Visual language: a voyeuristic, Wes Anderson-inspired 35 mm film look with fine 
 
 视觉语言：带窥视感、受韦斯·安德森启发的 35mm 胶片质感，细颗粒、柔和高光晕染、克制色彩和红色文字点缀；极简、高级、略带俏皮。不要新增人物、车辆、建筑或标志；严格保留核心构图与 MINIMAX 装置。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0017" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0017" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -758,6 +772,7 @@ Do not show giant eyes, split mouths, fangs, threatening behavior, lunges, sudde
 
 不要出现巨眼、裂口、尖牙、威胁行为、猛扑、突然黑帧或惊吓镜头。声音仅包括室内底噪、布料摩擦、杯子轻响、水龙头滴水、拍摄者脚步和轻微呼吸，以及温柔电子音与手绘生物细小的叫声。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0018" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0018" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -825,6 +840,7 @@ Do not show giant eyes, split mouths, fangs, threatening behavior, lunges, sudde
 
 [10–15 秒] 她站起时完整世界在周围加载：密集赛博朋克贫民区、闪烁霓虹、雨湿街道、移动人群、驶过的摩托车、纠缠电缆与层叠建筑，并延伸到未来高塔。摄影机稳定在她身后的第三人称视角。HUD 依次淡入：右上小地图、左下生命与弹药、任务标记。她迈步走入街道。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0019" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0019" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -876,6 +892,7 @@ No tearing, black frames, hard cuts, obvious VFX, or compositing seams. Keep it 
 
 不要撕裂、黑帧、硬切、明显特效或合成接缝。保持写实、安静和克制，仿佛同一种颗粒材料从微观咖啡表面自然扩展成辽阔沙漠。单一连续镜头，不出现可见剪辑。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0020" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0020" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -919,6 +936,7 @@ No tearing, black frames, hard cuts, obvious VFX, or compositing seams. Keep it 
           <pre class="lang-en"><code>Replace the cat in the video with a dog.</code></pre>
           <pre class="lang-zh"><code>将视频中的猫替换成狗。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://fal.ai/learn/devs/minimax-h3-prompting-guide" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0021" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0021" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -966,6 +984,7 @@ Keep the pace fast and the scale enormous without letting the edit drag. Use sha
 
 保持快速节奏和宏大尺度，不要让剪辑拖沓。使用凌厉的硬切、剧烈震动的指挥舱、炽白闪光、转瞬即逝的黑场，以及猛烈跃迁至曲速的冲击。标题卡使用宽字距的电影字体——不要用纯白色——配合克制的材质纹理、轻微照明和淡淡的边缘辉光。标题动画从深空阴影中浮现，掠过一束星光，逐渐拉开字距，留下轻微残影，并在黑场上短暂闪现。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0022" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0022" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -1013,6 +1032,7 @@ Keep the story simple: beside a vintage car on a desert highway, a woman walks t
 
 故事保持简单：在沙漠公路的一辆老爷车旁，一位女子走到车尾，打开后备厢，取出一个黑色包袋，与站在旁边的男子安静对视片刻，随后提包离开。让服装和包袋自然融入表演，使其成为角色身份的一部分。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0023" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0023" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -1060,6 +1080,7 @@ Style: fast-cut fashion film on analog stock, set against a nighttime blaze with
 
 风格：使用模拟胶片质感的快速剪辑时尚片，背景是夜间大火、黑烟和橙红色火焰。叠加 VHS 故障、监控信号中断、20 世纪 90 年代胶片颗粒、扫描线、色差、漏光、闪白转场和轻微画面抖动。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0024" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0024" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -1107,6 +1128,7 @@ Use a one-handed phone-camera feel with visible shake, exposure fluctuation unde
 
 采用单手持手机拍摄的感觉，保留明显抖动、白色荧光灯下的曝光波动、玻璃上的环境反射，以及近距离拍摄时稍显迟缓的自动对焦。避免精致的商业构图；画面应像在跟随一个奇异幻影时偶然拍到的真实深夜邂逅。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0025" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0025" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -1150,6 +1172,7 @@ Use a one-handed phone-camera feel with visible shake, exposure fluctuation unde
           <pre class="lang-en"><code>Style: dark-pop / cyber-grunge / rap music video with photoreal high-fashion polish and the texture of a scanned film magazine—high contrast without looking cheap. Reference late-1990s to early-2000s indie magazines, photocopies, film scans, underground-music posters, and zine collage. Add coarse grain, subtle gate weave, halftone dots, rough print edges, and slight scan misregistration. Keep the edit fast and use hard cuts only—no fades or soft transitions. Match the typographic treatment and surface texture of the reference images.</code></pre>
           <pre class="lang-zh"><code>风格：暗黑流行／赛博垃圾摇滚／说唱音乐录像，兼具照片级高定时尚质感和扫描电影杂志的纹理——高对比但不廉价。参考 20 世纪 90 年代末至 21 世纪初的独立杂志、复印件、胶片扫描、地下音乐海报和 zine 拼贴。加入粗颗粒、轻微片门晃动、半色调网点、粗糙印刷边缘和轻微扫描套印偏移。保持快速剪辑，只使用硬切——不要淡入淡出或柔和转场。文字处理和表面质感要与参考图片一致。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0026" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0026" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -1193,6 +1216,7 @@ Use a one-handed phone-camera feel with visible shake, exposure fluctuation unde
           <pre class="lang-en"><code>Remove the green screen background of Video 1 and turn it into a fairy tale-like background similar to Video 2. The background elements need to completely match the actions of the characters in Video 1. Modify the lighting of the characters in Video 1 so that it completely matches the background.</code></pre>
           <pre class="lang-zh"><code>移除视频 1 的绿幕背景，替换为与视频 2 相似的童话式背景。背景元素必须与视频 1 中人物的动作完全匹配。调整视频 1 中人物的光照，使其与新背景完全一致。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0027" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0027" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -1216,6 +1240,7 @@ Use a one-handed phone-camera feel with visible shake, exposure fluctuation unde
           <pre class="lang-en"><code>Remove the green-screen background from Video 1 and replace it with a fairy-tale environment similar to Video 2. Make every background element respond correctly to the subject’s movement, and relight the subject so they blend naturally into the new scene.</code></pre>
           <pre class="lang-zh"><code>移除视频 1 的绿幕背景，替换为与视频 2 相似的童话环境。让所有背景元素正确响应主体的动作，并重新调整主体光照，使其自然融入新场景。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0048" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0048" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -1259,6 +1284,7 @@ Use a one-handed phone-camera feel with visible shake, exposure fluctuation unde
           <pre class="lang-en"><code>Animate the source artwork as a motion poster while preserving its white gallery border, inner frame, red/white/black palette, 3D collectible-figure look, and original layout. Add a light, playful type-on sound whenever text appears.</code></pre>
           <pre class="lang-zh"><code>将源艺术作品制作成动态海报，同时保留白色画廊边框、内框、红白黑配色、3D 收藏级人偶质感和原始版式。每当文字出现时，加入轻快俏皮的打字音效。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0028" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0028" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -1310,6 +1336,7 @@ Shoot mainly in medium-close shots with frequent shot/reverse-shot cutting. Keep
 
 主要使用中近景，并频繁进行正反打剪辑。环境要有真实生活气息。不要科幻、古装或动画风格。不要出现字幕、额外文字、平台水印或贴纸。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0029" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0029" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -1357,6 +1384,7 @@ Use Image 1 for the key visual: two full-body female models, one Black and one w
 
 图片 1 作为主视觉：两位全身女性模特，一位黑人、一位白人，保留她们的高级服装、肢体语言、影棚灯光、T 台气场和冷峻态度。图片 2 用于面部细节。两位模特都佩戴基于图片 3 的未来奢华眼镜：环绕式弧形镜片、锐利的猫眼与护目镜混合轮廓、镜面反射、流线型镜腿，以及高级时尚配饰的精致表面。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0030" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0030" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -1404,6 +1432,7 @@ Present a black Herman Miller ergonomic chair in a premium office with a full 36
 
 在高级办公空间中展示一把黑色 Herman Miller 人体工学椅，并完成 360 度产品展示。切至透气网布椅背的微距镜头并可视化气流；展示腰部支撑和人体工学曲线的工程动画；演示多方向扶手和座椅高度调节。呈现设计师、开发者和创意专业人士长时间舒适工作的状态。加入 3D 骨骼支撑可视化，传达全天候舒适性，并搭配精致的室内设计。片尾显示：“WHERE INSPIRATION MEETS COMFORT.” 整体方向极简、冷色、专业、未来感且节奏舒缓。图片 1 用于功能细节，图片 2 用于产品。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0031" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0031" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -1447,6 +1476,7 @@ Present a black Herman Miller ergonomic chair in a premium office with a full 36
           <pre class="lang-en"><code>Create a dynamic product-landing-page UI/UX demo inspired by Nike’s digital language, built around the product in Image 1. Use oversized, bold, italicized sans-serif typography and backgrounds that combine speed-driven light streaks with dark carbon fiber or breathable performance-mesh textures. Show a smooth, fast, powerful scroll through the page, plus high-impact hover interactions with scale-ups and color inversion.</code></pre>
           <pre class="lang-zh"><code>围绕图片 1 中的产品，制作一个受 Nike 数字视觉语言启发的动态产品落地页 UI/UX 演示。使用超大、粗体、斜体无衬线字体，背景结合强调速度的光轨与深色碳纤维或透气运动网布纹理。展示流畅、快速、有力量的页面滚动，并加入高冲击力的悬停交互，如放大和颜色反转。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0032" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0032" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -1490,6 +1520,7 @@ Present a black Herman Miller ergonomic chair in a premium office with a full 36
           <pre class="lang-en"><code>Animate the website UI: the top headline slides down into place, the copy panel below slides up, and the car’s lights shift from dark to red.</code></pre>
           <pre class="lang-zh"><code>为网站 UI 制作动画：顶部标题向下滑入定位，下方文案面板向上滑入，汽车灯光从暗色变为红色。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0033" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0033" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -1533,6 +1564,7 @@ Present a black Herman Miller ergonomic chair in a premium office with a full 36
           <pre class="lang-en"><code>Reveal the layout from top to bottom. Upper and center typography slides down; lower typography slides up. Once the central product appears, let it rotate subtly.</code></pre>
           <pre class="lang-zh"><code>从上到下揭示页面布局。上方和中部文字向下滑入，下方文字向上滑入。中央产品出现后，让它轻微旋转。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0034" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0034" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -1576,6 +1608,7 @@ Present a black Herman Miller ergonomic chair in a premium office with a full 36
           <pre class="lang-en"><code>Claymation. A fox sprints to the edge of a cliff and launches without hesitation, making a dramatic heroic leap in slow motion over an immense lava canyon. Midair, the camera races beneath the fox’s belly in a bold dynamic move, revealing the terrifying depth of the chasm and the fully extended motion of its clay body.</code></pre>
           <pre class="lang-zh"><code>黏土动画。一只狐狸冲向悬崖边缘，毫不犹豫地起跳，以戏剧化的英雄式慢动作飞越巨大的熔岩峡谷。腾空时，摄影机以大胆的动态运动从狐狸腹部下方高速掠过，展现深不见底的峡谷和黏土身体完全舒展的动作。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0035" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0035" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -1623,6 +1656,7 @@ Render in high-quality 4K, 16:9 Chinese-inspired 3D with cinematic xianxia produ
 
 以高质量 4K、16:9 的中式 3D 风格呈现，具备电影级仙侠制作水准：强烈、庄重，并带有宿命感。逐拍遵循分镜，摄影机运动自然、转场无缝——绝不能像幻灯片。仅在近景或特写中展示面部。远景使用背面、后侧三分之四视角或空镜；不要在远处展示正脸。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0036" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0036" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -1666,6 +1700,7 @@ Render in high-quality 4K, 16:9 Chinese-inspired 3D with cinematic xianxia produ
           <pre class="lang-en"><code>Create a character promo for a male lead in an otome game. Use Image 2 as a strict identity reference. Preserve the same face, hairstyle, body proportions, costume design, material detail, and polished otome-CG aesthetic throughout.</code></pre>
           <pre class="lang-zh"><code>为乙女游戏中的男性主角制作角色宣传片。将图片 2 作为严格的身份参考。全程保持相同的面容、发型、身体比例、服装设计、材质细节和精致的乙游 CG 美学。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0037" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0037" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -1717,6 +1752,7 @@ Camera movement: subtle player-driven sway while moving; begin with a slow advan
 
 摄影机运动：移动时带轻微的玩家操控摇摆；开场缓慢前进，小幅左右查看，射击时加入轻微后坐力，随后稳定继续向前。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0038" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0038" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -1764,6 +1800,7 @@ Use the first image as the exact opening frame and the second as the exact endin
 
 将第一张图片作为精确起始帧，第二张图片作为精确结束帧。在高级中式乙女视觉小说界面中制作转场，呈现演出前后亲密的后台时刻。从“选择观看他的表演”自然过渡到“韩旭听到女主角的话后露出饶有兴趣的反应”。以精致的乙游动效呈现 UI 文案、选项和对话框。转场保持流畅，浪漫张力含蓄而克制。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0039" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0039" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -1807,6 +1844,7 @@ Use the first image as the exact opening frame and the second as the exact endin
           <pre class="lang-en"><code>Use Images 1–6 as assets. Match Reference Video 1 closely for shot rhythm, transition language, and music.</code></pre>
           <pre class="lang-zh"><code>使用图片 1–6 作为素材。紧密匹配参考视频 1 的镜头节奏、转场语言和音乐。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0040" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0040" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -1850,6 +1888,7 @@ Use the first image as the exact opening frame and the second as the exact endin
           <pre class="lang-en"><code>Preserve the buildings, pedestrians, and overall environment in Video 1 as photoreal live action. Transform only the trees and cars into 3D pixel-art or voxel-block objects in the style of Minecraft, using Image 1 as the visual reference. Keep their motion physically correct, and preserve the real environment’s shadows and transmitted light. Use Video 2 as the overall target.</code></pre>
           <pre class="lang-zh"><code>保留视频 1 中的建筑、行人和整体环境为照片级真人实拍。仅将树木和汽车转换为《我的世界》风格的 3D 像素艺术或体素方块物体，并使用图片 1 作为视觉参考。保持它们的运动符合物理规律，同时保留真实环境中的阴影和透射光。视频 2 作为整体目标参考。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0041" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0041" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -1897,6 +1936,7 @@ At the sink on the right side of frame, the man hands a washed plate to the woma
 
 画面右侧水槽旁，男子把洗好的盘子递给左侧女子。他转身后突然用右手把洗洁精泡沫弹向她。她被吓到后立即反击。两人一边大笑、一边躲闪，玩闹着互相抛洒泡沫。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0042" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0042" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -1940,6 +1980,7 @@ At the sink on the right side of frame, the man hands a washed plate to the woma
           <pre class="lang-en"><code>Use Video 1 as the motion reference for a street-dance performance. Use Images 1 and 2 as the character references.</code></pre>
           <pre class="lang-zh"><code>使用视频 1 作为街舞表演的动作参考。使用图片 1 和图片 2 作为角色参考。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0043" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0043" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -1987,6 +2028,7 @@ Match the action in Video 1 from a locked-off wide camera. Replace the three sui
 
 使用固定广角机位匹配视频 1 中的动作。将三名穿西装的男子替换为三只高度照片级真实的水豚。精确保留原始运动路径：三只水豚同时快速趴到地面；左侧水豚跳到中央；中央水豚滚到最左侧；新的中央水豚滚到最右侧；右侧水豚跳到中央；最后中央水豚跳到另外两只上方，叠成金字塔。保持摄影机固定，并让毛发、光照和阴影真实融入场景。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0044" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0044" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -2030,6 +2072,7 @@ Match the action in Video 1 from a locked-off wide camera. Replace the three sui
           <pre class="lang-en"><code>The character says: “Follow the wind, live free. Leave worries behind, enjoy the moment.” Match the voice in Audio 1.</code></pre>
           <pre class="lang-zh"><code>角色说道：“逐风而行，自在而活。抛开烦恼，享受当下。”声音匹配音频 1。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0045" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0045" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -2073,6 +2116,7 @@ Match the action in Video 1 from a locked-off wide camera. Replace the three sui
           <pre class="lang-en"><code>Add one person on the left side of frame wearing the same team uniform and moving in sync with the others.</code></pre>
           <pre class="lang-zh"><code>在画面左侧添加一个人，穿着与其他人相同的队服，并与其他人同步运动。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0046" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0046" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -2120,6 +2164,7 @@ Replace the child at the back of Video 1 with the golden retriever from Image 1.
 
 将视频 1 后方的儿童替换为图片 1 中的金毛犬。将最左侧儿童穿的卡其色夹克替换为图片 2 中的牛仔夹克。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0047" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0047" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -2167,6 +2212,7 @@ Change the lighting in the reference video from daytime to night.</code></pre>
 
 将参考视频中的光照从白天改为夜晚。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0049" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0049" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -2214,6 +2260,7 @@ Replace the view outside the window in Video 1 with Image 1.</code></pre>
 
 将视频 1 中窗外的景色替换为图片 1。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0050" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0050" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -2257,6 +2304,7 @@ Replace the view outside the window in Video 1 with Image 1.</code></pre>
           <pre class="lang-en"><code>In Video 1, replace the woman’s line—“There’s no way we can be together. It’s not that I don’t love you; we simply can’t make it to the end.”—with the line from Audio 1: “Please don’t go. This time, let’s not let each other go.” Adjust the performance subtly to match the new dialogue.</code></pre>
           <pre class="lang-zh"><code>在视频 1 中，将女子的台词——“我们不可能在一起。不是我不爱你；只是我们根本走不到最后。”——替换为音频 1 中的台词：“请不要走。这一次，我们不要再放开彼此。”细微调整表演，使其匹配新的对白。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0051" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0051" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -2300,6 +2348,7 @@ Replace the view outside the window in Video 1 with Image 1.</code></pre>
           <pre class="lang-en"><code>In the reference video: replace the newspaper with a green hardcover book; replace the chair with a red sofa; remove the subject’s sunglasses and reveal a clear face; remove the burning-car effect and restore the vehicle to normal; replace the photograph taken from the coat with a small black notebook; and add a tree on the left side of frame.</code></pre>
           <pre class="lang-zh"><code>在参考视频中：将报纸替换为绿色精装书；将椅子替换为红色沙发；移除主体的太阳镜并露出清晰面容；移除汽车燃烧效果并恢复车辆正常状态；将从外套中取出的照片替换为黑色小笔记本；在画面左侧添加一棵树。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0052" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0052" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -2343,6 +2392,7 @@ Replace the view outside the window in Video 1 with Image 1.</code></pre>
           <pre class="lang-en"><code>In the reference video, replace the canned drink shown at the beginning with Coca-Cola. Change the illuminated “FamilyMart” convenience-store sign in the background to “HUHUI.” At the end, replace every snack in the plastic bag with cans of Coca-Cola, and change the final line from “I bought a few snacks” to “I bought a whole bunch of Coke.”</code></pre>
           <pre class="lang-zh"><code>在参考视频中，将开头出现的罐装饮料替换为可口可乐。把背景中发光的“FamilyMart”便利店招牌改为“HUHUI”。结尾时，将塑料袋中的所有零食替换为罐装可口可乐，并把最后一句“我买了几样零食”改为“我买了一大堆可乐”。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0053" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0053" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -2386,6 +2436,7 @@ Replace the view outside the window in Video 1 with Image 1.</code></pre>
           <pre class="lang-en"><code>Two magicians stand onstage facing the audience and perform a “swap” illusion. They wave their wands simultaneously and smoke rises. When it clears, their suit colors have exchanged: the magician on the left now wears white, and the one on the right now wears black. Their glove colors do not change. They bow; the red curtain closes behind them and gradually shifts from deep red to dark blue.</code></pre>
           <pre class="lang-zh"><code>两名魔术师站在舞台上面向观众，表演“互换”魔术。他们同时挥动魔杖，烟雾升起。烟雾散去后，两人的西装颜色已经互换：左侧魔术师现在穿白色，右侧魔术师现在穿黑色。手套颜色不变。两人鞠躬；身后的红色幕布合拢，并逐渐从深红变为深蓝。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0054" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0054" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -2433,6 +2484,7 @@ Add orange-yellow hand-drawn marks like Image 1 around the two people in Video 1
 
 在视频 1 中两人周围加入类似图片 1 的橙黄色手绘标记。随着两人靠近，标记不断增多，从微小火花逐渐积累为明亮光芒。两人接吻时，加入粉色笔触。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0055" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0055" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -2476,6 +2528,7 @@ Add orange-yellow hand-drawn marks like Image 1 around the two people in Video 1
           <pre class="lang-en"><code>Using the supplied character reference images, create a 15-second 2D animated jungle escape. Preserve the flat graphic shapes, angular facial designs, warm coral-and-orange palette, costumes, and proportions of every character. A captive pirate wakes tied to a tree branch, notices three guards approaching through the mist, struggles against the rope, drops down, slips free, and sprints through dense foliage while the guards chase him. Cut energetically between low angles, close-ups, reaction shots, and a final chase shot. Keep silhouettes readable, character identities consistent, rope and clothing motion believable, and the layered jungle moving with cinematic parallax.</code></pre>
           <pre class="lang-zh"><code>使用提供的角色参考图，制作一段 15 秒的二维动画丛林逃脱片段。严格保留每个角色扁平化的图形造型、棱角分明的面部设计、珊瑚橙暖色调、服装和身体比例。一名被俘的海盗醒来时被绑在树枝上；他发现三名守卫从薄雾中逼近，于是挣扎解开绳索、落到地面并冲进茂密植被，守卫随即追赶。使用低机位、特写、反应镜头和最终追逐镜头进行有活力的剪辑。确保角色轮廓清晰、身份一致，绳索与衣物运动可信，并让多层丛林产生电影感视差。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://x.com/0xInk_/status/2083065622095700139" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0056" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0056" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -2519,6 +2572,7 @@ Add orange-yellow hand-drawn marks like Image 1 around the two people in Video 1
           <pre class="lang-en"><code>Use the supplied SEAM character-design sheet as the locked visual reference. Preserve the smooth white mask, black-and-grey layered armor, high collar, long split coat, slim proportions, and neon-lime accents. Begin on a clean editorial character sheet with large readable labels such as SEAM, ROSTER, LOOK 01, and LOADOUT, then transition into a cinematic third-person action showcase in a sunlit ruined stone arena. The character draws the weapon, pivots through rapid attacks, blocks incoming enemies, and finishes with a forceful ground strike that releases a circular lime-green energy effect. Keep the character design stable through fast motion, maintain crisp typography, use dynamic game-trailer camera movement, and render in polished 4K.</code></pre>
           <pre class="lang-zh"><code>将提供的 SEAM 角色设定稿作为锁定的视觉参考。严格保留光滑白色面具、黑灰分层护甲、高领、开衩长外套、修长比例和荧光青柠色点缀。开场展示干净的杂志式角色设定页，并清晰呈现 SEAM、ROSTER、LOOK 01、LOADOUT 等大字标题；随后过渡到阳光下废墟石砌竞技场中的电影化第三人称动作展示。角色拔出武器、转身连续快速攻击、格挡来敌，并以一次有力的砸地动作收尾，释放环形青柠绿色能量效果。快速运动中保持角色设计稳定、文字锐利可读，使用游戏预告片式动态镜头，以精致 4K 质感呈现。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://x.com/GlitterPixely/status/2083069389809590617" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0057" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0057" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -2562,6 +2616,7 @@ Add orange-yellow hand-drawn marks like Image 1 around the two people in Video 1
           <pre class="lang-en"><code>Use the supplied moodboard to build a cinematic enchanted mushroom forest at night, filled with oversized red-and-white mushrooms, blue-violet bioluminescence, wet moss, drifting spores, and deep layered foliage. Place the referenced young singer in a flowing cream fairy-tale dress at the center of the path. Use the supplied voice note as her performance audio and synchronize her lips, breathing, and facial emotion naturally to the vocal. Move from a medium frontal singing shot into a gentle orbit and then a wider reveal of the glowing forest. Preserve her identity and costume, keep the lighting rich and theatrical, add subtle wind through her hair and dress, and end on a luminous wide composition with convincing depth.</code></pre>
           <pre class="lang-zh"><code>使用提供的情绪板构建夜晚的电影感魔法蘑菇森林：巨大的红白蘑菇、蓝紫色生物荧光、湿润苔藓、飘浮孢子和层次深远的植被。让参考中的年轻歌手身穿飘逸的奶油色童话长裙，站在林间小径中央。将提供的语音作为她的演唱音轨，自然同步嘴型、呼吸和面部情绪。镜头从正面中景演唱逐渐过渡到轻柔环绕，再拉远展示整片发光森林。保持人物身份和服装一致，使用浓郁戏剧化灯光，让微风轻拂头发与裙摆，并以具有真实纵深感的明亮大全景收尾。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://x.com/AIBuzzNews/status/2083168994861654074" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0058" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0058" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -2605,6 +2660,7 @@ Add orange-yellow hand-drawn marks like Image 1 around the two people in Video 1
           <pre class="lang-en"><code>Will smith eating spaghetti</code></pre>
           <pre class="lang-zh"><code>威尔·史密斯在吃意大利面。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.reddit.com/r/StableDiffusion/comments/1vd4b4b/somebody_had_to_check_the_will_smith_benchmark/" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0059" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0059" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -2704,6 +2760,7 @@ The camera begins to drift closer to the vibrating metal of the handlebars, the 
 
 摄影机开始靠近持续震动的金属车把，机械沉重而有节奏的摇晃成为车赛穿入雾霭时唯一不变的元素。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.reddit.com/r/StableDiffusion/comments/1vciy35/ltx_23_vs_h3_same_prompts_t2v/" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0060" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0060" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -2755,6 +2812,7 @@ The camera continues its slow, inevitable drift toward the kitchen door, passing
 
 摄影机继续不可避免地缓慢漂向厨房门，掠过模糊食客。窗光擦过覆盖油膜的派柜玻璃，照亮银架上孤独的樱桃派。爵士唱片的静电噪声升至高潮，唱针在磨损凹槽中轻微跳动；女服务员消失在后厨蒸汽里，只留下餐馆自身焦躁、重叠的噪声。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.reddit.com/r/StableDiffusion/comments/1vciy35/ltx_23_vs_h3_same_prompts_t2v/" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0061" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0061" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -2806,6 +2864,7 @@ The camera drifts closer to the disappearing taillights, capturing the violent s
 
 摄影机漂近逐渐消失的尾灯，记录扩散器暴力掀起的水雾；引擎咆哮渐远，融入暴雨沉重的环境鼓点。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.reddit.com/r/StableDiffusion/comments/1vciy35/ltx_23_vs_h3_same_prompts_t2v/" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0062" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0062" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -2841,6 +2900,7 @@ He explodes upward in a powerful leap directly towards the camera, arms raised h
 
 他爆发式向上跃起，直接冲向摄影机，双臂高举庆祝。镜头加速推进，距离迅速闭合；切镜前的瞬间，他在空中短暂停留，狂喜而气喘的脸填满画面。紫色天鹅绒西装在黑暗雾状空间中向外张开，像一团鲜艳色彩，定格他夸张喜悦的顶点。</code></pre>
           <div class="meta">
+            <a class="try-link" href="https://www.pixpix.com/minimax-h3?source=github" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="https://www.reddit.com/r/StableDiffusion/comments/1vciy35/ltx_23_vs_h3_same_prompts_t2v/" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README.md#h3-0063" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="https://github.com/ecomimagelab/awesome-minimax-h3-prompts/blob/main/README_zh.md#h3-0063" target="_blank" rel="noopener">查看仓库条目 ↗</a>

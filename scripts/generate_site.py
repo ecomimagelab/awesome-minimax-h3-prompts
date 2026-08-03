@@ -10,6 +10,7 @@ from library import ROOT, load_categories, load_prompts
 SITE_DIR = ROOT / "site"
 SITE_URL = "https://ecomimagelab.github.io/awesome-minimax-h3-prompts/"
 REPO_URL = "https://github.com/ecomimagelab/awesome-minimax-h3-prompts"
+PIXPIX_URL = "https://www.pixpix.com/minimax-h3?source=github"
 
 
 def video_anchor(path: str) -> str:
@@ -47,6 +48,7 @@ def prompt_block(item: dict, categories: dict) -> str:
           <pre class="lang-en"><code>{escape(item['prompt']['original'])}</code></pre>
           <pre class="lang-zh"><code>{escape(item['prompt']['zh'])}</code></pre>
           <div class="meta">
+            <a class="try-link" href="{PIXPIX_URL}" target="_blank" rel="noopener"><span class="lang-en">Try it now on PixPix →</span><span class="lang-zh">立即在 PixPix 试用 →</span></a>
             <a href="{escape(item['source']['url'], quote=True)}" target="_blank" rel="noopener"><span class="lang-en">Original source ↗</span><span class="lang-zh">查看原始来源 ↗</span></a>
             <a class="lang-en" href="{REPO_URL}/blob/main/README.md#{escape(item['id'], quote=True)}" target="_blank" rel="noopener">View entry in repository ↗</a>
             <a class="lang-zh" href="{REPO_URL}/blob/main/README_zh.md#{escape(item['id'], quote=True)}" target="_blank" rel="noopener">查看仓库条目 ↗</a>
@@ -131,6 +133,7 @@ def generate() -> str:
     .hero-actions {{ display:flex; gap:10px; flex-wrap:wrap; margin-top:24px; }}
     .button,.lang-toggle {{ border:1px solid var(--line); border-radius:999px; padding:10px 16px; background:#171a21; color:var(--text); font-weight:700; cursor:pointer; }}
     .button.primary {{ background:linear-gradient(135deg,var(--accent),#e8374e); border:0; color:white; }}
+    .button.pixpix {{ border-color:#ff7a56; color:#fff; box-shadow:inset 0 0 0 1px rgba(255,91,49,.18); }}
     .stats {{ display:flex; gap:32px; flex-wrap:wrap; margin-top:34px; }} .stat strong {{ display:block; font-size:26px; }} .stat span {{ color:var(--muted); }}
     .toolbar {{ position:sticky; top:0; z-index:10; padding:14px max(20px,calc((100vw - 1180px)/2)); background:rgba(8,9,12,.9); backdrop-filter:blur(16px); border-bottom:1px solid var(--line); }}
     .toolbar-inner {{ display:flex; min-width:0; gap:10px; flex-wrap:wrap; align-items:center; }}
@@ -146,7 +149,7 @@ def generate() -> str:
     summary {{ display:flex; align-items:center; gap:10px; flex-wrap:wrap; padding:16px 2px; cursor:pointer; font-weight:750; }} .prompt-id {{ color:var(--accent2); font-size:12px; letter-spacing:.08em; }} .pill {{ margin-left:auto; padding:3px 9px; border:1px solid #393e49; border-radius:99px; color:#bfc5d0; font-size:12px; font-weight:650; }}
     .prompt-body {{ min-width:0; padding:0 0 20px; }} .description {{ color:#b9c0cc; }} .prompt-label {{ margin:16px 0 6px; color:#f5d2c4; font-size:12px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; }}
     pre {{ display:block; width:100%; max-width:100%; min-width:0; margin:0; padding:16px; max-height:360px; overflow:auto; white-space:pre-wrap; overflow-wrap:anywhere; border:1px solid #252a34; border-radius:12px; background:#090b0f; color:#dfe3eb; font:13px/1.65 ui-monospace,SFMono-Regular,Consolas,monospace; }}
-    .meta {{ display:flex; gap:14px; flex-wrap:wrap; margin-top:12px; color:var(--muted); font-size:13px; }} .reconstructed {{ padding:10px 12px; border-left:3px solid var(--accent2); background:#2a2113; color:#f0d7a8; }}
+    .meta {{ display:flex; gap:14px; flex-wrap:wrap; align-items:center; margin-top:12px; color:var(--muted); font-size:13px; }} .meta .try-link {{ padding:5px 10px; border:1px solid #70412f; border-radius:999px; background:#21150f; color:#ffb08f; font-weight:750; }} .reconstructed {{ padding:10px 12px; border-left:3px solid var(--accent2); background:#2a2113; color:#f0d7a8; }}
     .empty {{ display:none; padding:60px 20px; text-align:center; color:var(--muted); }} footer {{ padding:30px 20px 60px; text-align:center; color:var(--muted); border-top:1px solid var(--line); }}
     @media (max-width:640px) {{ .hero {{ padding-top:42px; }} main {{ width:min(100% - 20px,1180px); }} .prompt-list {{ padding-inline:12px; }} .pill {{ margin-left:0; }} }}
   </style>
@@ -159,6 +162,7 @@ def generate() -> str:
     <p class="lede lang-zh">每条内容都把中英双语提示词与已下载的原始成片放在一起。直接在本页点击播放，不需要跳转外部播放器。</p>
     <div class="hero-actions">
       <a class="button primary" href="#library"><span class="lang-en">Browse videos</span><span class="lang-zh">浏览视频</span></a>
+      <a class="button pixpix" href="{PIXPIX_URL}" target="_blank" rel="noopener"><span class="lang-en">Try H3 on PixPix ↗</span><span class="lang-zh">在 PixPix 体验 H3 ↗</span></a>
       <a class="button" href="{REPO_URL}">GitHub ↗</a>
       <button class="lang-toggle" id="langToggle" type="button">English / 中文</button>
     </div>

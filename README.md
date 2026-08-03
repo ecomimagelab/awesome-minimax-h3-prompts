@@ -12,6 +12,8 @@
 
 [▶ **Open the playable video library / 打开可直接播放的视频页面**](https://ecomimagelab.github.io/awesome-minimax-h3-prompts/)
 
+[👉 **Try MiniMax H3 on PixPix / 在 PixPix 立即体验**](https://www.pixpix.com/minimax-h3?source=github)
+
 ## About MiniMax H3
 
 MiniMax H3 is a multimodal video generation model that accepts text, images, video, and audio as context. This repository separates official examples, community-tested prompts, and unverified guide templates so readers can judge the evidence behind every entry.
@@ -101,6 +103,8 @@ an adorable adult chow chow dog prancing in a park at daytime, the dog then sits
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** The author states the shown clips were generated with MiniMax H3.
 
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
+
 ---
 
 <a id="h3-0007"></a>
@@ -129,6 +133,8 @@ a first-person view walk through a busy ultramodern shopping mall with frutiger 
 - **Retrieved：** 2026-08-01
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** The author states the shown clips were generated with MiniMax H3.
+
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
 
 ---
 
@@ -194,6 +200,8 @@ POSITIVE LOCKS Exactly one visible person is in frame for the whole take — nob
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** The complete prompt appears in an author reply; the parent post says the displayed scenes were tried with MiniMax H3.
 
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
+
 ---
 
 <a id="h3-0013"></a>
@@ -247,6 +255,8 @@ POSITIVE LOCKS Exactly two women appear and no servant or third figure enters. B
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** The complete prompt appears in an author reply; the parent post says the displayed scenes were tried with MiniMax H3.
 
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
+
 ---
 
 <a id="h3-0014"></a>
@@ -298,6 +308,8 @@ POSITIVE LOCKS Exactly one sharp figure is in frame; the two background figures 
 - **Retrieved：** 2026-08-01
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** The complete prompt appears in an author reply; the parent post says the displayed scenes were tried with MiniMax H3. Image1 is required but is not redistributed here.
+
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
 
 ---
 
@@ -352,6 +364,8 @@ POSITIVE LOCKS Exactly two people are on the balcony and no one appears in the d
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** The complete prompt appears in an author reply; the parent post says the displayed scenes were tried with MiniMax H3.
 
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
+
 ---
 
 <a id="h3-0016"></a>
@@ -405,6 +419,8 @@ POSITIVE LOCKS Exactly two officers are in the room and no other figures enter. 
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** The complete prompt appears in an author reply; the parent post says the displayed scenes were tried with MiniMax H3.
 
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
+
 ---
 
 
@@ -446,6 +462,8 @@ Remove the green screen background of Video 1 and turn it into a fairy tale-like
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
 
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
+
 ---
 
 <a id="h3-0048"></a>
@@ -475,6 +493,8 @@ Remove the green-screen background from Video 1 and replace it with a fairy-tale
 - **Retrieved：** 2026-08-01
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
+
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
 
 ---
 
@@ -545,6 +565,8 @@ The camera begins to drift closer to the vibrating metal of the handlebars, the 
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** The author posted the complete dirt-bike prompt in the comments and explains that each pair in the compilation plays LTX first and H3 second.
 
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
+
 ---
 
 <a id="h3-0061"></a>
@@ -588,6 +610,8 @@ The camera continues its slow, inevitable drift toward the kitchen door, passing
 - **Retrieved：** 2026-08-02
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** The author posted this prompt in the thread; the compilation order is LTX first and H3 second for each scene.
+
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
 
 ---
 
@@ -633,6 +657,8 @@ The camera drifts closer to the disappearing taillights, capturing the violent s
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** The author posted this Formula 1 prompt in the thread; each scene in the source compilation shows LTX first and H3 second.
 
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
+
 ---
 
 <a id="h3-0063"></a>
@@ -668,6 +694,8 @@ He explodes upward in a powerful leap directly towards the camera, arms raised h
 - **Retrieved：** 2026-08-02
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** The author supplied the prompt in a reply; this is the final scene pair in a compilation that presents LTX first and H3 second.
+
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
 
 ---
 
@@ -710,6 +738,8 @@ A tiktok dancer is dancing on a drone, doing flips and tricks.
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Published in the official MiniMax H3 API guide.
 
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
+
 ---
 
 <a id="h3-0018"></a>
@@ -748,6 +778,8 @@ Do not show giant eyes, split mouths, fangs, threatening behavior, lunges, sudde
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Published by fal as a text-to-video MiniMax H3 example with the result visible.
 
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
+
 ---
 
 <a id="h3-0025"></a>
@@ -784,6 +816,8 @@ Use a one-handed phone-camera feel with visible shake, exposure fluctuation unde
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
 
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
+
 ---
 
 <a id="h3-0059"></a>
@@ -817,6 +851,8 @@ Will smith eating spaghetti
 - **Retrieved：** 2026-08-02
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** The author supplied the exact prompt in a comment; the post and discussion identify the attached result as a MiniMax H3 test.
+
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
 
 ---
 
@@ -857,6 +893,8 @@ A little girl grows up.
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Published with first- and last-frame inputs in the official API guide.
 
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
+
 ---
 
 <a id="h3-0022"></a>
@@ -893,6 +931,8 @@ Keep the pace fast and the scale enormous without letting the edit drag. Use sha
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
 
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
+
 ---
 
 <a id="h3-0028"></a>
@@ -926,6 +966,8 @@ Animate the source artwork as a motion poster while preserving its white gallery
 - **Retrieved：** 2026-08-01
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
+
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
 
 ---
 
@@ -961,6 +1003,8 @@ Animate the website UI: the top headline slides down into place, the copy panel 
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
 
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
+
 ---
 
 <a id="h3-0034"></a>
@@ -995,6 +1039,8 @@ Reveal the layout from top to bottom. Upper and center typography slides down; l
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
 
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
+
 ---
 
 <a id="h3-0035"></a>
@@ -1028,6 +1074,8 @@ Claymation. A fox sprints to the edge of a cliff and launches without hesitation
 - **Retrieved：** 2026-08-01
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
+
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
 
 ---
 
@@ -1067,6 +1115,8 @@ Camera movement: subtle player-driven sway while moving; begin with a slow advan
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
 
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
+
 ---
 
 <a id="h3-0039"></a>
@@ -1103,6 +1153,8 @@ Use the first image as the exact opening frame and the second as the exact endin
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
 
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
+
 ---
 
 <a id="h3-0054"></a>
@@ -1136,6 +1188,8 @@ Two magicians stand onstage facing the audience and perform a “swap” illusio
 - **Retrieved：** 2026-08-01
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
+
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
 
 ---
 
@@ -1174,6 +1228,8 @@ On an overcast day, in an ancient cobbled alleyway, the model walks and adjusts 
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Published with a reference image in the official API guide.
 
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
+
 ---
 
 <a id="h3-0005"></a>
@@ -1206,6 +1262,8 @@ Reference the Hitchcock camera movement from Video 1, have the character in Imag
 - **Retrieved：** 2026-08-01
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Published in the official MiniMax H3 launch article.
+
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
 
 ---
 
@@ -1248,6 +1306,8 @@ Visual language: a voyeuristic, Wes Anderson-inspired 35 mm film look with fine 
 - **Retrieved：** 2026-08-01
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
+
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
 
 ---
 
@@ -1295,6 +1355,8 @@ Use Image 1 for the character and Image 2 for the UI style.
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Published by fal as a MiniMax H3 reference-to-video example with two reference images and the result visible.
 
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
+
 ---
 
 <a id="h3-0020"></a>
@@ -1333,6 +1395,8 @@ No tearing, black frames, hard cuts, obvious VFX, or compositing seams. Keep it 
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Published by fal as a MiniMax H3 reference-to-video example with two reference images and the result visible.
 
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
+
 ---
 
 <a id="h3-0021"></a>
@@ -1366,6 +1430,8 @@ Replace the cat in the video with a dog.
 - **Retrieved：** 2026-08-01
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Published by fal as a precise MiniMax H3 video-editing example with the source and result visible.
+
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
 
 ---
 
@@ -1403,6 +1469,8 @@ Keep the story simple: beside a vintage car on a desert highway, a woman walks t
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
 
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
+
 ---
 
 <a id="h3-0024"></a>
@@ -1439,6 +1507,8 @@ Style: fast-cut fashion film on analog stock, set against a nighttime blaze with
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
 
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
+
 ---
 
 <a id="h3-0026"></a>
@@ -1472,6 +1542,8 @@ Style: dark-pop / cyber-grunge / rap music video with photoreal high-fashion pol
 - **Retrieved：** 2026-08-01
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
+
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
 
 ---
 
@@ -1511,6 +1583,8 @@ Shoot mainly in medium-close shots with frequent shot/reverse-shot cutting. Keep
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
 
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
+
 ---
 
 <a id="h3-0030"></a>
@@ -1546,6 +1620,8 @@ Use Image 1 for the key visual: two full-body female models, one Black and one w
 - **Retrieved：** 2026-08-01
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
+
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
 
 ---
 
@@ -1583,6 +1659,8 @@ Present a black Herman Miller ergonomic chair in a premium office with a full 36
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
 
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
+
 ---
 
 <a id="h3-0032"></a>
@@ -1616,6 +1694,8 @@ Create a dynamic product-landing-page UI/UX demo inspired by Nike’s digital la
 - **Retrieved：** 2026-08-01
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
+
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
 
 ---
 
@@ -1653,6 +1733,8 @@ Render in high-quality 4K, 16:9 Chinese-inspired 3D with cinematic xianxia produ
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
 
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
+
 ---
 
 <a id="h3-0037"></a>
@@ -1686,6 +1768,8 @@ Create a character promo for a male lead in an otome game. Use Image 2 as a stri
 - **Retrieved：** 2026-08-01
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
+
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
 
 ---
 
@@ -1721,6 +1805,8 @@ Use Images 1–6 as assets. Match Reference Video 1 closely for shot rhythm, tra
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
 
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
+
 ---
 
 <a id="h3-0041"></a>
@@ -1754,6 +1840,8 @@ Preserve the buildings, pedestrians, and overall environment in Video 1 as photo
 - **Retrieved：** 2026-08-01
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
+
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
 
 ---
 
@@ -1791,6 +1879,8 @@ At the sink on the right side of frame, the man hands a washed plate to the woma
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
 
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
+
 ---
 
 <a id="h3-0043"></a>
@@ -1824,6 +1914,8 @@ Use Video 1 as the motion reference for a street-dance performance. Use Images 1
 - **Retrieved：** 2026-08-01
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
+
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
 
 ---
 
@@ -1861,6 +1953,8 @@ Match the action in Video 1 from a locked-off wide camera. Replace the three sui
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
 
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
+
 ---
 
 <a id="h3-0045"></a>
@@ -1895,6 +1989,8 @@ The character says: “Follow the wind, live free. Leave worries behind, enjoy t
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
 
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
+
 ---
 
 <a id="h3-0046"></a>
@@ -1928,6 +2024,8 @@ Add one person on the left side of frame wearing the same team uniform and movin
 - **Retrieved：** 2026-08-01
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
+
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
 
 ---
 
@@ -1965,6 +2063,8 @@ Replace the child at the back of Video 1 with the golden retriever from Image 1.
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
 
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
+
 ---
 
 <a id="h3-0049"></a>
@@ -2000,6 +2100,8 @@ Change the lighting in the reference video from daytime to night.
 - **Retrieved：** 2026-08-01
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
+
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
 
 ---
 
@@ -2037,6 +2139,8 @@ Replace the view outside the window in Video 1 with Image 1.
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
 
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
+
 ---
 
 <a id="h3-0051"></a>
@@ -2070,6 +2174,8 @@ In Video 1, replace the woman’s line—“There’s no way we can be together.
 - **Retrieved：** 2026-08-01
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
+
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
 
 ---
 
@@ -2105,6 +2211,8 @@ In the reference video: replace the newspaper with a green hardcover book; repla
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
 
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
+
 ---
 
 <a id="h3-0053"></a>
@@ -2138,6 +2246,8 @@ In the reference video, replace the canned drink shown at the beginning with Coc
 - **Retrieved：** 2026-08-01
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
+
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
 
 ---
 
@@ -2174,6 +2284,8 @@ Add orange-yellow hand-drawn marks like Image 1 around the two people in Video 1
 - **Retrieved：** 2026-08-01
 - **Verification：** Prompt visible ✅ Yes · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** Matched to the same prompt and result video in MiniMax's official H3 materials.
+
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
 
 ---
 
@@ -2213,6 +2325,8 @@ Using the supplied character reference images, create a 15-second 2D animated ju
 - **Verification：** Prompt visible ⚪ No · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** The post explicitly labels the upper result MiniMax H3 and states that both models used the same prompt and character references; MiniMax's Hailuo account also replied to the post.
 
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
+
 ---
 
 <a id="h3-0057"></a>
@@ -2251,6 +2365,8 @@ Use the supplied SEAM character-design sheet as the locked visual reference. Pre
 - **Verification：** Prompt visible ⚪ No · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** The post uses the #MiniMaxH3 tag, quotes MiniMax's official H3 launch, and describes the attached video as a prompt-adherence, action, and text-rendering showcase.
 
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
+
 ---
 
 <a id="h3-0058"></a>
@@ -2288,6 +2404,8 @@ Use the supplied moodboard to build a cinematic enchanted mushroom forest at nig
 - **Reconstruction notes：** The creator disclosed the input types—one moodboard, one voice note, and one prompt—but not the prompt text. This editorial prompt was inferred from the downloaded result video.
 - **Verification：** Prompt visible ⚪ No · H3 confirmed ✅ Yes · Output visible ✅ Yes
 - **Note：** The post explicitly says MiniMax H3 created the attached 15-second result from a moodboard, a voice note, and one prompt.
+
+[👉 Try it now on PixPix →](https://www.pixpix.com/minimax-h3?source=github)
 
 ---
 
